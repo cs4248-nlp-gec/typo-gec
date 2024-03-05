@@ -1,6 +1,5 @@
 # This script is for extracting out the sentences from the files in corrected_typo and original_typo that can be processed by Errant to produce m2 files.
 import argparse
-import os
 
 def extract_sentences(source_path: str, prefix: str, dest_path: str):
     prefix_length = len(prefix)
