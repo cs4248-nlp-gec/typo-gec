@@ -1,0 +1,48 @@
+Minutes
+=======
+- Slang?
+  - Current research on slang is quite minimal
+  - Train on typo, analyse performance on a small slang dataset
+- Scope of project
+  - Most important is analysis of the model
+  - Explain why the model behave the way it does
+  - Analyse different components of model in isolation
+  - What inputs does the model do well on? What inputs does the model sucks on?
+  - Anything goes, really
+  - Misconception: Dataset => Task
+  - Play around with data, "get your hands dirty", transform it anyway we want
+  - From playing around, ideas come out naturally
+- Translation?
+  - Apparently German, Dutch and English are quite semantically similar
+  - Translate existing dataset? 
+- Close to proposal deadline
+  - All good projects undergo a lot of pivots
+  - We don't have to stick to the proposal 
+  - Just ensure that it is kinda similar
+  - Time remaining is less than 5 weeks
+- Write own code as much as possible?
+  - Fine with fine-tuned / pre-trained models: use them as baselines
+  - Go beyond: Test the limits of the different models 
+  - HuggingFace is an amazing resource
+- Grading rubrics?
+  - Rubric is not available
+  - Good analysis is the most important
+- Submitting code
+  - bulk of the code comes from analysis
+  - Free to import models from HuggingFace
+- Bad results? Does not agree with hypothesis
+  - Macro analysis, micro analysis
+  - Ulimately, want to anaylse why the model does better/worse than baseline
+  - Borrow evaluation techniques, rely on literature. Don't have to come up with new ideas
+  - Mechanistic interpretability
+  - Transformer circuits
+- Micro analysis
+  - Manually inspect output, can pull specific instance and understand why exactly the model is behaving badly
+  - If model does well, can pull out success cases and explain why it does
+  - Use linguistic techniques to help explain 
+  - Can be tedious, but helps to understand model behaviour 
+- Role assignments
+  - Not particularly important
+  - Just make sure everyone is involved
+- Weekly meetings
+  - Flexible, let Rish know beforehand
