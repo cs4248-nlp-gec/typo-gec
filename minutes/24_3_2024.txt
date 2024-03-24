@@ -1,0 +1,63 @@
+Meeting -> What we did, our hypothesis
+Chose gector model -> generalisation vs specialisation
+
+Generalisation: work with gector only and see whether the model is better than specialisation.
+
+Right now, we started training some models & predictions.
+Predictions -> Base model gector / various pretrained models.
+
+As mentioned in telegram group -> Baseline gector -> typo correction, we do original_typo and corrected_typo 
+
+For Training -> Seems that it forgets the grammar correction capabilities (?), still need more training.
+
+
+Rish: Beyond that, do you have more granular metrics, precision recall -> is too general, not specific to our actual dataset.
+
+Type of error being done, deletion, addition etc. In the end of the day, we want to see the models performance.
+
+Why does it perform better on certain types of text compared to other types, I want you to tell me about such behaviours.
+
+We study the model, isolated it and then it works better for deletion mistakes etc and so on. Category of the typo.
+
+What if insertion + deletion in the sentence? If more than one issue with the sentence, how well does the model perform.
+
+Do it with more fine grained settings, must come up with metrics + samples. See how the samples perform. Pick out the datasets with the most problems, and then evaluate why.
+
+Evaluation: How we grade -> dataset level ok, now just go down and give more metrics, more specific datasets and so on.
+
+Subset of the data based on xyz, ran the model, this is the performance. The model performs better than normal dataset because of abc.
+
+Divide dataset based on length of words, eg our model messes up with long words vs short word typos.
+
+Manually create samples where there’s a mixture of such things. 
+
+Length of sentence -> does the grammar checker not work well compared to short sentences?
+
+Issit recommend to only have one hypothesis, or just multiple hypothesis, or one hypothesis with many parts
+
+Encourage to have as many as humanly possible.
+In the remaining time lets try: 2-3 hypothesis from different aspects
+
+If you find something shocking in one hypothesis, can do deep dive into ~2-5 follow up hypothesis
+
+Plot the attention matrix and see the hot regions from the typo words.
+
+Project report recommended format.
+Rish: Share his own report with us. NLP papers -> similar style. 
+
+Abstract: (summarise in 200 words). 
+Introduction: for ppl who don’t have a background on the subject. Conclude the introduction with our contributions.
+Preliminary: Background info, transformer model, custom architectures. Tell them how gector works.
+Related works: Deep learning etc.
+Experiment: Talk about what we want to investigate, hypothesis.
+Discussion: Tell him what we did, and so what
+Conclusion: we see that abc is true, xyz is false.
+
+
+What is a good number of evaluation metrics to use: 
+Use as many as you want for each of these, as many as you can. As long as those metrics get to explain what we want to test.
+
+List down our hypothesis in group chat + metrics. Show reasoning for each of these. Why is a metric useful in this context / how does it validate our hypothesis.
+
+Don’t chase the metric to try to optimise the score.
+Really focus on the evaluation + explaining the behaviour. Instead of trying to keep changing the model.
