@@ -1,10 +1,13 @@
 # Reference: https://norvig.com/spell-correct.html
 # A naive, edit distance-based model
+# Note: the words are lowercased before being parsed in the model. This is to ensure more accurate 
+# unigram probabilities. We then rely on the GEC model to correct the casings.
 import nltk
+import re
 from collections import Counter
 class NorvigTypoModel:
     def __init__(self, corpus_path) -> None:
-        corpus_text = open(corpus_path).read()
+        corpus_text = open(corpus_path).read().lower()
         corpus_tokens = nltk.tokenize.word_tokenize(corpus_text)
         self.words_dict = Counter(corpus_tokens)
         self.words_total = sum(self.words_dict.values())
@@ -39,6 +42,10 @@ class NorvigTypoModel:
             or [word])
     # Get the prediction of words
     def predict_word(self, word):
+        # Don't predict on punctuations
+        if re.match(r"^[^\w\s]+$", word) != None:
+            return word
+        word = word.lower()
         if word in self.predict_memo:
             return self.predict_memo[word]
         prediction = max(self.get_candidates(word), key=self.get_prob)
