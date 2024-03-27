@@ -12,7 +12,7 @@ def predict(input_path, output_path, is_verbose = True):
                 print("Processing {} lines.".format(lines_num))
             for idx, line in enumerate(inp_lines):
                 line_corrected = model.predict_sentence(line)
-                output_file.write(line_corrected + '\n')
+                output_file.write(line_corrected)
                 if (idx + 1) % 100 == 0 and is_verbose:
                     print("Processed {} / {} lines.".format(idx + 1, lines_num))
 
