@@ -197,7 +197,7 @@ class Spelling_Corrector(N_gram):
         return corrected_word
 
     # Detect and correct all errors in a set of sentences
-    def find_and_correct_errors(self, data_with_errors, max_to_correct = 1):
+    def find_and_correct_errors(self, data_with_errors):
         print("Correction Started")
         corrected_data = data_with_errors
         cnt = 0
@@ -207,8 +207,9 @@ class Spelling_Corrector(N_gram):
             minp = inf
             mini = -1
             for i in range(len(corrected_data[j])):
-                if corrected_cnt == max_to_correct:
-                    break
+                # Just DO NOT set a MAX count on number of words to correct!!
+                # if corrected_cnt == max_to_correct:
+                #     break
                 # if(self.is_error(cur_context, corrected_data[j][i])):
                 next_word = ""
                 if i+1 < len(corrected_data[j]):
@@ -243,8 +244,8 @@ class Spelling_Corrector(N_gram):
             # print("core",corrected_cnt)
 
             for i in range(len(corrected_data[j])):
-                if corrected_cnt == max_to_correct:
-                    break
+                # if corrected_cnt == max_to_correct:
+                #     break
                 # print(cur_context, corrected_data[j][i])
                 if(i == mini):
                     # print("err:",corrected_data[j][i])
