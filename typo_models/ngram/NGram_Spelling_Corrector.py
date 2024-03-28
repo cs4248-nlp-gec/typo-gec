@@ -1,5 +1,6 @@
 import nltk
-# nltk.download("gutenberg")
+nltk.download("punkt")
+from nltk.tokenize import word_tokenize
 # from nltk.corpus import gutenberg, brown
 import random
 from math import ceil, inf
@@ -281,7 +282,7 @@ class Problem:
         
     def read_data_from_file(self, file_path):
         with open(file_path, 'r') as file:
-            data = file.readlines()
+            data = file.readlines() # Need to return each line as ONE string!!
         return data
     
     def load_data(self):
@@ -294,52 +295,34 @@ class Problem:
         print(len(self.train_data))
         print(len(self.test_data))
         
+    # change the preprocessing accordingly
     def preprocess(self, data):
-        # Remove punctuations that come in middle of sentences
-        punctuations = set((',', '--', '-', ':', ';', '``', "''", "'", '"', "`", '(', ')', '[', ']', ',"', 's','--(', ')--', '--[', ']--', '--"', "--`", "--'", "CHAPTER", ",--", ":--"))
-        processed_data = [data[i].lower().strip('_') for i in range(len(data)) if ((data[i] not in punctuations) and (i>0 and data[i-1]!="CHAPTER"))]
-        processed_data = [processed_data[i] for i in range(len(processed_data)) if ((processed_data[i]!='.') or (i>0 and processed_data[i]=='.' and processed_data[i-1] not in set(["mr", "mrs", "dr"])))]
-        # processed_data = [processed_data[i] for i in range(len(processed_data)) if ((len(processed_data[i]) > 1 and processed_data[i] in english_words_lower_set) or (processed_data[i] in set(['0','1','2','3','4','5','6','7','8','9','.','a','i','o']) ))]
-        # print(len(processed_data))
+        processed_data = []  # a list of lists (sentences of words)
 
-        # processed_data = [processed_data[i] for i in range(len(processed_data)) if processed_data[i] in english_words_lower_set]
-        # l = [len(x) for x in processed_data if len(x)!=1]
-        # print("Avg word len:", sum(l)/len(l))
-
-        # # Split data into list of sentences using the puntuation marks coming at the end of the sentence
-        # breakpoints = [i for i in range(len(processed_data)) if processed_data[i] in set([".","?","!",".--", '.--"',"?--", '?--"',"!--", '!--"', ";--", '."', '?"', '!"'])]
-        # print(breakpoints)
-        # sentences = []
-        # prev = 0
-        # for i in range(len(breakpoints)):
-        #     sentences.append(processed_data[prev:breakpoints[i]])
-        #     prev = breakpoints[i]+1
-        # print(sentences)
-
-        # processed_data = [s for s in sentences if len(s) > 1]
-        
+        for line in data:
+            tokens = word_tokenize(line)
+            if tokens:
+                processed_data.append(tokens)
         return processed_data
     
     def answer(self, output_file):
-        self.solve(self.train_data, self.test_data)
+        self.solve(self.train_data, self.test_data, output_file)
         print("Now:")
         print(len(self.train_data))
         print(len(self.test_data))
-
-        with open(output_file, 'w') as file:
-            for sentence in self.test_data:
-                file.write(' '.join(sentence) + '\n')
-        print(f"Output written to {output_file}")
         
-def solvep1(train_data, test_data):
+def solvep1(train_data, test_data, output_file):
     corrector = Spelling_Corrector(2)
     corrector.train(train_data)
     
-    for i in range(len(test_data)):
-        corrected_sentence = corrector.find_and_correct_errors(test_data[i], 1)
-        
-        # Update the test_data in place with the corrected sentence
-        test_data[i] = corrected_sentence
+    corrected_data = corrector.find_and_correct_errors(test_data)
+    
+    # Assign this back to test_data???? Or maybe just directly save
+    
+    with open(output_file, 'w') as file:
+        for sentence in corrected_data:
+            file.write(' '.join(sentence) + '\n')
+    print(f"Output written to {output_file}")
         
 # p1 = Problem('train.txt', 'test.txt', solvep1)
 # p1.load_data()
