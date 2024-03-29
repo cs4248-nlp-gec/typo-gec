@@ -1,0 +1,4 @@
+# Results of ABCN_original_typo_norvig.txt against ABCN.dev.gold.bea19_original_typo m2
+Precision   : 0.6422
+Recall      : 0.5581
+F_0.5       : 0.6234
