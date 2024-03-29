@@ -1,0 +1,5 @@
+# The m2 score for directly feeding the ngram model corrections:
+# ngram model being trained on ABC.train.gold.bea19_target.txt
+Precision   : 0.6366
+Recall      : 0.3929
+F_0.5       : 0.5663
