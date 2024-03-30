@@ -83,7 +83,7 @@ def add_typo(word):
                 # if cannot transpose just substitute
                 mode = ERRORS[0]
             else:
-                val = word[i+1] + word[i].lower()
+                val = word[i + 1] + word[i].lower()
                 if word[i].isupper():
                     val.capitalize()
                 res.append(val)
@@ -112,7 +112,8 @@ print(new_phrase)
 
 def make_typo_file(file, outfile):
     for line in file.readlines():
-        if line.startswith("S "):  # change this if u want corrected or original sentence
+        if line.startswith(
+                "S "):  # change this if u want corrected or original sentence
             outfile.write(f"{line}T {random_transform(line[2:])}\n")
 
 
@@ -121,7 +122,8 @@ for filename in os.listdir("./out"):
         file_path = os.path.join("./out", filename)
         # change filename to distinguish corrected or original typo
         output_file_path = os.path.join(
-            "./corrected_typo", filename.replace("_corrected.txt", "_corrected_typo.txt"))
+            "./corrected_typo",
+            filename.replace("_corrected.txt", "_corrected_typo.txt"))
 
         with open(file_path, "r") as file:
             with open(output_file_path, "w") as out:

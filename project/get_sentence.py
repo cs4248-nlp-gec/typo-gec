@@ -23,8 +23,8 @@ def get_sentence(file):
             start = int(span[0])
             end = int(span[1])
             cor = edit[2].split()
-            cor_sent[start+offset:end+offset] = cor
-            offset = offset-(end-start)+len(cor)
+            cor_sent[start + offset:end + offset] = cor
+            offset = offset - (end - start) + len(cor)
 
         sentences.append(" ".join(cor_sent))
 

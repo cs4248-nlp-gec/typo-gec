@@ -7,6 +7,7 @@ from math import ceil, inf
 import random
 from nltk.tokenize import word_tokenize
 import nltk
+
 nltk.download("punkt")
 # from nltk.corpus import gutenberg, brown
 
@@ -14,6 +15,7 @@ nltk.download("punkt")
 
 
 class N_gram:
+
     def __init__(self, n=1):
         self.n = n
         self.prob_dict = {}
@@ -41,19 +43,19 @@ class N_gram:
                 # print((corpus[i],cur_context))
                 self.dictionary[sentence[i]] += 1
                 self.cnt += 1
-                self.longest_word_length = max(
-                    self.longest_word_length, len(sentence[i]))
+                self.longest_word_length = max(self.longest_word_length,
+                                               len(sentence[i]))
                 # if(sentence[i] in ['t','h','e','f']): print(sentence[i], sentence)
                 cur_context += sentence[i]
-                if i >= self.n-1:
-                    removeLen = len(sentence[i-self.n+1])
+                if i >= self.n - 1:
+                    removeLen = len(sentence[i - self.n + 1])
                     cur_context = cur_context[removeLen:]
 
         for key in count_n.keys():
             if key[1] not in self.prob_dict:
                 self.prob_dict[key[1]] = dict()
             self.prob_dict[key[1]][key[0]] = round(
-                count_n[key]/count_n_1[key[1]], 3)
+                count_n[key] / count_n_1[key[1]], 3)
             if self.prob_dict[key[1]][key[0]] == 0.0:
                 self.prob_dict[key[1]][key[0]] = 0.0001
             # if(self.prob_dict[key[1]][key[0]] == 0):
@@ -69,35 +71,41 @@ class N_gram:
     # Get the probablility of a word occuring given a certain context
 
     def get_prob(self, context, cur_word):
-        if context not in self.prob_dict or cur_word not in self.prob_dict[context]:
+        if context not in self.prob_dict or cur_word not in self.prob_dict[
+                context]:
             # print("in:",cur_word)
-            return log10(0.001)+self.min_prob
+            return log10(0.001) + self.min_prob
         # print(self.prob_dict[context][cur_word])
         return log10(self.prob_dict[context][cur_word])
 
     # Get probability with smoothing
     def get_s_prob(self, context, cur_word):
-        if context not in self.prob_dict or cur_word not in self.prob_dict[context]:
-            return log10(0.6*(self.dictionary[cur_word]/self.cnt))
-        return log10(0.6*self.prob_dict[context][cur_word]-0.00001+0.4*(self.dictionary[cur_word]/self.cnt))
+        if context not in self.prob_dict or cur_word not in self.prob_dict[
+                context]:
+            return log10(0.6 * (self.dictionary[cur_word] / self.cnt))
+        return log10(0.6 * self.prob_dict[context][cur_word] - 0.00001 + 0.4 *
+                     (self.dictionary[cur_word] / self.cnt))
+
 
 # Edit Distance
 
 
 def edit_distance(s1, s2):
-    dp = [[0 for j in range(len(s2)+1)] for i in range(len(s1)+1)]
-    for i in range(1, len(s2)+1):
+    dp = [[0 for j in range(len(s2) + 1)] for i in range(len(s1) + 1)]
+    for i in range(1, len(s2) + 1):
         dp[0][i] = i
 
-    for i in range(1, len(s1)+1):
+    for i in range(1, len(s1) + 1):
         dp[i][0] = i
 
     for i in range(1, len(s1) + 1):
         for j in range(1, len(s2) + 1):
-            dp[i][j] = min(min(dp[i-1][j], dp[i][j-1])+1, dp[i-1]
-                           [j-1] + (1 if s1[i-1] != s2[j-1] else 0))
+            dp[i][j] = min(
+                min(dp[i - 1][j], dp[i][j - 1]) + 1,
+                dp[i - 1][j - 1] + (1 if s1[i - 1] != s2[j - 1] else 0))
 
     return dp[len(s1)][len(s2)]
+
 
 # Functions from the nlp tutorial notebook
 
@@ -134,10 +142,12 @@ def editsk(word, k):
     e.discard(word)
     return e
 
+
 # Spelling correction class
 
 
 class Spelling_Corrector(N_gram):
+
     def __init__(self, n_gram=1):
         super().__init__(n_gram)
 
@@ -164,12 +174,12 @@ class Spelling_Corrector(N_gram):
         print("Generating Errors")
         cnt = 0
         for sentence in data:
-            indices = random.choices(
-                range(len(sentence)), k=errors_per_sentence)
+            indices = random.choices(range(len(sentence)),
+                                     k=errors_per_sentence)
             for i in indices:
                 # print("Before: ",sentence[i])
-                sentence[i] = self.generate_error_word(
-                    sentence[i], edit_distance)
+                sentence[i] = self.generate_error_word(sentence[i],
+                                                       edit_distance)
                 # print("After: ",sentence[i])
             if cnt % 100 == 0:
                 print(cnt, "completed")
@@ -206,9 +216,11 @@ class Spelling_Corrector(N_gram):
             #     print("maybe:",candidate_word)
             if (edit_distance(candidate_word, word) <= 2):
                 # print("possible:", word, candidate_word)
-                if self.get_prob(context, candidate_word) + self.get_prob(next_context+candidate_word, next_word) > max_prob:
+                if self.get_prob(context, candidate_word) + self.get_prob(
+                        next_context + candidate_word, next_word) > max_prob:
                     max_prob = self.get_prob(
-                        context, candidate_word) + self.get_prob(next_context+candidate_word, next_word)
+                        context, candidate_word) + self.get_prob(
+                            next_context + candidate_word, next_word)
                     corrected_word = candidate_word
             # print()
 
@@ -230,26 +242,27 @@ class Spelling_Corrector(N_gram):
                 #     break
                 # if(self.is_error(cur_context, corrected_data[j][i])):
                 next_word = ""
-                if i+1 < len(corrected_data[j]):
-                    next_word = corrected_data[j][i+1]
+                if i + 1 < len(corrected_data[j]):
+                    next_word = corrected_data[j][i + 1]
                 cur_prob = self.get_prob(cur_context, corrected_data[j][i])
                 if (corrected_data[j][i] not in self.dictionary):
                     # print("err:",corrected_data[j][i])
                     removeLen = 0
-                    if i >= self.n-1:
-                        removeLen = len(corrected_data[j][i-self.n+1])
+                    if i >= self.n - 1:
+                        removeLen = len(corrected_data[j][i - self.n + 1])
 
                     # print("word:",cur_context, corrected_data[j][i], removeLen, next_word)
                     bef = corrected_data[j][i]
                     corrected_data[j][i] = self.get_corrected_word(
-                        cur_context, corrected_data[j][i], removeLen, next_word)
+                        cur_context, corrected_data[j][i], removeLen,
+                        next_word)
                     if bef != corrected_data[j][i]:
                         corrected_cnt += 1
 
                 cur_context += corrected_data[j][i]
 
-                if i >= self.n-1:
-                    removeLen = len(corrected_data[j][i-self.n+1])
+                if i >= self.n - 1:
+                    removeLen = len(corrected_data[j][i - self.n + 1])
                     cur_context = cur_context[removeLen:]
 
                 next_prob = self.get_prob(cur_context, next_word)
@@ -269,18 +282,19 @@ class Spelling_Corrector(N_gram):
                 if (i == mini):
                     # print("err:",corrected_data[j][i])
                     removeLen = 0
-                    if i >= self.n-1:
-                        removeLen = len(corrected_data[j][i-self.n+1])
+                    if i >= self.n - 1:
+                        removeLen = len(corrected_data[j][i - self.n + 1])
                     next_word = ""
-                    if i+1 < len(corrected_data[j]):
-                        next_word = corrected_data[j][i+1]
+                    if i + 1 < len(corrected_data[j]):
+                        next_word = corrected_data[j][i + 1]
                     # print("word:",cur_context, corrected_data[j][i], removeLen, next_word)
                     corrected_data[j][i] = self.get_corrected_word(
-                        cur_context, corrected_data[j][i], removeLen, next_word)
+                        cur_context, corrected_data[j][i], removeLen,
+                        next_word)
                     corrected_cnt += 1
                 cur_context += corrected_data[j][i]
-                if i >= self.n-1:
-                    removeLen = len(corrected_data[j][i-self.n+1])
+                if i >= self.n - 1:
+                    removeLen = len(corrected_data[j][i - self.n + 1])
                     cur_context = cur_context[removeLen:]
             if cnt % 100 == 0:
                 print(cnt, "Completed")
@@ -291,10 +305,12 @@ class Spelling_Corrector(N_gram):
         print("Correction Done")
         return corrected_data
 
+
 # Train and Test for the model
 
 
 class Problem:
+
     def __init__(self, train_file, test_file, solve):
         self.train_file = train_file
         self.test_file = test_file
@@ -347,19 +363,22 @@ def solvep1(train_data, test_data, output_file):
             file.write(' '.join(sentence) + '\n')
     print(f"Output written to {output_file}")
 
+
 # p1 = Problem('train.txt', 'test.txt', solvep1)
 # p1.load_data()
 # p1.answer('corrected_output.txt')
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description='Spell corrector for text files.')
-    parser.add_argument('train_file', type=str,
+    parser.add_argument('train_file',
+                        type=str,
                         help='Path to the training data file')
-    parser.add_argument('test_file', type=str,
+    parser.add_argument('test_file',
+                        type=str,
                         help='Path to the test data file')
-    parser.add_argument('output_file', type=str,
+    parser.add_argument('output_file',
+                        type=str,
                         help='Path for the corrected output file')
 
     args = parser.parse_args()

@@ -13,11 +13,14 @@ def extract_sentences(source_path: str, prefix: str, dest_path: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--source_path", help="Path to source file", required=True)
-    parser.add_argument(
-        "--dest_path", help="Path to destination file", required=True)
-    parser.add_argument(
-        "--prefix", help="Prefix to identify sentences to extract", required=True)
+    parser.add_argument("--source_path",
+                        help="Path to source file",
+                        required=True)
+    parser.add_argument("--dest_path",
+                        help="Path to destination file",
+                        required=True)
+    parser.add_argument("--prefix",
+                        help="Prefix to identify sentences to extract",
+                        required=True)
     args = parser.parse_args()
     extract_sentences(args.source_path, args.prefix, args.dest_path)
