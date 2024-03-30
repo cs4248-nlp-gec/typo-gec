@@ -6,6 +6,7 @@ http://blog.faroo.com/2015/03/24/fast-approximate-string-matching-with-large-edi
 import re
 import random
 import spacy
+
 nlp = spacy.load("en_core_web_sm")
 
 to_sample = False  # if you're impatient switch this flag
@@ -59,6 +60,7 @@ def dameraulevenshtein(seq1, seq2):
 
 
 class SymSpell:
+
     def __init__(self, max_edit_distance=3, verbose=0):
         self.max_edit_distance = max_edit_distance
         self.verbose = verbose
@@ -183,8 +185,8 @@ class SymSpell:
             queue = queue[1:]
 
             # early exit
-            if ((self.verbose < 2) and (len(suggest_dict) > 0) and
-                    ((len(string) - len(q_item)) > min_suggest_len)):
+            if ((self.verbose < 2) and (len(suggest_dict) > 0)
+                    and ((len(string) - len(q_item)) > min_suggest_len)):
                 break
 
             # process queue item
@@ -236,7 +238,8 @@ class SymSpell:
 
                         # do not add words with greater edit distance if
                         # verbose setting not on
-                        if (self.verbose < 2) and (item_dist > min_suggest_len):
+                        if (self.verbose < 2) and (item_dist
+                                                   > min_suggest_len):
                             pass
                         elif item_dist <= self.max_edit_distance:
                             # should already be in dictionary if in suggestion list
@@ -252,7 +255,10 @@ class SymSpell:
                         # setting not on
                         if self.verbose < 2:
                             suggest_dict = {
-                                k: v for k, v in suggest_dict.items() if v[1] <= min_suggest_len}
+                                k: v
+                                for k, v in suggest_dict.items()
+                                if v[1] <= min_suggest_len
+                            }
 
             # now generate deletes (e.g. a substring of string or of a delete)
             # from the queue item
@@ -261,9 +267,11 @@ class SymSpell:
 
             # do not add words with greater edit distance if verbose setting
             # is not on
-            if (self.verbose < 2) and ((len(string) - len(q_item)) > min_suggest_len):
+            if (self.verbose < 2) and ((len(string) - len(q_item))
+                                       > min_suggest_len):
                 pass
-            elif (len(string) - len(q_item)) < self.max_edit_distance and len(q_item) > 1:
+            elif (len(string) -
+                  len(q_item)) < self.max_edit_distance and len(q_item) > 1:
                 for c in range(len(q_item)):  # character index
                     word_minus_c = q_item[:c] + q_item[c + 1:]
                     if word_minus_c not in q_dictionary:
@@ -295,7 +303,6 @@ class SymSpell:
             return outlist[0]
         else:
             return outlist
-
         '''
         Option 1:
         ['file', 'five', 'fire', 'fine', ...]
@@ -353,8 +360,8 @@ if __name__ == '__main__':
             'to infinity and beyond'.split()  # make sure our sample misspell is in there
 
     all_words_list = list(set(eng_words))
-    silence = ss.create_dictionary_from_arr(
-        all_words_list, token_pattern=r'.+')
+    silence = ss.create_dictionary_from_arr(all_words_list,
+                                            token_pattern=r'.+')
 
     # create a dictionary of rightly spelled words for lookup
     words_dict = {k: 0 for k in all_words_list}
