@@ -1,0 +1,20 @@
+# Documentation:
+# https://github.com/mezgoodle/auto-formatter
+name: Formate Code
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    name: Formate Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          # Full git history is needed to get a proper list of changed files within `auto-formatter`
+          fetch-depth: 0
+      - name: Auto-Formatter
+        uses: mezgoodle/auto-formatter@v1.0.2
+        env:
+            GITHUB_TOKEN: ${{ secrets.TOKEN }}
