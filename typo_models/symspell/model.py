@@ -344,9 +344,6 @@ if __name__ == '__main__':
     print(eng_words[:5])
     # print(bad_words[:5])
 
-    print('Total english words: {}'.format(len(eng_words)))
-    # print('Total bad words: {}'.format(len(bad_words)))
-
     print('create symspell dict...')
 
     if to_sample:
