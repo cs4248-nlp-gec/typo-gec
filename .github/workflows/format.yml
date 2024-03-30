@@ -1,9 +1,9 @@
 # Documentation:
 # https://github.com/mezgoodle/auto-formatter
-name: Formate Code
+name: formate code
 on:
   push:
-    branches: [master]
+    branches: [master, main]
 jobs:
   build:
     name: Formate Code
