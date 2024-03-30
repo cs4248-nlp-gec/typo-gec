@@ -3,15 +3,18 @@ caveat: script consumes a lot of memory but is much faster than Norvig's spell c
 http://blog.faroo.com/2015/03/24/fast-approximate-string-matching-with-large-edit-distances/
 """
 
-import re, random
+import re
+import random
 import spacy
 nlp = spacy.load("en_core_web_sm")
 
-to_sample = False # if you're impatient switch this flag
+to_sample = False  # if you're impatient switch this flag
+
 
 def spacy_tokenize(text):
     return [token.text for token in nlp.tokenizer(text)]
-    
+
+
 def dameraulevenshtein(seq1, seq2):
     """Calculate the Damerau-Levenshtein distance between sequences.
     This method has not been modified from the original.
@@ -94,7 +97,8 @@ class SymSpell:
         new_real_word_added = False
         if w in self.dictionary:
             # increment count of word in corpus
-            self.dictionary[w] = (self.dictionary[w][0], self.dictionary[w][1] + 1)
+            self.dictionary[w] = (self.dictionary[w][0],
+                                  self.dictionary[w][1] + 1)
         else:
             self.dictionary[w] = ([], 1)
             self.longest_word_length = max(self.longest_word_length, len(w))
@@ -131,9 +135,11 @@ class SymSpell:
 
         print("total words processed: %i" % total_word_count)
         print("total unique words in corpus: %i" % unique_word_count)
-        print("total items in dictionary (corpus words and deletions): %i" % len(self.dictionary))
+        print("total items in dictionary (corpus words and deletions): %i" %
+              len(self.dictionary))
         print("  edit distance for deletions: %i" % self.max_edit_distance)
-        print("  length of longest word in corpus: %i" % self.longest_word_length)
+        print("  length of longest word in corpus: %i" %
+              self.longest_word_length)
         return self.dictionary
 
     def create_dictionary(self, fname):
@@ -151,9 +157,11 @@ class SymSpell:
 
         print("total words processed: %i" % total_word_count)
         print("total unique words in corpus: %i" % unique_word_count)
-        print("total items in dictionary (corpus words and deletions): %i" % len(self.dictionary))
+        print("total items in dictionary (corpus words and deletions): %i" %
+              len(self.dictionary))
         print("  edit distance for deletions: %i" % self.max_edit_distance)
-        print("  length of longest word in corpus: %i" % self.longest_word_length)
+        print("  length of longest word in corpus: %i" %
+              self.longest_word_length)
         return self.dictionary
 
     def get_suggestions(self, string, silent=False):
@@ -231,8 +239,10 @@ class SymSpell:
                         if (self.verbose < 2) and (item_dist > min_suggest_len):
                             pass
                         elif item_dist <= self.max_edit_distance:
-                            assert sc_item in self.dictionary  # should already be in dictionary if in suggestion list
-                            suggest_dict[sc_item] = (self.dictionary[sc_item][1], item_dist)
+                            # should already be in dictionary if in suggestion list
+                            assert sc_item in self.dictionary
+                            suggest_dict[sc_item] = (
+                                self.dictionary[sc_item][1], item_dist)
                             if item_dist < min_suggest_len:
                                 min_suggest_len = item_dist
 
@@ -241,7 +251,8 @@ class SymSpell:
                         # suggestions; trim suggestion dictionary if verbose
                         # setting not on
                         if self.verbose < 2:
-                            suggest_dict = {k: v for k, v in suggest_dict.items() if v[1] <= min_suggest_len}
+                            suggest_dict = {
+                                k: v for k, v in suggest_dict.items() if v[1] <= min_suggest_len}
 
             # now generate deletes (e.g. a substring of string or of a delete)
             # from the queue item
@@ -257,7 +268,8 @@ class SymSpell:
                     word_minus_c = q_item[:c] + q_item[c + 1:]
                     if word_minus_c not in q_dictionary:
                         queue.append(word_minus_c)
-                        q_dictionary[word_minus_c] = None  # arbitrary value, just to identify we checked this
+                        # arbitrary value, just to identify we checked this
+                        q_dictionary[word_minus_c] = None
 
         # queue is now empty: convert suggestions in dictionary to
         # list for output
@@ -300,6 +312,7 @@ class SymSpell:
         except:
             return None
 
+
 def spell_corrector(word_list, words_d) -> str:
     result_list = []
     for word in word_list:
@@ -309,47 +322,49 @@ def spell_corrector(word_list, words_d) -> str:
                 result_list.append(suggestion)
         else:
             result_list.append(word)
-            
+
     return " ".join(result_list)
 
+
 if __name__ == '__main__':
-    # build symspell tree 
+    # build symspell tree
     ss = SymSpell(max_edit_distance=2)
-    
+
     # fetch list of bad words
     # with open('../input/bad-bad-words/bad-words.csv') as bf:
     #     bad_words = bf.readlines()
-    # bad_words = [word.strip() for word in bad_words]    
-    
+    # bad_words = [word.strip() for word in bad_words]
+
     # fetch english words dictionary
     with open('./input/english_words_479k.txt') as f:
         words = f.readlines()
     eng_words = [word.strip() for word in words]
-    
+
     # Print some examples
     print(eng_words[:5])
     # print(bad_words[:5])
 
     print('Total english words: {}'.format(len(eng_words)))
     # print('Total bad words: {}'.format(len(bad_words)))
-    
+
     print('create symspell dict...')
-    
+
     if to_sample:
         # sampling from list for kernel runtime
         sample_idxs = random.sample(range(len(eng_words)), 100)
         eng_words = [eng_words[i] for i in sorted(sample_idxs)] + \
-            'to infinity and beyond'.split() # make sure our sample misspell is in there
-    
+            'to infinity and beyond'.split()  # make sure our sample misspell is in there
+
     all_words_list = list(set(eng_words))
-    silence = ss.create_dictionary_from_arr(all_words_list, token_pattern=r'.+')
-    
+    silence = ss.create_dictionary_from_arr(
+        all_words_list, token_pattern=r'.+')
+
     # create a dictionary of rightly spelled words for lookup
     words_dict = {k: 0 for k in all_words_list}
-    
+
     sample_text = 'to infifity and byond'
     tokens = spacy_tokenize(sample_text)
-    
+
     print('run spell checker...')
     print()
     print('original text: ' + sample_text)
@@ -357,5 +372,4 @@ if __name__ == '__main__':
     correct_text = spell_corrector(tokens, words_dict)
     print('corrected text: ' + correct_text)
 
-    print('Done.')    
-    
+    print('Done.')
