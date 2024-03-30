@@ -1,4 +1,4 @@
-# typo-gec [![telegram message](https://github.com/cs4248-nlp-gec/typo-gec/actions/workflows/telegram.yml/badge.svg)](https://github.com/cs4248-nlp-gec/typo-gec/actions/workflows/telegram.yml)
+# typo-gec [![telegram](https://github.com/cs4248-nlp-gec/typo-gec/actions/workflows/telegram.yml/badge.svg)](https://github.com/cs4248-nlp-gec/typo-gec/actions/workflows/telegram.yml) [![python](https://github.com/cs4248-nlp-gec/typo-gec/actions/workflows/format.yml/badge.svg)](https://github.com/cs4248-nlp-gec/typo-gec/actions/workflows/format.yml)
 
 This repository contains the code for CS4248 Project.
 
