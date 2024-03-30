@@ -5,7 +5,7 @@ http://blog.faroo.com/2015/03/24/fast-approximate-string-matching-with-large-edi
 
 import re, random
 import spacy
-nlp = spacy.load('en')
+nlp = spacy.load("en_core_web_sm")
 
 to_sample = False # if you're impatient switch this flag
 
@@ -317,21 +317,21 @@ if __name__ == '__main__':
     ss = SymSpell(max_edit_distance=2)
     
     # fetch list of bad words
-    with open('../input/bad-bad-words/bad-words.csv') as bf:
-        bad_words = bf.readlines()
-    bad_words = [word.strip() for word in bad_words]    
+    # with open('../input/bad-bad-words/bad-words.csv') as bf:
+    #     bad_words = bf.readlines()
+    # bad_words = [word.strip() for word in bad_words]    
     
     # fetch english words dictionary
-    with open('../input/479k-english-words/english_words_479k.txt') as f:
+    with open('./input/english_words_479k.txt') as f:
         words = f.readlines()
     eng_words = [word.strip() for word in words]
     
     # Print some examples
     print(eng_words[:5])
-    print(bad_words[:5])
+    # print(bad_words[:5])
 
     print('Total english words: {}'.format(len(eng_words)))
-    print('Total bad words: {}'.format(len(bad_words)))
+    # print('Total bad words: {}'.format(len(bad_words)))
     
     print('create symspell dict...')
     
@@ -341,7 +341,7 @@ if __name__ == '__main__':
         eng_words = [eng_words[i] for i in sorted(sample_idxs)] + \
             'to infinity and beyond'.split() # make sure our sample misspell is in there
     
-    all_words_list = list(set(bad_words + eng_words))
+    all_words_list = list(set(eng_words))
     silence = ss.create_dictionary_from_arr(all_words_list, token_pattern=r'.+')
     
     # create a dictionary of rightly spelled words for lookup
