@@ -1,3 +1,6 @@
 [submodule "m2scorer"]
 	path = m2scorer
 	url = https://github.com/cs4248-nlp-gec/m2scorer.git
+[submodule "typo_models/neuspell"]
+	path = typo_models/neuspell
+	url = https://github.com/cs4248-nlp-gec/neuspell
