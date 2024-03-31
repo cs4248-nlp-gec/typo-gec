@@ -8,4 +8,4 @@
 
 [submodule "gector"]
 	path = gector
-	url = git@github.com:grammarly/gector
+	url = https://github.com/cs4248-nlp-gec/gector
