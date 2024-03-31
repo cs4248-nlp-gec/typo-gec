@@ -5,42 +5,38 @@ from collections import defaultdict
 
 # Can change config parameters here.
 light_config = {
-    "threshold" : 0.3,
-    "weights" : [0.7, 0.1, 0.1, 0.1], # standard
+    "threshold": 0.3,
+    "weights": [0.7, 0.1, 0.1, 0.1],  # standard
     "max_flips": 1
 }
 
 med_config = {
-    "threshold" : 0.5,
-    "weights" : [0.7, 0.1, 0.1, 0.1],
+    "threshold": 0.5,
+    "weights": [0.7, 0.1, 0.1, 0.1],
     "max_flips": 2
 }
 
 heavy_config = {
-    "threshold" : 0.7,
-    "weights" : [0.7, 0.1, 0.1, 0.1],
+    "threshold": 0.7,
+    "weights": [0.7, 0.1, 0.1, 0.1],
     "max_flips": 3
 }
 
 # All the other configs follow from med.
 substitution_config = {
-    "threshold" : 0.5,
-    "weights" : [1, 0, 0, 0],
+    "threshold": 0.5,
+    "weights": [1, 0, 0, 0],
     "max_flips": 2
 }
 transposition_config = {
-    "threshold" : 0.5,
-    "weights" : [0, 1, 0, 0],
+    "threshold": 0.5,
+    "weights": [0, 1, 0, 0],
     "max_flips": 2
 }
-addition_config = {
-    "threshold" : 0.5,
-    "weights" : [0, 0, 1, 0],
-    "max_flips": 2
-}
+addition_config = {"threshold": 0.5, "weights": [0, 0, 1, 0], "max_flips": 2}
 subtraction_config = {
-    "threshold" : 0.5,
-    "weights" : [0, 0, 0, 1],
+    "threshold": 0.5,
+    "weights": [0, 0, 0, 1],
     "max_flips": 2
 }
 
@@ -82,6 +78,7 @@ KEY_MAPPING = {
     'z': ['a', 's', 'x'],
 }
 
+
 def random_transform(string, config):
     new_phrase = []
     # to split the special characters also
@@ -99,7 +96,8 @@ def random_transform(string, config):
 def add_typo(word, config):
     if len(word) <= 2:
         return word
-    amount_to_change = random.randint(1, min(len(word), config["max_flips"])) # up to min(len(word), max_flips)
+    amount_to_change = random.randint(1, min(
+        len(word), config["max_flips"]))  # up to min(len(word), max_flips)
     indexes = random.sample(range(len(word)), amount_to_change)
     res = []
     i = 0
