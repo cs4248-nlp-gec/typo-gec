@@ -23,11 +23,14 @@ class PretrainedBertModel:
     _cache: Dict[str, PreTrainedModel] = {}
 
     @classmethod
-    def load(cls, model_name: str, cache_model: bool = True) -> PreTrainedModel:
+    def load(cls,
+             model_name: str,
+             cache_model: bool = True) -> PreTrainedModel:
         if model_name in cls._cache:
             return PretrainedBertModel._cache[model_name]
 
-        model = AutoModel.from_pretrained(model_name, output_attentions=ATT_MAP)
+        model = AutoModel.from_pretrained(model_name,
+                                          output_attentions=ATT_MAP)
         if cache_model:
             cls._cache[model_name] = model
 
@@ -62,14 +65,12 @@ class BertEmbedder(TokenEmbedder):
         training.
     """
 
-    def __init__(
-        self,
-        bert_model: PreTrainedModel,
-        top_layer_only: bool = False,
-        max_pieces: int = 512,
-        num_start_tokens: int = 1,
-        num_end_tokens: int = 1
-    ) -> None:
+    def __init__(self,
+                 bert_model: PreTrainedModel,
+                 top_layer_only: bool = False,
+                 max_pieces: int = 512,
+                 num_start_tokens: int = 1,
+                 num_end_tokens: int = 1) -> None:
         super().__init__()
         self.bert_model = deepcopy(bert_model)
         self.output_dim = bert_model.config.hidden_size
@@ -86,11 +87,9 @@ class BertEmbedder(TokenEmbedder):
     def get_output_dim(self) -> int:
         return self.output_dim
 
-    def forward(
-        self,
-        input_ids: torch.LongTensor,
-        offsets: torch.LongTensor = None
-    ) -> torch.Tensor:
+    def forward(self,
+                input_ids: torch.LongTensor,
+                offsets: torch.LongTensor = None) -> torch.Tensor:
         """
         Parameters
         ----------
@@ -133,7 +132,9 @@ class BertEmbedder(TokenEmbedder):
             # We want all sequences to be the same length, so pad the last sequence
             last_window_size = split_input_ids[-1].size(-1)
             padding_amount = self.max_pieces - last_window_size
-            split_input_ids[-1] = F.pad(split_input_ids[-1], pad=[0, padding_amount], value=0)
+            split_input_ids[-1] = F.pad(split_input_ids[-1],
+                                        pad=[0, padding_amount],
+                                        value=0)
 
             # Now combine the sequences along the batch dimension
             input_ids = torch.cat(split_input_ids, dim=0)
@@ -152,7 +153,9 @@ class BertEmbedder(TokenEmbedder):
 
         if needs_split:
             # First, unpack the output embeddings into one long sequence again
-            unpacked_embeddings = torch.split(all_encoder_layers, batch_size, dim=1)
+            unpacked_embeddings = torch.split(all_encoder_layers,
+                                              batch_size,
+                                              dim=1)
             unpacked_embeddings = torch.cat(unpacked_embeddings, dim=2)
 
             # Next, select indices of the sequence such that it will result in embeddings representing the original
@@ -165,15 +168,15 @@ class BertEmbedder(TokenEmbedder):
 
             # Find the stride as half the max pieces, ignoring the special start and end tokens
             # Calculate an offset to extract the centermost embeddings of each window
-            stride = (self.max_pieces - self.num_start_tokens - self.num_end_tokens) // 2
+            stride = (self.max_pieces - self.num_start_tokens -
+                      self.num_end_tokens) // 2
             stride_offset = stride // 2 + self.num_start_tokens
 
             first_window = list(range(stride_offset))
 
             max_context_windows = [
-                i
-                for i in range(full_seq_len)
-                if stride_offset - 1 < i % self.max_pieces < stride_offset + stride
+                i for i in range(full_seq_len) if stride_offset - 1 < i %
+                self.max_pieces < stride_offset + stride
             ]
 
             # Lookback what's left, unless it's the whole self.max_pieces window
@@ -214,17 +217,16 @@ class BertEmbedder(TokenEmbedder):
             offsets2d = util.combine_initial_dims(offsets)
             # now offsets is (batch_size * d1 * ... * dn, orig_sequence_length)
             range_vector = util.get_range_vector(
-                offsets2d.size(0), device=util.get_device_of(mix)
-            ).unsqueeze(1)
+                offsets2d.size(0), device=util.get_device_of(mix)).unsqueeze(1)
             # selected embeddings is also (batch_size * d1 * ... * dn, orig_sequence_length)
             selected_embeddings = mix[range_vector, offsets2d]
 
-            return util.uncombine_initial_dims(selected_embeddings, offsets.size())
+            return util.uncombine_initial_dims(selected_embeddings,
+                                               offsets.size())
 
 
 # @TokenEmbedder.register("bert-pretrained")
 class PretrainedBertEmbedder(BertEmbedder):
-
     """
     Parameters
     ----------
@@ -255,14 +257,10 @@ class PretrainedBertEmbedder(BertEmbedder):
         if ATT_MAP:
             self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model)
 
-
         for param in model.parameters():
             param.requires_grad = requires_grad
 
-        super().__init__(
-            bert_model=model,
-            top_layer_only=top_layer_only
-        )
+        super().__init__(bert_model=model, top_layer_only=top_layer_only)
 
         if special_tokens_fix:
             try:

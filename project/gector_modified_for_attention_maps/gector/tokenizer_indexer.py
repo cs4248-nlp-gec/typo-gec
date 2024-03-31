@@ -17,7 +17,6 @@ import copy
 
 logger = logging.getLogger(__name__)
 
-
 # TODO(joelgrus): Figure out how to generate token_type_ids out of this token indexer.
 
 
@@ -58,8 +57,7 @@ class TokenizerIndexer(TokenIndexer[int]):
         self.max_pieces_per_sentence = 80
 
     @overrides
-    def tokens_to_indices(self, tokens: List[Token],
-                          vocabulary: Vocabulary,
+    def tokens_to_indices(self, tokens: List[Token], vocabulary: Vocabulary,
                           index_name: str) -> Dict[str, List[int]]:
         text = [token.text for token in tokens]
         batch_tokens = [text]
@@ -72,7 +70,8 @@ class TokenizerIndexer(TokenIndexer[int]):
         return output_fast
 
     @overrides
-    def count_vocab_items(self, token: Token, counter: Dict[str, Dict[str, int]]):
+    def count_vocab_items(self, token: Token, counter: Dict[str, Dict[str,
+                                                                      int]]):
         # If we only use pretrained models, we don't need to do anything here.
         pass
 
@@ -85,12 +84,14 @@ class TokenizerIndexer(TokenIndexer[int]):
         return {}
 
     @overrides
-    def pad_token_sequence(self,
-                           tokens: Dict[str, List[int]],
-                           desired_num_tokens: Dict[str, int],
-                           padding_lengths: Dict[str, int]) -> Dict[str, List[int]]:  # pylint: disable=unused-argument
-        return {key: pad_sequence_to_length(val, desired_num_tokens[key])
-                for key, val in tokens.items()}
+    def pad_token_sequence(
+        self, tokens: Dict[str, List[int]], desired_num_tokens: Dict[str, int],
+        padding_lengths: Dict[str, int]
+    ) -> Dict[str, List[int]]:  # pylint: disable=unused-argument
+        return {
+            key: pad_sequence_to_length(val, desired_num_tokens[key])
+            for key, val in tokens.items()
+        }
 
     @overrides
     def get_keys(self, index_name: str) -> List[str]:
@@ -98,7 +99,10 @@ class TokenizerIndexer(TokenIndexer[int]):
         We need to override this because the indexer generates multiple keys.
         """
         # pylint: disable=no-self-use
-        return [index_name, f"{index_name}-offsets", f"{index_name}-type-ids", "mask"]
+        return [
+            index_name, f"{index_name}-offsets", f"{index_name}-type-ids",
+            "mask"
+        ]
 
 
 class PretrainedBertIndexer(TokenizerIndexer):
@@ -140,7 +144,10 @@ class PretrainedBertIndexer(TokenizerIndexer):
         model_name = copy.deepcopy(pretrained_model)
 
         model_tokenizer = AutoTokenizer.from_pretrained(
-            model_name, do_lower_case=do_lowercase, do_basic_tokenize=False, use_fast=True)
+            model_name,
+            do_lower_case=do_lowercase,
+            do_basic_tokenize=False,
+            use_fast=True)
 
         # to adjust all tokenizers
         if hasattr(model_tokenizer, 'encoder'):
@@ -148,7 +155,8 @@ class PretrainedBertIndexer(TokenizerIndexer):
         if hasattr(model_tokenizer, 'sp_model'):
             model_tokenizer.vocab = defaultdict(lambda: 1)
             for i in range(model_tokenizer.sp_model.get_piece_size()):
-                model_tokenizer.vocab[model_tokenizer.sp_model.id_to_piece(i)] = i
+                model_tokenizer.vocab[model_tokenizer.sp_model.id_to_piece(
+                    i)] = i
 
         if special_tokens_fix:
             model_tokenizer.add_tokens([START_TOKEN])
@@ -156,6 +164,4 @@ class PretrainedBertIndexer(TokenizerIndexer):
 
         super().__init__(tokenizer=model_tokenizer,
                          max_pieces=max_pieces,
-                         max_pieces_per_token=max_pieces_per_token
-                        )
-
+                         max_pieces_per_token=max_pieces_per_token)
