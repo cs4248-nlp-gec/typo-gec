@@ -104,8 +104,12 @@ def get_word_dataset():
 
 def get_light_medium_heavy_typo(): # for both original and corrected.
     pass
+
 def get_addition_typo():
     pass
 
 def get_sentence_typo(): #long short, original and corrected.
+    pass
+
+def get_word_typo(): #long short, original and corrected.
     pass
