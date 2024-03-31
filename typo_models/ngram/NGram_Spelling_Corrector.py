@@ -324,7 +324,7 @@ class Problem:
         return data
 
     def load_data(self):
-        # Load and preprocess the training and test datasets
+        # Load and preprocess the training and test og_datasets
         raw_train_data = self.read_data_from_file(self.train_file)
         raw_test_data = self.read_data_from_file(self.test_file)
         self.train_data = self.preprocess(raw_train_data)
@@ -373,10 +373,10 @@ if __name__ == "__main__":
         description='Spell corrector for text files.')
     parser.add_argument('train_file',
                         type=str,
-                        help='Path to the training datasets file')
+                        help='Path to the training og_datasets file')
     parser.add_argument('test_file',
                         type=str,
-                        help='Path to the test datasets file')
+                        help='Path to the test og_datasets file')
     parser.add_argument('output_file',
                         type=str,
                         help='Path for the corrected output file')
