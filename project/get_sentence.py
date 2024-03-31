@@ -31,9 +31,9 @@ def get_sentence(file):
     return originals, sentences
 
 
-for filename in os.listdir("./data"):
+for filename in os.listdir("datasets"):
     if filename.endswith(".m2"):
-        file_path = os.path.join("./data", filename)
+        file_path = os.path.join("datasets", filename)
         output_file_path = os.path.join(
             "./out", filename.replace(".m2", "_corrected.txt"))
 

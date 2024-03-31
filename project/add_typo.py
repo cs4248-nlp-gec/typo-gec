@@ -122,7 +122,7 @@ for filename in os.listdir("./out"):
         file_path = os.path.join("./out", filename)
         # change filename to distinguish corrected or original typo
         output_file_path = os.path.join(
-            "./corrected_typo",
+            "old_data/corrected_typo",
             filename.replace("_corrected.txt", "_corrected_typo.txt"))
 
         with open(file_path, "r") as file:
