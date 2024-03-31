@@ -62,7 +62,9 @@ def plot_distributions(word_lengths, sentence_lengths, filename):
     plt.title('Word Length vs Frequency')
 
     plt.subplot(1, 2, 2)
-    plt.bar(sentence_lengths.keys(), sentence_lengths.values(), color='lightgreen')
+    plt.bar(sentence_lengths.keys(),
+            sentence_lengths.values(),
+            color='lightgreen')
     plt.xlabel('Sentence Length (in words)')
     plt.ylabel('Frequency')
     plt.title('Sentence Length vs Frequency')
@@ -70,11 +72,15 @@ def plot_distributions(word_lengths, sentence_lengths, filename):
     plt.tight_layout()
     plt.savefig(f"./{filename}_plot.png")
 
+
 def save_file_stats(stats, filename):
     total_sentences = stats['total_sentences']
     total_words = stats['total_words']
-    avg_sentence_length = sum(count * length for length, count in stats['sentence_lengths'].items()) / total_sentences if total_sentences > 0 else 0
-    total_word_length = sum(count * length for length, count in stats['word_lengths'].items())
+    avg_sentence_length = sum(
+        count * length for length, count in stats['sentence_lengths'].items()
+    ) / total_sentences if total_sentences > 0 else 0
+    total_word_length = sum(count * length
+                            for length, count in stats['word_lengths'].items())
     avg_word_length = total_word_length / total_words if total_words > 0 else 0
 
     with open(filename + "_stats.txt", "w") as f:
@@ -83,8 +89,9 @@ def save_file_stats(stats, filename):
         f.write(f"Total Words:{total_words}\n")
         f.write(f"Average Word Length:{avg_word_length}\n")
 
+
 def get_stats_and_plot(directory_path):
-    all_stats = {} # each files statistics.
+    all_stats = {}  # each files statistics.
 
     for filename in os.listdir(directory_path):
         if filename.endswith(".txt"):
@@ -95,12 +102,15 @@ def get_stats_and_plot(directory_path):
     # 1. Start with total
     total_stats = aggregate_stats(all_stats)
     save_file_stats(total_stats, "original_total")
-    plot_distributions(total_stats['word_lengths'], total_stats['sentence_lengths'], "original_total")
+    plot_distributions(total_stats['word_lengths'],
+                       total_stats['sentence_lengths'], "original_total")
 
     # 2. For each file
     for filename, file_stats in all_stats.items():
         save_file_stats(file_stats, filename)
-        plot_distributions(file_stats['word_lengths'], file_stats['sentence_lengths'], filename)
+        plot_distributions(file_stats['word_lengths'],
+                           file_stats['sentence_lengths'], filename)
+
 
 data_directory_path = "../old_data/original_typo"
 get_stats_and_plot(data_directory_path)
