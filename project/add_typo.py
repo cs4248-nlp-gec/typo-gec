@@ -77,6 +77,7 @@ KEY_MAPPING = {
     'z': ['a', 's', 'x'],
 }
 
+
 def add_typo(word, config):
     if len(word) <= 2:
         return word
@@ -121,7 +122,7 @@ def add_typo(word, config):
 def random_transform(string, config):
     new_phrase = []
     typos = []
-    corrected = [] # keep track of typos.
+    corrected = []  # keep track of typos.
     # to split the special characters also
     arr = re.split('([^a-zA-Z0-9])', string)
     for word in arr:
@@ -137,13 +138,17 @@ def random_transform(string, config):
     return "".join(new_phrase), typos, corrected
 
 
-def make_typo_file(filename, input_file_path, output_file_path, config=med_config):
+def make_typo_file(filename,
+                   input_file_path,
+                   output_file_path,
+                   config=med_config):
     typos, corrected = [], []
     dct = {}
     with open(input_file_path, "r", encoding="utf-8") as file:
         with open(output_file_path, "w", encoding="utf-8") as out:
             for line in file:
-                transformed_line, typo_row, corrected_row = random_transform(line, config)
+                transformed_line, typo_row, corrected_row = random_transform(
+                    line, config)
                 out.write(transformed_line)
                 typos.append(typo_row)
                 corrected.append(corrected_row)
