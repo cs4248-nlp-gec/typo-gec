@@ -1,4 +1,0 @@
-Total Sentences:988
-Average Sentence Length:23.397773279352226
-Total Words:23117
-Average Word Length:4.29865466972358

@@ -11,17 +11,16 @@ def get_stats_for_file(file_path):
 
     with open(file_path, 'r', encoding='utf-8') as file:
         for line in file:
-            if line.startswith('S '):
-                sentence = line[2:].strip()
-                total_sentences += 1
-                words = sentence.split()
-                sentence_length = len(words)
-                sentence_lengths[sentence_length] += 1
+            sentence = line.strip()
+            total_sentences += 1
+            words = sentence.split()
+            sentence_length = len(words)
+            sentence_lengths[sentence_length] += 1
 
-                for word in words:
-                    word_length = len(word)
-                    word_lengths[word_length] += 1
-                    total_words += 1
+            for word in words:
+                word_length = len(word)
+                word_lengths[word_length] += 1
+                total_words += 1
 
     stats = {
         'total_sentences': total_sentences,
@@ -112,5 +111,5 @@ def get_stats_and_plot(directory_path):
                            file_stats['sentence_lengths'], filename)
 
 
-data_directory_path = "../old_data/original_typo"
-get_stats_and_plot(data_directory_path)
+# data_directory_path = "../data/original/baseline"
+# get_stats_and_plot(data_directory_path)
