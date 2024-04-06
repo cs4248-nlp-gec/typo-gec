@@ -22,6 +22,18 @@ PRON: 38.28%
 CONJ: 54.02%
 INTER: 60.00%
 
+Bart:
+
+ACCURACY RATE
+VERB: 61.93%
+PREP: 56.08%
+NOUN: 53.51%
+ADJ: 62.73%
+ADV: 59.66%
+PRON: 55.35%
+CONJ: 68.04%
+INTER: 20.00%
+
 (Reference: Total Error by type)
 
 VERB: 6378
