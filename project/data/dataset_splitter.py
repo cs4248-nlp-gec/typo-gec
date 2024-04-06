@@ -55,84 +55,62 @@ def get_sentence_dataset():
     SHORT_THRESHOLD = 8  # short sentence has <=8 words
     LONG_THRESHOLD = 50
 
-    # get OG
     for filename in os.listdir(og_dir_path):
         og_file_path = os.path.join(og_dir_path, filename)
-        short_file_path = os.path.join("./original/original_short_sentence/",
-                                       filename[:-4] + "_short_sentence.txt")
-        long_file_path = os.path.join("./original/original_long_sentence/",
-                                      filename[:-4] + "_long_sentence.txt")
+        cor_filename = filename.replace("original.txt" ,"corrected.txt")
+        cor_file_path = os.path.join(cor_dir_path, cor_filename)
 
-        with open(short_file_path, "w", encoding='utf-8') as short_out:
-            with open(long_file_path, "w", encoding='utf-8') as long_out:
-                with open(og_file_path, 'r', encoding='utf-8') as in_file:
-                    for line in in_file:
-                        words = len(line.split())
+        short_og_file_path = os.path.join("./original/original_short_sentence/", filename[:-4] + "_short_sentence.txt")
+        long_og_file_path = os.path.join("./original/original_long_sentence/", filename[:-4] + "_long_sentence.txt")
+        short_cor_file_path = os.path.join("./corrected/corrected_short_sentence/", cor_filename[:-4] + "_short_sentence.txt")
+        long_cor_file_path = os.path.join("./corrected/corrected_long_sentence/", cor_filename[:-4] + "_long_sentence.txt")
+
+        with open(og_file_path, 'r', encoding='utf-8') as og_in, open(cor_file_path, 'r', encoding='utf-8') as cor_in:
+            with open(short_og_file_path, "w", encoding='utf-8') as short_og_out, open(long_og_file_path, "w", encoding='utf-8') as long_og_out:
+                with open(short_cor_file_path, "w", encoding='utf-8') as short_cor_out, open(long_cor_file_path, "w", encoding='utf-8') as long_cor_out:
+                    for og_line, cor_line in zip(og_in, cor_in):
+                        words = len(og_line.split())
                         if words <= SHORT_THRESHOLD:
-                            short_out.write(line)
+                            short_og_out.write(og_line)
+                            short_cor_out.write(cor_line)
                         elif words >= LONG_THRESHOLD:
-                            long_out.write(line)
+                            long_og_out.write(og_line)
+                            long_cor_out.write(cor_line)
 
-    # get corrected
-    for filename in os.listdir(cor_dir_path):
-        og_file_path = os.path.join(cor_dir_path, filename)
-        short_file_path = os.path.join("./corrected/corrected_short_sentence/",
-                                       filename[:-4] + "_short_sentence.txt")
-        long_file_path = os.path.join("./corrected/corrected_long_sentence/",
-                                      filename[:-4] + "_long_sentence.txt")
 
-        with open(short_file_path, "w", encoding='utf-8') as short_out:
-            with open(long_file_path, "w", encoding='utf-8') as long_out:
-                with open(og_file_path, 'r', encoding='utf-8') as in_file:
-                    for line in in_file:
-                        words = len(line.split())
-                        if words <= SHORT_THRESHOLD:
-                            short_out.write(line)
-                        elif words >= LONG_THRESHOLD:
-                            long_out.write(line)
-
+# get_sentence_dataset()
 
 def get_word_dataset():
     og_dir_path = "./original/baseline"
     cor_dir_path = "./corrected/baseline"
-    SHORT_THRESHOLD = 5  # all words must be <= 5 characters.
-    LONG_THRESHOLD = 10  # There exists words of >= 10 characters.
+    SHORT_THRESHOLD = 5  # all words must be <= 5 characters
+    LONG_THRESHOLD = 10  # There exists words of >= 10 characters
 
-    # get OG
     for filename in os.listdir(og_dir_path):
         og_file_path = os.path.join(og_dir_path, filename)
-        short_file_path = os.path.join("./original/original_short_word/",
-                                       filename[:-4] + "_short_word.txt")
-        long_file_path = os.path.join("./original/original_long_word/",
-                                      filename[:-4] + "_long_word.txt")
+        cor_filename = filename.replace("original.txt", "corrected.txt")
+        cor_file_path = os.path.join(cor_dir_path, cor_filename)
 
-        with open(short_file_path, "w", encoding='utf-8') as short_out:
-            with open(long_file_path, "w", encoding='utf-8') as long_out:
-                with open(og_file_path, 'r', encoding='utf-8') as in_file:
-                    for line in in_file:
-                        words = line.split()
+        short_og_file_path = os.path.join("./original/original_short_word/", filename[:-4] + "_short_word.txt")
+        long_og_file_path = os.path.join("./original/original_long_word/", filename[:-4] + "_long_word.txt")
+        short_cor_file_path = os.path.join("./corrected/corrected_short_word/", cor_filename[:-4] + "_short_word.txt")
+        long_cor_file_path = os.path.join("./corrected/corrected_long_word/", cor_filename[:-4] + "_long_word.txt")
+
+        with open(og_file_path, 'r', encoding='utf-8') as og_in, open(cor_file_path, 'r', encoding='utf-8') as cor_in:
+            with open(short_og_file_path, "w", encoding='utf-8') as short_og_out, open(long_og_file_path, "w", encoding='utf-8') as long_og_out:
+                with open(short_cor_file_path, "w", encoding='utf-8') as short_cor_out, open(long_cor_file_path, "w", encoding='utf-8') as long_cor_out:
+                    for og_line, cor_line in zip(og_in, cor_in):
+                        words = og_line.split()
+                        # Check conditions for short and long words based on original lines
                         if all(len(w) <= SHORT_THRESHOLD for w in words):
-                            short_out.write(line)
+                            short_og_out.write(og_line)
+                            short_cor_out.write(cor_line)
                         elif any(len(w) >= LONG_THRESHOLD for w in words):
-                            long_out.write(line)
+                            long_og_out.write(og_line)
+                            long_cor_out.write(cor_line)
 
-    # get corrected
-    for filename in os.listdir(cor_dir_path):
-        og_file_path = os.path.join(cor_dir_path, filename)
-        short_file_path = os.path.join("./corrected/corrected_short_word/",
-                                       filename[:-4] + "_short_word.txt")
-        long_file_path = os.path.join("./corrected/corrected_long_word/",
-                                      filename[:-4] + "_long_word.txt")
 
-        with open(short_file_path, "w", encoding='utf-8') as short_out:
-            with open(long_file_path, "w", encoding='utf-8') as long_out:
-                with open(og_file_path, 'r', encoding='utf-8') as in_file:
-                    for line in in_file:
-                        words = line.split()
-                        if all(len(w) <= SHORT_THRESHOLD for w in words):
-                            short_out.write(line)
-                        elif any(len(w) >= LONG_THRESHOLD for w in words):
-                            long_out.write(line)
+# get_word_dataset()
 
 
 def get_typo_dataset():
@@ -212,8 +190,7 @@ def get_typo_dataset():
         "transposition_only"
     ]
 
-    names = [f"_typo_{suffix}.txt" for suffix in configs_suffix
-             ] * 2  # Multiply by 2 for both original and corrected
+    names = [f"_typo_{suffix}.txt" for suffix in configs_suffix] * 2 # Both original & corrected
 
     for input_dir_path, output_dir_path, config, name in zip(
             input_dirs, output_dirs, configs, names):
@@ -229,6 +206,4 @@ def get_typo_dataset():
                                output_file_path,
                                config=config)
 
-
-# clear_directories(['./original_typo', './corrected_typo'])
-get_typo_dataset()
+# get_typo_dataset()
