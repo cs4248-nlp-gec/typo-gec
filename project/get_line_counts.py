@@ -2,6 +2,7 @@ import os
 import json
 from pprint import pprint
 
+
 def count_lines_in_file(file_path):
     """Counts the number of lines in a given file."""
     try:
@@ -10,6 +11,7 @@ def count_lines_in_file(file_path):
     except Exception as e:
         print(f"Error reading {file_path}: {e}")
         return 0
+
 
 def find_txt_files_and_count_lines(start_dir):
     """Finds all .txt files from start_dir, counts lines in them, and stores the counts in a dictionary."""
@@ -21,6 +23,7 @@ def find_txt_files_and_count_lines(start_dir):
                 line_counts[full_path] = count_lines_in_file(full_path)
     return line_counts
 
+
 def save_counts_to_file(line_counts, output_file):
     """Saves the line counts dictionary to a JSON file."""
     try:
@@ -29,6 +32,7 @@ def save_counts_to_file(line_counts, output_file):
         print(f"Line counts successfully saved to {output_file}")
     except Exception as e:
         print(f"Error saving to file {output_file}: {e}")
+
 
 # Example usage
 line_counts = find_txt_files_and_count_lines('.')
