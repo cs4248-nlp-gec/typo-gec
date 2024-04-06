@@ -1,0 +1,1010 @@
+S My name is Sarah .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I am 17 years llpd .
+A 4 5|||R:SPELL|||old|||REQUIRED|||-NONE-|||0
+
+S It is cey funny .
+A 2 3|||R:ADJ|||great|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||fun|||REQUIRED|||-NONE-|||0
+
+S Dear Jo ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Hht , if lu want I look fkr a jkb from you .
+A 0 1|||R:SPELL|||But|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 6 6|||M:VERB:TENSE|||will|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||job|||REQUIRED|||-NONE-|||0
+A 10 11|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+
+S Take caree , Laura .
+A 1 2|||R:SPELL|||care|||REQUIRED|||-NONE-|||0
+
+S Gsf tkt m8
+A 0 1|||R:SPELL|||Get|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||rekt|||REQUIRED|||-NONE-|||0
+
+S Yes !
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S My nke is Johny .
+A 1 2|||R:SPELL|||name|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Jonny|||REQUIRED|||-NONE-|||0
+
+S I am 25 years ols .
+A 4 5|||R:SPELL|||old|||REQUIRED|||-NONE-|||0
+
+S I also likd to coli .
+A 2 3|||R:SPELL|||like|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||cook|||REQUIRED|||-NONE-|||0
+
+S I hyink htat smile is the best gift in this world .
+A 1 2|||R:SPELL|||think|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
+
+S What 's up ?
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Hlq xre you ?
+A 0 1|||R:SPELL|||How|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+
+S Ho wz your faxy roday ?
+A 0 1|||R:SPELL|||How|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||day|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||today|||REQUIRED|||-NONE-|||0
+
+S Dear Pauo ,
+A 1 2|||R:SPELL|||Paul|||REQUIRED|||-NONE-|||0
+
+S Whay a pity !
+A 0 1|||R:SPELL|||What|||REQUIRED|||-NONE-|||0
+
+S I knwe that tyhwy never talm bad hout me .
+A 1 2|||R:SPELL|||knew|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||they would|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||talk|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||unkindly|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||about|||REQUIRED|||-NONE-|||0
+
+S He s ever been sith me .
+A 1 2|||R:VERB:TENSE|||has|||REQUIRED|||-NONE-|||0
+A 2 3|||R:ADV|||always|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+
+S Zlxo , he is vwry funnu and I laugh a ooy with him .
+A 0 1|||R:SPELL|||Also|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||very|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||funny|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||lot|||REQUIRED|||-NONE-|||0
+
+S My hame is Maeía , I am frpm Spain .
+A 1 2|||R:NOUN|||name|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||María|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+
+S Hi San
+A 1 2|||R:SPELL|||Sam|||REQUIRED|||-NONE-|||0
+
+S Cear Xie or madam :
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Sir|||REQUIRED|||-NONE-|||0
+A 3 4|||R:ORTH|||Madam|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Yelklo Alw , how zre uo .
+A 0 1|||R:SPELL|||Hello|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Alex|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
+
+S It 's very good .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I 'm in grade 8 .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I loove hee loo .
+A 1 2|||R:SPELL|||love|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||her|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||look|||REQUIRED|||-NONE-|||0
+
+S Her edyes okoks as ue sun .
+A 1 2|||R:SPELL|||eyes|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB|||look|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||like|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+
+S Run fot your life
+A 1 2|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+
+S today I want to wttie abouy my job .
+A 0 1|||R:ORTH|||Today|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||write|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||about|||REQUIRED|||-NONE-|||0
+
+S The last time who I sa hee I avw eat tued gesr pizza tha I have veer esf in my life .
+A 3 4|||U:PRON||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+A 8 10|||R:VERB:TENSE|||ate|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||best|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||ever|||REQUIRED|||-NONE-|||0
+A 17 18|||R:VERB|||eaten|||REQUIRED|||-NONE-|||0
+
+S Hi , jo .
+A 2 3|||R:ORTH|||Jo|||REQUIRED|||-NONE-|||0
+
+S Hi Julie ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S It 's not juzt a hobby , it 's more rhan thia .
+A 3 4|||R:SPELL|||just|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||;|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||than|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+
+S That 's a jpke , you must zleep .
+A 3 4|||R:SPELL|||joke|||REQUIRED|||-NONE-|||0
+A 4 6|||R:PUNCT|||. You|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||sleep|||REQUIRED|||-NONE-|||0
+
+S It 's a lover dog , he knoss hs i feel .
+A 3 4|||R:MORPH|||lovely|||REQUIRED|||-NONE-|||0
+A 5 7|||R:PUNCT|||. He|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||knows|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||how|||REQUIRED|||-NONE-|||0
+A 9 10|||R:ORTH|||I|||REQUIRED|||-NONE-|||0
+
+S My mom ajd my dxd , they ards a fokog guys .
+A 2 3|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 4 10|||R:OTHER|||dad are good|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN|||people|||REQUIRED|||-NONE-|||0
+
+S Hi mrs .
+A 0 1|||R:OTHER|||Dear|||REQUIRED|||-NONE-|||0
+
+S Kfe Ashby ,
+A 0 1|||R:SPELL|||Kate|||REQUIRED|||-NONE-|||0
+
+S how aee gou ? I hlpe tou ade well .
+A 0 1|||R:ORTH|||How|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||hope|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+
+S Fhst 's ak , xe you soon
+A 0 1|||R:SPELL|||That|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||all|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||see|||REQUIRED|||-NONE-|||0
+
+S Fer
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S They just have to czlm talk abut it .
+A 4 5|||R:ADV|||calmly|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PREP|||about|||REQUIRED|||-NONE-|||0
+
+S Just tfy , it wo n't cost ylu much !
+A 1 2|||R:SPELL|||try|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Good sy ,
+A 0 2|||R:OTHER|||Hello|||REQUIRED|||-NONE-|||0
+
+S 5 May
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Drae Sir ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+
+S Rosa .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Gow are you ? I noep you are ewll .
+A 0 1|||R:SPELL|||How|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB|||hope|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||well|||REQUIRED|||-NONE-|||0
+
+S This is lp .
+A 0 1|||R:DET|||That|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||all|||REQUIRED|||-NONE-|||0
+
+S Gopw sre you .
+A 0 1|||R:SPELL|||How|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
+
+S come here .
+A 0 1|||R:ORTH|||Come|||REQUIRED|||-NONE-|||0
+
+S Tet dowb .
+A 0 1|||R:SPELL|||Get|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||down|||REQUIRED|||-NONE-|||0
+
+S Gst in to the orom .
+A 0 1|||R:SPELL|||Go|||REQUIRED|||-NONE-|||0
+A 1 3|||R:ORTH|||into|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||room|||REQUIRED|||-NONE-|||0
+
+S Gter in to te hus .
+A 0 1|||R:SPELL|||Get|||REQUIRED|||-NONE-|||0
+A 1 3|||R:OTHER|||onto|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||bus|||REQUIRED|||-NONE-|||0
+
+S Lry us wapk .
+A 0 1|||R:SPELL|||Let|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||walk|||REQUIRED|||-NONE-|||0
+
+S Kety us play cards .
+A 0 1|||R:SPELL|||Let|||REQUIRED|||-NONE-|||0
+
+S Oef us soeep .
+A 0 1|||R:SPELL|||Let|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||sleep|||REQUIRED|||-NONE-|||0
+
+S Ost me in .
+A 0 1|||R:SPELL|||Let|||REQUIRED|||-NONE-|||0
+
+S Lrt me go .
+A 0 1|||R:SPELL|||Let|||REQUIRED|||-NONE-|||0
+
+S Let me watch your hluse .
+A 2 3|||R:VERB|||see|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||house|||REQUIRED|||-NONE-|||0
+
+S Let me allow to ehter in to your cabin .
+A 2 5|||R:VERB|||enter|||REQUIRED|||-NONE-|||0
+A 5 7|||U:PREP||||||REQUIRED|||-NONE-|||0
+
+S rbing gnat toy .
+A 0 1|||R:SPELL|||Bring|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+
+S bring glaz of water .
+A 0 1|||R:ORTH|||Bring|||REQUIRED|||-NONE-|||0
+A 1 2|||R:OTHER|||a glass|||REQUIRED|||-NONE-|||0
+
+S Rrink water .
+A 0 1|||R:SPELL|||Drink|||REQUIRED|||-NONE-|||0
+
+S Ewty vood .
+A 0 1|||R:SPELL|||Eat|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||food|||REQUIRED|||-NONE-|||0
+
+S Ryn fast .
+A 0 1|||R:SPELL|||Run|||REQUIRED|||-NONE-|||0
+
+S Let us bath .
+A 2 3|||R:MORPH|||bathe|||REQUIRED|||-NONE-|||0
+
+S Penny was io dac , the noly tjong that he can do is to wait and kee cazlj .
+A 2 3|||R:SPELL|||so|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||sad|||REQUIRED|||-NONE-|||0
+A 4 6|||R:PUNCT|||. The|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||only|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||thing|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:TENSE|||could|||REQUIRED|||-NONE-|||0
+A 12 13|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||keep|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||calm|||REQUIRED|||-NONE-|||0
+
+S Dear Jo ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Yoh mayt like thi .
+A 0 1|||R:SPELL|||You|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||may|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+
+S It may raker vrry olnb time to find a job anmc you nasve not much time here .
+A 2 4|||R:OTHER|||take a very|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ADJ|||long|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||have|||REQUIRED|||-NONE-|||0
+
+S Tyhe 26gh of March 2015
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOUN|||26th|||REQUIRED|||-NONE-|||0
+
+S My name is Chew .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I gt there by MTR .
+A 1 2|||R:VERB|||got|||REQUIRED|||-NONE-|||0
+
+S Bad 12 years ilf .
+A 0 1|||R:OTHER|||She was|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||old|||REQUIRED|||-NONE-|||0
+
+S he rns .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||end|||REQUIRED|||-NONE-|||0
+
+S Write me xopn
+A 1 1|||M:PREP|||to|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||soon|||REQUIRED|||-NONE-|||0
+
+S Lovve , Ines .
+A 0 1|||R:SPELL|||Love|||REQUIRED|||-NONE-|||0
+
+S I had an exam .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ad this is true .
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 1 2|||R:PRON|||it|||REQUIRED|||-NONE-|||0
+
+S Laetr wehn I wax 16 geras pdl , my dream get tr .
+A 0 1|||R:SPELL|||Later|||REQUIRED|||-NONE-|||0
+A 1 2|||R:OTHER|||, when|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||was|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||years|||REQUIRED|||-NONE-|||0
+A 6 7|||R:ADJ|||old|||REQUIRED|||-NONE-|||0
+A 10 11|||R:OTHER|||came|||REQUIRED|||-NONE-|||0
+A 11 12|||R:OTHER|||true|||REQUIRED|||-NONE-|||0
+
+S Tou wrr lkked a bird .
+A 0 1|||R:SPELL|||You|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||like|||REQUIRED|||-NONE-|||0
+
+S She poen her eyes nd tbr fiest tuing rhat she sze wass the bkcak szky .
+A 1 2|||R:VERB|||opened|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||first|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||thing|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||saw|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 13 14|||R:ADJ|||black|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||sky|||REQUIRED|||-NONE-|||0
+
+S Wbe eaqs in a part of hte woors wherd she heed to go to thjmk and relax .
+A 0 1|||R:SPELL|||She|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||woods|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||where|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB|||used|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||think|||REQUIRED|||-NONE-|||0
+
+S Hell qra ,
+A 0 1|||R:SPELL|||Hello|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Lara|||REQUIRED|||-NONE-|||0
+
+S Thank hou for your emsil .
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||email|||REQUIRED|||-NONE-|||0
+
+S He hegaj to wirre .
+A 1 2|||R:SPELL|||began|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||write|||REQUIRED|||-NONE-|||0
+
+S Dear Paul !
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Hips to see you soon
+A 0 1|||R:SPELL|||Hope|||REQUIRED|||-NONE-|||0
+
+S ojhj
+A 0 1|||R:NOUN|||John|||REQUIRED|||-NONE-|||0
+
+S But time 's up .
+A 2 3|||R:CONTR|||was|||REQUIRED|||-NONE-|||0
+
+S No ! He has jever acter ljke this .
+A 3 4|||R:VERB:TENSE|||had|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||never|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||acted|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||like|||REQUIRED|||-NONE-|||0
+
+S He knes tgaf he had to stw sith dr the rest of hue life ajd raise the baby .
+A 1 2|||R:SPELL|||knew|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||stay|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||her|||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||his|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+
+S Qnd he was rigbt .
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||right|||REQUIRED|||-NONE-|||0
+
+S Mel ba ost the baqbgy .
+A 1 2|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||lost|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||baby|||REQUIRED|||-NONE-|||0
+
+S He six n't xxre .
+A 1 2|||R:OTHER|||did|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||care|||REQUIRED|||-NONE-|||0
+
+S Hi Jane ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S How are you ? .
+A 4 5|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+
+S I was flad to hear grom yku .
+A 2 3|||R:SPELL|||glad|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S It 's enar uere .
+A 2 3|||R:SPELL|||near|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+
+S Yoi ach eaok to my hoise .
+A 0 1|||R:SPELL|||You|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB|||can|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||walk|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||house|||REQUIRED|||-NONE-|||0
+
+S Mary
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Dear Zid / Madam ,
+A 1 2|||R:SPELL|||Sir|||REQUIRED|||-NONE-|||0
+
+S We want a happy Earth .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Íñigo Ojeda .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Dear Ozul ,
+A 1 2|||R:SPELL|||Paul|||REQUIRED|||-NONE-|||0
+
+S Wha 's up ?
+A 0 1|||R:SPELL|||What|||REQUIRED|||-NONE-|||0
+
+S Logr ,
+A 0 1|||R:SPELL|||Love|||REQUIRED|||-NONE-|||0
+
+S But , agat filjs xfe in my Rpo 100 lust ?
+A 2 3|||R:SPELL|||what|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||films|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 7 8|||R:ADJ|||Top|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||list|||REQUIRED|||-NONE-|||0
+
+S It is n't judt a eredam in my mind but I work hard to make ghie dream come trus .
+A 3 4|||R:SPELL|||just|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||dream|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||true|||REQUIRED|||-NONE-|||0
+
+S We ednt in car and it wxs about 8 houes long .
+A 1 2|||R:SPELL|||went|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PREP|||by|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||hours|||REQUIRED|||-NONE-|||0
+
+S It dies nhot have ro much to do but tuere sefe tyhs dalos .
+A 1 2|||R:VERB|||does|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ADV|||very|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||were|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||falls|||REQUIRED|||-NONE-|||0
+
+S it 's a team spkrt .
+A 4 5|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+
+S bey knew jen it will be hte ' Green Nile ' or ' Red Nile ' to xtovk up oth clean sater .
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||when|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:TENSE|||would|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||stock|||REQUIRED|||-NONE-|||0
+A 19 20|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||water|||REQUIRED|||-NONE-|||0
+
+S We uadc a great time .
+A 1 2|||R:SPELL|||had|||REQUIRED|||-NONE-|||0
+
+S Why ?
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Hellp Paup ,
+A 0 1|||R:SPELL|||Hello|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Paul|||REQUIRED|||-NONE-|||0
+
+S Sdd tou !
+A 0 1|||R:SPELL|||See|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Thay ww onoyg 30 years ago .
+A 0 1|||R:SPELL|||That|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||only|||REQUIRED|||-NONE-|||0
+
+S You just click on it .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S TV is dying .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Dear Sebe ,
+A 1 2|||R:SPELL|||Steve|||REQUIRED|||-NONE-|||0
+
+S It was goioc to hear fdom you .
+A 2 3|||R:SPELL|||good|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+
+S But I wanna find a job to help him with the bills .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Cwm youi give me a hbane on it ?
+A 0 1|||R:OTHER|||Can|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||hand|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PREP|||with|||REQUIRED|||-NONE-|||0
+A 7 8|||R:PRON|||that|||REQUIRED|||-NONE-|||0
+
+S Ypu ca alswk yelp me to rimd a cjeao place to rsmt .
+A 0 1|||R:SPELL|||You|||REQUIRED|||-NONE-|||0
+A 1 2|||R:CONTR|||can|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||also|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||help|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||find|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||cheap|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||rent|||REQUIRED|||-NONE-|||0
+
+S João Matks
+A 1 2|||R:SPELL|||Matos|||REQUIRED|||-NONE-|||0
+
+S Hi Jkhn ,
+A 1 2|||R:SPELL|||John|||REQUIRED|||-NONE-|||0
+
+S Jacob
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I do noy know ykw do tgey make an colk them .
+A 2 3|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+A 4 6|||R:OTHER|||how|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||they|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||cook|||REQUIRED|||-NONE-|||0
+
+S Many rveb use cars .
+A 1 2|||R:SPELL|||even|||REQUIRED|||-NONE-|||0
+
+S 2 .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I agree wkh thi point of viww .
+A 2 3|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||view|||REQUIRED|||-NONE-|||0
+
+S She qad with her mum ..
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 5 6|||R:ORTH|||. .|||REQUIRED|||-NONE-|||0
+
+S Amf the ...
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||then|||REQUIRED|||-NONE-|||0
+
+S Jusr you havd to deal withg the gazme .
+A 0 2|||U:VERB|||You|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||just have|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||game|||REQUIRED|||-NONE-|||0
+
+S It is never go lages .
+A 3 4|||R:OTHER|||too|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||late|||REQUIRED|||-NONE-|||0
+
+S Enjoy !
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Dear Mrs Katd Ashby ,
+A 2 3|||R:SPELL|||Kate|||REQUIRED|||-NONE-|||0
+
+S Rsesay
+A 0 1|||R:SPELL|||Essay|||REQUIRED|||-NONE-|||0
+
+S I have breb tnere twicew , andf I like it .
+A 2 3|||R:SPELL|||been|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||twice|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+
+S Tjst 's soon said .
+A 0 1|||R:SPELL|||That|||REQUIRED|||-NONE-|||0
+A 2 4|||R:OTHER|||easy|||REQUIRED|||-NONE-|||0
+
+S It dosz noty neaqn tuo wjll never fijx knw .
+A 0 1|||R:PRON|||That|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||does|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||mean|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PRON|||you|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||will|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||find|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||one|||REQUIRED|||-NONE-|||0
+
+S en you find ln spebd tume wikyh rhem , sxre views , ideasz and go put with them .
+A 0 1|||R:OTHER|||When|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||one ,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||spend|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||time|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||them|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||share|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||ideas|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||out|||REQUIRED|||-NONE-|||0
+
+S It was too umchj ir yim .
+A 3 4|||R:ADJ|||much|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||him|||REQUIRED|||-NONE-|||0
+
+S It wae a big jess .
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||mess|||REQUIRED|||-NONE-|||0
+
+S Rhet both knea thg ghsy lov each other and they care about each other , nu it waasw yio much for ujm .
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||knew|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||they|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||loved|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:TENSE|||cared|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||but|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||too|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||him|||REQUIRED|||-NONE-|||0
+
+S » says a 17 - 22 ueare old gyo .
+A 0 1|||R:OTHER|||"|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||22-year|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||boy|||REQUIRED|||-NONE-|||0
+
+S Topic :
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S He has no idea how he ended up there .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S My zrda is vryr clean and very greewh .
+A 1 2|||R:SPELL|||area|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||very|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||green|||REQUIRED|||-NONE-|||0
+
+S It is a good placs to live .
+A 4 5|||R:SPELL|||place|||REQUIRED|||-NONE-|||0
+
+S Br fpr now .
+A 0 1|||R:OTHER|||Bye|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+
+S Buof .
+A 0 1|||R:OTHER|||Nouf|||REQUIRED|||-NONE-|||0
+
+S Xeasr Les ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+
+S Wgo on Eaweth ohld fhat be ?
+A 0 1|||R:SPELL|||Who|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Earth|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||could|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+
+S Dwxr Mrs. Ashy ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOUN|||Ashby|||REQUIRED|||-NONE-|||0
+
+S Dear Jan ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S hes 's not bnqd .
+A 0 1|||R:OTHER|||She|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||bad|||REQUIRED|||-NONE-|||0
+
+S He 'll bak up wigy her .
+A 2 3|||R:SPELL|||break|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+
+S Dear Zie or Madam ,
+A 1 2|||R:SPELL|||Sir|||REQUIRED|||-NONE-|||0
+
+S ZYZ
+A 0 1|||R:SPELL|||XYZ|||REQUIRED|||-NONE-|||0
+
+S hwat a fild is ? "
+A 0 1|||R:SPELL|||what|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||file|||REQUIRED|||-NONE-|||0
+
+S " Hes , sir . "
+A 1 2|||R:SPELL|||Yes|||REQUIRED|||-NONE-|||0
+
+S " Ysw , dir . "
+A 1 2|||R:SPELL|||Yes|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||sir|||REQUIRED|||-NONE-|||0
+
+S The thief askd " Who d'ye with ? "
+A 2 3|||R:VERB|||said|||REQUIRED|||-NONE-|||0
+
+S Tgem I eednt to hium ane he too a phgotk with me .
+A 0 1|||R:SPELL|||Then|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||went|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||him|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 7 10|||R:OTHER|||had his photo taken|||REQUIRED|||-NONE-|||0
+
+S Lots of Love ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ieix
+A 0 1|||R:SPELL|||Iris|||REQUIRED|||-NONE-|||0
+
+S Dear Sit or ada
+A 1 2|||R:NOUN|||Sir|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Madam|||REQUIRED|||-NONE-|||0
+
+S bd ypu ?
+A 0 1|||R:OTHER|||And|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Hi Jxnr ,
+A 1 2|||R:SPELL|||Jane|||REQUIRED|||-NONE-|||0
+
+S The Phober Gani might give suite a good offsr fif tou .
+A 1 2|||R:SPELL|||Phone|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Bank|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||have|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||quite|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||offer|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Taje dade ajf see ku vsrt sooj ,
+A 0 1|||R:SPELL|||Take|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||care|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||very|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||soon|||REQUIRED|||-NONE-|||0
+
+S My eae Pzup ,
+A 1 2|||R:SPELL|||dear|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Paul|||REQUIRED|||-NONE-|||0
+
+S Whag can I sat ?
+A 0 1|||R:SPELL|||What|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||say|||REQUIRED|||-NONE-|||0
+
+S Yours ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ionug
+A 0 1|||R:SPELL|||Ionut|||REQUIRED|||-NONE-|||0
+
+S Hi John !
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Sara .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Sesr Aie / Madcak ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Sir|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Madam|||REQUIRED|||-NONE-|||0
+
+S Cbrn Ki Tsou
+A 0 1|||R:SPELL|||Chen|||REQUIRED|||-NONE-|||0
+
+S Catch it or ls it
+A 3 4|||R:VERB|||lose|||REQUIRED|||-NONE-|||0
+
+S Thw alph zns the omega of a god tywam is trust .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||alpha|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||good|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||team|||REQUIRED|||-NONE-|||0
+
+S Oe oot ball daj make gopur texn fhs lpswr of the game .
+A 0 1|||R:SPELL|||One|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||lost|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||can|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||team|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||loser|||REQUIRED|||-NONE-|||0
+
+S On the other hand , manh teej wgk take a year off rnd up to spend it in tghe wronv way .
+A 5 6|||R:SPELL|||many|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||teens|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||who|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||end|||REQUIRED|||-NONE-|||0
+A 14 16|||R:VERB:FORM|||spending|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 19 20|||R:SPELL|||wrong|||REQUIRED|||-NONE-|||0
+
+S Dear Zjr or Madam ,
+A 1 2|||R:SPELL|||Sir|||REQUIRED|||-NONE-|||0
+
+S You see the bkssd .
+A 1 2|||R:VERB|||are|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||boss|||REQUIRED|||-NONE-|||0
+
+S But thunj abkut the otss .
+A 1 2|||R:SPELL|||think|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||about|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||costs|||REQUIRED|||-NONE-|||0
+
+S What else ?
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S And also , whrre are you nokq ? ? :)
+A 3 4|||R:SPELL|||where|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||now|||REQUIRED|||-NONE-|||0
+
+S Ajd for fhaf I aanr to THANK YOkU onde again .
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||want|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||YOU|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||once|||REQUIRED|||-NONE-|||0
+
+S So I hjad n't nave time gof mucg .
+A 2 3|||R:VERB|||did|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||have|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||much|||REQUIRED|||-NONE-|||0
+
+S I 'm gln na go now .
+A 2 3|||R:SPELL|||gon|||REQUIRED|||-NONE-|||0
+
+S Tok to you eion , Loke .
+A 0 1|||R:SPELL|||Talk|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||soon|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||Mike|||REQUIRED|||-NONE-|||0
+
+S I think is kind of sad , tbat I do n't kne wnat I wamtr to do , I do n't knpe what makes me truly haloy .
+A 2 2|||M:PRON|||it|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||know|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||what|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||want|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||know|||REQUIRED|||-NONE-|||0
+A 26 27|||R:SPELL|||happy|||REQUIRED|||-NONE-|||0
+
+S I do n't think so , bif on the other ganmd wuat tyge hell do I knia ?
+A 6 7|||R:SPELL|||but|||REQUIRED|||-NONE-|||0
+A 10 12|||R:OTHER|||hand , what|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||know|||REQUIRED|||-NONE-|||0
+
+S To : Dak
+A 2 3|||R:NOUN|||Sam|||REQUIRED|||-NONE-|||0
+
+S Hi Sam ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I go up and I aded my awg to the front door .
+A 1 2|||R:VERB|||got|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||made|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||way|||REQUIRED|||-NONE-|||0
+
+S I did not kmow tbag he was stilk alive .
+A 3 4|||R:SPELL|||know|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||still|||REQUIRED|||-NONE-|||0
+
+S I thonkj she did this toe my own good .
+A 1 2|||R:SPELL|||think|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||for|||REQUIRED|||-NONE-|||0
+
+S It waz very idd to se bij in my hje .
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||odd|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||see|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||him|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||home|||REQUIRED|||-NONE-|||0
+
+S Ts worst poartg is that hwy yet agry with us !
+A 0 1|||R:OTHER|||The|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||part|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||they|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||get|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||angry|||REQUIRED|||-NONE-|||0
+
+S Paula .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Rhr gym .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+
+S On the ohtet hajd , yhr gym is toi small .
+A 2 3|||R:ADJ|||other|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||hand|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||too|||REQUIRED|||-NONE-|||0
+
+S This is just cfom rhbe elite few , an there s morer feom those eblkw the .
+A 3 4|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN:POSS|||'s|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||more|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+A 14 15|||R:PREP|||below|||REQUIRED|||-NONE-|||0
+A 15 16|||R:PRON|||them|||REQUIRED|||-NONE-|||0
+
+S Aht ?
+A 0 1|||R:SPELL|||Why|||REQUIRED|||-NONE-|||0
+
+S But for me , thiz had vee the start .
+A 4 5|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||been|||REQUIRED|||-NONE-|||0
+
+S But qee they such a good thjnh ?
+A 1 2|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||thing|||REQUIRED|||-NONE-|||0
+
+S 2 .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Thos cpws wuich had hren put doe wedte not used for food .
+A 0 1|||R:SPELL|||Those|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||cows|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||which|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||been|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||down|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||were|||REQUIRED|||-NONE-|||0
+
+S Watch thos space .
+A 1 2|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+
+S Njt do they hzvs tgw right to liove thi way ?
+A 0 1|||R:SPELL|||But|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||have|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||live|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+
+S Wmeh jst ca n't foght in a war very well .
+A 0 1|||R:SPELL|||Women|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||just|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||fight|||REQUIRED|||-NONE-|||0
+
+S Tjeu reel fhat it is not fair that men are the onlu onrs .
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB|||feel|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||only|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||ones|||REQUIRED|||-NONE-|||0
+
+S How deid I get tbers ?
+A 1 2|||R:SPELL|||did|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ADV|||here|||REQUIRED|||-NONE-|||0
+
+S Shw sis in front of it aqllk dzy and it keeps her happy .
+A 0 1|||R:SPELL|||She|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||sits|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||all|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||day|||REQUIRED|||-NONE-|||0
+
