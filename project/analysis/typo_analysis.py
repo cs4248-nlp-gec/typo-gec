@@ -1,21 +1,29 @@
 import json
 from collections import Counter
 
+
 def compare_files(predicted_file_path, original_file_path, metadata_path):
     with open(metadata_path, 'r', encoding='utf-8') as meta_file:
         metadata = json.load(meta_file)
-    typos, correcteds = next(iter(metadata.values())) # json only has 1 value so we just take that one.
+    typos, correcteds = next(iter(
+        metadata.values()))  # json only has 1 value so we just take that one.
     score = Counter()
 
-    with open(predicted_file_path, 'r', encoding='utf-8') as pred_file, open(original_file_path, 'r', encoding='utf-8') as og_file:
-        for pred_line, og_line, typo, corrected in zip(pred_file, og_file, typos, correcteds):
-            print("prediction",pred_line)
+    with open(predicted_file_path, 'r', encoding='utf-8') as pred_file, open(
+            original_file_path, 'r', encoding='utf-8') as og_file:
+        for pred_line, og_line, typo, corrected in zip(pred_file, og_file,
+                                                       typos, correcteds):
+            print("prediction", pred_line)
             print("original", og_line)
             print("typos", typo)
             print("corrected", corrected)
-            print("Score", get_score(pred_line.strip(), og_line.strip(), typo, corrected))
-            score += get_score(pred_line.strip(), og_line.strip(), typo, corrected)
-    TP, TN, FP, FN = score["true_positives"], score["true_negatives"], score["false_positives"], score["false_negatives"]
+            print(
+                "Score",
+                get_score(pred_line.strip(), og_line.strip(), typo, corrected))
+            score += get_score(pred_line.strip(), og_line.strip(), typo,
+                               corrected)
+    TP, TN, FP, FN = score["true_positives"], score["true_negatives"], score[
+        "false_positives"], score["false_negatives"]
     accuracy = (TP + TN) / (TP + TN + FP + FN)
     precision = TP / (TP + FP)
     recall = TP / (TP + FN)
@@ -40,14 +48,18 @@ def get_score(pred_line, og_line, typos, corrected):
     og_counter = Counter(tuple(og_line.split()))
     typo_counter = Counter(tuple(typos))
     corrected_counter = Counter(tuple(corrected))
-    true_positives = sum((pred_counter & corrected_counter).values()) # the number of predicted correct words.
+    true_positives = sum(
+        (pred_counter &
+         corrected_counter).values())  # the number of predicted correct words.
 
     #  number of non-typos, non-correcteds. Intersect of both = all common words - all typos - all correcteds.
-    true_negatives = sum(((pred_counter & og_counter) - typo_counter - corrected_counter).values())
+    true_negatives = sum(((pred_counter & og_counter) - typo_counter -
+                          corrected_counter).values())
     # the number of extra words. Aka, from the typo -> incorrect word.
     # pred_counter - typos - all other words in the correct file will give us the extra words.
     false_positives = sum((pred_counter - typo_counter - og_counter).values())
-    false_negatives = sum((pred_counter & typo_counter).values()) # number of typos that remain uncorrected in predicted text.
+    false_negatives = sum((pred_counter & typo_counter).values(
+    ))  # number of typos that remain uncorrected in predicted text.
 
     return Counter({
         "true_positives": true_positives,
@@ -55,6 +67,7 @@ def get_score(pred_line, og_line, typos, corrected):
         "false_positives": false_positives,
         "false_negatives": false_negatives
     })
+
 
 # Test:
 
