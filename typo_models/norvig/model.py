@@ -4,17 +4,54 @@
 # unigram probabilities. We then rely on the GEC model to correct the casings.
 import nltk
 import re
+import csv
 from collections import Counter
 
 
 class NorvigTypoModel:
 
-    def __init__(self, corpus_path) -> None:
-        corpus_text = open(corpus_path).read().lower()
-        corpus_tokens = nltk.tokenize.word_tokenize(corpus_text)
-        self.words_dict = Counter(corpus_tokens)
+    def __init__(self, corpus_paths = []) -> None:
+        if len(corpus_paths) == 0:
+            return
+        self.words_dict = Counter()
+        self.words_total = 0
+        self.predict_memo = {}
+
+    # Fits a model using text corpuses
+
+    def fit(self, corpus_paths = []):
+        self.words_dict = Counter()
+        for corpus_path in corpus_paths:
+            print(f"Fitting on {corpus_path}.")
+            corpus_tokens = self.get_corpus_tokens(corpus_path)
+            self.words_dict.update(Counter(corpus_tokens))
         self.words_total = sum(self.words_dict.values())
         self.predict_memo = {}
+    
+    # Saves the model in a CSV file, which is essentially saving the unigram counts
+
+    def save_model(self, model_path="model.csv"):
+        with open(model_path, 'w') as csv_file:
+            writer = csv.writer(csv_file)
+            for key, value in self.words_dict.items():
+                writer.writerow([key, value])
+
+    # Loads a model from a CSV file
+
+    def load_model(self, model_path="model.csv"):
+        with open(model_path, 'r') as csv_file:
+            reader = csv.reader(csv_file)
+            self.words_dict = Counter()
+            for row in reader:
+                self.words_dict[row[0]] = int(row[1])
+            self.words_total = sum(self.words_dict.values())
+            self.predict_memo = {} 
+
+    # Gets tokens from corpus
+
+    def get_corpus_tokens(self, corpus_path):
+        corpus_text = open(corpus_path).read().lower()
+        return nltk.tokenize.word_tokenize(corpus_text)
 
     # Gets all words of edit distance of 1
 
@@ -43,12 +80,12 @@ class NorvigTypoModel:
         return (self.words_dict[word] +
                 smoothing) / self.words_total * (1 + smoothing)
 
-    # Filter out words that not in the corpus
+    # Filters out words that not in the corpus
 
     def filter_known(self, words):
         return set(filter(lambda w: (w in self.words_dict), words))
 
-    # Get the candidates words. We determine words with the same edit distance away
+    # Gets the candidates words. We determine words with the same edit distance away
     # to have the same likelihood of being choosen.
 
     def get_candidates(self, word):
@@ -56,7 +93,7 @@ class NorvigTypoModel:
                 or self.filter_known(self.get_edit1(word))
                 or self.filter_known(self.get_edit2(word)) or [word])
 
-    # Get the prediction of words
+    # Gets the prediction of words
 
     def predict_word(self, word):
         # Don't predict on punctuations
@@ -68,6 +105,8 @@ class NorvigTypoModel:
         prediction = max(self.get_candidates(word), key=self.get_prob)
         self.predict_memo[word] = prediction
         return prediction
+    
+    # Predicts a sentence. We assume that the sentence has already been tokenised. 
 
     def predict_sentence(self, sentence):
         words = sentence.split(" ")
@@ -76,7 +115,14 @@ class NorvigTypoModel:
 
 # Some basic tests
 if __name__ == "__main__":
-    model = NorvigTypoModel("big.txt")
+    # corpus_filenames = ["eng_news_2020_100K-sentences_processed.txt", 
+    #                     "eng_wikipedia_2016_100K-sentences.processed.txt",
+    #                     "eng-europarlv7.100k.txt"]
+    # corpus_dirs = [f"../data/{filename}" for filename in corpus_filenames]
+    model = NorvigTypoModel()
+    model.load_model("model.csv")
+    # model.fit(corpus_dirs)
+    # model.save_model()
     words_test = ["duckk", "addres", "meo", "too", "Statess", "Chna"]
     for word in words_test:
         print(model.predict_word(word))
