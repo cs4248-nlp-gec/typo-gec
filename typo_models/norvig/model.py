@@ -10,7 +10,7 @@ from collections import Counter
 
 class NorvigTypoModel:
 
-    def __init__(self, corpus_paths = []) -> None:
+    def __init__(self, corpus_paths=[]) -> None:
         if len(corpus_paths) == 0:
             return
         self.words_dict = Counter()
@@ -19,7 +19,7 @@ class NorvigTypoModel:
 
     # Fits a model using text corpuses
 
-    def fit(self, corpus_paths = []):
+    def fit(self, corpus_paths=[]):
         self.words_dict = Counter()
         for corpus_path in corpus_paths:
             print(f"Fitting on {corpus_path}.")
@@ -27,7 +27,7 @@ class NorvigTypoModel:
             self.words_dict.update(Counter(corpus_tokens))
         self.words_total = sum(self.words_dict.values())
         self.predict_memo = {}
-    
+
     # Saves the model in a CSV file, which is essentially saving the unigram counts
 
     def save_model(self, model_path="model.csv"):
@@ -45,7 +45,7 @@ class NorvigTypoModel:
             for row in reader:
                 self.words_dict[row[0]] = int(row[1])
             self.words_total = sum(self.words_dict.values())
-            self.predict_memo = {} 
+            self.predict_memo = {}
 
     # Gets tokens from corpus
 
@@ -105,8 +105,8 @@ class NorvigTypoModel:
         prediction = max(self.get_candidates(word), key=self.get_prob)
         self.predict_memo[word] = prediction
         return prediction
-    
-    # Predicts a sentence. We assume that the sentence has already been tokenised. 
+
+    # Predicts a sentence. We assume that the sentence has already been tokenised.
 
     def predict_sentence(self, sentence):
         words = sentence.split(" ")
@@ -115,7 +115,7 @@ class NorvigTypoModel:
 
 # Some basic tests
 if __name__ == "__main__":
-    # corpus_filenames = ["eng_news_2020_100K-sentences_processed.txt", 
+    # corpus_filenames = ["eng_news_2020_100K-sentences_processed.txt",
     #                     "eng_wikipedia_2016_100K-sentences.processed.txt",
     #                     "eng-europarlv7.100k.txt"]
     # corpus_dirs = [f"../data/{filename}" for filename in corpus_filenames]
