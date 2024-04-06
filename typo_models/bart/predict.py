@@ -1,7 +1,6 @@
 from transformers import pipeline
 import argparse
 
-
 fix_spelling = pipeline("text2text-generation",
                         model="oliverguhr/spelling-correction-english-base")
 
@@ -14,8 +13,8 @@ def predict(input_path, output_path, is_verbose=True):
             if is_verbose:
                 print("Processing {} lines.".format(lines_num))
             for idx, line in enumerate(inp_lines):
-                line_corrected = fix_spelling(line, max_length=2048)[
-                    0]['generated_text']
+                line_corrected = fix_spelling(
+                    line, max_length=2048)[0]['generated_text']
                 output_file.write(line_corrected)
                 if (idx + 1) % 100 == 0 and is_verbose:
                     print("Processed {} / {} lines.".format(
