@@ -4,7 +4,8 @@ import argparse
 
 
 def predict(input_path, output_path, is_verbose=True):
-    model = NorvigTypoModel("big.txt")
+    model = NorvigTypoModel()
+    model.load_model("model.csv")
     with open(input_path, 'r') as input_file:
         with open(output_path, 'w') as output_file:
             inp_lines = input_file.readlines()
