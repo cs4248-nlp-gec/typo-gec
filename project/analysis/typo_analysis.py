@@ -7,7 +7,8 @@ def read_file(filepath):
         return file.readlines()
 
 
-def compare_files(predicted_file_path, original_file_path): # original_file should have no typos.
+def compare_files(predicted_file_path,
+                  original_file_path):  # original_file should have no typos.
     file1_lines = read_file(file1_path)
     file2_lines = read_file(file2_path)
 
@@ -19,12 +20,11 @@ def compare_files(predicted_file_path, original_file_path): # original_file shou
         diff = list(d.compare(words2, words1))
         pprint(diff)
 
+
 # True positive = match the typo to the corrected properly
-# True negative = 
+# True negative =
 def get_score(line1, line2, typos, corrected):
     pass
-
-
 
 
 # Example usage

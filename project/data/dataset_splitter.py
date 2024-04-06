@@ -57,17 +57,33 @@ def get_sentence_dataset():
 
     for filename in os.listdir(og_dir_path):
         og_file_path = os.path.join(og_dir_path, filename)
-        cor_filename = filename.replace("original.txt" ,"corrected.txt")
+        cor_filename = filename.replace("original.txt", "corrected.txt")
         cor_file_path = os.path.join(cor_dir_path, cor_filename)
 
-        short_og_file_path = os.path.join("./original/original_short_sentence/", filename[:-4] + "_short_sentence.txt")
-        long_og_file_path = os.path.join("./original/original_long_sentence/", filename[:-4] + "_long_sentence.txt")
-        short_cor_file_path = os.path.join("./corrected/corrected_short_sentence/", cor_filename[:-4] + "_short_sentence.txt")
-        long_cor_file_path = os.path.join("./corrected/corrected_long_sentence/", cor_filename[:-4] + "_long_sentence.txt")
+        short_og_file_path = os.path.join(
+            "./original/original_short_sentence/",
+            filename[:-4] + "_short_sentence.txt")
+        long_og_file_path = os.path.join("./original/original_long_sentence/",
+                                         filename[:-4] + "_long_sentence.txt")
+        short_cor_file_path = os.path.join(
+            "./corrected/corrected_short_sentence/",
+            cor_filename[:-4] + "_short_sentence.txt")
+        long_cor_file_path = os.path.join(
+            "./corrected/corrected_long_sentence/",
+            cor_filename[:-4] + "_long_sentence.txt")
 
-        with open(og_file_path, 'r', encoding='utf-8') as og_in, open(cor_file_path, 'r', encoding='utf-8') as cor_in:
-            with open(short_og_file_path, "w", encoding='utf-8') as short_og_out, open(long_og_file_path, "w", encoding='utf-8') as long_og_out:
-                with open(short_cor_file_path, "w", encoding='utf-8') as short_cor_out, open(long_cor_file_path, "w", encoding='utf-8') as long_cor_out:
+        with open(og_file_path, 'r',
+                  encoding='utf-8') as og_in, open(cor_file_path,
+                                                   'r',
+                                                   encoding='utf-8') as cor_in:
+            with open(short_og_file_path, "w",
+                      encoding='utf-8') as short_og_out, open(
+                          long_og_file_path, "w",
+                          encoding='utf-8') as long_og_out:
+                with open(short_cor_file_path, "w",
+                          encoding='utf-8') as short_cor_out, open(
+                              long_cor_file_path, "w",
+                              encoding='utf-8') as long_cor_out:
                     for og_line, cor_line in zip(og_in, cor_in):
                         words = len(og_line.split())
                         if words <= SHORT_THRESHOLD:
@@ -80,6 +96,7 @@ def get_sentence_dataset():
 
 # get_sentence_dataset()
 
+
 def get_word_dataset():
     og_dir_path = "./original/baseline"
     cor_dir_path = "./corrected/baseline"
@@ -91,14 +108,28 @@ def get_word_dataset():
         cor_filename = filename.replace("original.txt", "corrected.txt")
         cor_file_path = os.path.join(cor_dir_path, cor_filename)
 
-        short_og_file_path = os.path.join("./original/original_short_word/", filename[:-4] + "_short_word.txt")
-        long_og_file_path = os.path.join("./original/original_long_word/", filename[:-4] + "_long_word.txt")
-        short_cor_file_path = os.path.join("./corrected/corrected_short_word/", cor_filename[:-4] + "_short_word.txt")
-        long_cor_file_path = os.path.join("./corrected/corrected_long_word/", cor_filename[:-4] + "_long_word.txt")
+        short_og_file_path = os.path.join("./original/original_short_word/",
+                                          filename[:-4] + "_short_word.txt")
+        long_og_file_path = os.path.join("./original/original_long_word/",
+                                         filename[:-4] + "_long_word.txt")
+        short_cor_file_path = os.path.join(
+            "./corrected/corrected_short_word/",
+            cor_filename[:-4] + "_short_word.txt")
+        long_cor_file_path = os.path.join("./corrected/corrected_long_word/",
+                                          cor_filename[:-4] + "_long_word.txt")
 
-        with open(og_file_path, 'r', encoding='utf-8') as og_in, open(cor_file_path, 'r', encoding='utf-8') as cor_in:
-            with open(short_og_file_path, "w", encoding='utf-8') as short_og_out, open(long_og_file_path, "w", encoding='utf-8') as long_og_out:
-                with open(short_cor_file_path, "w", encoding='utf-8') as short_cor_out, open(long_cor_file_path, "w", encoding='utf-8') as long_cor_out:
+        with open(og_file_path, 'r',
+                  encoding='utf-8') as og_in, open(cor_file_path,
+                                                   'r',
+                                                   encoding='utf-8') as cor_in:
+            with open(short_og_file_path, "w",
+                      encoding='utf-8') as short_og_out, open(
+                          long_og_file_path, "w",
+                          encoding='utf-8') as long_og_out:
+                with open(short_cor_file_path, "w",
+                          encoding='utf-8') as short_cor_out, open(
+                              long_cor_file_path, "w",
+                              encoding='utf-8') as long_cor_out:
                     for og_line, cor_line in zip(og_in, cor_in):
                         words = og_line.split()
                         # Check conditions for short and long words based on original lines
@@ -190,7 +221,8 @@ def get_typo_dataset():
         "transposition_only"
     ]
 
-    names = [f"_typo_{suffix}.txt" for suffix in configs_suffix] * 2 # Both original & corrected
+    names = [f"_typo_{suffix}.txt"
+             for suffix in configs_suffix] * 2  # Both original & corrected
 
     for input_dir_path, output_dir_path, config, name in zip(
             input_dirs, output_dirs, configs, names):
@@ -205,5 +237,6 @@ def get_typo_dataset():
                                input_file_path,
                                output_file_path,
                                config=config)
+
 
 # get_typo_dataset()
