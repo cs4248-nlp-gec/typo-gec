@@ -170,7 +170,7 @@ class GecBERTModel(object):
                                    top_layer_only=True,
                                    special_tokens_fix=special_tokens_fix)
         }
-        self.bert = embedders["bert"]
+        self.bert = embedders['bert']
         text_field_embedder = BasicTextFieldEmbedder(
             token_embedders=embedders,
             embedder_to_indexer_map={"bert": ["bert", "bert-offsets"]},

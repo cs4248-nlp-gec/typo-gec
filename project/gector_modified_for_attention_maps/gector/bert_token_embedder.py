@@ -7,7 +7,7 @@ import torch
 import torch.nn.functional as F
 from allennlp.modules.token_embedders.token_embedder import TokenEmbedder
 from allennlp.nn import util
-from transformers import AutoModel, AutoTokenizer, PreTrainedModel
+from transformers import AutoModel, PreTrainedModel, AutoTokenizer
 
 logger = logging.getLogger(__name__)
 ATT_MAP = True
