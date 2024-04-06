@@ -70,11 +70,13 @@ def convert_fce(fce_dir):
 
     # Ensure we got the valid dataset path
     if not os.path.isdir(fce_dir):
-        raise UserWarning(f"{fce_dir} is not a valid path")
+        raise UserWarning(
+            f"{fce_dir} is not a valid path")
 
     dataset_dir = os.path.join(fce_dir, 'dataset')
     if not os.path.exists(dataset_dir):
-        raise UserWarning(f"{fce_dir} doesn't point to a dataset's root dir")
+        raise UserWarning(
+            f"{fce_dir} doesn't point to a dataset's root dir")
 
     # Convert XML docs to the corpora format
     filenames = sorted(glob.glob(os.path.join(dataset_dir, '*/*.xml')))
@@ -97,10 +99,7 @@ def main():
                 tokenized_sents = sent_tokenize(sent)
                 for i in range(len(tokenized_sents)):
                     if re.search(r"[{>][.?!]$", tokenized_sents[i]):
-                        tokenized_sents[
-                            i +
-                            1] = tokenized_sents[i] + " " + tokenized_sents[i +
-                                                                            1]
+                        tokenized_sents[i + 1] = tokenized_sents[i] + " " + tokenized_sents[i + 1]
                         tokenized_sents[i] = ""
                     regexp = r'{([^{}]*?)=>([^{}]*?)}'
                     original = re.sub(regexp, r"\1", tokenized_sents[i])
@@ -108,10 +107,8 @@ def main():
                     # filter out nested alerts
                     if original != "" and applied != "" and not re.search(r"[{}=]", original) \
                             and not re.search(r"[{}=]", applied):
-                        out_original.write(" ".join(word_tokenize(original)) +
-                                           "\n")
-                        out_applied.write(" ".join(word_tokenize(applied)) +
-                                          "\n")
+                        out_original.write(" ".join(word_tokenize(original)) + "\n")
+                        out_applied.write(" ".join(word_tokenize(applied)) + "\n")
 
 
 if __name__ == '__main__':
@@ -119,7 +116,8 @@ if __name__ == '__main__':
         "Convert CLC-FCE dataset to the parallel sentences format."))
     parser.add_argument('fce_dataset_path',
                         help='Path to the folder with the FCE dataset')
-    parser.add_argument('--output', help='Path to the output folder')
+    parser.add_argument('--output',
+                        help='Path to the output folder')
     args = parser.parse_args()
 
     main()

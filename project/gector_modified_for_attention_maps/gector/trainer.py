@@ -31,7 +31,6 @@ logger = logging.getLogger(__name__)
 
 
 class Trainer(TrainerBase):
-
     def __init__(
         self,
         model: Model,
@@ -199,12 +198,13 @@ class Trainer(TrainerBase):
             if validation_dataset:
                 logger.warning(
                     "You provided a validation dataset but patience was set to None, "
-                    "meaning that early stopping is disabled")
+                    "meaning that early stopping is disabled"
+                )
         elif (not isinstance(patience, int)) or patience <= 0:
             raise ConfigurationError(
                 '{} is an invalid value for "patience": it must be a positive integer '
-                "or None (if you want to disable early stopping)".format(
-                    patience))
+                "or None (if you want to disable early stopping)".format(patience)
+            )
 
         # For tracking is_best_so_far and should_stop_early
         self._metric_tracker = MetricTracker(patience, validation_metric)
@@ -264,15 +264,13 @@ class Trainer(TrainerBase):
     def rescale_gradients(self) -> Optional[float]:
         return training_util.rescale_gradients(self.model, self._grad_norm)
 
-    def batch_loss(self, batch_group: List[TensorDict],
-                   for_training: bool) -> torch.Tensor:
+    def batch_loss(self, batch_group: List[TensorDict], for_training: bool) -> torch.Tensor:
         """
         Does a forward pass on the given batches and returns the ``loss`` value in the result.
         If ``for_training`` is `True` also applies regularization penalty.
         """
         if self._multiple_gpu:
-            output_dict = training_util.data_parallel(batch_group, self.model,
-                                                      self._cuda_devices)
+            output_dict = training_util.data_parallel(batch_group, self.model, self._cuda_devices)
         else:
             assert len(batch_group) == 1
             batch = batch_group[0]
@@ -287,7 +285,8 @@ class Trainer(TrainerBase):
             if for_training:
                 raise RuntimeError(
                     "The model you are trying to optimize does not contain a"
-                    " 'loss' key in the output of model.forward(inputs).")
+                    " 'loss' key in the output of model.forward(inputs)."
+                )
             loss = None
 
         return loss
@@ -311,12 +310,9 @@ class Trainer(TrainerBase):
         num_gpus = len(self._cuda_devices)
 
         # Get tqdm for the training batches
-        raw_train_generator = self.iterator(self.train_data,
-                                            num_epochs=1,
-                                            shuffle=self.shuffle)
+        raw_train_generator = self.iterator(self.train_data, num_epochs=1, shuffle=self.shuffle)
         train_generator = lazy_groups_of(raw_train_generator, num_gpus)
-        num_training_batches = math.ceil(
-            self.iterator.get_num_batches(self.train_data) / num_gpus)
+        num_training_batches = math.ceil(self.iterator.get_num_batches(self.train_data) / num_gpus)
         residue = num_training_batches % self.accumulated_batch_count
         self._last_log = time.time()
         last_save_time = time.time()
@@ -325,12 +321,10 @@ class Trainer(TrainerBase):
         if self._batch_num_total is None:
             self._batch_num_total = 0
 
-        histogram_parameters = set(
-            self.model.get_parameters_for_histogram_tensorboard_logging())
+        histogram_parameters = set(self.model.get_parameters_for_histogram_tensorboard_logging())
 
         logger.info("Training")
-        train_generator_tqdm = Tqdm.tqdm(train_generator,
-                                         total=num_training_batches)
+        train_generator_tqdm = Tqdm.tqdm(train_generator, total=num_training_batches)
         cumulative_batch_size = 0
         self.optimizer.zero_grad()
         for batch_group in train_generator_tqdm:
@@ -342,15 +336,10 @@ class Trainer(TrainerBase):
                 if batches_this_epoch <= (num_training_batches - residue) else residue
 
             if self.cuda_verbose_step is not None and batch_num_total % self.cuda_verbose_step == 0:
-                print(
-                    f'Before forward pass - Cuda memory allocated: {torch.cuda.memory_allocated() / 1e9}'
-                )
-                print(
-                    f'Before forward pass - Cuda memory cached: {torch.cuda.memory_cached() / 1e9}'
-                )
+                print(f'Before forward pass - Cuda memory allocated: {torch.cuda.memory_allocated() / 1e9}')
+                print(f'Before forward pass - Cuda memory cached: {torch.cuda.memory_cached() / 1e9}')
             try:
-                loss = self.batch_loss(batch_group,
-                                       for_training=True) / iter_len
+                loss = self.batch_loss(batch_group, for_training=True) / iter_len
             except RuntimeError as e:
                 print(e)
                 for x in batch_group:
@@ -360,22 +349,16 @@ class Trainer(TrainerBase):
                     for elem in ['labels', 'd_tags']:
                         tt = x[elem]
                         print(
-                            f"{elem} shape {list(tt.shape)} and min {tt.min().item()} and {tt.max().item()}"
-                        )
+                            f"{elem} shape {list(tt.shape)} and min {tt.min().item()} and {tt.max().item()}")
                     for elem in ["bert", "mask", "bert-offsets"]:
                         tt = x['tokens'][elem]
                         print(
-                            f"{elem} shape {list(tt.shape)} and min {tt.min().item()} and {tt.max().item()}"
-                        )
+                            f"{elem} shape {list(tt.shape)} and min {tt.min().item()} and {tt.max().item()}")
                 raise e
 
             if self.cuda_verbose_step is not None and batch_num_total % self.cuda_verbose_step == 0:
-                print(
-                    f'After forward pass - Cuda memory allocated: {torch.cuda.memory_allocated() / 1e9}'
-                )
-                print(
-                    f'After forward pass - Cuda memory cached: {torch.cuda.memory_cached() / 1e9}'
-                )
+                print(f'After forward pass - Cuda memory allocated: {torch.cuda.memory_allocated() / 1e9}')
+                print(f'After forward pass - Cuda memory cached: {torch.cuda.memory_cached() / 1e9}')
 
             if torch.isnan(loss):
                 raise ValueError("nan loss encountered")
@@ -383,12 +366,8 @@ class Trainer(TrainerBase):
             loss.backward()
 
             if self.cuda_verbose_step is not None and batch_num_total % self.cuda_verbose_step == 0:
-                print(
-                    f'After backprop - Cuda memory allocated: {torch.cuda.memory_allocated() / 1e9}'
-                )
-                print(
-                    f'After backprop - Cuda memory cached: {torch.cuda.memory_cached() / 1e9}'
-                )
+                print(f'After backprop - Cuda memory allocated: {torch.cuda.memory_allocated() / 1e9}')
+                print(f'After backprop - Cuda memory cached: {torch.cuda.memory_cached() / 1e9}')
 
             train_loss += loss.item() * iter_len
 
@@ -396,12 +375,8 @@ class Trainer(TrainerBase):
             torch.cuda.empty_cache()
 
             if self.cuda_verbose_step is not None and batch_num_total % self.cuda_verbose_step == 0:
-                print(
-                    f'After collecting garbage - Cuda memory allocated: {torch.cuda.memory_allocated() / 1e9}'
-                )
-                print(
-                    f'After collecting garbage - Cuda memory cached: {torch.cuda.memory_cached() / 1e9}'
-                )
+                print(f'After collecting garbage - Cuda memory allocated: {torch.cuda.memory_allocated() / 1e9}')
+                print(f'After collecting garbage - Cuda memory cached: {torch.cuda.memory_cached() / 1e9}')
 
             batch_grad_norm = self.rescale_gradients()
 
@@ -429,8 +404,8 @@ class Trainer(TrainerBase):
                     update_norm = torch.norm(param_updates[name].view(-1))
                     param_norm = torch.norm(param.view(-1)).cpu()
                     self._tensorboard.add_train_scalar(
-                        "gradient_update/" + name,
-                        update_norm / (param_norm + 1e-7))
+                        "gradient_update/" + name, update_norm / (param_norm + 1e-7)
+                    )
             else:
                 if batches_this_epoch % self.accumulated_batch_count == 0 or \
                         batches_this_epoch == num_training_batches:
@@ -442,57 +417,41 @@ class Trainer(TrainerBase):
                 self._moving_average.apply(batch_num_total)
 
             # Update the description with the latest metrics
-            metrics = training_util.get_metrics(self.model, train_loss,
-                                                batches_this_epoch)
+            metrics = training_util.get_metrics(self.model, train_loss, batches_this_epoch)
             description = training_util.description_from_metrics(metrics)
 
             train_generator_tqdm.set_description(description, refresh=False)
 
             # Log parameter values to Tensorboard
             if self._tensorboard.should_log_this_batch():
-                self._tensorboard.log_parameter_and_gradient_statistics(
-                    self.model, batch_grad_norm)
-                self._tensorboard.log_learning_rates(self.model,
-                                                     self.optimizer)
+                self._tensorboard.log_parameter_and_gradient_statistics(self.model, batch_grad_norm)
+                self._tensorboard.log_learning_rates(self.model, self.optimizer)
 
-                self._tensorboard.add_train_scalar("loss/loss_train",
-                                                   metrics["loss"])
-                self._tensorboard.log_metrics({
-                    "epoch_metrics/" + k: v
-                    for k, v in metrics.items()
-                })
+                self._tensorboard.add_train_scalar("loss/loss_train", metrics["loss"])
+                self._tensorboard.log_metrics({"epoch_metrics/" + k: v for k, v in metrics.items()})
 
             if self._tensorboard.should_log_histograms_this_batch():
-                self._tensorboard.log_histograms(self.model,
-                                                 histogram_parameters)
+                self._tensorboard.log_histograms(self.model, histogram_parameters)
 
             if self._log_batch_size_period:
-                cur_batch = sum([
-                    training_util.get_batch_size(batch)
-                    for batch in batch_group
-                ])
+                cur_batch = sum([training_util.get_batch_size(batch) for batch in batch_group])
                 cumulative_batch_size += cur_batch
                 if (batches_this_epoch - 1) % self._log_batch_size_period == 0:
                     average = cumulative_batch_size / batches_this_epoch
-                    logger.info(
-                        f"current batch size: {cur_batch} mean batch size: {average}"
-                    )
-                    self._tensorboard.add_train_scalar("current_batch_size",
-                                                       cur_batch)
-                    self._tensorboard.add_train_scalar("mean_batch_size",
-                                                       average)
+                    logger.info(f"current batch size: {cur_batch} mean batch size: {average}")
+                    self._tensorboard.add_train_scalar("current_batch_size", cur_batch)
+                    self._tensorboard.add_train_scalar("mean_batch_size", average)
 
             # Save model if needed.
             if self._model_save_interval is not None and (
-                    time.time() - last_save_time > self._model_save_interval):
+                time.time() - last_save_time > self._model_save_interval
+            ):
                 last_save_time = time.time()
-                self._save_checkpoint("{0}.{1}".format(
-                    epoch, training_util.time_to_str(int(last_save_time))))
+                self._save_checkpoint(
+                    "{0}.{1}".format(epoch, training_util.time_to_str(int(last_save_time)))
+                )
 
-        metrics = training_util.get_metrics(self.model,
-                                            train_loss,
-                                            batches_this_epoch,
-                                            reset=True)
+        metrics = training_util.get_metrics(self.model, train_loss, batches_this_epoch, reset=True)
         metrics["cpu_memory_MB"] = peak_cpu_usage
         for (gpu_num, memory) in gpu_usage:
             metrics["gpu_" + str(gpu_num) + "_memory_MB"] = memory
@@ -517,14 +476,12 @@ class Trainer(TrainerBase):
 
         num_gpus = len(self._cuda_devices)
 
-        raw_val_generator = val_iterator(self._validation_data,
-                                         num_epochs=1,
-                                         shuffle=False)
+        raw_val_generator = val_iterator(self._validation_data, num_epochs=1, shuffle=False)
         val_generator = lazy_groups_of(raw_val_generator, num_gpus)
         num_validation_batches = math.ceil(
-            val_iterator.get_num_batches(self._validation_data) / num_gpus)
-        val_generator_tqdm = Tqdm.tqdm(val_generator,
-                                       total=num_validation_batches)
+            val_iterator.get_num_batches(self._validation_data) / num_gpus
+        )
+        val_generator_tqdm = Tqdm.tqdm(val_generator, total=num_validation_batches)
         batches_this_epoch = 0
         val_loss = 0
         for batch_group in val_generator_tqdm:
@@ -540,8 +497,7 @@ class Trainer(TrainerBase):
                 val_loss += loss.detach().cpu().numpy()
 
             # Update the description with the latest metrics
-            val_metrics = training_util.get_metrics(self.model, val_loss,
-                                                    batches_this_epoch)
+            val_metrics = training_util.get_metrics(self.model, val_loss, batches_this_epoch)
             description = training_util.description_from_metrics(val_metrics)
             val_generator_tqdm.set_description(description, refresh=False)
 
@@ -562,7 +518,8 @@ class Trainer(TrainerBase):
             raise ConfigurationError(
                 "Could not recover training from the checkpoint.  Did you mean to output to "
                 "a different serialization directory or delete the existing serialization "
-                "directory?")
+                "directory?"
+            )
 
         training_util.enable_gradient_clipping(self.model, self._grad_clipping)
 
@@ -579,8 +536,7 @@ class Trainer(TrainerBase):
             base_lr = self.optimizer.param_groups[0]['lr']
             for param_group in self.optimizer.param_groups:
                 param_group['lr'] = self.cold_lr
-            self.model.text_field_embedder._token_embedders[
-                'bert'].set_weights(freeze=True)
+            self.model.text_field_embedder._token_embedders['bert'].set_weights(freeze=True)
 
         metrics["best_epoch"] = self._metric_tracker.best_epoch
         for key, value in self._metric_tracker.best_epoch_metrics.items():
@@ -590,8 +546,7 @@ class Trainer(TrainerBase):
             if epoch == self.cold_step_count and epoch != 0:
                 for param_group in self.optimizer.param_groups:
                     param_group['lr'] = base_lr
-                self.model.text_field_embedder._token_embedders[
-                    'bert'].set_weights(freeze=False)
+                self.model.text_field_embedder._token_embedders['bert'].set_weights(freeze=False)
 
             epoch_start_time = time.time()
             train_metrics = self._train_epoch(epoch)
@@ -599,12 +554,11 @@ class Trainer(TrainerBase):
             # get peak of memory usage
             if "cpu_memory_MB" in train_metrics:
                 metrics["peak_cpu_memory_MB"] = max(
-                    metrics.get("peak_cpu_memory_MB", 0),
-                    train_metrics["cpu_memory_MB"])
+                    metrics.get("peak_cpu_memory_MB", 0), train_metrics["cpu_memory_MB"]
+                )
             for key, value in train_metrics.items():
                 if key.startswith("gpu_"):
-                    metrics["peak_" + key] = max(metrics.get("peak_" + key, 0),
-                                                 value)
+                    metrics["peak_" + key] = max(metrics.get("peak_" + key, 0), value)
 
             # clear cache before validation
             torch.cuda.empty_cache()
@@ -612,14 +566,12 @@ class Trainer(TrainerBase):
                 with torch.no_grad():
                     # We have a validation set, so compute all the metrics on it.
                     val_loss, num_batches = self._validation_loss()
-                    val_metrics = training_util.get_metrics(self.model,
-                                                            val_loss,
-                                                            num_batches,
-                                                            reset=True)
+                    val_metrics = training_util.get_metrics(
+                        self.model, val_loss, num_batches, reset=True
+                    )
 
                     # Check validation metric for early stopping
-                    this_epoch_val_metric = val_metrics[
-                        self._validation_metric]
+                    this_epoch_val_metric = val_metrics[self._validation_metric]
                     self._metric_tracker.add_metric(this_epoch_val_metric)
 
                     if self._metric_tracker.should_stop_early():
@@ -627,15 +579,12 @@ class Trainer(TrainerBase):
                         break
 
             self._tensorboard.log_metrics(
-                train_metrics,
-                val_metrics=val_metrics,
-                log_to_console=True,
-                epoch=epoch + 1)  # +1 because tensorboard doesn't like 0
+                train_metrics, val_metrics=val_metrics, log_to_console=True, epoch=epoch + 1
+            )  # +1 because tensorboard doesn't like 0
 
             # Create overall metrics dict
             training_elapsed_time = time.time() - training_start_time
-            metrics["training_duration"] = str(
-                datetime.timedelta(seconds=training_elapsed_time))
+            metrics["training_duration"] = str(datetime.timedelta(seconds=training_elapsed_time))
             metrics["training_start_epoch"] = epoch_counter
             metrics["training_epochs"] = epochs_trained
             metrics["epoch"] = epoch
@@ -659,32 +608,28 @@ class Trainer(TrainerBase):
 
             if self._serialization_dir:
                 dump_metrics(
-                    os.path.join(self._serialization_dir,
-                                 f"metrics_epoch_{epoch}.json"), metrics)
+                    os.path.join(self._serialization_dir, f"metrics_epoch_{epoch}.json"), metrics
+                )
 
             # The Scheduler API is agnostic to whether your schedule requires a validation metric -
             # if it doesn't, the validation metric passed here is ignored.
             if self._learning_rate_scheduler:
-                self._learning_rate_scheduler.step(this_epoch_val_metric,
-                                                   epoch)
+                self._learning_rate_scheduler.step(this_epoch_val_metric, epoch)
             if self._momentum_scheduler:
                 self._momentum_scheduler.step(this_epoch_val_metric, epoch)
 
             self._save_checkpoint(epoch)
 
             epoch_elapsed_time = time.time() - epoch_start_time
-            logger.info("Epoch duration: %s",
-                        datetime.timedelta(seconds=epoch_elapsed_time))
+            logger.info("Epoch duration: %s", datetime.timedelta(seconds=epoch_elapsed_time))
 
             if epoch < self._num_epochs - 1:
                 training_elapsed_time = time.time() - training_start_time
                 estimated_time_remaining = training_elapsed_time * (
-                    (self._num_epochs - epoch_counter) /
-                    float(epoch - epoch_counter + 1) - 1)
-                formatted_time = str(
-                    datetime.timedelta(seconds=int(estimated_time_remaining)))
-                logger.info("Estimated training time remaining: %s",
-                            formatted_time)
+                    (self._num_epochs - epoch_counter) / float(epoch - epoch_counter + 1) - 1
+                )
+                formatted_time = str(datetime.timedelta(seconds=int(estimated_time_remaining)))
+                logger.info("Estimated training time remaining: %s", formatted_time)
 
             epochs_trained += 1
 
@@ -723,12 +668,9 @@ class Trainer(TrainerBase):
 
         # If we have a learning rate or momentum scheduler, we should persist them too.
         if self._learning_rate_scheduler is not None:
-            training_states[
-                "learning_rate_scheduler"] = self._learning_rate_scheduler.state_dict(
-                )
+            training_states["learning_rate_scheduler"] = self._learning_rate_scheduler.state_dict()
         if self._momentum_scheduler is not None:
-            training_states[
-                "momentum_scheduler"] = self._momentum_scheduler.state_dict()
+            training_states["momentum_scheduler"] = self._momentum_scheduler.state_dict()
 
         self._checkpointer.save_checkpoint(
             model_state=self.model.state_dict(),
@@ -769,22 +711,18 @@ class Trainer(TrainerBase):
         self.optimizer.load_state_dict(training_state["optimizer"])
         if self._learning_rate_scheduler is not None \
                 and "learning_rate_scheduler" in training_state:
-            self._learning_rate_scheduler.load_state_dict(
-                training_state["learning_rate_scheduler"])
+            self._learning_rate_scheduler.load_state_dict(training_state["learning_rate_scheduler"])
         if self._momentum_scheduler is not None and "momentum_scheduler" in training_state:
-            self._momentum_scheduler.load_state_dict(
-                training_state["momentum_scheduler"])
+            self._momentum_scheduler.load_state_dict(training_state["momentum_scheduler"])
         training_util.move_optimizer_to_cuda(self.optimizer)
 
         # Currently the ``training_state`` contains a serialized ``MetricTracker``.
         if "metric_tracker" in training_state:
-            self._metric_tracker.load_state_dict(
-                training_state["metric_tracker"])
+            self._metric_tracker.load_state_dict(training_state["metric_tracker"])
         # It used to be the case that we tracked ``val_metric_per_epoch``.
         elif "val_metric_per_epoch" in training_state:
             self._metric_tracker.clear()
-            self._metric_tracker.add_metrics(
-                training_state["val_metric_per_epoch"])
+            self._metric_tracker.add_metrics(training_state["val_metric_per_epoch"])
         # And before that we didn't track anything.
         else:
             self._metric_tracker.clear()
@@ -834,23 +772,21 @@ class Trainer(TrainerBase):
             # the right device.
             model = model.cuda(model_device)
 
-        parameters = [[n, p] for n, p in model.named_parameters()
-                      if p.requires_grad]
+        parameters = [[n, p] for n, p in model.named_parameters() if p.requires_grad]
         optimizer = Optimizer.from_params(parameters, params.pop("optimizer"))
         if "moving_average" in params:
             moving_average = MovingAverage.from_params(
-                params.pop("moving_average"), parameters=parameters)
+                params.pop("moving_average"), parameters=parameters
+            )
         else:
             moving_average = None
 
         if lr_scheduler_params:
-            lr_scheduler = LearningRateScheduler.from_params(
-                optimizer, lr_scheduler_params)
+            lr_scheduler = LearningRateScheduler.from_params(optimizer, lr_scheduler_params)
         else:
             lr_scheduler = None
         if momentum_scheduler_params:
-            momentum_scheduler = MomentumScheduler.from_params(
-                optimizer, momentum_scheduler_params)
+            momentum_scheduler = MomentumScheduler.from_params(optimizer, momentum_scheduler_params)
         else:
             momentum_scheduler = None
 
@@ -860,26 +796,24 @@ class Trainer(TrainerBase):
                 raise ConfigurationError(
                     "Checkpointer may be initialized either from the 'checkpointer' key or from the "
                     "keys 'num_serialized_models_to_keep' and 'keep_serialized_model_every_num_seconds'"
-                    " but the passed config uses both methods.")
+                    " but the passed config uses both methods."
+                )
             checkpointer = Checkpointer.from_params(params.pop("checkpointer"))
         else:
-            num_serialized_models_to_keep = params.pop_int(
-                "num_serialized_models_to_keep", 20)
+            num_serialized_models_to_keep = params.pop_int("num_serialized_models_to_keep", 20)
             keep_serialized_model_every_num_seconds = params.pop_int(
-                "keep_serialized_model_every_num_seconds", None)
+                "keep_serialized_model_every_num_seconds", None
+            )
             checkpointer = Checkpointer(
                 serialization_dir=serialization_dir,
                 num_serialized_models_to_keep=num_serialized_models_to_keep,
-                keep_serialized_model_every_num_seconds=
-                keep_serialized_model_every_num_seconds,
+                keep_serialized_model_every_num_seconds=keep_serialized_model_every_num_seconds,
             )
         model_save_interval = params.pop_float("model_save_interval", None)
         summary_interval = params.pop_int("summary_interval", 100)
         histogram_interval = params.pop_int("histogram_interval", None)
-        should_log_parameter_statistics = params.pop_bool(
-            "should_log_parameter_statistics", True)
-        should_log_learning_rate = params.pop_bool("should_log_learning_rate",
-                                                   False)
+        should_log_parameter_statistics = params.pop_bool("should_log_parameter_statistics", True)
+        should_log_learning_rate = params.pop_bool("should_log_learning_rate", False)
         log_batch_size_period = params.pop_int("log_batch_size_period", None)
 
         params.assert_empty(cls.__name__)

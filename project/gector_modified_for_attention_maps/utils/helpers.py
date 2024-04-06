@@ -1,15 +1,14 @@
 import os
 from pathlib import Path
 
+
 VOCAB_DIR = Path(__file__).resolve().parent.parent / "data"
 PAD = "@@PADDING@@"
 UNK = "@@UNKNOWN@@"
 START_TOKEN = "$START"
-SEQ_DELIMETERS = {
-    "tokens": " ",
-    "labels": "SEPL|||SEPR",
-    "operations": "SEPL__SEPR"
-}
+SEQ_DELIMETERS = {"tokens": " ",
+                  "labels": "SEPL|||SEPR",
+                  "operations": "SEPL__SEPR"}
 REPLACEMENTS = {
     "''": '"',
     '--': '—',
@@ -49,7 +48,7 @@ def get_target_sent_by_edits(source_tokens, edits):
             shift_idx -= 1
         elif start == end:
             word = label.replace("$APPEND_", "")
-            target_tokens[target_pos:target_pos] = [word]
+            target_tokens[target_pos: target_pos] = [word]
             shift_idx += 1
         elif label.startswith("$TRANSFORM_"):
             word = apply_reverse_transformation(source_token, label)
@@ -60,7 +59,7 @@ def get_target_sent_by_edits(source_tokens, edits):
             word = label.replace("$REPLACE_", "")
             target_tokens[target_pos] = word
         elif label.startswith("$MERGE_"):
-            target_tokens[target_pos + 1:target_pos + 1] = [label]
+            target_tokens[target_pos + 1: target_pos + 1] = [label]
             shift_idx += 1
 
     return replace_merge_transforms(target_tokens)
@@ -219,13 +218,11 @@ def get_weights_name(transformer_name, lowercase):
 def remove_double_tokens(sent):
     tokens = sent.split(' ')
     deleted_idx = []
-    for i in range(len(tokens) - 1):
+    for i in range(len(tokens) -1):
         if tokens[i] == tokens[i + 1]:
             deleted_idx.append(i + 1)
     if deleted_idx:
-        tokens = [
-            tokens[i] for i in range(len(tokens)) if i not in deleted_idx
-        ]
+        tokens = [tokens[i] for i in range(len(tokens)) if i not in deleted_idx]
     return ' '.join(tokens)
 
 

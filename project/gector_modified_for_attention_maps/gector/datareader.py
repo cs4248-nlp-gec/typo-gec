@@ -53,9 +53,7 @@ class Seq2LabelsDatasetReader(DatasetReader):
                  tp_prob: float = 0,
                  broken_dot_strategy: str = "keep") -> None:
         super().__init__(lazy)
-        self._token_indexers = token_indexers or {
-            'tokens': SingleIdTokenIndexer()
-        }
+        self._token_indexers = token_indexers or {'tokens': SingleIdTokenIndexer()}
         self._delimeters = delimeters
         self._max_len = max_len
         self._skip_correct = skip_correct
@@ -71,21 +69,16 @@ class Seq2LabelsDatasetReader(DatasetReader):
         # if `file_path` is a URL, redirect to the cache
         file_path = cached_path(file_path)
         with open(file_path, "r") as data_file:
-            logger.info("Reading instances from lines in file at: %s",
-                        file_path)
+            logger.info("Reading instances from lines in file at: %s", file_path)
             for line in data_file:
                 line = line.strip("\n")
                 # skip blank and broken lines
-                if not line or (not self._test_mode
-                                and self._broken_dot_strategy == 'skip'
-                                and self.BROKEN_SENTENCES_REGEXP.search(line)
-                                is not None):
+                if not line or (not self._test_mode and self._broken_dot_strategy == 'skip'
+                                and self.BROKEN_SENTENCES_REGEXP.search(line) is not None):
                     continue
 
-                tokens_and_tags = [
-                    pair.rsplit(self._delimeters['labels'], 1)
-                    for pair in line.split(self._delimeters['tokens'])
-                ]
+                tokens_and_tags = [pair.rsplit(self._delimeters['labels'], 1)
+                                   for pair in line.split(self._delimeters['tokens'])]
                 try:
                     tokens = [Token(token) for token, tag in tokens_and_tags]
                     tags = [tag for token, tag in tokens_and_tags]
@@ -124,14 +117,10 @@ class Seq2LabelsDatasetReader(DatasetReader):
         else:
             raise Exception("Incorrect tag strategy")
 
-        detect_tags = [
-            "CORRECT" if label == "$KEEP" else "INCORRECT" for label in labels
-        ]
+        detect_tags = ["CORRECT" if label == "$KEEP" else "INCORRECT" for label in labels]
         return labels, detect_tags, comlex_flag_dict
 
-    def text_to_instance(self,
-                         tokens: List[Token],
-                         tags: List[str] = None,
+    def text_to_instance(self, tokens: List[Token], tags: List[str] = None,
                          words: List[str] = None) -> Instance:  # type: ignore
         """
         We take `pre-tokenized` input here, because we don't have a tokenizer in this class.
@@ -143,8 +132,7 @@ class Seq2LabelsDatasetReader(DatasetReader):
         fields["metadata"] = MetadataField({"words": words})
         if tags is not None:
             labels, detect_tags, complex_flag_dict = self.extract_tags(tags)
-            if self._skip_complex and complex_flag_dict[
-                    self._skip_complex] > 0:
+            if self._skip_complex and complex_flag_dict[self._skip_complex] > 0:
                 return None
             rnd = random()
             # skip TN
@@ -156,10 +144,8 @@ class Seq2LabelsDatasetReader(DatasetReader):
                 if rnd > self._tp_prob:
                     return None
 
-            fields["labels"] = SequenceLabelField(labels,
-                                                  sequence,
+            fields["labels"] = SequenceLabelField(labels, sequence,
                                                   label_namespace="labels")
-            fields["d_tags"] = SequenceLabelField(detect_tags,
-                                                  sequence,
+            fields["d_tags"] = SequenceLabelField(detect_tags, sequence,
                                                   label_namespace="d_tags")
         return Instance(fields)

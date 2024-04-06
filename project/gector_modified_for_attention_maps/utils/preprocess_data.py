@@ -10,9 +10,7 @@ from helpers import write_lines, read_parallel_lines, encode_verb_form, \
     apply_reverse_transformation, SEQ_DELIMETERS, START_TOKEN
 
 
-def perfect_align(t,
-                  T,
-                  insertions_allowed=0,
+def perfect_align(t, T, insertions_allowed=0,
                   cost_function=Levenshtein.distance):
     # dp[i, j, k] is a minimal cost of matching first `i` tokens of `t` with
     # first `j` tokens of `T`, after making `k` insertions after last match of
@@ -24,8 +22,7 @@ def perfect_align(t,
     come_from = np.ones(shape, dtype=int) * int(1e9)
     come_from_ins = np.ones(shape, dtype=int) * int(1e9)
 
-    dp[0, 0,
-       0] = 0  # The only known starting point. Nothing matched to nothing.
+    dp[0, 0, 0] = 0  # The only known starting point. Nothing matched to nothing.
     for i in range(len(t) + 1):  # Go inclusive
         for j in range(len(T) + 1):  # Go inclusive
             for q in range(insertions_allowed + 1):  # Go inclusive
@@ -117,11 +114,9 @@ def check_casetype(source_token, target_token):
         return "$TRANSFORM_CASE_CAPITAL"
     elif source_token.upper() == target_token:
         return "$TRANSFORM_CASE_UPPER"
-    elif source_token[1:].capitalize(
-    ) == target_token[1:] and source_token[0] == target_token[0]:
+    elif source_token[1:].capitalize() == target_token[1:] and source_token[0] == target_token[0]:
         return "$TRANSFORM_CASE_CAPITAL_1"
-    elif source_token[:-1].upper(
-    ) == target_token[:-1] and source_token[-1] == target_token[-1]:
+    elif source_token[:-1].upper() == target_token[:-1] and source_token[-1] == target_token[-1]:
         return "$TRANSFORM_CASE_UPPER_-1"
     else:
         return None
@@ -216,16 +211,14 @@ def align_sequences(source_sent, target_sent):
                 all_edits.append(edit)
         else:
             # check merge first of all
-            edits = apply_merge_transformation(source_part,
-                                               target_part,
+            edits = apply_merge_transformation(source_part, target_part,
                                                shift_idx=i1)
             if edits:
                 all_edits.extend(edits)
                 continue
 
             # normalize alignments if need (make them singleton)
-            _, alignments = perfect_align(source_part,
-                                          target_part,
+            _, alignments = perfect_align(source_part, target_part,
                                           insertions_allowed=0)
             for alignment in alignments:
                 new_shift = alignment[2][0]
@@ -260,9 +253,8 @@ def convert_edits_into_labels(source_tokens, all_edits):
         labels = [["$KEEP"] for x in range(total_labels)]
     else:
         for i in range(total_labels):
-            edit_operations = [
-                x[1] for x in all_edits if x[0][0] == i - 1 and x[0][1] == i
-            ]
+            edit_operations = [x[1] for x in all_edits if x[0][0] == i - 1
+                               and x[0][1] == i]
             if not edit_operations:
                 labels.append(["$KEEP"])
             else:
@@ -333,8 +325,7 @@ def add_labels_to_the_tokens(source_tokens, labels, delimeters=SEQ_DELIMETERS):
     return delimeters['tokens'].join(tokens_with_all_tags)
 
 
-def convert_data_from_raw_files(source_file, target_file, output_file,
-                                chunk_size):
+def convert_data_from_raw_files(source_file, target_file, output_file, chunk_size):
     tagged = []
     source_data, target_data = read_parallel_lines(source_file, target_file)
     print(f"The size of raw dataset is {len(source_data)}")
@@ -355,7 +346,8 @@ def convert_data_from_raw_files(source_file, target_file, output_file,
             aligned_sent = align_sequences(source_sent, target_sent)
             check_sent = convert_tagged_line(aligned_sent)
 
-        if "".join(check_sent.split()) != "".join(target_sent.split()):
+        if "".join(check_sent.split()) != "".join(
+                target_sent.split()):
             # do it again for debugging
             aligned_sent = align_sequences(source_sent, target_sent)
             check_sent = convert_tagged_line(aligned_sent)
@@ -401,14 +393,13 @@ def get_target_sent_by_levels(source_tokens, labels):
             (start, end), label_list = edits
             label = label_list[0]
             target_pos = start + shift_idx
-            source_token = target_tokens[
-                target_pos] if target_pos >= 0 else START_TOKEN
+            source_token = target_tokens[target_pos] if target_pos >= 0 else START_TOKEN
             if label == "$DELETE":
                 del target_tokens[target_pos]
                 shift_idx -= 1
             elif label.startswith("$APPEND_"):
                 word = label.replace("$APPEND_", "")
-                target_tokens[target_pos + 1:target_pos + 1] = [word]
+                target_tokens[target_pos + 1: target_pos + 1] = [word]
                 shift_idx += 1
             elif label.startswith("$REPLACE_"):
                 word = label.replace("$REPLACE_", "")
@@ -421,7 +412,7 @@ def get_target_sent_by_levels(source_tokens, labels):
             elif label.startswith("$MERGE_"):
                 # apply merge only on last stage
                 if level == (max_level - 1):
-                    target_tokens[target_pos + 1:target_pos + 1] = [label]
+                    target_tokens[target_pos + 1: target_pos + 1] = [label]
                     shift_idx += 1
                 else:
                     rest_edit = [(start + shift_idx, end + shift_idx), [label]]
@@ -438,10 +429,8 @@ def get_target_sent_by_levels(source_tokens, labels):
             leveled_tokens = replace_merge_transforms(leveled_tokens)
         leveled_labels = convert_edits_into_labels(leveled_tokens,
                                                    relevant_edits)
-        leveled_target_tokens[level + 1] = {
-            "tokens": leveled_tokens,
-            "labels": leveled_labels
-        }
+        leveled_target_tokens[level + 1] = {"tokens": leveled_tokens,
+                                            "labels": leveled_labels}
 
     target_sentence = " ".join(leveled_target_tokens[max_level]["tokens"])
     return leveled_target_tokens, target_sentence
@@ -458,7 +447,7 @@ def replace_merge_transforms(tokens):
             if target_token.startswith("$MERGE_SWAP") and i in allowed_range:
                 target_tokens[i - 1] = tokens[i + 1]
                 target_tokens[i + 1] = tokens[i - 1]
-                target_tokens[i:i + 1] = []
+                target_tokens[i: i + 1] = []
     target_line = " ".join(target_tokens)
     target_line = target_line.replace(" $MERGE_HYPHEN ", "-")
     target_line = target_line.replace(" $MERGE_SPACE ", "")
@@ -467,35 +456,28 @@ def replace_merge_transforms(tokens):
 
 def convert_tagged_line(line, delimeters=SEQ_DELIMETERS):
     label_del = delimeters['labels']
-    source_tokens = [
-        x.split(label_del)[0] for x in line.split(delimeters['tokens'])
-    ][1:]
-    labels = [
-        x.split(label_del)[1].split(delimeters['operations'])
-        for x in line.split(delimeters['tokens'])
-    ]
+    source_tokens = [x.split(label_del)[0]
+                     for x in line.split(delimeters['tokens'])][1:]
+    labels = [x.split(label_del)[1].split(delimeters['operations'])
+              for x in line.split(delimeters['tokens'])]
     assert len(source_tokens) + 1 == len(labels)
     levels_dict, target_line = get_target_sent_by_levels(source_tokens, labels)
     return target_line
 
 
 def main(args):
-    convert_data_from_raw_files(args.source, args.target, args.output_file,
-                                args.chunk_size)
+    convert_data_from_raw_files(args.source, args.target, args.output_file, args.chunk_size)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-s',
-                        '--source',
+    parser.add_argument('-s', '--source',
                         help='Path to the source file',
                         required=True)
-    parser.add_argument('-t',
-                        '--target',
+    parser.add_argument('-t', '--target',
                         help='Path to the target file',
                         required=True)
-    parser.add_argument('-o',
-                        '--output_file',
+    parser.add_argument('-o', '--output_file',
                         help='Path to the output file',
                         required=True)
     parser.add_argument('--chunk_size',
