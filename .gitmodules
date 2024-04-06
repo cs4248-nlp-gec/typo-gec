@@ -6,6 +6,3 @@
 	path = neuspell
 	url = https://github.com/cs4248-nlp-gec/neuspell
 
-[submodule "gector"]
-	path = gector
-	url = https://github.com/cs4248-nlp-gec/gector

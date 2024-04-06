@@ -1,18 +1,17 @@
 import random
 import re
-import os
-from collections import defaultdict
+import json
 
 # Can change config parameters here.
 light_config = {
     "threshold": 0.3,
-    "weights": [0.7, 0.1, 0.1, 0.1],  # standard
+    "weights": [0.7, 0.1, 0.1, 0.1],
     "max_flips": 1
 }
 
 med_config = {
     "threshold": 0.5,
-    "weights": [0.7, 0.1, 0.1, 0.1],
+    "weights": [0.7, 0.1, 0.1, 0.1],  # standard
     "max_flips": 2
 }
 
@@ -47,7 +46,7 @@ ERRORS = ['Substitution', 'Transposition', 'Addition', 'Subtraction']
 # WEIGHTS = [0.7, 0.1, 0.1, 0.1]
 
 # for key mapping, there is no mapping for non alpabets, as we assume that only alphabets
-# are chosen wrongly (hard to correct typo for non-alphabet typos).
+# are chosen wrongly (hard to correct original_typo for non-alphabet typos).
 # Mapping only for keys with one key difference in keyboard layout. Can modify as necessary
 KEY_MAPPING = {
     'a': ['q', 'w', 's', 'x', 'z'],
@@ -77,20 +76,6 @@ KEY_MAPPING = {
     'y': ['t', 'g', 'h', 'u'],
     'z': ['a', 's', 'x'],
 }
-
-
-def random_transform(string, config):
-    new_phrase = []
-    # to split the special characters also
-    arr = re.split('([^a-zA-Z0-9])', string)
-    for word in arr:
-        outcome = random.random()
-        if outcome <= config["threshold"]:
-            new_word = add_typo(word, config)
-            new_phrase.append(new_word)
-        else:
-            new_phrase.append(word)
-    return "".join(new_phrase)
 
 
 def add_typo(word, config):
@@ -134,19 +119,42 @@ def add_typo(word, config):
     return "".join(res)
 
 
-def make_typo_file(file, outfile):
-    for line in file:
-        outfile.write(f"{line}T {random_transform(line)}\n")
+def random_transform(string, config):
+    new_phrase = []
+    typos = []
+    corrected = []  # keep track of typos.
+    # to split the special characters also
+    arr = re.split('([^a-zA-Z0-9])', string)
+    for word in arr:
+        outcome = random.random()
+        if outcome <= config["threshold"]:
+            new_word = add_typo(word, config)
+            new_phrase.append(new_word)
+            if word != new_word:
+                typos.append(new_word)
+                corrected.append(word)
+        else:
+            new_phrase.append(word)
+    return "".join(new_phrase), typos, corrected
 
 
-for filename in os.listdir("./out"):
-    if filename.endswith(".txt"):
-        file_path = os.path.join("./out", filename)
-        # change filename to distinguish corrected or original typo
-        output_file_path = os.path.join(
-            "old_data/corrected_typo",
-            filename.replace("_corrected.txt", "_corrected_typo.txt"))
+def make_typo_file(filename,
+                   input_file_path,
+                   output_file_path,
+                   config=med_config):
+    typos, corrected = [], []
+    dct = {}
+    with open(input_file_path, "r", encoding="utf-8") as file:
+        with open(output_file_path, "w", encoding="utf-8") as out:
+            for line in file:
+                transformed_line, typo_row, corrected_row = random_transform(
+                    line, config)
+                out.write(transformed_line)
+                typos.append(typo_row)
+                corrected.append(corrected_row)
 
-        with open(file_path, "r") as file:
-            with open(output_file_path, "w") as out:
-                make_typo_file(file, out)
+    # make the metadata file for original_typo.
+    dct[filename] = (typos, corrected)
+    json_path = output_file_path.replace(".txt", ".json")
+    with open(json_path, "w", encoding="utf-8") as json_file:
+        json.dump(dct, json_file, ensure_ascii=False, indent=4)
