@@ -1,4 +1,4 @@
-Norvig:
+Norvig + Gector:
 
 ACCURACY RATE
 VERB: 50.72%
@@ -10,19 +10,19 @@ PRON: 43.30%
 CONJ: 64.13%
 INTER: 60.00%
 
-Ngram:
+Ngram + Gector:
 
 ACCURACY RATE
-VERB: 41.61%
-PREP: 46.95%
-NOUN: 41.97%
-ADJ: 47.52%
-ADV: 48.03%
-PRON: 38.28%
-CONJ: 54.02%
-INTER: 60.00%
+VERB: 58.18%
+PREP: 52.77%
+NOUN: 56.45%
+ADJ: 61.52%
+ADV: 57.81%
+PRON: 50.38%
+CONJ: 59.26%
+INTER: 20.00%
 
-Bart:
+Bart + Gector:
 
 ACCURACY RATE
 VERB: 61.93%
