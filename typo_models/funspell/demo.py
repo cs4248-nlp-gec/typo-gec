@@ -1,8 +1,8 @@
 import funspell
 
 _text = "where is the ofice and the poduct"
-#assuming  ngram.pkl file is present in "/home/data/" 
-fun_spell  = FunSpell("/home/data/")
+#assuming  ngram.pkl file is present in "/home/data/"
+fun_spell = FunSpell("/home/data/")
 
 # updating the vocabulary using vocab.csv, vocab.csv is a single column csv file with list of new words which should be added to the dictionary
 # header of csv column should be 'words'

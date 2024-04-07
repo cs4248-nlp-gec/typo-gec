@@ -7,7 +7,7 @@ import os
 import re
 import string
 import collections
-import sys 
+import sys
 import random
 
 from nltk.util import ngrams
@@ -27,62 +27,63 @@ def build_ngram_model(file_path, data_file, output_path="./"):
     """
 
     try:
-        with open(os.path.join(file_path, data_file), "rb") as file :
-            text=str(file.read())
-        
+        with open(os.path.join(file_path, data_file), "rb") as file:
+            text = str(file.read())
+
     except Exception as e:
         print(e)
-        return 
-    punctuationNoPeriod = "[" + re.sub("\.","",string.punctuation)+ "]"
+        return
+    punctuationNoPeriod = "[" + re.sub("\.", "", string.punctuation) + "]"
     text = re.sub(punctuationNoPeriod, "", text)
 
     #getting the tokens
-    tokenized=text.split()
-    ngram_dict={}
+    tokenized = text.split()
+    ngram_dict = {}
     #getting ngrams
-    esBigrams=ngrams(tokenized,2)
-    esUnigrams=ngrams(tokenized,1)
-    esTrigrams=ngrams(tokenized,3)
-    es4grams=ngrams(tokenized,4)
-    es5grams=ngrams(tokenized,5)
+    esBigrams = ngrams(tokenized, 2)
+    esUnigrams = ngrams(tokenized, 1)
+    esTrigrams = ngrams(tokenized, 3)
+    es4grams = ngrams(tokenized, 4)
+    es5grams = ngrams(tokenized, 5)
     #getting frequencies of each ngrams
-    ngram_freq=dict()
-    esBigramFreq=dict(collections.Counter(esBigrams))
+    ngram_freq = dict()
+    esBigramFreq = dict(collections.Counter(esBigrams))
     ngram_freq.update(esBigramFreq)
-    esUnigramFreq=dict(collections.Counter(esUnigrams))
+    esUnigramFreq = dict(collections.Counter(esUnigrams))
     ngram_freq.update(esUnigramFreq)
-    esTrigramFreq=dict(collections.Counter(esTrigrams))
+    esTrigramFreq = dict(collections.Counter(esTrigrams))
     ngram_freq.update(esTrigramFreq)
-    es4gramFreq=dict(collections.Counter(es4grams))
+    es4gramFreq = dict(collections.Counter(es4grams))
     ngram_dict.update(es4gramFreq)
-    es5gramFreq=dict(collections.Counter(es5grams))
+    es5gramFreq = dict(collections.Counter(es5grams))
     ngram_freq.update(es5gramFreq)
 
-    with open(os.path.join(output_path,'ngram.pkl'),'wb') as ngram :
-        pickle.dump(ngram_freq,ngram)
-    
+    with open(os.path.join(output_path, 'ngram.pkl'), 'wb') as ngram:
+        pickle.dump(ngram_freq, ngram)
+
     print("files saved")
 
 
-if len(sys.argv) > 1 :
+if len(sys.argv) > 1:
     #get path to the file from  sys.argv[1]
     file_path = sys.argv[1]
     # get the file name from sys.argv[2]
-    file_name =sys.argv[2]
+    file_name = sys.argv[2]
     #get output_path from sys.argv[3]
     output_path = sys.argv[3]
     build_ngram_model(file_path, file_name, output_path)
 
 
 class Funspell():
-    def __init__(self,file_path='./'):
+
+    def __init__(self, file_path='./'):
         """
         file_path : str
         Path to ngram.pkl file build using build_ngram_model function
         """
         self.h = hunspell.HunSpell("en_US.dic", "en_US.aff")
         self.spell = self.h.spell
-        self.file_path=file_path
+        self.file_path = file_path
         try:
             print(os.path.join(self.file_path, "ngram.pkl"))
             self.model = open(os.path.join(self.file_path, "ngram.pkl"), "rb")
@@ -91,8 +92,7 @@ class Funspell():
         except Exception as e:
             print(e)
             print("please build n-gram first")
-            return 
-
+            return
 
     def update_vocabulary_file(self, file_path="./"):
         """update HunSpell vocabulary using csv
@@ -101,7 +101,6 @@ class Funspell():
         file_path:str
         a csv file name in the root directory
         """
-        
 
         hunspell_add = self.h.add
         try:
@@ -109,13 +108,14 @@ class Funspell():
             words_to_add = list(df.words)
 
         except Exception as e:
-            print("Update Failed, Please check the pathand confirm .csv file present in it")
+            print(
+                "Update Failed, Please check the pathand confirm .csv file present in it"
+            )
             return
 
         words_to_add = map(str.lower, words_to_add)
         for each_taken in words_to_add:
             hunspell_add(each_taken)
-
 
     def get_relevant_suggestions(self, words):
         """a function to reduce the number of suggestions using unigrams    
@@ -137,7 +137,6 @@ class Funspell():
             except KeyError:
                 pass
         return relevant_suggestions
-
 
     def get_wrong_words(self, query):
         """find mispelled words and returns the list.
@@ -166,8 +165,8 @@ class Funspell():
         else:
             return wrong_words
 
-
-    def get_relevant_ngrams(self, tokenized_sentences, suggested_words, ngram_type):
+    def get_relevant_ngrams(self, tokenized_sentences, suggested_words,
+                            ngram_type):
         """A method to create ngram for given 'n' and filter the relevant ngrams
         keyword arguments:
         tokenized_sentences:list(list)
@@ -200,7 +199,6 @@ class Funspell():
 
         return suggested_gram_dict
 
-
     def correct_spelling(self, incorrect_word, input_text, value_of_n):
         """this function will find the correct word for the wrong word given and insert it into the query
         parameters
@@ -222,8 +220,10 @@ class Funspell():
 
         try:
             suggested_words = self.h.suggest(incorrect_word)
-            if len(suggested_words)<1:
-                print("Sorry, No spelling suggestion found,  try updating the Hunspell dictionary")
+            if len(suggested_words) < 1:
+                print(
+                    "Sorry, No spelling suggestion found,  try updating the Hunspell dictionary"
+                )
 
             suggested_words = self.get_relevant_suggestions(suggested_words)
         except:
@@ -247,7 +247,8 @@ class Funspell():
 
             tokens_list = list(map(str.split, sentence_list))
 
-            gram_dict = self.get_relevant_ngrams(tokens_list, suggested_words, value_of_n)
+            gram_dict = self.get_relevant_ngrams(tokens_list, suggested_words,
+                                                 value_of_n)
             frequency_list = [0] * 20
             for ind, each_hspell in enumerate(suggested_words, 0):
                 for _2gram in gram_dict[each_hspell]:
@@ -259,9 +260,8 @@ class Funspell():
             result_index = frequency_list.index(max(frequency_list))
             result = suggested_words[result_index]
             ultimate_result = input_text.replace(incorrect_word, result)
-            
-            return ultimate_result
 
+            return ultimate_result
 
     def correct(self, _text, value_of_n=2):
         """A function to get input and perform spell correction after checking conditions
@@ -279,21 +279,21 @@ class Funspell():
             raise ValueError("Allowed value of 'n' are 2,3,4,5")
 
         after_correction = _text
-        
+
         # print("The original sentence: ")
         # print(after_correction)
-        
-        wrong = self.get_wrong_words(_text)      
 
-        if wrong is None or len(wrong)<1:
+        wrong = self.get_wrong_words(_text)
+
+        if wrong is None or len(wrong) < 1:
             print("no wrong words found")
             return after_correction
 
         for each_wrong in wrong:
             # print("The wrong word: ", each_wrong)
-            
+
             # each time, after_correction is updated!
-            after_correction = self.correct_spelling(
-                each_wrong, after_correction, int(value_of_n)
-            )
+            after_correction = self.correct_spelling(each_wrong,
+                                                     after_correction,
+                                                     int(value_of_n))
         return after_correction
