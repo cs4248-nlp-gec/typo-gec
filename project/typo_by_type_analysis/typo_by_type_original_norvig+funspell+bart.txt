@@ -10,7 +10,7 @@ PRON: 43.30%
 CONJ: 64.13%
 INTER: 60.00%
 
-Ngram + Gector:
+Funspell+ Gector:
 
 ACCURACY RATE
 VERB: 58.18%
