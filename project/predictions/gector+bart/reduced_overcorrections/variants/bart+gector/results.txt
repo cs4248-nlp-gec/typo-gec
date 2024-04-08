@@ -1,0 +1,25 @@
+light 
+
+Precision   : 0.7102
+Recall      : 0.7236
+F_0.5       : 0.7128
+
+medium
+
+heavy
+
+Precision   : 0.6136
+Recall      : 0.4521
+F_0.5       : 0.5727
+
+short sentence
+
+Precision   : 0.5180
+Recall      : 0.5197
+F_0.5       : 0.5183
+
+long sentence
+
+Precision   : 0.6655
+Recall      : 0.5192
+F_0.5       : 0.6300
