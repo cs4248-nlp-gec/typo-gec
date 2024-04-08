@@ -1,0 +1,2478 @@
+S My name is Sarah .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I am 17 yesr old .
+A 3 4|||R:SPELL|||years|||REQUIRED|||-NONE-|||0
+
+S Thanks
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S It is veyh funny .
+A 2 3|||R:ADJ|||great|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||fun|||REQUIRED|||-NONE-|||0
+
+S Dear Jo ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I visit Madrid twice a yewr .
+A 5 6|||R:SPELL|||year|||REQUIRED|||-NONE-|||0
+
+S Yoy will be interesting in thia job ?
+A 0 2|||R:OTHER|||Would you|||REQUIRED|||-NONE-|||0
+A 3 4|||R:MORPH|||interested|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+
+S I 'm olokjng forard to seejng you .
+A 2 3|||R:SPELL|||looking|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||forward|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||seeing|||REQUIRED|||-NONE-|||0
+
+S Take caes , Laura .
+A 1 2|||R:SPELL|||care|||REQUIRED|||-NONE-|||0
+
+S Kate wqz cursing the university of fashion .
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB|||attending|||REQUIRED|||-NONE-|||0
+A 3 4|||U:DET||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||to study|||REQUIRED|||-NONE-|||0
+
+S Fhen the tsoi strted to dxte .
+A 0 1|||R:SPELL|||Then|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||two|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||started|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||date|||REQUIRED|||-NONE-|||0
+
+S He cried eith a lot voood around .
+A 2 3|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||of blood|||REQUIRED|||-NONE-|||0
+
+S Michael ge away frlm there .
+A 1 2|||R:SPELL|||got|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+
+S What other precautins , is usially taken ?
+A 2 3|||R:SPELL|||precautions|||REQUIRED|||-NONE-|||0
+A 3 5|||R:OTHER|||are|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||usually|||REQUIRED|||-NONE-|||0
+
+S Tgd pleashde of traveling
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||pleasure|||REQUIRED|||-NONE-|||0
+
+S People go , poole come .
+A 3 4|||R:SPELL|||people|||REQUIRED|||-NONE-|||0
+
+S The reasons afw as follows .
+A 2 3|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+
+S Grt rekt m8
+A 0 1|||R:SPELL|||Get|||REQUIRED|||-NONE-|||0
+
+S Yes !
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S My Favourite spoft
+A 2 3|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+
+S I bornt to be a footbal player .
+A 1 2|||R:VERB|||was born|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||football|||REQUIRED|||-NONE-|||0
+
+S My name is Minny .
+A 3 4|||R:SPELL|||Jonny|||REQUIRED|||-NONE-|||0
+
+S I am 25 ewrs old .
+A 3 4|||R:SPELL|||years|||REQUIRED|||-NONE-|||0
+
+S Tbwy enjkopyed thbe game .
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||enjoyed|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+
+S I also ilke to coom .
+A 2 3|||R:SPELL|||like|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||cook|||REQUIRED|||-NONE-|||0
+
+S I wlwahs simle to pwople .
+A 1 2|||R:SPELL|||always|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||smile|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PART|||at|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||people|||REQUIRED|||-NONE-|||0
+
+S I really sajt to gdtg thisz job .
+A 2 3|||R:SPELL|||want|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||get|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+
+S I am aksoi a hard worker .
+A 2 3|||R:SPELL|||also|||REQUIRED|||-NONE-|||0
+
+S I hace passion for ts job .
+A 1 2|||R:SPELL|||have|||REQUIRED|||-NONE-|||0
+A 4 5|||R:DET|||this|||REQUIRED|||-NONE-|||0
+
+S Everybody has hos favourite sport .
+A 2 3|||R:SPELL|||his|||REQUIRED|||-NONE-|||0
+
+S My fxvourite sport is footbalk game .
+A 1 2|||R:SPELL|||favourite|||REQUIRED|||-NONE-|||0
+A 4 6|||R:NOUN|||football|||REQUIRED|||-NONE-|||0
+
+S Usually i poay foitbalkl wiyh my classmatds .
+A 1 2|||M:PUNCT|||, I|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||play|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||football|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||classmates|||REQUIRED|||-NONE-|||0
+
+S The first lacs was gotting by us .
+A 0 1|||R:OTHER|||We won|||REQUIRED|||-NONE-|||0
+A 2 7|||R:OTHER|||place|||REQUIRED|||-NONE-|||0
+
+S Foitbaol is my lfir .
+A 0 1|||R:SPELL|||Football|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||life|||REQUIRED|||-NONE-|||0
+
+S Hallk my firend ,
+A 0 1|||R:SPELL|||Hallo|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||friend|||REQUIRED|||-NONE-|||0
+
+S Wgat 's up ?
+A 0 1|||R:SPELL|||What|||REQUIRED|||-NONE-|||0
+
+S Jkw are you ?
+A 0 1|||R:SPELL|||How|||REQUIRED|||-NONE-|||0
+
+S How aas your day todxy ?
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||today|||REQUIRED|||-NONE-|||0
+
+S Dear Paul ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S All memjbers congratulated me , as wepl .
+A 1 2|||R:SPELL|||members|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||well|||REQUIRED|||-NONE-|||0
+
+S Best wsdhes , Julia .
+A 1 2|||R:SPELL|||wishes|||REQUIRED|||-NONE-|||0
+
+S What is the " Ramjily " meaning ?
+A 1 2|||R:VERB|||does|||REQUIRED|||-NONE-|||0
+A 2 3|||U:DET||||||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||Family|||REQUIRED|||-NONE-|||0
+A 6 7|||R:MORPH|||mean|||REQUIRED|||-NONE-|||0
+
+S Ahaf a pity !
+A 0 1|||R:SPELL|||What|||REQUIRED|||-NONE-|||0
+
+S The suburbs of Lentini could be wonderful .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S He gax ever bene irh me .
+A 1 2|||R:SPELL|||has|||REQUIRED|||-NONE-|||0
+A 2 3|||R:ADV|||always|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||been|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+
+S Hi YSA SUMER CAMPS ,
+A 0 1|||R:OTHER|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||USA|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||SUMMER|||REQUIRED|||-NONE-|||0
+
+S I am waofing tours answee .
+A 2 4|||R:OTHER|||looking forward to your|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||answer|||REQUIRED|||-NONE-|||0
+
+S Hi Sam
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S The pesslns are very funny
+A 1 2|||R:SPELL|||lessons|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Dear Di or msdak :
+A 1 2|||R:NOUN|||Sir|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Madam|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S my last cojpajy .
+A 2 3|||R:SPELL|||company|||REQUIRED|||-NONE-|||0
+
+S Snadra Barrientos
+A 0 1|||R:SPELL|||Sandra|||REQUIRED|||-NONE-|||0
+
+S Helll Alex , hpq ares you .
+A 0 1|||R:SPELL|||Hello|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||how|||REQUIRED|||-NONE-|||0
+A 4 5|||R:MORPH|||are|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
+
+S Thank you Helen fkd thow wonderful prssents .
+A 3 4|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||those|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||presents|||REQUIRED|||-NONE-|||0
+
+S It 's very gpid .
+A 3 4|||R:SPELL|||good|||REQUIRED|||-NONE-|||0
+
+S He prefer studh in ykur yomw .
+A 1 2|||R:VERB|||prefers to|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||study|||REQUIRED|||-NONE-|||0
+A 3 6|||R:OTHER|||at home|||REQUIRED|||-NONE-|||0
+
+S Hdllo Something .
+A 0 1|||R:SPELL|||Hello|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S I 'm in geafe 8 .
+A 3 4|||R:SPELL|||grade|||REQUIRED|||-NONE-|||0
+
+S I love yer liok .
+A 2 3|||R:DET|||her|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||look|||REQUIRED|||-NONE-|||0
+
+S Hurr euez lloks as be sub .
+A 0 1|||R:SPELL|||Her|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||eyes|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||look|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||like|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||sun|||REQUIRED|||-NONE-|||0
+
+S But seh is ginkred me .
+A 1 2|||R:SPELL|||she|||REQUIRED|||-NONE-|||0
+A 2 4|||R:VERB|||ignores|||REQUIRED|||-NONE-|||0
+
+S I hope I vzn forget hrr .
+A 3 4|||R:SPELL|||can|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||her|||REQUIRED|||-NONE-|||0
+
+S Run for your lifce
+A 3 4|||R:SPELL|||life|||REQUIRED|||-NONE-|||0
+
+S My favourite sport is run .
+A 4 5|||R:VERB:FORM|||running|||REQUIRED|||-NONE-|||0
+
+S Television zeem to be a controversial tool .
+A 1 2|||R:SPELL|||seems|||REQUIRED|||-NONE-|||0
+
+S Hwrr we dzn eat typival Italian foos .
+A 0 1|||R:ADV|||There|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||can|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||typical|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||food|||REQUIRED|||-NONE-|||0
+
+S No futuee fof jblic trasnport ?
+A 1 2|||R:SPELL|||future|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||public|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||transport|||REQUIRED|||-NONE-|||0
+
+S Vtu pay a lirtle low .
+A 0 0|||M:CONJ|||But|||REQUIRED|||-NONE-|||0
+A 0 1|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 2 2|||M:VERB|||is|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||little|||REQUIRED|||-NONE-|||0
+
+S I invite uouy to cobsider the propopsal .
+A 2 3|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||consider|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||proposal|||REQUIRED|||-NONE-|||0
+
+S Hi , jo .
+A 2 3|||R:ORTH|||Jo|||REQUIRED|||-NONE-|||0
+
+S Thank yuo for ypur messsage .
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||message|||REQUIRED|||-NONE-|||0
+
+S Hi Jukie ,
+A 1 2|||R:SPELL|||Julie|||REQUIRED|||-NONE-|||0
+
+S Goi Motning :
+A 0 1|||R:SPELL|||Good|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Morning|||REQUIRED|||-NONE-|||0
+
+S But this is another theme for spewkong .
+A 6 7|||R:SPELL|||speaking|||REQUIRED|||-NONE-|||0
+
+S Melbers of my family .
+A 0 1|||R:SPELL|||Members|||REQUIRED|||-NONE-|||0
+
+S Hi mrs .
+A 0 1|||R:OTHER|||Dear|||REQUIRED|||-NONE-|||0
+
+S Mate Ashbyg ,
+A 0 1|||R:NOUN|||Kate|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Ashby|||REQUIRED|||-NONE-|||0
+
+S Thwy 's ql , see yku soon
+A 0 1|||R:SPELL|||That|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||all|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S kisses ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Fer
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S It is easyier than you tjinhk .
+A 2 3|||R:SPELL|||easier|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||think|||REQUIRED|||-NONE-|||0
+
+S Jueg ... star tlaking !
+A 0 1|||R:SPELL|||Just|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||start|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||talking|||REQUIRED|||-NONE-|||0
+
+S Good day ,
+A 0 2|||R:OTHER|||Hello|||REQUIRED|||-NONE-|||0
+
+S 1- make me fit xnd hezlthy
+A 1 1|||M:PRON|||it|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:SVA|||makes|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||healthy|||REQUIRED|||-NONE-|||0
+
+S 2- classy game no ftriction between playere
+A 1 1|||M:OTHER|||it 's a|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PREP|||with|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||friction|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||players|||REQUIRED|||-NONE-|||0
+
+S 3- it exercjsd all muscles of your bou
+A 2 3|||R:SPELL|||exercises|||REQUIRED|||-NONE-|||0
+A 4 4|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||body|||REQUIRED|||-NONE-|||0
+
+S Whikst , we recyling inorganic rubbish ot .
+A 0 1|||R:ADV|||Meanwhile|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||recycle|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||too|||REQUIRED|||-NONE-|||0
+
+S Nowadays people prefer oqh bejicles rathsr fban
+A 3 4|||R:OTHER|||their own|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||vehicles|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||rather|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||than|||REQUIRED|||-NONE-|||0
+
+S secondly these mode of transportation covers
+A 0 1|||R:ORTH|||Secondly|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:DET|||this|||REQUIRED|||-NONE-|||0
+
+S to omeptition with public transpprtarion .
+A 1 2|||R:VERB|||compete|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||transportation|||REQUIRED|||-NONE-|||0
+
+S I mrt many pelpl in thg park .
+A 1 2|||R:SPELL|||meet|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||people|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+
+S Tr fust koview , were azaing ! !
+A 0 1|||R:OTHER|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||first|||REQUIRED|||-NONE-|||0
+A 2 4|||R:OTHER|||movies|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||amazing|||REQUIRED|||-NONE-|||0
+
+S Hope ypu guys choose ygis mkview ! !
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||movie|||REQUIRED|||-NONE-|||0
+
+S my favofite sport is Karatw .
+A 0 1|||R:ORTH|||My|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||favourite|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||Karate|||REQUIRED|||-NONE-|||0
+
+S Today tkoic is Technology .
+A 1 1|||M:NOUN:POSS|||'s|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||topic|||REQUIRED|||-NONE-|||0
+
+S inkajs19
+A 0 1|||R:OTHER|||Nikais19|||REQUIRED|||-NONE-|||0
+
+S 5 Mw
+A 1 2|||R:SPELL|||May|||REQUIRED|||-NONE-|||0
+
+S Edar sir Dimara .
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOUN|||Mr|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Whg to ses that abaser thing ?
+A 0 1|||R:SPELL|||Why|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||see|||REQUIRED|||-NONE-|||0
+
+S Yours faithfully ,
+A 1 2|||R:ADV|||sincerely|||REQUIRED|||-NONE-|||0
+
+S Jewssyka stavros .
+A 0 1|||R:SPELL|||Jessyka|||REQUIRED|||-NONE-|||0
+
+S One year is mot lnot period .
+A 3 5|||R:OTHER|||not a long|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||time|||REQUIRED|||-NONE-|||0
+
+S Dzr Sr ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOUN|||Sir|||REQUIRED|||-NONE-|||0
+
+S I ookk forward to hearing from ylu .
+A 1 2|||R:SPELL|||look|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Yourz faithvully .
+A 0 1|||R:SPELL|||Yours|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||faithfully|||REQUIRED|||-NONE-|||0
+
+S Rosa .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Hellk Estela !
+A 0 1|||R:SPELL|||Hello|||REQUIRED|||-NONE-|||0
+
+S I weent to Las Hurde .
+A 1 2|||R:SPELL|||went|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||Hurdes|||REQUIRED|||-NONE-|||0
+
+S I had a wwdcding .
+A 1 2|||R:OTHER|||went to|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||wedding|||REQUIRED|||-NONE-|||0
+
+S It wq beautiful .
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+
+S And there was a wondrrdul vikew .
+A 4 5|||R:SPELL|||wonderful|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||view|||REQUIRED|||-NONE-|||0
+
+S Yhr nams of watertfaol saw Chorrituelo .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||name|||REQUIRED|||-NONE-|||0
+A 3 3|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||waterfall|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||was|||REQUIRED|||-NONE-|||0
+
+S It was apectadular .
+A 2 3|||R:SPELL|||spectacular|||REQUIRED|||-NONE-|||0
+
+S Ad three are a lot of things .
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+A 7 7|||M:OTHER|||to see and do|||REQUIRED|||-NONE-|||0
+
+S Znx th pekpl are cer nice .
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||people|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||very|||REQUIRED|||-NONE-|||0
+
+S Thie is all .
+A 0 1|||R:SPELL|||That|||REQUIRED|||-NONE-|||0
+
+S good irning .
+A 0 1|||R:ORTH|||Good|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||morning|||REQUIRED|||-NONE-|||0
+
+S How are ygpu .
+A 2 3|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
+
+S come here .
+A 0 1|||R:ORTH|||Come|||REQUIRED|||-NONE-|||0
+
+S Get doah .
+A 1 2|||R:SPELL|||down|||REQUIRED|||-NONE-|||0
+
+S Get in to the rooj .
+A 0 1|||R:VERB|||Go|||REQUIRED|||-NONE-|||0
+A 1 3|||R:ORTH|||into|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||room|||REQUIRED|||-NONE-|||0
+
+S Get in to the byd .
+A 1 3|||R:PREP|||onto|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||bus|||REQUIRED|||-NONE-|||0
+
+S Let us walk .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Letf us plzy dards .
+A 0 1|||R:SPELL|||Let|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||play|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||cards|||REQUIRED|||-NONE-|||0
+
+S Ldr us slweo .
+A 0 1|||R:SPELL|||Let|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||sleep|||REQUIRED|||-NONE-|||0
+
+S Let me in .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Let me go .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Let me see touf phktos .
+A 3 4|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||photos|||REQUIRED|||-NONE-|||0
+
+S Lef me watch your house .
+A 0 1|||R:SPELL|||Let|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB|||see|||REQUIRED|||-NONE-|||0
+
+S Forgive me . :
+A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+
+S Bring tnzt tog .
+A 1 2|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOUN|||toy|||REQUIRED|||-NONE-|||0
+
+S bring glass of xter .
+A 0 1|||R:ORTH|||Bring|||REQUIRED|||-NONE-|||0
+A 1 1|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||water|||REQUIRED|||-NONE-|||0
+
+S Drink water .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Eat vood .
+A 1 2|||R:SPELL|||food|||REQUIRED|||-NONE-|||0
+
+S Ru ft .
+A 0 1|||R:SPELL|||Run|||REQUIRED|||-NONE-|||0
+A 1 2|||R:OTHER|||fast|||REQUIRED|||-NONE-|||0
+
+S stop shoytihg . do n't shout .
+A 0 1|||R:ORTH|||Stop|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||shouting|||REQUIRED|||-NONE-|||0
+A 3 4|||R:ORTH|||Do|||REQUIRED|||-NONE-|||0
+
+S Let us bazth .
+A 2 3|||R:SPELL|||bathe|||REQUIRED|||-NONE-|||0
+
+S So kl was llanned ...
+A 1 2|||R:OTHER|||all|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||planned|||REQUIRED|||-NONE-|||0
+
+S I have mxnhy cavofite splortw .
+A 2 3|||R:SPELL|||many|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||favorite|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||sports|||REQUIRED|||-NONE-|||0
+
+S It makes me feer relaxed and uhwihd .
+A 3 4|||R:SPELL|||feel|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||unwind|||REQUIRED|||-NONE-|||0
+
+S I really cta
+A 1 1|||M:VERB|||am|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||cra|||REQUIRED|||-NONE-|||0
+
+S zy about playing it .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S basketball is an okutdior activity .
+A 3 4|||R:SPELL|||outdoor|||REQUIRED|||-NONE-|||0
+
+S It can carry mah peole qithout problems .
+A 3 4|||R:SPELL|||many|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||people|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||without|||REQUIRED|||-NONE-|||0
+
+S Is there anyone ?
+A 2 3|||R:OTHER|||one|||REQUIRED|||-NONE-|||0
+
+S ht third deaseon :
+A 0 1|||R:OTHER|||The|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||reason|||REQUIRED|||-NONE-|||0
+
+S I loge to plqy cricket .
+A 1 2|||R:VERB|||love|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||play|||REQUIRED|||-NONE-|||0
+
+S I am ehthusiastiv towardsw tjis game .
+A 2 3|||R:SPELL|||enthusiastic|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||about|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+
+S I kve feh way he was played .
+A 1 2|||R:SPELL|||love|||REQUIRED|||-NONE-|||0
+A 2 3|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 5 7|||R:VERB:TENSE|||plays|||REQUIRED|||-NONE-|||0
+
+S Dear Jo ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I am looking forward ftof this .
+A 4 5|||R:SPELL|||to|||REQUIRED|||-NONE-|||0
+
+S Thx is a mpdern cify .
+A 0 1|||R:SPELL|||This|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||modern|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||city|||REQUIRED|||-NONE-|||0
+
+S There xfe amny local foods very popular .
+A 1 2|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||many|||REQUIRED|||-NONE-|||0
+A 3 7|||R:WO|||very popular local foods|||REQUIRED|||-NONE-|||0
+
+S You msy lkike thi .
+A 1 2|||R:SPELL|||may|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||like|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+
+S iu may consoder my advice .
+A 0 1|||R:SPELL|||You|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:TENSE|||should|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||consider|||REQUIRED|||-NONE-|||0
+
+S My favorite sport is swims .
+A 4 5|||R:MORPH|||swimming|||REQUIRED|||-NONE-|||0
+
+S It 's bceause sil is really fib .
+A 2 3|||R:SPELL|||because|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||swimming|||REQUIRED|||-NONE-|||0
+A 6 7|||R:ADJ|||fun|||REQUIRED|||-NONE-|||0
+
+S Deat Cvqmp director ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||camp|||REQUIRED|||-NONE-|||0
+
+S Waiting for youe anawser , Eidet
+A 0 2|||R:OTHER|||I look forward to|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||answer|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||Eider|||REQUIRED|||-NONE-|||0
+
+S Anc waht wout tdans ?
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||what|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||about|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||trains|||REQUIRED|||-NONE-|||0
+
+S Brandon Mackie
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Parliament House
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Cambera ACT 25089
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S je 26th of Marcu 2015
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||March|||REQUIRED|||-NONE-|||0
+
+S Chief Executive Lfficwr
+A 2 3|||R:SPELL|||Officer|||REQUIRED|||-NONE-|||0
+
+S Carlos Alherro Marrero Zaragoza
+A 1 2|||R:SPELL|||Alberto|||REQUIRED|||-NONE-|||0
+
+S Dsaxr Carlos
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+
+S We hope you ieel peferring us .
+A 3 4|||R:SPELL|||keep|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||choosing|||REQUIRED|||-NONE-|||0
+
+S Yours Sindsrely .
+A 1 2|||R:SPELL|||sincerely|||REQUIRED|||-NONE-|||0
+
+S Brandon Mackie
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S My name is Chew .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S This is my favourite soort .
+A 4 5|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+
+S We cook varidties of food wnf dishss .
+A 2 2|||M:ADJ|||different|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||varieties|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||dishes|||REQUIRED|||-NONE-|||0
+
+S Tha weather was parly cloudy .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||partly|||REQUIRED|||-NONE-|||0
+
+S I got thede by MTR .
+A 2 3|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+
+S My hoyse ahich goit nukbsr tw temporarily .
+A 1 2|||R:SPELL|||house|||REQUIRED|||-NONE-|||0
+A 2 5|||R:OTHER|||was number|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||two|||REQUIRED|||-NONE-|||0
+
+S Had 12 years okle .
+A 0 1|||R:OTHER|||She was|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||old|||REQUIRED|||-NONE-|||0
+
+S The end .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Hello frikend ,
+A 1 2|||R:SPELL|||friend|||REQUIRED|||-NONE-|||0
+
+S Write me soin
+A 1 1|||M:PREP|||to|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||soon|||REQUIRED|||-NONE-|||0
+
+S Alessia
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Oast nmighy I kade a deision .
+A 0 1|||R:SPELL|||Last|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||night|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||made|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||decision|||REQUIRED|||-NONE-|||0
+
+S Love , Inws .
+A 2 3|||R:SPELL|||Ines|||REQUIRED|||-NONE-|||0
+
+S I had an exam .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ans this is true .
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 1 2|||R:PRON|||it|||REQUIRED|||-NONE-|||0
+
+S I pasesd that tssr !
+A 1 2|||R:SPELL|||passed|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||test|||REQUIRED|||-NONE-|||0
+
+S Hello Chadlie ,
+A 1 2|||R:SPELL|||Charlie|||REQUIRED|||-NONE-|||0
+
+S I 'm reqlly enjoyed hearing from you .
+A 1 2|||U:CONTR||||||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||really|||REQUIRED|||-NONE-|||0
+
+S Congratulations oyir sister for your prze .
+A 1 2|||R:OTHER|||from your|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||on|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||prize|||REQUIRED|||-NONE-|||0
+
+S My favourite splrot
+A 2 3|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+
+S Yhou are lukw a bidde .
+A 0 1|||R:SPELL|||You|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||like|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||bird|||REQUIRED|||-NONE-|||0
+
+S He started wxlkign cery quickly
+A 2 3|||R:SPELL|||walking|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||very|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Everything waxs dark .
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+
+S A dxtk skh without srwrs .
+A 1 2|||R:SPELL|||dark|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||sky|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||stars|||REQUIRED|||-NONE-|||0
+
+S Ehw got up and look arujnd .
+A 0 1|||R:SPELL|||She|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:TENSE|||looked|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||around|||REQUIRED|||-NONE-|||0
+
+S She fell sleep agaun , didn't she ?
+A 3 4|||R:SPELL|||again|||REQUIRED|||-NONE-|||0
+A 5 6|||R:ORTH|||did n't|||REQUIRED|||-NONE-|||0
+
+S Tree are three reason to dhoose ghiw .
+A 0 1|||R:OTHER|||There|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN:NUM|||reasons|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||choose|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+
+S Third ije is comfort lrvsl .
+A 0 1|||M:DET|||The third|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||one|||REQUIRED|||-NONE-|||0
+A 4 5|||U:ADJ||||||REQUIRED|||-NONE-|||0
+
+S Hello Lara ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Thanb you for yohr dmial .
+A 0 1|||R:SPELL|||Thank|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||email|||REQUIRED|||-NONE-|||0
+
+S Looking flfward to ko mof about yuo .
+A 1 2|||R:SPELL|||forward|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||finding out|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||more|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S no smokig in rye pjblic lalces .
+A 1 2|||R:SPELL|||smoking|||REQUIRED|||-NONE-|||0
+A 3 4|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||public|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||places|||REQUIRED|||-NONE-|||0
+
+S establishing teh factories outside of the viklage .
+A 0 1|||R:VERB:FORM|||establish|||REQUIRED|||-NONE-|||0
+A 1 2|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||village|||REQUIRED|||-NONE-|||0
+
+S protect tje water aources and the ssx .
+A 1 2|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||sources|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||sea|||REQUIRED|||-NONE-|||0
+
+S The noticie ews about a ckmpetiyion .
+A 1 2|||R:SPELL|||notice|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||competition|||REQUIRED|||-NONE-|||0
+
+S The competirion is about write stodies .
+A 1 2|||R:SPELL|||competition|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:FORM|||writing|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||stories|||REQUIRED|||-NONE-|||0
+
+S He began to write .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Susan is a little dragon .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S She dirs thxt wvery fqy aftfer sxbool .
+A 1 2|||R:SPELL|||does|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||every|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||day|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||after|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||school|||REQUIRED|||-NONE-|||0
+
+S Fear Lail !
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Paul|||REQUIRED|||-NONE-|||0
+
+S So I was thsrs something liie staff .
+A 3 4|||R:OTHER|||there as|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||like a member of|||REQUIRED|||-NONE-|||0
+
+S It 's a fuak effrcg !
+A 3 4|||R:SPELL|||dual|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||effect|||REQUIRED|||-NONE-|||0
+
+S Hope to see you skn
+A 4 5|||R:SPELL|||soon|||REQUIRED|||-NONE-|||0
+
+S John
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S The advertisinf is egerysige .
+A 0 1|||U:DET||||||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Advertising|||REQUIRED|||-NONE-|||0
+A 3 4|||R:ADV|||everywhere|||REQUIRED|||-NONE-|||0
+
+S Xear USA SUMME CAMPS ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||SUMMER|||REQUIRED|||-NONE-|||0
+
+S Yours raithgully ,
+A 1 2|||R:SPELL|||faithfully|||REQUIRED|||-NONE-|||0
+
+S Tereesa Wtslcki
+A 0 1|||R:SPELL|||Teresa|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Wysocki|||REQUIRED|||-NONE-|||0
+
+S Sxhe was really proid of him .
+A 0 1|||R:SPELL|||She|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||proud|||REQUIRED|||-NONE-|||0
+
+S She waw dreamimg aout eijg ys iwce .
+A 1 3|||R:OTHER|||dreamt|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||being|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||his|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||wife|||REQUIRED|||-NONE-|||0
+
+S But he df n't love her snohgh .
+A 2 3|||R:SPELL|||did|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||enough|||REQUIRED|||-NONE-|||0
+
+S He wsx waiting 2 gohrs cot her .
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||hours|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||for|||REQUIRED|||-NONE-|||0
+
+S He hated that she is alwazys late .
+A 4 5|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||always|||REQUIRED|||-NONE-|||0
+
+S Whdn Mel came she lookd gorgeous .
+A 0 1|||R:SPELL|||When|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||looked|||REQUIRED|||-NONE-|||0
+
+S But tine 's up .
+A 1 2|||R:NOUN|||time|||REQUIRED|||-NONE-|||0
+A 2 3|||R:CONTR|||was|||REQUIRED|||-NONE-|||0
+
+S He followsd qjd apoligized her .
+A 1 2|||R:SPELL|||followed|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||apologized|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PREP|||to|||REQUIRED|||-NONE-|||0
+
+S Ten he hugged jed .
+A 0 1|||R:SPELL|||Then|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||her|||REQUIRED|||-NONE-|||0
+
+S Anb he was ritht .
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||right|||REQUIRED|||-NONE-|||0
+
+S Mwl ha oost tjr bbay .
+A 0 3|||R:OTHER|||Mel lost|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||baby|||REQUIRED|||-NONE-|||0
+
+S Tom haf to laek a hard deciion .
+A 1 2|||R:SPELL|||had|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||make|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||decision|||REQUIRED|||-NONE-|||0
+
+S His life wws going to cbange .
+A 2 3|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||change|||REQUIRED|||-NONE-|||0
+
+S He did n't carr .
+A 3 4|||R:SPELL|||care|||REQUIRED|||-NONE-|||0
+
+S Gliidng in the waves
+A 0 1|||R:SPELL|||Gliding|||REQUIRED|||-NONE-|||0
+
+S ·Introductiom
+A 0 1|||R:NOUN|||·Introduction|||REQUIRED|||-NONE-|||0
+
+S ·Activities to kill tiem
+A 2 4|||R:OTHER|||pass the time|||REQUIRED|||-NONE-|||0
+
+S ·Others idesx to hav rn
+A 0 1|||R:MORPH|||·Other|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||ideas|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PART|||for|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||having|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||fun|||REQUIRED|||-NONE-|||0
+
+S ·Eeconmendation
+A 0 1|||R:NOUN|||·Recommendation|||REQUIRED|||-NONE-|||0
+
+S Hi Jwne ,
+A 1 2|||R:SPELL|||Jane|||REQUIRED|||-NONE-|||0
+
+S How are yoj ? .
+A 2 3|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+
+S I wasz goa to hear from yuou .
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||glad|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S It 's near there .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ygou can walk to my houss .
+A 0 1|||R:SPELL|||You|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||house|||REQUIRED|||-NONE-|||0
+
+S I 'm planning your visit .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Vest Rwgardw ,
+A 0 1|||R:NOUN|||Best|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Regards|||REQUIRED|||-NONE-|||0
+
+S Mary
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S edasr Sergio García A ,
+A 0 1|||R:ADJ|||Dear|||REQUIRED|||-NONE-|||0
+
+S My bame is Guillerrmo Sediolo Tórfrz .
+A 1 2|||R:SPELL|||name|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Guillermo|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||Sedillo|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||Tórrez|||REQUIRED|||-NONE-|||0
+
+S I teally appfefiate your time and consideration .
+A 1 2|||R:SPELL|||really|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||appreciate|||REQUIRED|||-NONE-|||0
+
+S Without firthner adk , I rekain yours .
+A 1 2|||R:SPELL|||further|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||ado|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||remain|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||faithfully ,|||REQUIRED|||-NONE-|||0
+
+S Guillermo Dedillo Tóftez
+A 1 2|||R:SPELL|||Sedillo|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Tórrez|||REQUIRED|||-NONE-|||0
+
+S A LETTER OF COMPLAINY
+A 3 4|||R:SPELL|||COMPLAINT|||REQUIRED|||-NONE-|||0
+
+S Julio Vsmarillo
+A 1 2|||R:SPELL|||Camarillo|||REQUIRED|||-NONE-|||0
+
+S Mmtano avesnue nº2
+A 0 1|||R:SPELL|||Montano|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||avenue|||REQUIRED|||-NONE-|||0
+
+S Pots Coee 10237 Cácede
+A 0 1|||R:NOUN|||Post|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Code|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Cáceres|||REQUIRED|||-NONE-|||0
+
+S Ahgust , 23rd 2014
+A 0 1|||R:SPELL|||August|||REQUIRED|||-NONE-|||0
+
+S Dead Sit / Mzdzm ,
+A 0 1|||R:ADJ|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOUN|||Sir|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Madam|||REQUIRED|||-NONE-|||0
+
+S Yours fajfhfully ,
+A 1 2|||R:SPELL|||faithfully|||REQUIRED|||-NONE-|||0
+
+S Njlio Camarillo
+A 0 1|||R:SPELL|||Julio|||REQUIRED|||-NONE-|||0
+
+S However , only oe thing that we iskike
+A 2 2|||M:OTHER|||there is|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||one|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||dislike|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S A BETTER PLDE TO LIVE
+A 2 3|||R:SPELL|||PLACE|||REQUIRED|||-NONE-|||0
+
+S Veginings
+A 0 1|||R:SPELL|||Beginings|||REQUIRED|||-NONE-|||0
+
+S A concerbrd poipulation
+A 1 2|||R:SPELL|||concerned|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||population|||REQUIRED|||-NONE-|||0
+
+S Easy rfecycling
+A 1 2|||R:SPELL|||recycling|||REQUIRED|||-NONE-|||0
+
+S Thr rersultse
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||results|||REQUIRED|||-NONE-|||0
+
+S We want a happy Exryh .
+A 4 5|||R:SPELL|||Earth|||REQUIRED|||-NONE-|||0
+
+S Hello iis Blanco ,
+A 1 2|||R:SPELL|||Luis|||REQUIRED|||-NONE-|||0
+
+S Íñigo Ojda .
+A 1 2|||R:SPELL|||Ojeda|||REQUIRED|||-NONE-|||0
+
+S Dear Pah ,
+A 1 2|||R:NOUN|||Paul|||REQUIRED|||-NONE-|||0
+
+S Whaty 's up ?
+A 0 1|||R:SPELL|||What|||REQUIRED|||-NONE-|||0
+
+S Working for them was a real pkeasurr .
+A 6 7|||R:SPELL|||pleasure|||REQUIRED|||-NONE-|||0
+
+S Love ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Rominikw
+A 0 1|||R:SPELL|||Dominika|||REQUIRED|||-NONE-|||0
+
+S Teoort :
+A 0 1|||R:SPELL|||Report|||REQUIRED|||-NONE-|||0
+
+S Yours sincerely ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Juan Otozco
+A 1 2|||R:SPELL|||Orozco|||REQUIRED|||-NONE-|||0
+
+S My nazme is Mogamed El - Shwjoun .
+A 1 2|||R:SPELL|||name|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Mohamed|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||Shamoun|||REQUIRED|||-NONE-|||0
+
+S I have one rother ahd pnr sister .
+A 3 4|||R:SPELL|||brother|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||one|||REQUIRED|||-NONE-|||0
+
+S Insead I believe it is an advantage .
+A 0 1|||R:SPELL|||Instead|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+
+S Varbon bhased fuels ail blt last forever .
+A 0 1|||R:SPELL|||Carbon|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||based|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||will|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+
+S utr it is not going to yappen .
+A 0 1|||R:SPELL|||But|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||happen|||REQUIRED|||-NONE-|||0
+
+S My fafourjte slor is yh soccer .
+A 1 2|||R:SPELL|||favourite|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+A 4 5|||U:NOUN||||||REQUIRED|||-NONE-|||0
+
+S th is rpieless .
+A 0 1|||R:SPELL|||That|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||priceless|||REQUIRED|||-NONE-|||0
+
+S Tbdy wwre increrible amaxzing dn beautiful .
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||were|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||incredible|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||amazing|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+
+S they annoying me
+A 0 1|||R:ORTH|||They|||REQUIRED|||-NONE-|||0
+A 1 2|||R:MORPH|||annoy|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S ( Emerald Group Puvlixhing , 2013 ) .
+A 3 4|||R:SPELL|||Publishing|||REQUIRED|||-NONE-|||0
+
+S 576.e1 - 576.e2 ) .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Photograph coasxes fit everyone
+A 0 1|||R:MORPH|||Photography|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||classes|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||for|||REQUIRED|||-NONE-|||0
+
+S Inroduction
+A 0 1|||R:SPELL|||Introduction|||REQUIRED|||-NONE-|||0
+
+S As a nerw coklege subjedt
+A 2 3|||R:SPELL|||new|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||college|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||subject|||REQUIRED|||-NONE-|||0
+
+S Tyhw reasons
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+
+S Qhta a loely weatber yday !
+A 0 1|||R:PRON|||What|||REQUIRED|||-NONE-|||0
+A 1 2|||U:DET||||||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||lovely|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||weather|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||today|||REQUIRED|||-NONE-|||0
+
+S Pdolle koik happier .
+A 0 1|||R:SPELL|||People|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||look|||REQUIRED|||-NONE-|||0
+
+S Jockwy as a loife style
+A 0 1|||R:SPELL|||Hockey|||REQUIRED|||-NONE-|||0
+A 3 5|||R:NOUN|||lifestyle|||REQUIRED|||-NONE-|||0
+
+S Well tou sfe mistaken .
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+
+S Then opu know hockey is the aswndr .
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||answer|||REQUIRED|||-NONE-|||0
+
+S it 's a team sport .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Wn wiol I recommend this to you ?
+A 0 1|||R:SPELL|||Why|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB|||would|||REQUIRED|||-NONE-|||0
+
+S Tnere sre manu ecological islands .
+A 0 1|||R:SPELL|||There|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||many|||REQUIRED|||-NONE-|||0
+
+S wnde sophisticated and can travel fawster .
+A 0 1|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PRON|||you|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||faster|||REQUIRED|||-NONE-|||0
+
+S Furthermore , most of tehm aw stuebts .
+A 4 5|||R:SPELL|||them|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||are|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||students|||REQUIRED|||-NONE-|||0
+
+S TV ahe much brnefits :
+A 1 2|||R:VERB|||has|||REQUIRED|||-NONE-|||0
+A 2 3|||R:ADJ|||many|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||benefits|||REQUIRED|||-NONE-|||0
+
+S Televisino alszo taiss awah from famulg timd .
+A 0 1|||R:SPELL|||Television|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||also|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||takes|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||away|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||family|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||time|||REQUIRED|||-NONE-|||0
+
+S Flt instand , Googoe rteportdd abour Gooylemobild .
+A 0 1|||R:OTHER|||For|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||instance|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Google|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||reported|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||about|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||Googlemobile|||REQUIRED|||-NONE-|||0
+
+S How manhy language do oy speak ?
+A 1 2|||R:SPELL|||many|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOUN:NUM|||languages|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Dear Sir or Madramme ,
+A 3 4|||R:SPELL|||Madam|||REQUIRED|||-NONE-|||0
+
+S I look coreward to hwaring fril you
+A 2 3|||R:SPELL|||forward|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||hearing|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+
+S Yourz fairhfuply ,
+A 0 1|||R:SPELL|||Yours|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||faithfully|||REQUIRED|||-NONE-|||0
+
+S Sebwstián Hernández
+A 0 1|||R:SPELL|||Sebastián|||REQUIRED|||-NONE-|||0
+
+S Whother disadvantage is tje westher .
+A 0 1|||R:SPELL|||Another|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||weather|||REQUIRED|||-NONE-|||0
+
+S Second , punlif rabsport sass cyy spaces .
+A 2 3|||R:SPELL|||public|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||transport|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||saves|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||city|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN:NUM|||space|||REQUIRED|||-NONE-|||0
+
+S Lanugages for the futyur
+A 0 1|||R:SPELL|||Languages|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||future|||REQUIRED|||-NONE-|||0
+
+S Shouox learn ktjer lamguage ? .
+A 0 1|||R:OTHER|||Should we|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||other|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||languages|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+
+S Dear Usa Sxummsr Vamps ,
+A 1 2|||R:ORTH|||USA|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Summer|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||Camps|||REQUIRED|||-NONE-|||0
+
+S We had a grea tomne .
+A 3 4|||R:SPELL|||great|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||time|||REQUIRED|||-NONE-|||0
+
+S After thirtyy minutes , we hzd tea .
+A 1 2|||R:SPELL|||thirty|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||had|||REQUIRED|||-NONE-|||0
+
+S Your knee is beexing .
+A 3 4|||R:SPELL|||bleeding|||REQUIRED|||-NONE-|||0
+
+S Are you okay'I asked .
+A 2 3|||R:OTHER|||okay|||REQUIRED|||-NONE-|||0
+A 3 3|||M:OTHER|||' , I|||REQUIRED|||-NONE-|||0
+
+S I gwlt reliever then .
+A 1 2|||R:SPELL|||felt|||REQUIRED|||-NONE-|||0
+A 2 3|||R:MORPH|||relieved|||REQUIRED|||-NONE-|||0
+
+S Winne felt warm insijd wjd zmilsd nappilu .
+A 0 1|||R:SPELL|||Winnie|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||inside|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||smiled|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||happily|||REQUIRED|||-NONE-|||0
+
+S Why ?
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Waht an unfoggetable dat !
+A 0 1|||R:SPELL|||What|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||unforgettable|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||day|||REQUIRED|||-NONE-|||0
+
+S Inmside wull be full of conveniences .
+A 0 1|||R:SPELL|||Inside|||REQUIRED|||-NONE-|||0
+A 1 2|||R:OTHER|||, they will|||REQUIRED|||-NONE-|||0
+
+S Every houwe will be flexible .
+A 1 2|||R:SPELL|||house|||REQUIRED|||-NONE-|||0
+
+S Everything depends on ths numed of people .
+A 3 4|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||number|||REQUIRED|||-NONE-|||0
+
+S Swimming is my favoufite spket .
+A 3 4|||R:SPELL|||favourite|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+
+S Wby do I ljoe swimmib ?
+A 0 1|||R:SPELL|||Why|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||like|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||swimming|||REQUIRED|||-NONE-|||0
+
+S Helli Oayl ,
+A 0 1|||R:SPELL|||Hello|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Paul|||REQUIRED|||-NONE-|||0
+
+S It is difficult to esplain thar feeling .
+A 4 5|||R:VERB|||describe|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+
+S I am wating for hpur email .
+A 2 3|||R:SPELL|||waiting|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+
+S See uu !
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S I xluld invits my friends awnd relativs .
+A 1 2|||R:SPELL|||could|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||invite|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||relatives|||REQUIRED|||-NONE-|||0
+
+S That waz only 30 years zgo .
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||ago|||REQUIRED|||-NONE-|||0
+
+S Numbrr of Channels are tradually rwdrucing
+A 0 1|||R:OTHER|||The number|||REQUIRED|||-NONE-|||0
+A 2 3|||R:ORTH|||channels|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||gradually|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB|||decreasing|||REQUIRED|||-NONE-|||0
+
+S Less channels meame less choices .
+A 0 1|||R:ADJ|||Fewer|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||means|||REQUIRED|||-NONE-|||0
+A 3 4|||R:ADJ|||fewer|||REQUIRED|||-NONE-|||0
+
+S Unetrnet TV is increasing
+A 0 1|||R:SPELL|||Internet|||REQUIRED|||-NONE-|||0
+
+S You jjsg click on it .
+A 1 2|||R:SPELL|||just|||REQUIRED|||-NONE-|||0
+
+S Ghey have to rwduce their vudgwt
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||reduce|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||budget|||REQUIRED|||-NONE-|||0
+
+S It is cheaper to huy it .
+A 4 5|||R:SPELL|||buy|||REQUIRED|||-NONE-|||0
+
+S Summary
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S TV is dyjnb .
+A 2 3|||R:SPELL|||dying|||REQUIRED|||-NONE-|||0
+
+S Deawr Mrs Hopkins ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+
+S I liko forward to hearint from you .
+A 1 2|||R:VERB|||look|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||hearing|||REQUIRED|||-NONE-|||0
+
+S Dear Sgwve ,
+A 1 2|||R:SPELL|||Steve|||REQUIRED|||-NONE-|||0
+
+S It was gkod to gear from yoy .
+A 2 3|||R:SPELL|||good|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||hear|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Bets wishes
+A 0 1|||R:SPELL|||Best|||REQUIRED|||-NONE-|||0
+
+S João Matos
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Hi Jkn ,
+A 1 2|||R:SPELL|||John|||REQUIRED|||-NONE-|||0
+
+S I am lloking forward to sesiny yoi .
+A 2 3|||R:SPELL|||looking|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||seeing|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S I am delighted to see ykj soon .
+A 4 5|||R:VERB:TENSE|||be seeing|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Best wisjes ,
+A 1 2|||R:SPELL|||wishes|||REQUIRED|||-NONE-|||0
+
+S Jacob
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Thdy are nicredibily deliudious .
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||incredibly|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||delicious|||REQUIRED|||-NONE-|||0
+
+S You will want to vomle another rume .
+A 4 5|||R:OTHER|||go back|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||time|||REQUIRED|||-NONE-|||0
+
+S Mamg even use cfs .
+A 0 1|||R:SPELL|||Many|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||cars|||REQUIRED|||-NONE-|||0
+
+S 2 .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I agree aith rhi point of biew .
+A 2 3|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||view|||REQUIRED|||-NONE-|||0
+
+S Futtnermore , book develops imagination of rdader .
+A 0 1|||R:SPELL|||Furthermore|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOUN:NUM|||books|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||develop|||REQUIRED|||-NONE-|||0
+A 4 4|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||reader|||REQUIRED|||-NONE-|||0
+
+S It 's so exxiring .
+A 3 4|||R:SPELL|||exciting|||REQUIRED|||-NONE-|||0
+
+S A grl waa wealkkng home on day .
+A 1 2|||R:SPELL|||girl|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||walking|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||one|||REQUIRED|||-NONE-|||0
+
+S She was with hest mum ..
+A 3 4|||R:OTHER|||her|||REQUIRED|||-NONE-|||0
+A 5 6|||R:ORTH|||. .|||REQUIRED|||-NONE-|||0
+
+S She sas just a yon beautiful girl !
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||young|||REQUIRED|||-NONE-|||0
+
+S And yhwn ...
+A 1 2|||R:SPELL|||then|||REQUIRED|||-NONE-|||0
+
+S So , she went upstairs ...
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Tennis is an individual spor .
+A 4 5|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+
+S I mean protessional tennis .
+A 2 3|||R:SPELL|||professional|||REQUIRED|||-NONE-|||0
+
+S It is npr gair enough .
+A 2 3|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+A 3 5|||R:OTHER|||fair|||REQUIRED|||-NONE-|||0
+
+S It is never to late .
+A 3 4|||R:SPELL|||too|||REQUIRED|||-NONE-|||0
+
+S Enjot !
+A 0 1|||R:SPELL|||Enjoy|||REQUIRED|||-NONE-|||0
+
+S Dear Mes Kate Ashby ,
+A 1 2|||R:NOUN|||Mrs|||REQUIRED|||-NONE-|||0
+
+S Adnrew Docci
+A 0 1|||R:NOUN|||Andrea|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Cocci|||REQUIRED|||-NONE-|||0
+
+S Essay
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Football , a passion
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Have you ever thino aboht olaying football ?
+A 3 4|||R:VERB|||thought|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||about|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||playing|||REQUIRED|||-NONE-|||0
+
+S The desserts are vey foid rio .
+A 3 4|||R:SPELL|||very|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||good|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||too|||REQUIRED|||-NONE-|||0
+
+S Prople are thopught being jealous .
+A 0 1|||R:SPELL|||People|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||thought|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||to be|||REQUIRED|||-NONE-|||0
+
+S Nptice ayn kknc of failured .
+A 0 1|||R:OTHER|||They notice|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||any|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||kind|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||failure|||REQUIRED|||-NONE-|||0
+
+S Terrorist actvigies causigt havpc in public live .
+A 1 2|||R:SPELL|||activities|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||causing|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||havoc|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||life|||REQUIRED|||-NONE-|||0
+
+S to who la concern ,
+A 0 1|||R:ORTH|||To|||REQUIRED|||-NONE-|||0
+A 1 2|||R:PRON|||whom it|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||may|||REQUIRED|||-NONE-|||0
+
+S Thaf 's son szud .
+A 0 1|||R:SPELL|||That|||REQUIRED|||-NONE-|||0
+A 2 4|||R:OTHER|||easy|||REQUIRED|||-NONE-|||0
+
+S Best regards .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S owever tgere are brioliuant gakse for childrn .
+A 0 1|||R:SPELL|||However|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||brilliant|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||games|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||children|||REQUIRED|||-NONE-|||0
+
+S In the timr of ji n skrrow .
+A 1 3|||R:OTHER|||times|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||joy|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||sorrow|||REQUIRED|||-NONE-|||0
+
+S Also it makez us more clever .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:PRON|||they|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||make|||REQUIRED|||-NONE-|||0
+A 4 5|||U:ADV||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:MORPH|||cleverer|||REQUIRED|||-NONE-|||0
+
+S The Big Mistake
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S It was too much or hun .
+A 4 5|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||him|||REQUIRED|||-NONE-|||0
+
+S Nht somehow he dix n't feek anything .
+A 0 1|||R:SPELL|||But|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||did|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||feel|||REQUIRED|||-NONE-|||0
+
+S All tht he fekg wss anxjetyy .
+A 1 2|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||felt|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||anxiety|||REQUIRED|||-NONE-|||0
+
+S It ass a big msse .
+A 1 2|||R:VERB|||was|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||mess|||REQUIRED|||-NONE-|||0
+
+S DING SXCERCISE IS GOOD ROR YtOURfE HEALTH
+A 0 1|||R:SPELL|||DOING|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||EXERCISE|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||FOR|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||YOUR|||REQUIRED|||-NONE-|||0
+
+S Wy do you hzv to exercise ?
+A 0 1|||R:SPELL|||Why|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||have|||REQUIRED|||-NONE-|||0
+
+S What benefits do yj obtaon while exercising ?
+A 3 4|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||obtain|||REQUIRED|||-NONE-|||0
+
+S Toplicd :
+A 0 1|||R:SPELL|||Topic|||REQUIRED|||-NONE-|||0
+
+S Dear UZA symmer camps ,
+A 1 2|||R:SPELL|||USA|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||summer|||REQUIRED|||-NONE-|||0
+
+S Bianva
+A 0 1|||R:SPELL|||Bianca|||REQUIRED|||-NONE-|||0
+
+S Day jumher 8 .
+A 1 2|||R:SPELL|||number|||REQUIRED|||-NONE-|||0
+
+S The Maze Runndr
+A 2 3|||R:SPELL|||Runner|||REQUIRED|||-NONE-|||0
+
+S I live in New Eltham .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S People therw are very friendly and heppful .
+A 1 2|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||helpful|||REQUIRED|||-NONE-|||0
+
+S It is a hoo placr to livr .
+A 3 4|||R:SPELL|||good|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||place|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||live|||REQUIRED|||-NONE-|||0
+
+S Hi Shrooq ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S So excited to szed gou !
+A 3 4|||R:SPELL|||see|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Bye for now .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Nouf .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Dear Les ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I hope you enhot ytout aujmer .
+A 3 4|||R:SPELL|||enjoy|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||summer|||REQUIRED|||-NONE-|||0
+
+S Zrián .
+A 0 1|||R:SPELL|||Adrián|||REQUIRED|||-NONE-|||0
+
+S It was one dreary rqiny Wunday mlrning .
+A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||rainy|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||Sunday|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||morning|||REQUIRED|||-NONE-|||0
+
+S W on Earth could tuat be ?
+A 0 1|||R:OTHER|||Who|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+
+S Fifty thouad pounds , to be precise .
+A 1 2|||R:SPELL|||thousand|||REQUIRED|||-NONE-|||0
+
+S Dear Krs. Qshby ,
+A 1 2|||R:NOUN|||Mrs.|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Ashby|||REQUIRED|||-NONE-|||0
+
+S I spea Spanisy , English and German .
+A 1 2|||R:SPELL|||speak|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Spanish|||REQUIRED|||-NONE-|||0
+
+S Tnank yk fo your gims awnd consideration .
+A 0 1|||R:SPELL|||Thank|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||time|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+
+S Ykues Sincerely ,
+A 0 1|||R:SPELL|||Yours|||REQUIRED|||-NONE-|||0
+
+S María Lukss Castaneda del Acuna
+A 1 2|||R:SPELL|||Luisa|||REQUIRED|||-NONE-|||0
+
+S Is the dar raster he ouboic ttanspkrt ?
+A 2 3|||R:SPELL|||car|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||faster|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||than|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||public|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||transport|||REQUIRED|||-NONE-|||0
+
+S It depends .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Apeeds trains are akways faster hen cars .
+A 0 1|||R:ADJ|||Fast|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||always|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||than|||REQUIRED|||-NONE-|||0
+
+S Lublic trandport is absolutly better .
+A 0 1|||R:SPELL|||Public|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||transport|||REQUIRED|||-NONE-|||0
+A 3 4|||R:ADV|||definitely|||REQUIRED|||-NONE-|||0
+
+S Inirmal letter for CAE ( PRaT 1 )
+A 0 1|||R:SPELL|||Informal|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||PART|||REQUIRED|||-NONE-|||0
+
+S Dsad qn ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Jan|||REQUIRED|||-NONE-|||0
+
+S Thzni tku for yluf lettget .
+A 0 1|||R:SPELL|||Thank|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||letter|||REQUIRED|||-NONE-|||0
+
+S Gaje farte of yourself ,
+A 0 1|||R:SPELL|||Take|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||care|||REQUIRED|||-NONE-|||0
+
+S Favius
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Xye 's not bad .
+A 0 1|||R:SPELL|||She|||REQUIRED|||-NONE-|||0
+
+S So yds , the decision is mazre .
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||yes|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||made|||REQUIRED|||-NONE-|||0
+
+S He 'll brexi up with jrr .
+A 2 3|||R:SPELL|||break|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||her|||REQUIRED|||-NONE-|||0
+
+S Probably , evj fomoerow .
+A 2 3|||R:SPELL|||even|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||tomorrow|||REQUIRED|||-NONE-|||0
+
+S Dswr Sir or Macxm ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Madam|||REQUIRED|||-NONE-|||0
+
+S I look forward to hedarnig frok youh .
+A 4 5|||R:SPELL|||hearing|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Youra faitnflly ,
+A 0 1|||R:SPELL|||Yours|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||faithfully|||REQUIRED|||-NONE-|||0
+
+S XYZ
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Totally recommendrd !
+A 0 1|||R:ADV|||Highly|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||recommended|||REQUIRED|||-NONE-|||0
+
+S Alkosr a ewk in the Puerquitour .
+A 0 1|||R:SPELL|||Almost|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||week|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||into|||REQUIRED|||-NONE-|||0
+
+S The dessert ?
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Iced cream in Tepoznievws .
+A 0 1|||R:MORPH|||Ice|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Tepoznieves|||REQUIRED|||-NONE-|||0
+
+S ehxt a file is ? "
+A 0 1|||R:SPELL|||what|||REQUIRED|||-NONE-|||0
+
+S " Yes , si . "
+A 3 4|||R:SPELL|||sir|||REQUIRED|||-NONE-|||0
+
+S " Yes , si . "
+A 3 4|||R:SPELL|||sir|||REQUIRED|||-NONE-|||0
+
+S Thr arory is narrated as it happens .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||story|||REQUIRED|||-NONE-|||0
+
+S Also , te slow rythm is adequate .
+A 2 3|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||rhythm|||REQUIRED|||-NONE-|||0
+
+S The most exciting day of my life .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I wa reapoy exciting !
+A 1 2|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||really|||REQUIRED|||-NONE-|||0
+A 3 4|||R:MORPH|||excited|||REQUIRED|||-NONE-|||0
+
+S L'Xlbero , the Best Pizz West of Ital
+A 0 1|||R:NOUN|||L'Albero|||REQUIRED|||-NONE-|||0
+A 4 5|||R:MORPH|||Pizza|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||Italy|||REQUIRED|||-NONE-|||0
+
+S So vxr I gsve nevef been cisappointed .
+A 1 2|||R:SPELL|||far|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||have|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||never|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||disappointed|||REQUIRED|||-NONE-|||0
+
+S I promise you wo n't be disapppinted .
+A 6 7|||R:SPELL|||disappointed|||REQUIRED|||-NONE-|||0
+
+S Ybe best places flt young people in Dublin
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||for|||REQUIRED|||-NONE-|||0
+
+S Firstly , spory hax hecomd business .
+A 2 3|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||has|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||become|||REQUIRED|||-NONE-|||0
+
+S Sewr Mr. Merrifielkd :
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Merrifield|||REQUIRED|||-NONE-|||0
+
+S My bwme is Dmitry Lavriv .
+A 1 2|||R:SPELL|||name|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||Lavrov|||REQUIRED|||-NONE-|||0
+
+S Goufs respectfully ,
+A 0 1|||R:SPELL|||Yours|||REQUIRED|||-NONE-|||0
+
+S Dmitry avrov
+A 1 2|||R:SPELL|||Lavrov|||REQUIRED|||-NONE-|||0
+
+S Dmogry Oafrov
+A 0 1|||R:SPELL|||Dmitry|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Lavrov|||REQUIRED|||-NONE-|||0
+
+S I hinl tyzt Lugo is very beautiful .
+A 1 2|||R:SPELL|||think|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+
+S It is celebrated in Hune .
+A 4 5|||R:SPELL|||June|||REQUIRED|||-NONE-|||0
+
+S Znjd what wvout ohuxes ?
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||about|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||houses|||REQUIRED|||-NONE-|||0
+
+S And whsy abojt interiors ?
+A 1 2|||R:SPELL|||what|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||about|||REQUIRED|||-NONE-|||0
+
+S Everything wiol be artificial and uncozy .
+A 1 2|||R:SPELL|||will|||REQUIRED|||-NONE-|||0
+A 5 6|||R:ADJ|||uncomfortable|||REQUIRED|||-NONE-|||0
+
+S Fris , dressing as propelrh as oossible .
+A 0 1|||R:OTHER|||First|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ADV|||appropriately|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||possible|||REQUIRED|||-NONE-|||0
+
+S Second , beojg punctual .
+A 2 3|||R:SPELL|||being|||REQUIRED|||-NONE-|||0
+
+S Thfd , being prrpared .
+A 0 1|||R:SPELL|||Third|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||prepared|||REQUIRED|||-NONE-|||0
+
+S Looking fgowrard to heraung grfom yui soon .
+A 1 2|||R:SPELL|||forward|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||hearing|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Oots of Lkvs ,
+A 0 1|||R:SPELL|||Lots|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Love|||REQUIRED|||-NONE-|||0
+
+S dis
+A 0 1|||R:NOUN|||Iris|||REQUIRED|||-NONE-|||0
+
+S Deaf Sire or Jadaj
+A 0 1|||R:NOUN|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:MORPH|||Sir|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Madam|||REQUIRED|||-NONE-|||0
+
+S Yours faitcully
+A 1 2|||R:SPELL|||faithfully|||REQUIRED|||-NONE-|||0
+
+S Ane you ?
+A 0 1|||R:SPELL|||And|||REQUIRED|||-NONE-|||0
+
+S The Cawrvon dioxide emisesions is very small .
+A 1 2|||R:SPELL|||carbon|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||emissions|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
+
+S The biggest fhreat is the explosion .
+A 2 3|||R:SPELL|||threat|||REQUIRED|||-NONE-|||0
+A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
+
+S Hi Jane ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S The final decksikn is yours .
+A 2 3|||R:SPELL|||decision|||REQUIRED|||-NONE-|||0
+
+S Taks czrw anb see ypu very soon ,
+A 0 1|||R:SPELL|||Take|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||care|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Youts Agnieszka
+A 0 1|||R:SPELL|||Yours|||REQUIRED|||-NONE-|||0
+
+S To : gKL6@uhaoo.com
+A 2 3|||R:NOUN|||gKL6@yahoo.com|||REQUIRED|||-NONE-|||0
+
+S Rroj : oS7j@uahol.com
+A 0 1|||R:SPELL|||From|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOUN|||oS7jM@yahoo.com|||REQUIRED|||-NONE-|||0
+
+S Suvject : An imporegant thinb to do !
+A 0 1|||R:SPELL|||Subject|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||important|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||thing|||REQUIRED|||-NONE-|||0
+
+S My fdar Paup ,
+A 1 2|||R:SPELL|||dear|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Paul|||REQUIRED|||-NONE-|||0
+
+S Wnat can I zzy ?
+A 0 1|||R:SPELL|||What|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||say|||REQUIRED|||-NONE-|||0
+
+S Yours ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Ipnut
+A 0 1|||R:SPELL|||Ionut|||REQUIRED|||-NONE-|||0
+
+S A dog is man 's best feienf
+A 6 7|||R:SPELL|||friend|||REQUIRED|||-NONE-|||0
+
+S Hi Jkhm !
+A 1 2|||R:SPELL|||John|||REQUIRED|||-NONE-|||0
+
+S With best wishes :
+A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+
+S Sara .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S My morher jad written me afyer mnths !
+A 1 2|||R:SPELL|||mother|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||had|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PREP|||to|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||after|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||months|||REQUIRED|||-NONE-|||0
+
+S Rewr Zir / Masam ,
+A 0 1|||R:SPELL|||Dear|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Sir|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Madam|||REQUIRED|||-NONE-|||0
+
+S Application fit fhs Pket of Chief Chuibese deitor
+A 1 2|||R:OTHER|||for|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Post|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||Chinese|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||Editor|||REQUIRED|||-NONE-|||0
+
+S Youds fqithfully ,
+A 0 1|||R:SPELL|||Yours|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||faithfully|||REQUIRED|||-NONE-|||0
+
+S Cyen Ki Tso
+A 0 1|||R:SPELL|||Chen|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||Tsou|||REQUIRED|||-NONE-|||0
+
+S There are lotw of countries that do not
+A 2 3|||R:SPELL|||lots|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB|||have|||REQUIRED|||-NONE-|||0
+
+S systems .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Catf it or loe it
+A 0 1|||R:SPELL|||Catch|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||lose|||REQUIRED|||-NONE-|||0
+
+S Aer hoi a teal tfeqm lpayee ?
+A 0 1|||R:SPELL|||Are|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 3 4|||R:ADJ|||real|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||team|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||player|||REQUIRED|||-NONE-|||0
+
+S Triarhlpon : A famous spoft throughout the world
+A 0 1|||R:SPELL|||Triathlon|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||sport|||REQUIRED|||-NONE-|||0
+
+S You must not push yoursekf foi far .
+A 4 5|||R:SPELL|||yourself|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||too|||REQUIRED|||-NONE-|||0
+A 6 7|||R:ADV|||hard|||REQUIRED|||-NONE-|||0
+
+S Dear Sir or Madam ,
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S I look forwarc to hraring ffom you .
+A 2 3|||R:SPELL|||forward|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||hearing|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||from|||REQUIRED|||-NONE-|||0
+
+S Gours faithfully
+A 0 1|||R:SPELL|||Yours|||REQUIRED|||-NONE-|||0
+
+S Lubomjr Sqwicki
+A 0 1|||R:SPELL|||Lubomir|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Sawicki|||REQUIRED|||-NONE-|||0
+
+S odss traveling broadewj yiud mind ?
+A 0 1|||R:VERB|||Does|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||broaden|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+
+S There is no future ro public translort ?
+A 4 5|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||transport|||REQUIRED|||-NONE-|||0
+
+S Uku are thw boss .
+A 0 1|||R:SPELL|||You|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+
+S But think about the fosrs .
+A 4 5|||R:SPELL|||costs|||REQUIRED|||-NONE-|||0
+
+S Maybe cheap airlines xrfe better ?
+A 3 4|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+
+S Bein bafk to our everyday life .
+A 0 1|||R:VERB|||Coming|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||back|||REQUIRED|||-NONE-|||0
+
+S What elee ?
+A 1 2|||R:SPELL|||else|||REQUIRED|||-NONE-|||0
+
+S Is teaveloing by car more convenient ?
+A 1 2|||R:SPELL|||travelling|||REQUIRED|||-NONE-|||0
+
+S Welkl , it depends !
+A 0 1|||R:SPELL|||Well|||REQUIRED|||-NONE-|||0
+
+S Why using th first narration ?
+A 1 3|||R:OTHER|||use|||REQUIRED|||-NONE-|||0
+A 4 4|||M:NOUN|||person|||REQUIRED|||-NONE-|||0
+
+S Hgsy ! I surviverd ! ! :)
+A 0 1|||R:SPELL|||Hey|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||survived|||REQUIRED|||-NONE-|||0
+
+S Second of all , UOA ARE YOlU ?
+A 4 5|||R:SPELL|||HOW|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||YOU|||REQUIRED|||-NONE-|||0
+
+S ( Plrase ! ) .
+A 1 2|||R:SPELL|||Please|||REQUIRED|||-NONE-|||0
+
+S Did you ask Mario about tye spexkers ?
+A 5 6|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||speakers|||REQUIRED|||-NONE-|||0
+
+S I 'm gon na go mow .
+A 5 6|||R:SPELL|||now|||REQUIRED|||-NONE-|||0
+
+S Rali to pu sokob , Mjie .
+A 0 1|||R:SPELL|||Talk|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||soon|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||Mike|||REQUIRED|||-NONE-|||0
+
+S Globwl warming and t consequencdw in 2015
+A 0 1|||R:SPELL|||Global|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||its|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||consequences|||REQUIRED|||-NONE-|||0
+
+S Cricket is my passion .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Sachon Rendulpkar is my favoritr cricketer .
+A 0 1|||R:SPELL|||Sachin|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||Tendulkar|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||favorite|||REQUIRED|||-NONE-|||0
+
+S I am vaqn of os battinb .
+A 2 3|||R:OTHER|||a fan|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||his|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||batting|||REQUIRED|||-NONE-|||0
+
+S It is a ciclical peoceas .
+A 3 4|||R:SPELL|||cyclical|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||process|||REQUIRED|||-NONE-|||0
+
+S No ow can assure sucn a tying .
+A 1 2|||R:NOUN|||one|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||guarantee|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||such|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||thing|||REQUIRED|||-NONE-|||0
+
+S To : Sam
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S From : Simpjetta
+A 2 3|||R:SPELL|||Simonetta|||REQUIRED|||-NONE-|||0
+
+S Dazt : 05/30/14
+A 0 1|||R:SPELL|||Date|||REQUIRED|||-NONE-|||0
+
+S Subject : hopidays are coming !
+A 2 3|||R:SPELL|||holidays|||REQUIRED|||-NONE-|||0
+
+S Hi Zaj ,
+A 1 2|||R:SPELL|||Sam|||REQUIRED|||-NONE-|||0
+
+S Do uku remember it ?
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+
+S Cokuld yiu ask oyur arents ' oermission ?
+A 0 1|||R:SPELL|||Could|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||parents|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||permission|||REQUIRED|||-NONE-|||0
+
+S Best wisyds .
+A 1 3|||R:OTHER|||wishes|||REQUIRED|||-NONE-|||0
+
+S Simonetta
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Instwad sge started crig .
+A 0 1|||R:SPELL|||Instead|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||she|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||crying|||REQUIRED|||-NONE-|||0
+
+S Now we wll life togetuer .
+A 2 3|||R:SPELL|||all|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||live|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||together|||REQUIRED|||-NONE-|||0
+
+S Sometimesw , ghey becaem vefh ridh .
+A 0 1|||R:SPELL|||Sometimes|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||they|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||became|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||very|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||rich|||REQUIRED|||-NONE-|||0
+
+S Thejr architecrue is unique and veautiful .
+A 0 1|||R:SPELL|||Their|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||architecture|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||beautiful|||REQUIRED|||-NONE-|||0
+
+S Adolescence .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Dear geopu ladwr ,
+A 1 2|||R:NOUN|||group|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||leader|||REQUIRED|||-NONE-|||0
+
+S Here youd adventure starrs .
+A 1 2|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||starts|||REQUIRED|||-NONE-|||0
+
+S Thedde yku vaj practowe different sports .
+A 0 1|||R:SPELL|||There|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||you|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||can|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||practise|||REQUIRED|||-NONE-|||0
+
+S Tegard ,
+A 0 1|||R:SPELL|||Regards|||REQUIRED|||-NONE-|||0
+
+S Pauo .
+A 0 1|||R:SPELL|||Paula|||REQUIRED|||-NONE-|||0
+
+S Introduction .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S The gmy .
+A 1 2|||R:SPELL|||gym|||REQUIRED|||-NONE-|||0
+
+S The swimming pool .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Conclusionw .
+A 0 1|||R:SPELL|||Conclusions|||REQUIRED|||-NONE-|||0
+
+S Thne Future of Puboic Transport
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||Public|||REQUIRED|||-NONE-|||0
+
+S If bot killed then more lkiepy laralysef .
+A 1 2|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:ADV|||likely|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||paralysed|||REQUIRED|||-NONE-|||0
+
+S On arrival tbey see starvation ajd drtah .
+A 2 3|||R:SPELL|||they|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||death|||REQUIRED|||-NONE-|||0
+
+S Tjia illustrates emphaticalky the ftollg of l'optkmiame .
+A 0 1|||R:SPELL|||This|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||emphatically|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||folly|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||l'optimisme|||REQUIRED|||-NONE-|||0
+
+S Wjlk there jhst be kme system ?
+A 0 1|||R:SPELL|||Will|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||just|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||one|||REQUIRED|||-NONE-|||0
+
+S This lsos need nkr howefrr be nefative .
+A 1 2|||R:SPELL|||loss|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||however|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||negative|||REQUIRED|||-NONE-|||0
+
+S Polutically we are movimg closer together .
+A 0 1|||R:SPELL|||Politically|||REQUIRED|||-NONE-|||0
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||moving|||REQUIRED|||-NONE-|||0
+
+S Mzyn psople would nopt .
+A 0 1|||R:ADJ|||Many|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||people|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+
+S Firstly , a positive apprfoach .
+A 4 5|||R:SPELL|||approach|||REQUIRED|||-NONE-|||0
+
+S Wyy hsoule tjiks maztger ?
+A 0 1|||R:SPELL|||Why|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB|||should|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||matter|||REQUIRED|||-NONE-|||0
+
+S Wyh ?
+A 0 1|||R:SPELL|||Why|||REQUIRED|||-NONE-|||0
+
+S That could jave disasterolus mipllications .
+A 2 3|||R:SPELL|||have|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||disastrous|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||implications|||REQUIRED|||-NONE-|||0
+
+S They crdie , they cheered .
+A 1 2|||R:SPELL|||cried|||REQUIRED|||-NONE-|||0
+
+S Fhey encourage orgznisarional slilps ar tidinees .
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||organisational|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||skills|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||tidiness|||REQUIRED|||-NONE-|||0
+
+S Njt are tjey such a good fhing ?
+A 0 1|||R:SPELL|||But|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||they|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||thing|||REQUIRED|||-NONE-|||0
+
+S Ghe computer could do the same yhkng .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||thing|||REQUIRED|||-NONE-|||0
+
+S Rhiz oulf be argued to be educationp .
+A 0 1|||R:SPELL|||This|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||could|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||educational|||REQUIRED|||-NONE-|||0
+
+S This vluld lead to high unemployment .
+A 1 2|||R:SPELL|||could|||REQUIRED|||-NONE-|||0
+
+S Anythinb in life cdsn be misusef .
+A 0 1|||R:SPELL|||Anything|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||can|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||misused|||REQUIRED|||-NONE-|||0
+
+S Thers are maby prtoblem facig tr Monarchy .
+A 0 1|||R:SPELL|||There|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||many|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||problems|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||facing|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 6 7|||R:ORTH|||monarchy|||REQUIRED|||-NONE-|||0
+
+S Some of ghej are listed below :
+A 2 3|||R:SPELL|||them|||REQUIRED|||-NONE-|||0
+
+S This usually ledas to multiple births ie .
+A 2 3|||R:SPELL|||leads|||REQUIRED|||-NONE-|||0
+
+S twins , triplets dtyc .
+A 3 4|||R:SPELL|||etc|||REQUIRED|||-NONE-|||0
+
+S 2 .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S Wafch this swpacd .
+A 0 1|||R:SPELL|||Watch|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||space|||REQUIRED|||-NONE-|||0
+
+S I frl tjat rhese people were crazg .
+A 1 2|||R:SPELL|||felt|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||these|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||crazy|||REQUIRED|||-NONE-|||0
+
+S So whaxt am I getting at ?
+A 1 2|||R:SPELL|||what|||REQUIRED|||-NONE-|||0
+
+S In offica , the cnputer is eveeywhere .
+A 1 2|||R:SPELL|||offices|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||computer|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||everywhere|||REQUIRED|||-NONE-|||0
+
+S Mathemqtical moeld , theorijes , wtf .
+A 0 1|||R:SPELL|||Mathematical|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||models|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||theories|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||etc|||REQUIRED|||-NONE-|||0
+
+S hte efecta of this xrte unpredixtsble .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||effects|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||unpredictable|||REQUIRED|||-NONE-|||0
+
+S Ystg there are pdactical sokutiojs .
+A 0 1|||R:SPELL|||Yet|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||practical|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||solutions|||REQUIRED|||-NONE-|||0
+
+S The kry is pribably in thd coaswroom .
+A 1 2|||R:SPELL|||key|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||probably|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||classroom|||REQUIRED|||-NONE-|||0
+
+S 40% of U.S. millionares re entertainers .
+A 3 4|||R:SPELL|||millionaires|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+
+S Ths drawback is fhe damger .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||danger|||REQUIRED|||-NONE-|||0
+
+S It strts with you .
+A 1 2|||R:SPELL|||starts|||REQUIRED|||-NONE-|||0
+
+S Write oyur pocao congressman .
+A 1 2|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||local|||REQUIRED|||-NONE-|||0
+
+S Life eith airplnes is more ralid paced .
+A 1 2|||R:SPELL|||with|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||airplanes|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||rapid|||REQUIRED|||-NONE-|||0
+
+S Oeoole arr concedned wuth nuclear weapons .
+A 0 1|||R:SPELL|||People|||REQUIRED|||-NONE-|||0
+A 1 2|||R:MORPH|||are|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||concerned|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||about|||REQUIRED|||-NONE-|||0
+
+S Leole have akso beome concerned with nature .
+A 0 1|||R:SPELL|||People|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||also|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||become|||REQUIRED|||-NONE-|||0
+A 5 6|||R:PREP|||about|||REQUIRED|||-NONE-|||0
+
+S One realizes that abimals bav rights tio .
+A 3 4|||R:SPELL|||animals|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||have|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||too|||REQUIRED|||-NONE-|||0
+
+S Comluters hxvs dfinitrly efvecte peoples oives .
+A 0 1|||R:SPELL|||Computers|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||have|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||definitely|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||affected|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||lives|||REQUIRED|||-NONE-|||0
+
+S I 'm nhiw jrre in Mqdrjd .
+A 2 3|||R:SPELL|||now|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||here|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||Madrid|||REQUIRED|||-NONE-|||0
+
+S How cid I geg there ?
+A 1 2|||R:SPELL|||did|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||get|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ADV|||here|||REQUIRED|||-NONE-|||0
+
+S This wa is rhe micowav .
+A 1 2|||R:SPELL|||wave|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||microwave|||REQUIRED|||-NONE-|||0
+
+S Eakng is domething wveryone must do .
+A 0 1|||R:SPELL|||Eating|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||something|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||everyone|||REQUIRED|||-NONE-|||0
+
+S ge udeda behind the radiji is simple .
+A 0 1|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||idea|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||radio|||REQUIRED|||-NONE-|||0
+
+S Radio keepd oekple incotmed .
+A 1 2|||R:SPELL|||keeps|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||people|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||informed|||REQUIRED|||-NONE-|||0
+
+S Nlwadaus evergbody watches T.V.
+A 0 1|||R:OTHER|||Nowadays ,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||everybody|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||TV .|||REQUIRED|||-NONE-|||0
+
+S Tnks is baswd on eauity fhoery .
+A 0 1|||R:SPELL|||This|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||based|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||equity|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||theory|||REQUIRED|||-NONE-|||0
+
+S This is conformity .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+
+S hey vome to feel prejudice tkwrad Jewsd .
+A 0 1|||R:SPELL|||They|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||come|||REQUIRED|||-NONE-|||0
+A 5 6|||R:PREP|||toward|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||Jews|||REQUIRED|||-NONE-|||0
+
+S Differenf is beautiful !
+A 0 1|||R:SPELL|||Different|||REQUIRED|||-NONE-|||0
+
+S Hlw mjfh violence is ther ?
+A 0 1|||R:SPELL|||How|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||much|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+
