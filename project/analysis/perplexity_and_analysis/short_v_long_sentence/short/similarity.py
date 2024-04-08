@@ -1,4 +1,5 @@
 import spacy
+
 nlp = spacy.load("en_core_web_sm")
 
 
@@ -17,8 +18,6 @@ output_file = "typo_short_sentence_output.txt"
 similarity_score = get_similarity_score(correct_file, output_file)
 print(similarity_score)
 ## similarity score 524.823505548815
-
-
 """
 m2 score
 Precision   : 0.6151
