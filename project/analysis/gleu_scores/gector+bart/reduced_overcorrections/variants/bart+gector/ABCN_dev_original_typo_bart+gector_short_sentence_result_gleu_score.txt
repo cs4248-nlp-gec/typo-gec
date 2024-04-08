@@ -1,0 +1,7 @@
+0.0
+0.0
+0.0
+Min Sentence GLEU Score: 0.0
+Max Sentence GLEU Score: 0.0
+Average Sentence GLEU Score: 0.0
+Corpus Sentence GLEU Score: 0.0

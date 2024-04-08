@@ -30,10 +30,10 @@ def compare_files(predicted_file_path, original_file_path, metadata_path):
     f1_score = 2 * (precision * recall) / (precision + recall)
 
     print(dict(score))
-    print(f"Accuracy: {accuracy:.2f}")
-    print(f"Precision: {precision:.2f}")
-    print(f"Recall: {recall:.2f}")
-    print(f"F1 Score: {f1_score:.2f}")
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall: {recall:.4f}")
+    print(f"F1 Score: {f1_score:.4f}")
 
 
 def get_score(pred_line, og_line, typos, corrected):
@@ -69,9 +69,9 @@ def get_score(pred_line, og_line, typos, corrected):
     })
 
 
-# Test:
-
-pred_file_path = "../predictions/gector_base/ABCN.dev.gold.bea19_corrected_typo_light.txt"
-og_file_path = "../data/corrected/baseline/ABCN.dev.gold.bea19_corrected.txt"
-metadata_file_path = "../data/corrected_typo/light/ABCN.dev.gold.bea19_corrected_typo_light.json"
-compare_files(pred_file_path, og_file_path, metadata_file_path)
+# # Test:
+#
+# pred_file_path = "../predictions/gector_base/ABCN.dev.gold.bea19_corrected_typo_light.txt"
+# og_file_path = "../data/corrected/baseline/ABCN.dev.gold.bea19_corrected.txt"
+# metadata_file_path = "../data/corrected_typo/light/ABCN.dev.gold.bea19_corrected_typo_light.json"
+# compare_files(pred_file_path, og_file_path, metadata_file_path)

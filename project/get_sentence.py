@@ -31,11 +31,12 @@ def get_sentence(file):
     return originals, sentences
 
 
-for filename in os.listdir("og_datasets"):
+for filename in os.listdir("./og_datasets/wi-locness"):
     if filename.endswith(".m2"):
-        file_path = os.path.join("og_datasets", filename)
+        file_path = os.path.join("./og_datasets/wi-locness", filename)
         output_file_path = os.path.join(
             "./out", filename.replace(".m2", "_corrected.txt"))
+        print(output_file_path)
 
         with open(file_path, "r") as file:
             with open(output_file_path, "w") as out:
