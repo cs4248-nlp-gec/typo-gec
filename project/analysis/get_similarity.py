@@ -2,7 +2,6 @@ import os
 import shutil
 import spacy
 from nltk.translate.gleu_score import *
-
 """
 We want to:
 1. Find the GLEU score of 
@@ -45,11 +44,17 @@ def process_file(src_file_path, dest_file_path, reference_file_path):
     gleu_scores = []
     references = []
     candidates = []
-    with open(src_file_path, 'r', encoding='utf-8') as src, open(dest_file_path, 'w', encoding='utf-8') as dest, open(
-            reference_file_path, 'r', encoding='utf-8') as ref:
+    with open(src_file_path, 'r',
+              encoding='utf-8') as src, open(dest_file_path,
+                                             'w',
+                                             encoding='utf-8') as dest, open(
+                                                 reference_file_path,
+                                                 'r',
+                                                 encoding='utf-8') as ref:
         for src_line, ref_line in zip(src, ref):
             # Calculate GLEU score for the line
-            score = sentence_gleu([ref_line.strip().split()], src_line.strip().split())
+            score = sentence_gleu([ref_line.strip().split()],
+                                  src_line.strip().split())
             gleu_scores.append(score)
             references.append([ref_line.strip().split()])
             candidates.append(src_line.strip().split())
@@ -68,7 +73,9 @@ def process_file(src_file_path, dest_file_path, reference_file_path):
         dest.write(f"Average Sentence GLEU Score: {avg_score}\n")
         dest.write(f"Corpus Sentence GLEU Score: {score}\n")
 
-def gleu_copy_structure_and_process_files(src_directory, dest_directory, keywords, cor_data_path_dict):
+
+def gleu_copy_structure_and_process_files(src_directory, dest_directory,
+                                          keywords, cor_data_path_dict):
     # Ensure the destination directory exists
     os.makedirs(dest_directory, exist_ok=True)
 
@@ -76,27 +83,33 @@ def gleu_copy_structure_and_process_files(src_directory, dest_directory, keyword
     for root, dirs, files in os.walk(src_directory):
         for dir in dirs:
             src_path = os.path.join(root, dir)
-            dest_path = "./gleu_scores/" +  "/".join(src_path.split("/")[2:])
+            dest_path = "./gleu_scores/" + "/".join(src_path.split("/")[2:])
             os.makedirs(dest_path, exist_ok=True)
 
         for file in files:
-            if any(keyword in file for keyword in keywords) and "results" not in file and "word" not in file:
+            if any(keyword in file for keyword in
+                   keywords) and "results" not in file and "word" not in file:
                 # Determine the reference file based on the file's naming convention
                 for key, path in cor_data_path_dict.items():
                     if all(kw in file for kw in key.split('_')):
-                        reference_file_path = path # abcn later in the dict so will match abcn :)
+                        reference_file_path = path  # abcn later in the dict so will match abcn :)
 
                 src_file_path = os.path.join(root, file)
-                dest_file_path = os.path.join(root.replace("../predictions", "./gleu_scores"), file.replace('.txt', '_gleu_score.txt'))
+                dest_file_path = os.path.join(
+                    root.replace("../predictions", "./gleu_scores"),
+                    file.replace('.txt', '_gleu_score.txt'))
 
                 # Process the file to calculate GLEU scores
-                process_file(src_file_path, dest_file_path, reference_file_path)
-                print(f"Processed {src_file_path}, results in {dest_file_path}, ref {reference_file_path}")
+                process_file(src_file_path, dest_file_path,
+                             reference_file_path)
+                print(
+                    f"Processed {src_file_path}, results in {dest_file_path}, ref {reference_file_path}"
+                )
 
 
 src_directory = '../predictions'
 dest_directory = './gleu_scores'
 keywords = ["light", "medium", "heavy", "long", "short"]
 
-gleu_copy_structure_and_process_files(src_directory, dest_directory, keywords, cor_data_path_dict)
-
+gleu_copy_structure_and_process_files(src_directory, dest_directory, keywords,
+                                      cor_data_path_dict)
