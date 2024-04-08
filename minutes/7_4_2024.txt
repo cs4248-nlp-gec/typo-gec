@@ -1,0 +1,67 @@
+== 7/4/2024 Minutes ==
+- ZX: Went through current progress. Went through the sub-hypotheses and the results we have obtained so far
+- CZ: Went through the generalised model
+- ZX: Looking at scoring alternatives, such a GLEU score
+- CZ: Attention maps are confusing. Too many heads, not sure what to focus on. 
+- Rish: Good stuff so far (yay!)
+- Cherry pick some of the nice looking attention matrices
+	- Don't need to present everything
+- How do we interpret attention matrices?
+	- Different opacity of lines
+	- Everything is connected to everything else, kinda
+	- Line from word i to word j: Refers to attention score of i,j entry in matrix
+	- Essentially a symmetric matrix: if word i attends to word j, j also attends to i
+	- Row wise sum: Take the words with the highest attention score
+- Does last layer always contain the most important information?
+	- Not necessarily
+	- Maybe in some intermediate layer, the words with typo attend to each other
+	- Translate attention scores to highlighted words in a sentence, nice graphic (How do we do that????)
+- Github?
+	- Only need to make sure it's "camera ready"
+- Report?
+	- Reccommend our project from STEPS?
+	- Don't need to write report, only need to create a poster
+	- Make poster have nice visual stuff: fancy diagrams, figures, etc.
+	- Prepare charts, plots, tables before we start poster
+	- Talk about aesthetic design of poster at a later date
+- Keep investigating
+	- If we really want to write report, can do in one day, but most do all the analysis beforehand
+- KH: Pros and cons of going for STEPS
+	- When not to: Can't go all in into the analysis
+	- Do not need to write a report! can just chill with a poster
+- Has Rish participated in STEPS?
+	- He has. It was boring.
+	- A lot of waiting around
+	- But fun to present when the time comes
+- Deadline for STEPS is next Monday, effectively
+- How is grading different?
+	- Instead of reading text, will be grading in real life
+	- Grading on the spot when we present
+	- There's also going to be a ranking? 
+	- Otherwise, grading is more or less going to be same. i.e. same criteria
+- Going to be ~30 teams, but likely to be less
+- Get the models trained, get the figures done before we make the poster
+	- List all the figures that we can add
+	- Then we can pick and choose what figures we can show in the poster
+- Ultimately, poster need to looks good
+
+== After-Rish meeting ==
+- What we need to do:
+	- Evaluation metrics: PP, gleu score. Look at the interpretability
+	- Finalise results for typos: light, medium, heavy, long sentence, short sentence
+- What makes our approach better? F1_0.5, GLEU, PP
+	- Across all the different types of typos, specialised model is better
+- Changing hypothesis 3? Explore and investigate over next few days
+	- Heyi, look through results again, what remains consistent?
+	- ADJ, ADV currently have highest correction rate
+- So far, waht do we have? 
+	- Specialised is better than generalised
+	- For generalised, fine-tuning is better
+- Clean up repo. Only keep: light, medium, heavy, long sentence, short sentence
+- Creating nice graphics: Shaun and Heyi
+	- draw.io, box.io
+- DEADLINES
+	- Until Tuesday, get all the data, and do your own analysis 
+	- Have another meeting on Tuesday night to consolidate
+
+	
