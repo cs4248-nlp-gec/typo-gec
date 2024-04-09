@@ -1,4 +1,5 @@
 import spacy
+
 nlp = spacy.load("en_core_web_sm")
 
 
@@ -11,7 +12,7 @@ def get_similarity_score(correct_file, output_file):
         for i in range(len(correct)):
             d1, d2 = nlp(correct[i]), nlp(output[i])
             total_similarity += d1.similarity(d2)
-    return total_similarity/total_lines
+    return total_similarity / total_lines
 
 
 # edit the file to compare accordingly
@@ -20,4 +21,3 @@ output_file = "ABCN.dev.gold.bea19_original_long_sentence_typo_medium.txt"
 similarity_score = get_similarity_score(correct_file, output_file)
 print(similarity_score)
 ## similarity score 0.8417217784384142
-
