@@ -23,12 +23,14 @@ def analyse_POS(filename):
         else:
             word_counts[match] = 1
 
-    sorted_word_counts = sorted(
-        word_counts.items(), key=lambda item: item[1], reverse=True)
+    sorted_word_counts = sorted(word_counts.items(),
+                                key=lambda item: item[1],
+                                reverse=True)
 
     # Get the sorted word counts
-    sorted_word_counts = sorted(
-        word_counts.items(), key=lambda item: item[1], reverse=True)
+    sorted_word_counts = sorted(word_counts.items(),
+                                key=lambda item: item[1],
+                                reverse=True)
 
     for word, count in sorted_word_counts:
         print(f"{word}: {count}")
@@ -63,12 +65,14 @@ def analyse_POS_bar(filename):
         else:
             word_counts[match] = 1
 
-    sorted_word_counts = sorted(
-        word_counts.items(), key=lambda item: item[1], reverse=True)
+    sorted_word_counts = sorted(word_counts.items(),
+                                key=lambda item: item[1],
+                                reverse=True)
 
     # Get the sorted word counts
-    sorted_word_counts = sorted(
-        word_counts.items(), key=lambda item: item[1], reverse=True)
+    sorted_word_counts = sorted(word_counts.items(),
+                                key=lambda item: item[1],
+                                reverse=True)
 
     # Prepare data
     x_vals = [word for word, count in sorted_word_counts]
