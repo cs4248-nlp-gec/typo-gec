@@ -1,0 +1,62 @@
+# Funspell+Gector, Light
+
+ACCURACY RATE
+VERB: 57.13%
+PREP: 50.95%
+NOUN: 56.26%
+ADJ: 62.18%
+ADV: 58.57%
+PRON: 48.95%
+CONJ: 59.29%
+INTER: 0.00%
+
+# Funspell+Gector, Medium
+
+ACCURACY RATE
+VERB: 41.35%
+PREP: 37.46%
+NOUN: 40.38%
+ADJ: 44.58%
+ADV: 38.75%
+PRON: 34.53%
+CONJ: 40.59%
+INTER: 16.67%
+
+# Funspell+Gector, Heavy
+
+ACCURACY RATE
+VERB: 28.49%
+PREP: 25.18%
+NOUN: 28.89%
+ADJ: 32.27%
+ADV: 27.07%
+PRON: 22.04%
+CONJ: 24.81%
+INTER: 0.00%
+
+# Funspell+Gector, Long
+
+ACCURACY RATE
+VERB: 26.74%
+PREP: 27.24%
+NOUN: 28.21%
+ADJ: 29.57%
+ADV: 28.57%
+PRON: 24.39%
+CONJ: 30.61%
+INTER: 100.00%
+
+# Funspell+Gector, Short
+
+ACCURACY RATE
+VERB: 52.70%
+PREP: 43.10%
+NOUN: 31.01%
+ADJ: 45.45%
+ADV: 44.04%
+PRON: 36.47%
+CONJ: 33.33%
+INTER: 100.00%
+
+
+
