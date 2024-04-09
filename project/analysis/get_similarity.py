@@ -1,7 +1,6 @@
 import os
 import matplotlib.pyplot as plt
 from nltk.translate.gleu_score import *
-
 """
 We want to:
 1. Find the GLEU score of 
@@ -22,14 +21,21 @@ abcn_baseline_path = "../data/corrected/baseline/ABCN.dev.gold.bea19_corrected.t
 abcn_long_path = "../data/corrected/corrected_long_sentence/ABCN.dev.gold.bea19_corrected_long_sentence.txt"
 abcn_short_path = "../data/corrected/corrected_short_sentence/ABCN.dev.gold.bea19_corrected_short_sentence.txt"
 
+
 def process_file(src_file_path, dest_file_path, reference_file_path):
     gleu_scores = []
     references = []
     candidates = []
-    with open(src_file_path, 'r', encoding='utf-8') as src, open(dest_file_path, 'w', encoding='utf-8') as dest, open(
-            reference_file_path, 'r', encoding='utf-8') as ref:
+    with open(src_file_path, 'r',
+              encoding='utf-8') as src, open(dest_file_path,
+                                             'w',
+                                             encoding='utf-8') as dest, open(
+                                                 reference_file_path,
+                                                 'r',
+                                                 encoding='utf-8') as ref:
         for src_line, ref_line in zip(src, ref):
-            score = sentence_gleu([ref_line.strip().split()], src_line.strip().split())
+            score = sentence_gleu([ref_line.strip().split()],
+                                  src_line.strip().split())
             gleu_scores.append(score)
             references.append([ref_line.strip().split()])
             candidates.append(src_line.strip().split())
@@ -47,12 +53,16 @@ def process_file(src_file_path, dest_file_path, reference_file_path):
         dest.write(f"Average Sentence GLEU Score: {avg_score}\n")
         dest.write(f"Corpus Sentence GLEU Score: {corpus_score}\n")
 
-    with open("./gleu_scores/total_results.txt", "a") as file: # store total results
-        file.write(f"{src_file_path}: Min: {min_score}, Max: {max_score}, Avg: {avg_score}, Corpus score: {corpus_score}\n")
+    with open("./gleu_scores/total_results.txt",
+              "a") as file:  # store total results
+        file.write(
+            f"{src_file_path}: Min: {min_score}, Max: {max_score}, Avg: {avg_score}, Corpus score: {corpus_score}\n"
+        )
     return avg_score, corpus_score
 
 
-def gleu_copy_structure_and_process_files(src_directory, dest_directory, keywords):
+def gleu_copy_structure_and_process_files(src_directory, dest_directory,
+                                          keywords):
     os.makedirs(dest_directory, exist_ok=True)
     try:
         os.remove("./gleu_scores/total_results.txt")
@@ -60,7 +70,10 @@ def gleu_copy_structure_and_process_files(src_directory, dest_directory, keyword
         pass
     directory_scores = {}
 
-    immediate_subdirs = [d for d in os.listdir(src_directory) if os.path.isdir(os.path.join(src_directory, d))]
+    immediate_subdirs = [
+        d for d in os.listdir(src_directory)
+        if os.path.isdir(os.path.join(src_directory, d))
+    ]
 
     for subdir in immediate_subdirs:
         second_level_dir = os.path.join(src_directory, subdir)
@@ -68,7 +81,10 @@ def gleu_copy_structure_and_process_files(src_directory, dest_directory, keyword
         os.makedirs(dest_subdir, exist_ok=True)
         scores = []
 
-        files = [f for f in os.listdir(second_level_dir) if os.path.isfile(os.path.join(second_level_dir, f))]
+        files = [
+            f for f in os.listdir(second_level_dir)
+            if os.path.isfile(os.path.join(second_level_dir, f))
+        ]
         for file in files:
             if any(keyword in file for keyword in keywords):
                 if "long" in file:
@@ -79,16 +95,24 @@ def gleu_copy_structure_and_process_files(src_directory, dest_directory, keyword
                     reference_file_path = abcn_baseline_path
 
                 src_file_path = os.path.join(second_level_dir, file)
-                dest_file_path = os.path.join(dest_subdir, file.replace('.txt', '_gleu_score.txt'))
+                dest_file_path = os.path.join(
+                    dest_subdir, file.replace('.txt', '_gleu_score.txt'))
 
-                avg_score, corpus_score = process_file(src_file_path, dest_file_path, reference_file_path)
-                scores.append((file, avg_score, corpus_score, reference_file_path))
-                print(f"Processed {src_file_path}, results in {dest_file_path}, ref {reference_file_path}")
+                avg_score, corpus_score = process_file(src_file_path,
+                                                       dest_file_path,
+                                                       reference_file_path)
+                scores.append(
+                    (file, avg_score, corpus_score, reference_file_path))
+                print(
+                    f"Processed {src_file_path}, results in {dest_file_path}, ref {reference_file_path}"
+                )
 
         summary_path = os.path.join(dest_subdir, "summary_results.txt")
         with open(summary_path, 'w', encoding='utf-8') as summary_file:
             for file, avg_score, corpus_score in scores:
-                summary_file.write(f"{file}: Avg: {avg_score}, Corpus Score: {corpus_score}\n")
+                summary_file.write(
+                    f"{file}: Avg: {avg_score}, Corpus Score: {corpus_score}\n"
+                )
 
         directory_scores[dest_subdir] = scores
 
@@ -105,6 +129,7 @@ def sorting_key(filename):
             return index + x
     return len(order)
 
+
 def plot_directory_scores(directory_scores):
     for directory, scores in directory_scores.items():
         sorted_scores = sorted(scores, key=lambda x: sorting_key(x[0]))
@@ -113,7 +138,10 @@ def plot_directory_scores(directory_scores):
         corpus_scores = [score[2] for score in sorted_scores]
 
         plt.figure(figsize=(10, 6))
-        plt.plot(files, avg_sentence_scores, label='Avg Sentence GLEU', marker='o')
+        plt.plot(files,
+                 avg_sentence_scores,
+                 label='Avg Sentence GLEU',
+                 marker='o')
         plt.plot(files, corpus_scores, label='Corpus GLEU', marker='x')
 
         plt.title(f"Sorted GLEU Scores in {os.path.basename(directory)}")
@@ -126,10 +154,11 @@ def plot_directory_scores(directory_scores):
         plt.savefig(plot_path)
         plt.close()
 
+
 src_directory = '../predictions'
 dest_directory = './gleu_scores'
 keywords = ["light", "medium", "heavy", "long", "short"]
 
-dir_scores = gleu_copy_structure_and_process_files(src_directory, dest_directory, keywords)
+dir_scores = gleu_copy_structure_and_process_files(src_directory,
+                                                   dest_directory, keywords)
 plot_directory_scores(dir_scores)
-
