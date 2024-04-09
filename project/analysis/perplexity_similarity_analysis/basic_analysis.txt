@@ -1,0 +1,53 @@
+From the base analysis, gector does not predict well with typos, with the exception of some errors below:
+1. 90% accuracy Noop (no operation needed to be done). This makes sense since Noop corrections does not contain any typos, and gector
+can identify the sentence normally and do not make any changes
+2. 80% accuracy ORTH (Capitalization). This makes sense also since Capitalization is relatively easy to correct. Eg if it is start of 
+sentence or words such as "I", Names and so on.
+
+But other gector performs badly for other errors. Especially conjunction errors.
+For 40 conjunction errors, Gector only corrected 2 of them.
+Analysis on the errors and correction shows that
+1. The corrected conjunction errors also had other spelling errors within the sentence corrected
+2. A large percentage (97%) of the conjunction errors that was not fixed also had spelling errors within 1-3 words radius that was
+not fixed
+
+Sometimes Gector also tries to correct a sentence in a manner that is not wrong, but not the gold standard.
+Eg.
+i jave a dog it name 's chete , it is a volden retriver . 
+The gold standard for the correction is: i have a dog and it name 's chente , it is a golden retriver .
+
+But gector changes it to: I have a dog . it name is Chente . It is a golden retriber .
+There is some minor error. But the sentence structure is entire different from the gold standard and have much error according to 
+the gold standard (So using Perplexity and similarity score can be better)
+
+short:
+Precision   : 0.6802
+Recall      : 0.2061
+F_0.5       : 0.4659
+
+long:
+Precision   : 0.7717
+Recall      : 0.1907
+F_0.5       : 0.4795
+
+
+light:
+Precision   : 0.7867
+Recall      : 0.3994
+F_0.5       : 0.6589
+
+
+medium:
+Precision   : 0.7543
+Recall      : 0.2618
+F_0.5       : 0.5481
+
+
+heavy:
+Precision   : 0.6999
+Recall      : 0.1165
+F_0.5       : 0.3497
+
+Looking at the values, we see that from light to medium to heavy, the F_0.5, precision and recall all decreases (Showing that gector does
+not do well for typos)
+Looking at short vs long, long's precision and F_0.5 is better, but short's recall is better (but only slightly, 0.2 vs 0.19)
