@@ -1,0 +1,10 @@
+medium_bart+gector.txt: Avg: 0.5915666656858076, Corpus Score: 0.6001947113494948
+medium_bart.txt: Avg: 0.5005393703749537, Corpus Score: 0.5059390155594906
+light_bart+gector.txt: Avg: 0.7137595344413591, Corpus Score: 0.7207168215784966
+heavy_bart+gector.txt: Avg: 0.4109832305057775, Corpus Score: 0.4115496834902138
+shortsentence_bart+gector.txt: Avg: 0.4722777579116007, Corpus Score: 0.5153304329811477
+longsentence_bart.txt: Avg: 0.43765559923342895, Corpus Score: 0.4173931839469702
+light_bart.txt: Avg: 0.6084897982688086, Corpus Score: 0.6121416680108713
+heavy_bart.txt: Avg: 0.34790855407174587, Corpus Score: 0.34788449842506103
+longsentence_bart+gector.txt: Avg: 0.5025904977129435, Corpus Score: 0.4817796305613455
+shortsentence_bart.txt: Avg: 0.416981844524595, Corpus Score: 0.4438530578167397

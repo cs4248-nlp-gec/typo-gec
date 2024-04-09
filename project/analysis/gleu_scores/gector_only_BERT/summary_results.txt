@@ -1,0 +1,5 @@
+longsentence_gectorBERT.txt: Avg: 0.5702920261770261, Corpus Score: 0.540403675034363
+medium_gectorBERT.txt: Avg: 0.6717366063721298, Corpus Score: 0.65773139147813
+light_gectorBERT.txt: Avg: 0.7389216662710687, Corpus Score: 0.7244523726738121
+heavy_gectorBERT.txt: Avg: 0.57996105433711, Corpus Score: 0.5662037498979527
+shortsentence_gectorBERT.txt: Avg: 0.6754787942748954, Corpus Score: 0.6835037702716662
