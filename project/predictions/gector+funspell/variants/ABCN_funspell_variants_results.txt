@@ -1,0 +1,29 @@
+# Original_Light:
+
+Precision   : 0.7505
+Recall      : 0.4700
+F_0.5       : 0.6705
+
+# Original_Medium:
+
+Precision   : 0.5967
+Recall      : 0.3189
+F_0.5       : 0.5082
+
+# Original_Heavy:
+
+Precision   : 0.5249
+Recall      : 0.2374
+F_0.5       : 0.4226
+
+# Short_Sentence_Medium:
+
+Precision   : 0.5858
+Recall      : 0.2635
+F_0.5       : 0.4707
+
+# Long_Sentence_Medium:
+
+Precision   : 0.5910
+Recall      : 0.3091
+F_0.5       : 0.4998
