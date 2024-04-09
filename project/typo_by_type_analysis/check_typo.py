@@ -127,7 +127,8 @@ def evaluate_correction_results(total_errors, corrected_errors, m2_list,
     inter_total_error = 0
     inter_error_corrected = 0
 
-    original_correct_offset = 0  # The difference in index (from original to corrected)
+    # The difference in index (from original to corrected)
+    original_correct_offset = 0
     original_generate_offset = 0
 
     s = difflib.SequenceMatcher(None, original_sentence.split(),
@@ -278,12 +279,16 @@ def evaluate_correction_results(total_errors, corrected_errors, m2_list,
 
 
 # Usage:
-folder_path = '/content/drive/My Drive/cs2109_dataset/cs4248_assignment2/typo/'
+folder_path = ''
 
-m2_file = folder_path + "true.m2"
-typo_file = folder_path + "ABCN.dev.gold.bea19_original_typo.txt"
-true_corrected_file = folder_path + "ABCN.dev.gold.bea19_corrected.txt"
-my_corrected_file = folder_path + "ABCN_original_typo_norvig.txt"
+m2_file = folder_path + \
+    "project/m2_annotations/ABCN.dev.gold.bea19_original_typo.txt"
+typo_file = folder_path + \
+    "project/data/original_typo/long_sentence/ABCN.dev.gold.bea19_original_typo.txt"
+true_corrected_file = folder_path + \
+    "project/data/corrected/corrected_long_sentence/ABCN.dev.gold.bea19_corrected_long_sentence.txt"
+my_corrected_file = folder_path + \
+    "project/predictions/gector+bart/reduced_overcorrections/variants/bart+gector/ABCN_dev_original_typo_bart+gector_long_sentence.txt"
 
 total_errors, corrected_errors = process_files(m2_file, typo_file,
                                                true_corrected_file,
