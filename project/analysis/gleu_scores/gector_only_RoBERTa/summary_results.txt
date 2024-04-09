@@ -1,5 +1,0 @@
-shortsentence_gectorRoBERTa.txt: Avg: 0.5328224553628167, Corpus Score: 0.5200908997004442
-heavy_gectorRoBERTa.txt: Avg: 0.37460982723082137, Corpus Score: 0.3598414411799389
-medium_gectorRoBERTa.txt: Avg: 0.5198594995428412, Corpus Score: 0.5040711121861252
-longsentence_gectorRoBERTa.txt: Avg: 0.44306636699851965, Corpus Score: 0.4230630109238226
-light_gectorRoBERTA.txt: Avg: 0.6447982617164247, Corpus Score: 0.6285960483151672
