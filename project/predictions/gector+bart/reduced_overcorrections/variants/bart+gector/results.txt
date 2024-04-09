@@ -4,7 +4,11 @@ Precision   : 0.7102
 Recall      : 0.7236
 F_0.5       : 0.7128
 
-medium
+medium 
+
+Precision   : 0.6788
+Recall      : 0.6809
+F_0.5       : 0.6792
 
 heavy
 
