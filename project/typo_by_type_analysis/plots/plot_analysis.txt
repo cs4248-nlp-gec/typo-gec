@@ -1,0 +1,32 @@
+Model Accuracy Comparison for Light, Medium, Heavy:
+
+- The line connects the mean of accuracy-by-typo-types for light, medium and heavy.
+- Regarding the descending slope between light, medium and heavy, Funspell has the steepest slope, while Bart & BertTrained have relatively small slope.
+- This is because Bart and BertTrained are generative model, which could still deduce context and generate corrections when facing long sequences of consecutive misspelled words; 
+but Funspell is context-dependent, and relies on previous context to deduce the next word. If the previous context is also wrong, it will fail to generate any valid suggestions (and just return the original sentence).
+- Hence, regarding the robustness of the model, BertTrained > Bart > Norvig > Funspell.
+
+Norvig Model Accuracy by typo type:
+
+- PREP has the lowest accuracy rate throughout each difficulty level, while NOUN and ADJ have the highest accuracy rate
+- NOUN performs consistently better than both VERB and PREP.
+- ADV performs consistently worse than ADJ by a large degree.
+
+Funspell Model Accuracy by typo type:
+
+- PREP also has the lowest accuracy rate throughout each difficulty level, while ADJ have the best accuracy rate.
+- The performance of NOUN and VERB are close for each level.
+- ADV performs consistently worse than ADJ by a large degree.
+
+Bart Model Accuracy by typo type:
+
+- For Light and Heavy, PREP has the lowest accuracy rate; but for medium, NOUN has the lowest accurate rate.
+- NOUN performs worse than VERB for each level, and this is most obvious in Medium level.
+- Both ADJ and ADV are among the best accuracy rate for each level, and their performance are close.
+
+Analysis for typo type:
+- PREP has low accuracy rate: Prepositions like in, at, on, of, to etc can be highly ambiguous and context-dependent. It is even more difficult to deduce the correct preposition if the context is already ambiguous due to the misspellings.
+- ADJ have high accuracy rate: The correct adjectives can frequently be determined by the noun it modifies. Hence, a decent accuracy of noun correction accuracy usually also brings high adj accuracy, as in Norvig case.
+- Edit distance model, VERB < NOUN: verbs in English can change a lot of forms with tense, number & aspect, potentially resulting in higher edit distances. Meanwhile, nouns are more stable in forms.
+- NGram model, VERB = NOUN: verbs & nouns often occur together in predictable patterns, i.e. subject - verb - object, the context needed for deducing each is similar.
+- Generative model, VERB > NOUN: A generative model is able to handle the complexity of verb tenses, aspects etc well. However, for the same sentence, many different nouns can fit in a grammarly-correct manner.

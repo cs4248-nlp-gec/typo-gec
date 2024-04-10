@@ -85,6 +85,7 @@ def process_files(m2_file, typo_file, true_corrected_file, my_corrected_file):
         len(generated_content)
     ]
     if not check_equal_length(length_list):
+        print(length_list)
         print("Found disparity between lengths of different files")
     max_length = min(length_list)
 
@@ -127,8 +128,7 @@ def evaluate_correction_results(total_errors, corrected_errors, m2_list,
     inter_total_error = 0
     inter_error_corrected = 0
 
-    # The difference in index (from original to corrected)
-    original_correct_offset = 0
+    original_correct_offset = 0  # The difference in index (from original to corrected)
     original_generate_offset = 0
 
     s = difflib.SequenceMatcher(None, original_sentence.split(),
@@ -252,11 +252,27 @@ def evaluate_correction_results(total_errors, corrected_errors, m2_list,
             print("Error comparing correction due to offset out of bound")
 
         # Update original_correct_offset
-        if correction_type == "M":
-            original_correct_offset += 1
+        try:
+            start_replace = int(correction.split()[1])
+            end_replace = int(correction.split()[2].split("|||")[0])
 
-        elif correction_type == "U":
-            original_correct_offset -= 1
+            new_words = correction.split("|||")[2].split(
+            )  # cannot first split by space, otherwise multiple words also splitted
+
+            if correction_type == "M":
+                original_correct_offset += len(new_words)
+
+            elif correction_type == "U":
+                original_correct_offset -= (end_replace - start_replace)
+
+            elif correction_type == "R":
+                original_correct_offset += len(new_words) - (end_replace -
+                                                             start_replace)
+
+        except:
+            print("Error retrieving start & end replacement number")
+            print(correction)
+            continue
 
     # finally, update the dict
     total_errors['verb'] += verb_total_error
@@ -279,16 +295,12 @@ def evaluate_correction_results(total_errors, corrected_errors, m2_list,
 
 
 # Usage:
-folder_path = ''
+folder_path = '/content/drive/My Drive/cs2109_dataset/cs4248_assignment2/typo/'
 
-m2_file = folder_path + \
-    "project/m2_annotations/ABCN.dev.gold.bea19_original_typo.txt"
-typo_file = folder_path + \
-    "project/data/original_typo/long_sentence/ABCN.dev.gold.bea19_original_typo.txt"
-true_corrected_file = folder_path + \
-    "project/data/corrected/corrected_long_sentence/ABCN.dev.gold.bea19_corrected_long_sentence.txt"
-my_corrected_file = folder_path + \
-    "project/predictions/gector+bart/reduced_overcorrections/variants/bart+gector/ABCN_dev_original_typo_bart+gector_long_sentence.txt"
+m2_file = folder_path + "true.m2"
+typo_file = folder_path + "ABCN.dev.gold.bea19_original_typo.txt"
+true_corrected_file = folder_path + "ABCN.dev.gold.bea19_corrected.txt"
+my_corrected_file = folder_path + "ABCN_original_typo_norvig.txt"
 
 total_errors, corrected_errors = process_files(m2_file, typo_file,
                                                true_corrected_file,
