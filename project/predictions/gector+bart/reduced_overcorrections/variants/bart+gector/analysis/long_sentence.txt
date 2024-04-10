@@ -1,0 +1,1813 @@
+S I think that public transport in the future is going to continue to be used because there are a lot of people that do not have enough money to lay for a road , even if it is less so public transport facilities to have a future - people are going to size more than cars then bus or underground
+A 0 2|||R:OTHER|||In my opinion|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 5 8|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 15 15|||M:OTHER|||in the future|||REQUIRED|||-NONE-|||0
+A 24 25|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 29 30|||R:VERB|||pay|||REQUIRED|||-NONE-|||0
+A 32 33|||R:NOUN|||car|||REQUIRED|||-NONE-|||0
+A 38 39|||R:OTHER|||used ,|||REQUIRED|||-NONE-|||0
+A 42 43|||R:OTHER|||will continue|||REQUIRED|||-NONE-|||0
+A 47 48|||R:OTHER|||but|||REQUIRED|||-NONE-|||0
+A 52 53|||R:VERB|||use|||REQUIRED|||-NONE-|||0
+A 53 56|||R:WO|||cars more than|||REQUIRED|||-NONE-|||0
+A 56 58|||R:OTHER|||buses|||REQUIRED|||-NONE-|||0
+A 59 59|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 60 60|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S By cz we can just stay with ourselves , which can be good because we feel open to this music that we love when we do not need to be around people that are unemployed , but if we cancel public transport we can meet friends or tamil , so with transportation are good In the first place it is not necessary to end up with the public transport
+A 0 2|||R:OTHER|||In a car ,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB|||be|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PREP|||by|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB|||can listen|||REQUIRED|||-NONE-|||0
+A 16 17|||U:ADJ||||||REQUIRED|||-NONE-|||0
+A 18 19|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 22 23|||R:VERB|||like|||REQUIRED|||-NONE-|||0
+A 23 24|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 26 27|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 34 35|||R:ADJ|||unknown|||REQUIRED|||-NONE-|||0
+A 39 40|||R:VERB|||choose|||REQUIRED|||-NONE-|||0
+A 42 42|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 47 48|||R:SPELL|||family|||REQUIRED|||-NONE-|||0
+A 50 51|||R:OTHER|||both modes of|||REQUIRED|||-NONE-|||0
+A 51 52|||R:MORPH|||transport|||REQUIRED|||-NONE-|||0
+A 54 59|||R:OTHER|||, and cars|||REQUIRED|||-NONE-|||0
+A 59 61|||R:OTHER|||do n't need|||REQUIRED|||-NONE-|||0
+A 61 62|||R:MORPH|||necessarily|||REQUIRED|||-NONE-|||0
+A 63 63|||M:OTHER|||bring an|||REQUIRED|||-NONE-|||0
+A 64 66|||R:OTHER|||to|||REQUIRED|||-NONE-|||0
+A 66 67|||U:DET||||||REQUIRED|||-NONE-|||0
+A 69 69|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Lihcael and Itae were so happy until one day that Michael had to my dream of being a proper hero . We got so nervous saying that it was ridiculous . It was just a bad dream and that Michael was so demanding , but that our hero did not exist
+A 0 1|||R:SPELL|||Michael|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOUN|||Kate|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 9 10|||U:DET||||||REQUIRED|||-NONE-|||0
+A 11 13|||R:OTHER|||told her about|||REQUIRED|||-NONE-|||0
+A 13 14|||R:DET|||his|||REQUIRED|||-NONE-|||0
+A 18 19|||R:ADJ|||super|||REQUIRED|||-NONE-|||0
+A 21 22|||R:OTHER|||Kate|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||agitated ,|||REQUIRED|||-NONE-|||0
+A 30 33|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||kid 's|||REQUIRED|||-NONE-|||0
+A 41 42|||R:ADV|||only|||REQUIRED|||-NONE-|||0
+A 42 44|||R:OTHER|||dreaming and that would never happen|||REQUIRED|||-NONE-|||0
+A 44 45|||R:CONJ|||and|||REQUIRED|||-NONE-|||0
+A 46 47|||R:OTHER|||super|||REQUIRED|||-NONE-|||0
+A 47 48|||R:NOUN:NUM|||heroes|||REQUIRED|||-NONE-|||0
+A 49 50|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 51 51|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Transportation is one of the most important things in life , so we have many kids for transportation . Now we travel by car , but in the future , there will be other comfortable and easy ways to travel , like trains and planes to a cam transport you from north to south in less than hour This will make business men happy and comfortable because of sitting at a lot of times and effort and so we hope that the government can achieve this way as soon as possible
+A 15 15|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOUN|||kinds|||REQUIRED|||-NONE-|||0
+A 16 17|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 28 28|||M:ADJ|||near|||REQUIRED|||-NONE-|||0
+A 29 30|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 42 42|||M:ADJ|||fast|||REQUIRED|||-NONE-|||0
+A 45 46|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 46 47|||R:DET|||that|||REQUIRED|||-NONE-|||0
+A 47 48|||R:SPELL|||can|||REQUIRED|||-NONE-|||0
+A 57 57|||M:DET|||an|||REQUIRED|||-NONE-|||0
+A 58 58|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 61 63|||R:ORTH|||businessmen|||REQUIRED|||-NONE-|||0
+A 66 66|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 68 70|||R:OTHER|||saving|||REQUIRED|||-NONE-|||0
+A 73 74|||R:NOUN:NUM|||time|||REQUIRED|||-NONE-|||0
+A 76 77|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 86 87|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 91 91|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Old computers only kept you doing math tasks or even playing simple games . It's 2 dolorfs then and black , but now you don't do whatever you want to do , like reading or playing videogames , writing or reading a book , connecting to the Internet , watching or make videos , invent new stuff to improve the computing technology and not only in 2 colors but thousands of them
+A 3 4|||R:VERB|||let|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:FORM|||do|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||play|||REQUIRED|||-NONE-|||0
+A 13 15|||R:OTHER|||with|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||colors|||REQUIRED|||-NONE-|||0
+A 17 18|||R:OTHER|||( green|||REQUIRED|||-NONE-|||0
+A 20 20|||M:PUNCT|||)|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||can|||REQUIRED|||-NONE-|||0
+A 33 34|||R:VERB|||creating|||REQUIRED|||-NONE-|||0
+A 36 37|||R:ORTH|||video games|||REQUIRED|||-NONE-|||0
+A 44 45|||R:VERB:FORM|||connect|||REQUIRED|||-NONE-|||0
+A 47 48|||R:ORTH|||internet|||REQUIRED|||-NONE-|||0
+A 49 50|||R:VERB:FORM|||watch|||REQUIRED|||-NONE-|||0
+A 59 60|||U:DET||||||REQUIRED|||-NONE-|||0
+A 60 62|||R:ORTH|||Computing Technology|||REQUIRED|||-NONE-|||0
+A 62 62|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 68 68|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 72 72|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S As I did not find anything , I went to the place where he lives and started to look for dome information about human lives and dead people who he cares about . So as I managed to go to his house , I noticed he would always go to the same house so I decided to follow him to be house and I found out he was dating a girl she might be his girlfriend so i finally got an idea I would describe him crazy just as he did with me that was as she would think he had problems on his own and left him but I thought about it again and realized that if I did that she will try to help him and they will be more united so i decided to drive there and try to talk Absolutely but we’re still champs Turgeon declared It's been amazing
+A 3 4|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 14 15|||R:VERB:TENSE|||lived|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||some|||REQUIRED|||-NONE-|||0
+A 23 24|||R:OTHER|||his|||REQUIRED|||-NONE-|||0
+A 24 25|||R:NOUN:NUM|||life|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||find|||REQUIRED|||-NONE-|||0
+A 30 31|||R:VERB:TENSE|||cared|||REQUIRED|||-NONE-|||0
+A 36 37|||R:VERB|||continued|||REQUIRED|||-NONE-|||0
+A 53 53|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 53 54|||R:OTHER|||s|||REQUIRED|||-NONE-|||0
+A 60 61|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 71 72|||M:PUNCT|||. She|||REQUIRED|||-NONE-|||0
+A 76 76|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 77 78|||R:ORTH|||I|||REQUIRED|||-NONE-|||0
+A 82 82|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 84 85|||R:VERB|||drive|||REQUIRED|||-NONE-|||0
+A 91 92|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 93 94|||M:PUNCT|||. That|||REQUIRED|||-NONE-|||0
+A 94 96|||R:OTHER|||way|||REQUIRED|||-NONE-|||0
+A 102 103|||R:PREP|||with|||REQUIRED|||-NONE-|||0
+A 104 105|||R:OTHER|||mind|||REQUIRED|||-NONE-|||0
+A 106 107|||R:VERB:TENSE|||leave|||REQUIRED|||-NONE-|||0
+A 108 109|||M:PUNCT|||. But|||REQUIRED|||-NONE-|||0
+A 109 110|||M:ADV|||soon i|||REQUIRED|||-NONE-|||0
+A 122 123|||R:VERB:TENSE|||would|||REQUIRED|||-NONE-|||0
+A 133 133|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 134 135|||R:ORTH|||I|||REQUIRED|||-NONE-|||0
+A 138 139|||R:OTHER|||them|||REQUIRED|||-NONE-|||0
+A 139 140|||R:CONJ|||both|||REQUIRED|||-NONE-|||0
+A 140 141|||R:OTHER|||crazy , almost|||REQUIRED|||-NONE-|||0
+A 142 143|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 143 144|||R:OTHER|||brink|||REQUIRED|||-NONE-|||0
+A 144 145|||R:OTHER|||of|||REQUIRED|||-NONE-|||0
+A 145 147|||R:OTHER|||death , just|||REQUIRED|||-NONE-|||0
+A 147 148|||R:OTHER|||as|||REQUIRED|||-NONE-|||0
+A 148 149|||R:PRON|||he|||REQUIRED|||-NONE-|||0
+A 149 150|||R:VERB|||did|||REQUIRED|||-NONE-|||0
+A 150 151|||R:OTHER|||with|||REQUIRED|||-NONE-|||0
+A 151 152|||R:OTHER|||me|||REQUIRED|||-NONE-|||0
+A 152 153|||R:OTHER|||!|||REQUIRED|||-NONE-|||0
+
+S I screaked my anger had dominated my kind . I did no longer have control over my actions . I was aware of what I had become and what I could do . I could not confirm my self and the only thing I could think of was suffering with a slow death or a satisulation I would feel when I finally had my rearrange the sober reverse
+A 1 2|||R:VERB|||screamed|||REQUIRED|||-NONE-|||0
+A 2 3|||M:PUNCT|||. My|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||mind|||REQUIRED|||-NONE-|||0
+A 11 13|||R:ADV|||n't|||REQUIRED|||-NONE-|||0
+A 14 14|||M:DET|||any|||REQUIRED|||-NONE-|||0
+A 21 22|||R:ADJ|||afraid|||REQUIRED|||-NONE-|||0
+A 32 33|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 33 33|||M:CONJ|||but|||REQUIRED|||-NONE-|||0
+A 36 37|||R:VERB|||control|||REQUIRED|||-NONE-|||0
+A 37 39|||R:ORTH|||myself|||REQUIRED|||-NONE-|||0
+A 48 48|||M:PRON|||him|||REQUIRED|||-NONE-|||0
+A 49 50|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 53 54|||R:CONJ|||and|||REQUIRED|||-NONE-|||0
+A 54 55|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 55 56|||R:SPELL|||satisfaction|||REQUIRED|||-NONE-|||0
+A 64 65|||R:NOUN|||revenge|||REQUIRED|||-NONE-|||0
+A 65 66|||M:PUNCT|||. The|||REQUIRED|||-NONE-|||0
+A 66 67|||R:ADJ|||best|||REQUIRED|||-NONE-|||0
+A 67 68|||R:OTHER|||revenge .|||REQUIRED|||-NONE-|||0
+
+S But I was so mad at him and so anxious to make his laws impossible and so my fear of death and my anger for lack of it after I had been thinking became stronger and bigger . I had made a decision , I was going to do it if he decided 4 years of his life touring me and not inviting me to be happy I should like to remind everyone of Mr Metten's fine words about dismissing one of the candidates or rather abstaining from voting but tomorrow or this afternoon he will be voting in favour again
+A 13 14|||R:NOUN|||life|||REQUIRED|||-NONE-|||0
+A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:ADV|||soon|||REQUIRED|||-NONE-|||0
+A 25 26|||R:OTHER|||all|||REQUIRED|||-NONE-|||0
+A 27 28|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 28 29|||R:NOUN|||suffering|||REQUIRED|||-NONE-|||0
+A 32 33|||R:PREP|||through|||REQUIRED|||-NONE-|||0
+A 36 37|||R:ADJ|||greater|||REQUIRED|||-NONE-|||0
+A 43 44|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 50 51|||M:PUNCT|||. If|||REQUIRED|||-NONE-|||0
+A 52 53|||R:VERB|||dedicated|||REQUIRED|||-NONE-|||0
+A 58 58|||M:PREP|||to|||REQUIRED|||-NONE-|||0
+A 58 59|||R:VERB|||torturing|||REQUIRED|||-NONE-|||0
+A 62 63|||R:VERB|||wanting|||REQUIRED|||-NONE-|||0
+A 67 68|||R:OTHER|||, the time|||REQUIRED|||-NONE-|||0
+A 68 69|||R:VERB|||is|||REQUIRED|||-NONE-|||0
+A 69 70|||R:OTHER|||necessary for him|||REQUIRED|||-NONE-|||0
+A 71 78|||R:OTHER|||have|||REQUIRED|||-NONE-|||0
+A 78 79|||R:OTHER|||a|||REQUIRED|||-NONE-|||0
+A 79 84|||R:OTHER|||miserable life|||REQUIRED|||-NONE-|||0
+A 84 87|||R:OTHER|||and I|||REQUIRED|||-NONE-|||0
+A 87 90|||R:OTHER|||wo n't|||REQUIRED|||-NONE-|||0
+A 90 95|||R:OTHER|||stop until I|||REQUIRED|||-NONE-|||0
+A 95 98|||R:VERB|||have accomplished|||REQUIRED|||-NONE-|||0
+A 98 99|||R:OTHER|||my|||REQUIRED|||-NONE-|||0
+A 99 100|||R:NOUN|||goal|||REQUIRED|||-NONE-|||0
+A 100 101|||R:OTHER|||.|||REQUIRED|||-NONE-|||0
+
+S Public transportation is more used by people and in one and a half years it is kind of becoming cheaper when slaps more saew but some people prefer cars to extend . What do we agree with and what are our reasons for that ? That is what are we going to demonstrate in this essay
+A 2 3|||R:VERB|||has|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||been|||REQUIRED|||-NONE-|||0
+A 7 10|||R:OTHER|||more|||REQUIRED|||-NONE-|||0
+A 11 13|||R:OTHER|||over the|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:TENSE|||has been|||REQUIRED|||-NONE-|||0
+A 20 23|||R:OTHER|||and also|||REQUIRED|||-NONE-|||0
+A 23 24|||R:OTHER|||safer ,|||REQUIRED|||-NONE-|||0
+A 29 31|||U:VERB||||||REQUIRED|||-NONE-|||0
+A 32 33|||M:PREP|||To what|||REQUIRED|||-NONE-|||0
+A 33 33|||M:NOUN|||extent|||REQUIRED|||-NONE-|||0
+A 37 37|||M:DET|||this|||REQUIRED|||-NONE-|||0
+A 48 50|||R:WO|||we are|||REQUIRED|||-NONE-|||0
+A 56 56|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Before about 40 years ago , there was nothing coupled with public transportation and people rarely own cars , so in those years there was not even gold facilitation to move from one place to another and that is because there was no company to build cars . In about 10 years , trading became viable and also became very popular in the meat retail industry At the beginning they made a lot of money but they were able to sell it by the end
+A 0 2|||U:PREP|||About|||REQUIRED|||-NONE-|||0
+A 9 11|||R:OTHER|||called|||REQUIRED|||-NONE-|||0
+A 16 17|||R:VERB:TENSE|||owned|||REQUIRED|||-NONE-|||0
+A 24 25|||R:VERB:SVA|||were|||REQUIRED|||-NONE-|||0
+A 27 28|||R:ADJ|||good|||REQUIRED|||-NONE-|||0
+A 28 29|||R:NOUN|||facilities|||REQUIRED|||-NONE-|||0
+A 41 42|||R:VERB:SVA|||were|||REQUIRED|||-NONE-|||0
+A 43 44|||R:NOUN:NUM|||companies|||REQUIRED|||-NONE-|||0
+A 48 49|||R:PREP|||After|||REQUIRED|||-NONE-|||0
+A 53 53|||M:NOUN|||car|||REQUIRED|||-NONE-|||0
+A 60 62|||R:OTHER|||supported by having|||REQUIRED|||-NONE-|||0
+A 62 65|||R:OTHER|||her own|||REQUIRED|||-NONE-|||0
+A 65 66|||R:OTHER|||fans .|||REQUIRED|||-NONE-|||0
+A 69 69|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 70 71|||R:VERB|||faced|||REQUIRED|||-NONE-|||0
+A 74 75|||R:OTHER|||problems ,|||REQUIRED|||-NONE-|||0
+A 80 81|||R:VERB|||solve|||REQUIRED|||-NONE-|||0
+A 81 82|||R:PRON|||them|||REQUIRED|||-NONE-|||0
+A 82 83|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 85 85|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Today's all facilities for travelling are more convenient , from cars to bypasses even trains and planes . People prefer corsa because they like crowded palaces or because they find it sometimes cheap , but so on another point of view , public transportation is very cheap and even faster . By the 1740s it is verified that he relocated to the town of Medzhybizh and became recognized and popular in all Podolia and beyond
+A 0 1|||R:OTHER|||Nowadays|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOUN|||modes|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||transport|||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||buses ,|||REQUIRED|||-NONE-|||0
+A 18 19|||M:DET|||Some people|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||cars|||REQUIRED|||-NONE-|||0
+A 23 23|||M:OTHER|||do not|||REQUIRED|||-NONE-|||0
+A 25 26|||R:NOUN|||places|||REQUIRED|||-NONE-|||0
+A 31 31|||M:ADJ|||cheaper|||REQUIRED|||-NONE-|||0
+A 32 33|||U:ADJ||||||REQUIRED|||-NONE-|||0
+A 35 37|||R:OTHER|||from|||REQUIRED|||-NONE-|||0
+A 51 52|||R:OTHER|||But|||REQUIRED|||-NONE-|||0
+A 52 54|||R:OTHER|||when|||REQUIRED|||-NONE-|||0
+A 55 60|||R:OTHER|||comes to traveling , a lot of people prefer driving their own cars|||REQUIRED|||-NONE-|||0
+A 61 61|||M:VERB|||feel|||REQUIRED|||-NONE-|||0
+A 62 65|||R:OTHER|||real experience|||REQUIRED|||-NONE-|||0
+A 66 67|||R:VERB:TENSE|||to|||REQUIRED|||-NONE-|||0
+A 67 68|||R:VERB|||enjoy|||REQUIRED|||-NONE-|||0
+A 68 69|||R:OTHER|||themselves|||REQUIRED|||-NONE-|||0
+A 69 70|||R:OTHER|||more|||REQUIRED|||-NONE-|||0
+A 70 73|||R:OTHER|||by avoiding|||REQUIRED|||-NONE-|||0
+A 73 74|||R:OTHER|||crowded|||REQUIRED|||-NONE-|||0
+A 74 75|||R:OTHER|||places .|||REQUIRED|||-NONE-|||0
+
+S Technology has changed people' lives very much . In fact , we can think of how different our lives are despite either our parents or our grandparents' lives . For example , my parents did not want to go on TV because they felt that there had to be a TV on the world when they were young But it is not the case Different species of bacteria have different numbers and arrangements of flagella
+A 3 4|||R:OTHER|||people 's|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||a|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||lot|||REQUIRED|||-NONE-|||0
+A 14 15|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOUN:NUM|||life|||REQUIRED|||-NONE-|||0
+A 19 20|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
+A 20 21|||R:OTHER|||compared to|||REQUIRED|||-NONE-|||0
+A 24 24|||M:NOUN:POSS|||'|||REQUIRED|||-NONE-|||0
+A 26 27|||R:ORTH|||grandparents '|||REQUIRED|||-NONE-|||0
+A 35 39|||R:OTHER|||n't watch|||REQUIRED|||-NONE-|||0
+A 39 40|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 41 41|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 42 45|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 46 49|||R:OTHER|||was n't|||REQUIRED|||-NONE-|||0
+A 49 50|||R:DET|||any|||REQUIRED|||-NONE-|||0
+A 51 52|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 58 58|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 59 60|||R:PRON|||that|||REQUIRED|||-NONE-|||0
+A 61 62|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 63 64|||R:OTHER|||only|||REQUIRED|||-NONE-|||0
+A 64 66|||R:OTHER|||difference : we can think|||REQUIRED|||-NONE-|||0
+A 66 68|||R:OTHER|||about the mobile|||REQUIRED|||-NONE-|||0
+A 68 69|||R:OTHER|||phone ,|||REQUIRED|||-NONE-|||0
+A 69 70|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 70 71|||R:NOUN|||computer|||REQUIRED|||-NONE-|||0
+A 72 75|||R:OTHER|||finally the internet . Our grandparents could n't have imagined a strange machine like the computer in their lives .|||REQUIRED|||-NONE-|||0
+
+S The best advice I can give to someone who is starting running is to start slowly and not to try to run too fast , but then to eventually build up the running weel by using it so that we see you running a little further and a little more faster and then after 20 years you will be an Olympic champion maybe
+A 33 34|||R:SPELL|||week|||REQUIRED|||-NONE-|||0
+A 35 37|||R:OTHER|||week|||REQUIRED|||-NONE-|||0
+A 39 40|||R:OTHER|||every|||REQUIRED|||-NONE-|||0
+A 40 41|||R:SPELL|||week|||REQUIRED|||-NONE-|||0
+A 42 42|||M:VERB:TENSE|||are|||REQUIRED|||-NONE-|||0
+A 49 50|||U:ADV||||||REQUIRED|||-NONE-|||0
+A 53 53|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 56 56|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 63 63|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S I completed many things including monitoring grades students completed summer homework , correcting homework diligent asskst the instructor . The instructor helped organize handouts instead of the instructor to answer questions raised by the students but also to clean the classroom . Things sure change fast and we now have the week off thanks to coronavirus
+A 3 4|||R:OTHER|||tasks ,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB|||tutoring|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||three|||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||, completing|||REQUIRED|||-NONE-|||0
+A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 15|||R:MORPH|||diligently|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||assisting|||REQUIRED|||-NONE-|||0
+A 18 19|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 19 22|||R:WO|||helped the instructor|||REQUIRED|||-NONE-|||0
+A 24 24|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 35 35|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 37 39|||R:VERB:FORM|||cleaning|||REQUIRED|||-NONE-|||0
+A 41 44|||R:OTHER|||, very|||REQUIRED|||-NONE-|||0
+A 44 45|||R:OTHER|||hard|||REQUIRED|||-NONE-|||0
+A 45 47|||R:OTHER|||work , but|||REQUIRED|||-NONE-|||0
+A 47 49|||R:OTHER|||I|||REQUIRED|||-NONE-|||0
+A 50 54|||R:OTHER|||nothing|||REQUIRED|||-NONE-|||0
+A 55 56|||R:OTHER|||complain about .|||REQUIRED|||-NONE-|||0
+
+S So he went back to Sarah 's house and cleaned all the bathrooms , but Sarah already knew that he lit my bathroom like this , so before Michael entered the bathroom she said , I know that this is a cause for concern for you which you express with passion
+A 10 11|||U:DET||||||REQUIRED|||-NONE-|||0
+A 12 12|||M:ADJ|||whole|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOUN:NUM|||bathroom|||REQUIRED|||-NONE-|||0
+A 20 21|||R:VERB|||had left|||REQUIRED|||-NONE-|||0
+A 21 22|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 24 25|||R:DET|||that|||REQUIRED|||-NONE-|||0
+A 34 35|||R:PUNCT|||: "|||REQUIRED|||-NONE-|||0
+A 37 45|||R:OTHER|||what|||REQUIRED|||-NONE-|||0
+A 46 47|||R:OTHER|||left there " and Michael|||REQUIRED|||-NONE-|||0
+A 47 48|||R:OTHER|||went|||REQUIRED|||-NONE-|||0
+A 48 49|||R:VERB|||running|||REQUIRED|||-NONE-|||0
+A 49 51|||R:OTHER|||to the bathroom .|||REQUIRED|||-NONE-|||0
+
+S I said that because when I was eleven my best friend had been operated on bank and before the operation he came with me and every day I had to wait for her because he spent a lot of time in the shed cleaning her long hair . I hated that
+A 12 13|||R:OTHER|||an|||REQUIRED|||-NONE-|||0
+A 13 14|||R:MORPH|||operation|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||her back|||REQUIRED|||-NONE-|||0
+A 17 17|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 20 20|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 25 25|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 27 27|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 34 35|||R:PRON|||she|||REQUIRED|||-NONE-|||0
+A 42 43|||R:NOUN|||shower|||REQUIRED|||-NONE-|||0
+A 51 51|||M:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S What we believe as Muslims is that we have been created by one who does not have other in him , the one who created our father Sam and created from him Eve and they were in Paradise and instructed to boy it from the trans but they still deceived them so they brought to this life and generations came from them and had sent the prophet and messengers Moses Jesus Mohamed others who they worship This was one of the most memorable moments of her college career Matela said was co-anchoring Midterm Mandate BUTV’s two-hour live program on the 2018 midterm elections
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 10|||R:VERB:TENSE|||were|||REQUIRED|||-NONE-|||0
+A 15 16|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 17 17|||M:DET|||any|||REQUIRED|||-NONE-|||0
+A 18 19|||R:PREP|||with|||REQUIRED|||-NONE-|||0
+A 20 21|||R:PUNCT|||;|||REQUIRED|||-NONE-|||0
+A 27 27|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 27 28|||R:NOUN|||Adam|||REQUIRED|||-NONE-|||0
+A 28 28|||M:PUNCT|||)|||REQUIRED|||-NONE-|||0
+A 32 32|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 33 33|||M:PUNCT|||) ,|||REQUIRED|||-NONE-|||0
+A 40 40|||M:ADV|||not|||REQUIRED|||-NONE-|||0
+A 41 43|||R:OTHER|||eat|||REQUIRED|||-NONE-|||0
+A 45 46|||R:OTHER|||tree ,|||REQUIRED|||-NONE-|||0
+A 47 49|||R:OTHER|||Satan|||REQUIRED|||-NONE-|||0
+A 51 51|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 53 54|||R:VERB|||came|||REQUIRED|||-NONE-|||0
+A 63 64|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A 69 69|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 70 70|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 71 71|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 72 72|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 73 73|||M:PUNCT|||..|||REQUIRED|||-NONE-|||0
+A 74 75|||U:PRON||||||REQUIRED|||-NONE-|||0
+A 75 76|||R:VERB:TENSE|||worshipped|||REQUIRED|||-NONE-|||0
+A 76 77|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 77 78|||R:OTHER|||same|||REQUIRED|||-NONE-|||0
+A 79 79|||M:OTHER|||) with Miracles and evidence|||REQUIRED|||-NONE-|||0
+A 81 84|||R:OTHER|||truth , to guide the people|||REQUIRED|||-NONE-|||0
+A 84 90|||R:OTHER|||to know who will follow the truth which|||REQUIRED|||-NONE-|||0
+A 90 91|||R:VERB:TENSE|||will|||REQUIRED|||-NONE-|||0
+A 91 92|||R:VERB|||guide|||REQUIRED|||-NONE-|||0
+A 92 95|||R:OTHER|||them to Paradise and who follow|||REQUIRED|||-NONE-|||0
+A 95 99|||R:OTHER|||other paths , which will guide them to hell . So , because of that we are here to do|||REQUIRED|||-NONE-|||0
+A 100 103|||R:OTHER|||test in this short life .|||REQUIRED|||-NONE-|||0
+
+S Which plays an important role in giving foreign competition to governments . As a result of this , consumers need more benefits like lower fares , privacy and freedom of travel . In addition , many automotive companies are launching e-bikes with affordable pricing , which is what is going to give us a good monitoring overview of these fisheries
+A 0 1|||R:ORTH|||which|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:SVA|||play|||REQUIRED|||-NONE-|||0
+A 7 8|||R:ADJ|||tough|||REQUIRED|||-NONE-|||0
+A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN:NUM|||government|||REQUIRED|||-NONE-|||0
+A 18 18|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOUN:NUM|||consumer|||REQUIRED|||-NONE-|||0
+A 19 20|||R:VERB|||gets|||REQUIRED|||-NONE-|||0
+A 22 22|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 24 25|||R:NOUN|||fairs|||REQUIRED|||-NONE-|||0
+A 27 27|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 27 29|||R:WO|||freedom and|||REQUIRED|||-NONE-|||0
+A 29 30|||R:OTHER|||safe|||REQUIRED|||-NONE-|||0
+A 30 31|||R:MORPH|||travelling|||REQUIRED|||-NONE-|||0
+A 36 37|||R:OTHER|||automobile|||REQUIRED|||-NONE-|||0
+A 38 40|||R:VERB:TENSE|||launch|||REQUIRED|||-NONE-|||0
+A 40 41|||R:OTHER|||new cars|||REQUIRED|||-NONE-|||0
+A 41 42|||R:PREP|||at|||REQUIRED|||-NONE-|||0
+A 43 44|||R:MORPH|||prices|||REQUIRED|||-NONE-|||0
+A 46 48|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 48 50|||R:VERB|||encourages|||REQUIRED|||-NONE-|||0
+A 50 50|||M:NOUN|||people|||REQUIRED|||-NONE-|||0
+A 51 52|||U:VERB||||||REQUIRED|||-NONE-|||0
+A 52 53|||R:SPELL|||use|||REQUIRED|||-NONE-|||0
+A 53 56|||R:OTHER|||more and more|||REQUIRED|||-NONE-|||0
+A 56 60|||R:OTHER|||private vehicles .|||REQUIRED|||-NONE-|||0
+
+S I think people would like this movie because it's very similar to the story of the book . This is one of the right movies that is really based on the book . This theme is very unique and original , although the actors in the first movies were perfect and I think that in the last movies they will play double effort
+A 3 4|||R:VERB:TENSE|||will|||REQUIRED|||-NONE-|||0
+A 8 9|||R:ORTH|||it 's|||REQUIRED|||-NONE-|||0
+A 23 24|||R:ADJ|||first|||REQUIRED|||-NONE-|||0
+A 33 34|||R:DET|||The|||REQUIRED|||-NONE-|||0
+A 40 40|||M:OTHER|||. Also|||REQUIRED|||-NONE-|||0
+A 41 42|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 50 50|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 57 58|||R:NOUN:NUM|||movie|||REQUIRED|||-NONE-|||0
+A 58 58|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 60 61|||R:VERB|||make|||REQUIRED|||-NONE-|||0
+A 62 62|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 63 63|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S He took the money he spent day he finished the registration and started writing the story after a long time writing and did a good job . He went to give his story to the international student magazine office . He found only three drew a notice on the soror sky had the competition he canceled he came back very sad and told me why he happened Michael closed the shop and moved on having depleted the virgin timber in the area He has a rich personal history with law enforcement having portrayed numerous purveyors of the law on TV and in movies since the mid-seventies
+A 4 5|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||next|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||M:PUNCT|||. After|||REQUIRED|||-NONE-|||0
+A 17 17|||M:VERB|||spending|||REQUIRED|||-NONE-|||0
+A 22 23|||R:VERB:FORM|||doing|||REQUIRED|||-NONE-|||0
+A 26 28|||R:PUNCT|||, he|||REQUIRED|||-NONE-|||0
+A 42 43|||R:OTHER|||out|||REQUIRED|||-NONE-|||0
+A 43 44|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+A 44 45|||R:VERB|||was|||REQUIRED|||-NONE-|||0
+A 49 50|||R:SPELL|||door|||REQUIRED|||-NONE-|||0
+A 50 51|||R:OTHER|||saying|||REQUIRED|||-NONE-|||0
+A 51 52|||R:SPELL|||that|||REQUIRED|||-NONE-|||0
+A 54 55|||R:OTHER|||was|||REQUIRED|||-NONE-|||0
+A 56 57|||M:PUNCT|||. He|||REQUIRED|||-NONE-|||0
+A 64 65|||R:SPELL|||what|||REQUIRED|||-NONE-|||0
+A 65 66|||R:OTHER|||had|||REQUIRED|||-NONE-|||0
+A 67 67|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 70 71|||R:NOUN|||door|||REQUIRED|||-NONE-|||0
+A 72 73|||R:VERB|||knew|||REQUIRED|||-NONE-|||0
+A 73 83|||R:OTHER|||at that moment he|||REQUIRED|||-NONE-|||0
+A 83 84|||R:VERB|||had made|||REQUIRED|||-NONE-|||0
+A 85 106|||R:OTHER|||mistake .|||REQUIRED|||-NONE-|||0
+
+S I believe that there is no futyre for public transport . Using trains is more convenient and low expenses will decrease the carbon gases which affect the ozone . People should be aware of the effect of using public transportation on the economy and environment . Governments should encourage the people to use the other ways for transport this subject shall be issues in all media to learn and encourage them to use their own gas for transport
+A 6 7|||R:SPELL|||future|||REQUIRED|||-NONE-|||0
+A 10 12|||R:PUNCT|||, using|||REQUIRED|||-NONE-|||0
+A 17 18|||R:OTHER|||less|||REQUIRED|||-NONE-|||0
+A 18 19|||R:OTHER|||expensive|||REQUIRED|||-NONE-|||0
+A 19 20|||R:OTHER|||, so to|||REQUIRED|||-NONE-|||0
+A 25 26|||R:VERB:TENSE|||are affecting|||REQUIRED|||-NONE-|||0
+A 28 28|||M:NOUN|||layer|||REQUIRED|||-NONE-|||0
+A 28 30|||R:PUNCT|||, people|||REQUIRED|||-NONE-|||0
+A 49 50|||U:DET||||||REQUIRED|||-NONE-|||0
+A 53 54|||U:DET||||||REQUIRED|||-NONE-|||0
+A 55 56|||R:NOUN|||modes|||REQUIRED|||-NONE-|||0
+A 56 57|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 58 59|||M:PUNCT|||. This|||REQUIRED|||-NONE-|||0
+A 60 61|||R:VERB:TENSE|||should|||REQUIRED|||-NONE-|||0
+A 62 63|||R:NOUN|||issuesd|||REQUIRED|||-NONE-|||0
+A 67 68|||R:VERB|||teach|||REQUIRED|||-NONE-|||0
+A 70 71|||R:OTHER|||people|||REQUIRED|||-NONE-|||0
+A 73 74|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 74 75|||R:ADJ|||right|||REQUIRED|||-NONE-|||0
+A 75 76|||R:NOUN|||mode|||REQUIRED|||-NONE-|||0
+A 76 77|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 78 78|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S In my town we created a small organization to maintain a healthy environment and to be attractive . The citizens in this town must participate in this . The citizens will take the responsibility for a specific day to clean the yowh and put the rubbish into the correct place and clean water and planting more of it
+A 4 4|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
+A 8 10|||R:OTHER|||for|||REQUIRED|||-NONE-|||0
+A 11 11|||M:ADV|||more|||REQUIRED|||-NONE-|||0
+A 13 13|||M:OTHER|||, beauty touch|||REQUIRED|||-NONE-|||0
+A 20 21|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 21 22|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 30 31|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A 32 33|||U:DET||||||REQUIRED|||-NONE-|||0
+A 41 42|||R:SPELL|||town|||REQUIRED|||-NONE-|||0
+A 46 47|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 52 53|||R:NOUN|||trees|||REQUIRED|||-NONE-|||0
+A 54 55|||R:MORPH|||plant|||REQUIRED|||-NONE-|||0
+A 57 58|||R:PRON|||them|||REQUIRED|||-NONE-|||0
+A 58 58|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Nowadays , in other cities , there are many possibilities for public transport , like NHS train , zuway tram , other options . It is more economical than the xaf problem of the car is that , normally , a car is supplied for a person when the cost is prepared to carry four or five people
+A 1 2|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 3 4|||R:ADJ|||developed|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||bus ,|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||subway|||REQUIRED|||-NONE-|||0
+A 19 21|||R:WO|||, tram|||REQUIRED|||-NONE-|||0
+A 21 23|||R:OTHER|||etc|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||These options|||REQUIRED|||-NONE-|||0
+A 25 26|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
+A 30 31|||R:OTHER|||car . The|||REQUIRED|||-NONE-|||0
+A 32 33|||R:PREP|||with|||REQUIRED|||-NONE-|||0
+A 40 41|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 43 44|||R:VERB|||occupied|||REQUIRED|||-NONE-|||0
+A 44 45|||R:PREP|||by|||REQUIRED|||-NONE-|||0
+A 45 46|||R:DET|||one|||REQUIRED|||-NONE-|||0
+A 47 47|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 49 50|||R:NOUN|||car|||REQUIRED|||-NONE-|||0
+A 51 52|||R:VERB|||designed|||REQUIRED|||-NONE-|||0
+A 58 58|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S It is well known that many art curators and artists believe that contemporary art is not a good source of art since there are many artists that only create on their easy ideas of an aesthetic image or a philosophical idea . Most of the time , this is unintelligible
+A 21 21|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 29 29|||M:VERB|||based|||REQUIRED|||-NONE-|||0
+A 41 42|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 42 43|||M:CONJ|||but most|||REQUIRED|||-NONE-|||0
+A 46 47|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 50 50|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S You have classes since you were nine years old and you already know how to play pkano , so I think that you should continue doing sports because it is important for your health and in your free time you can still only link without toinv to the classes
+A 2 2|||M:VERB|||been having|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||piano|||REQUIRED|||-NONE-|||0
+A 27 27|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 38 39|||R:NOUN:NUM|||times|||REQUIRED|||-NONE-|||0
+A 40 41|||R:VERB:TENSE|||could|||REQUIRED|||-NONE-|||0
+A 42 43|||R:OTHER|||play|||REQUIRED|||-NONE-|||0
+A 43 44|||R:OTHER|||piano|||REQUIRED|||-NONE-|||0
+A 45 46|||R:SPELL|||going|||REQUIRED|||-NONE-|||0
+A 47 48|||U:DET||||||REQUIRED|||-NONE-|||0
+A 49 49|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S In the case of transportation technology in the twentieth century , we have various options , plus that we can fly with a cloud tank that is big enough to carry hundreds of people and fragel hundreds of miles and hour and boats that are much bigger and faster than ancient times
+A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 9|||R:OTHER|||this twenty first|||REQUIRED|||-NONE-|||0
+A 16 17|||R:OTHER|||like planes|||REQUIRED|||-NONE-|||0
+A 18 19|||U:PRON||||||REQUIRED|||-NONE-|||0
+A 21 22|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 22 23|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOUN:NUM|||clouds|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||, trains|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||are fast and|||REQUIRED|||-NONE-|||0
+A 35 36|||R:SPELL|||travel|||REQUIRED|||-NONE-|||0
+A 39 40|||R:SPELL|||an|||REQUIRED|||-NONE-|||0
+A 50 50|||M:PREP|||in|||REQUIRED|||-NONE-|||0
+A 52 52|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Yes , I agree , if you plan a trip or a long journey and do a long tour , you would prefer to do it in a car , because , kindly , spending less time travelling will be comfortable . You all have the opportunity to stop everything and for a long time as you need
+A 7 8|||R:VERB:TENSE|||planned|||REQUIRED|||-NONE-|||0
+A 8 9|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||journey|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 12 13|||R:ADJ|||faraway|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOUN|||destination|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||for|||REQUIRED|||-NONE-|||0
+A 18 20|||R:OTHER|||time|||REQUIRED|||-NONE-|||0
+A 26 27|||R:PREP|||by|||REQUIRED|||-NONE-|||0
+A 27 28|||U:DET||||||REQUIRED|||-NONE-|||0
+A 32 33|||R:ADV|||firstly|||REQUIRED|||-NONE-|||0
+A 34 34|||M:PRON|||you|||REQUIRED|||-NONE-|||0
+A 34 35|||R:VERB:TENSE|||'ll spend|||REQUIRED|||-NONE-|||0
+A 37 38|||R:OTHER|||, your journey|||REQUIRED|||-NONE-|||0
+A 41 43|||R:PUNCT|||, you|||REQUIRED|||-NONE-|||0
+A 43 44|||R:OTHER|||'ll|||REQUIRED|||-NONE-|||0
+A 46 47|||R:NOUN|||possibility|||REQUIRED|||-NONE-|||0
+A 49 50|||R:OTHER|||any|||REQUIRED|||-NONE-|||0
+A 50 50|||M:ADV|||where|||REQUIRED|||-NONE-|||0
+A 55 55|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 58 58|||M:OTHER|||to .|||REQUIRED|||-NONE-|||0
+
+S I think that this is the question for everyone in 2020 and the answer can not be one or all . Someone can use public transport in the economy then , not only for money and the environment , but some people do not like to join pt 2 because they spend more time favelling or they simply do not look to travel with another people
+A 9 10|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 10 11|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 12 14|||R:OTHER|||there|||REQUIRED|||-NONE-|||0
+A 14 15|||R:CONTR|||ca|||REQUIRED|||-NONE-|||0
+A 15 16|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 18 18|||M:NOUN|||answer|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 20 22|||R:OTHER|||, because one person|||REQUIRED|||-NONE-|||0
+A 26 26|||M:OTHER|||, and save|||REQUIRED|||-NONE-|||0
+A 27 28|||R:DET|||this|||REQUIRED|||-NONE-|||0
+A 28 31|||R:OTHER|||way|||REQUIRED|||-NONE-|||0
+A 33 34|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 35 35|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 35 36|||R:CONJ|||but|||REQUIRED|||-NONE-|||0
+A 43 44|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 46 47|||R:VERB|||use|||REQUIRED|||-NONE-|||0
+A 47 48|||R:NOUN|||p.t|||REQUIRED|||-NONE-|||0
+A 48 49|||R:OTHER|||.|||REQUIRED|||-NONE-|||0
+A 54 55|||R:SPELL|||travelling|||REQUIRED|||-NONE-|||0
+A 59 60|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 60 61|||R:VERB|||like|||REQUIRED|||-NONE-|||0
+A 64 65|||R:DET|||other|||REQUIRED|||-NONE-|||0
+A 66 66|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S I would like to tell you about my favorite restaurant . Its name is Lemon . I go there every week . It has different food from any other restaurants . I do like chicken crispy with garlic . It is an excellent choice for me and my favorite appitizer is suspended in order that desert I had never agreed to give up the right to my body said another witness identified only as Nicole
+A 1 2|||R:CONTR|||'d|||REQUIRED|||-NONE-|||0
+A 11 12|||R:OTHER|||It 's|||REQUIRED|||-NONE-|||0
+A 14 14|||M:PUNCT|||"|||REQUIRED|||-NONE-|||0
+A 15 15|||M:PUNCT|||"|||REQUIRED|||-NONE-|||0
+A 26 27|||R:PREP|||to|||REQUIRED|||-NONE-|||0
+A 27 28|||U:DET||||||REQUIRED|||-NONE-|||0
+A 32 33|||U:VERB||||||REQUIRED|||-NONE-|||0
+A 34 36|||R:WO|||crispy chicken|||REQUIRED|||-NONE-|||0
+A 38 38|||M:NOUN|||sauce|||REQUIRED|||-NONE-|||0
+A 40 41|||R:CONTR|||'s|||REQUIRED|||-NONE-|||0
+A 46 47|||M:PUNCT|||. And|||REQUIRED|||-NONE-|||0
+A 49 50|||R:SPELL|||appetizer|||REQUIRED|||-NONE-|||0
+A 51 52|||R:OTHER|||sausage and|||REQUIRED|||-NONE-|||0
+A 55 56|||R:NOUN|||dessert|||REQUIRED|||-NONE-|||0
+A 56 56|||M:OTHER|||I like " Vadge " cake with chocolate sauce . I feel at ease when I go there .|||REQUIRED|||-NONE-|||0
+A 57 60|||R:OTHER|||enjoy classical music while having lunch . About the service : it 's very good and all the staff are respectable . I|||REQUIRED|||-NONE-|||0
+A 60 62|||R:OTHER|||ca n't imagine|||REQUIRED|||-NONE-|||0
+A 62 65|||R:OTHER|||one week without going there . That would drive me nuts . I advise everyone|||REQUIRED|||-NONE-|||0
+A 66 68|||R:OTHER|||go there and enjoy their time there . Also , this restaurant|||REQUIRED|||-NONE-|||0
+A 68 69|||R:VERB|||has|||REQUIRED|||-NONE-|||0
+A 69 72|||R:OTHER|||a relative advantage in hygiene|||REQUIRED|||-NONE-|||0
+A 72 75|||R:OTHER|||really . It 's excellent . The striking thing for anyone , is that despite all of these advantages , the prices are not expensive .|||REQUIRED|||-NONE-|||0
+
+S I consider myself really active , sociable , we're organized and for all parts . Therefore , I think I am shabbier for this job as I can adapt myself easily to any kind of situation or environment , especially working overseas , plus it would be a rich experience because I would meet new people and a different culture
+A 8 9|||R:OTHER|||well -|||REQUIRED|||-NONE-|||0
+A 11 12|||R:PREP|||above|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOUN|||patient|||REQUIRED|||-NONE-|||0
+A 20 21|||R:CONTR|||'m|||REQUIRED|||-NONE-|||0
+A 21 22|||R:ADJ|||suitable|||REQUIRED|||-NONE-|||0
+A 48 49|||R:ADJ|||nice|||REQUIRED|||-NONE-|||0
+A 57 57|||M:VERB|||experience|||REQUIRED|||-NONE-|||0
+A 60 60|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S As our rain is well in town of magnificul beaches along the Mediterranean coast and for the Olymic Canal of Castelldefels , many foreign or local people come to do activities like fishing and windsurfing on the sea or canoeing and aquatic shopping on the Olympic Channel
+A 2 3|||R:NOUN|||town|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||known|||REQUIRED|||-NONE-|||0
+A 7 8|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 8 8|||M:DET|||our|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||magnificent|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||Olympic|||REQUIRED|||-NONE-|||0
+A 24 25|||R:CONJ|||and|||REQUIRED|||-NONE-|||0
+A 28 28|||M:ADV|||here|||REQUIRED|||-NONE-|||0
+A 32 33|||R:VERB|||kitesurfing|||REQUIRED|||-NONE-|||0
+A 35 36|||R:PREP|||at|||REQUIRED|||-NONE-|||0
+A 37 38|||R:NOUN|||beach|||REQUIRED|||-NONE-|||0
+A 41 43|||R:OTHER|||waterskiing|||REQUIRED|||-NONE-|||0
+A 46 47|||R:NOUN|||Canal|||REQUIRED|||-NONE-|||0
+A 47 47|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Wyler youngsters use their time trying to get concerned the oldest people from de Gillag about the importance of care of our surroundings . Middle aged propel planted many trees around the village and cleaned the floor of our public parks , making it a more attractive place to live than we used to have
+A 0 1|||R:PREP|||While|||REQUIRED|||-NONE-|||0
+A 7 9|||R:VERB|||inform|||REQUIRED|||-NONE-|||0
+A 12 13|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 13 14|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||village|||REQUIRED|||-NONE-|||0
+A 19 19|||M:VERB|||taking|||REQUIRED|||-NONE-|||0
+A 23 25|||R:PUNCT|||, middle|||REQUIRED|||-NONE-|||0
+A 25 25|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||people have|||REQUIRED|||-NONE-|||0
+A 40 42|||R:OTHER|||places|||REQUIRED|||-NONE-|||0
+A 50 50|||M:PREP|||in|||REQUIRED|||-NONE-|||0
+A 55 55|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S You probably do not believe me . I have met a lot of people whose trust-setting examples seem to sway public opinion on the vaccine .
+A 2 3|||R:VERB:TENSE|||wo|||REQUIRED|||-NONE-|||0
+A 3 4|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 7|||M:CONJ|||but|||REQUIRED|||-NONE-|||0
+A 8 9|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A 10 11|||R:DET|||all the|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN|||members|||REQUIRED|||-NONE-|||0
+A 13 18|||R:OTHER|||Dżem band . I talked|||REQUIRED|||-NONE-|||0
+A 19 22|||R:OTHER|||them and we had lunch together . They 're very nice men . Because of helping them , I had the best place during the concert and I have their autographs|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||latest record . I did n't have many duties and none of them were unpleasant|||REQUIRED|||-NONE-|||0
+
+S I like travelling and visiting new places in my country and my dream is to travel to all the countries in the world . Also , I have attended a lot of conferences in my field , so I think this program is a chance for experience which will help and inspire me for the community services and development my society as I hope to come back in teach others what I learn
+A 54 55|||U:DET||||||REQUIRED|||-NONE-|||0
+A 56 57|||R:NOUN:NUM|||service|||REQUIRED|||-NONE-|||0
+A 58 58|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 59 59|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A 61 61|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 67 68|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 72 73|||R:VERB:TENSE|||have learnt|||REQUIRED|||-NONE-|||0
+A 73 73|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Students could receive a better , more efficient education if they spent 11 months a year studying , partly because of a year long vacation . Students will not remember the knowledge they have learned , partly because of long vacation , while later students used to have full instex of study or partly becue of some difficult courses should be continually studying
+A 20 20|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 20 21|||R:PREP|||after|||REQUIRED|||-NONE-|||0
+A 21 23|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 25 27|||R:PUNCT|||, students|||REQUIRED|||-NONE-|||0
+A 38 39|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 41 43|||R:OTHER|||will|||REQUIRED|||-NONE-|||0
+A 43 44|||R:OTHER|||get|||REQUIRED|||-NONE-|||0
+A 47 48|||R:VERB:FORM|||having|||REQUIRED|||-NONE-|||0
+A 48 49|||R:OTHER|||fun|||REQUIRED|||-NONE-|||0
+A 49 50|||R:SPELL|||instead|||REQUIRED|||-NONE-|||0
+A 51 52|||R:VERB:FORM|||studying|||REQUIRED|||-NONE-|||0
+A 52 52|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 52 53|||R:CONJ|||and|||REQUIRED|||-NONE-|||0
+A 54 55|||R:SPELL|||because|||REQUIRED|||-NONE-|||0
+A 55 56|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 62 63|||R:OTHER|||studied .|||REQUIRED|||-NONE-|||0
+
+S Sharing houses or rooms has many advantages , such as being safe close to the university and listening to how to start everything with others saying only and time will be more obvious in university dormitories because monthly payments will be less than rougikes than making an appointment because it will be closer to this university saving money a thing is more efficient by reducing transportation as costs
+A 11 11|||M:OTHER|||cheap ,|||REQUIRED|||-NONE-|||0
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 17 18|||R:OTHER|||a chance|||REQUIRED|||-NONE-|||0
+A 19 19|||M:VERB|||learn|||REQUIRED|||-NONE-|||0
+A 21 22|||R:VERB|||share|||REQUIRED|||-NONE-|||0
+A 25 26|||R:OTHER|||. Saving|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||money|||REQUIRED|||-NONE-|||0
+A 43 45|||R:OTHER|||four times those for|||REQUIRED|||-NONE-|||0
+A 45 46|||R:VERB|||hiring|||REQUIRED|||-NONE-|||0
+A 47 48|||R:OTHER|||apartment , and|||REQUIRED|||-NONE-|||0
+A 49 50|||R:PRON|||they|||REQUIRED|||-NONE-|||0
+A 54 55|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 56 57|||M:PUNCT|||. Saving|||REQUIRED|||-NONE-|||0
+A 58 59|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 59 60|||R:NOUN|||time|||REQUIRED|||-NONE-|||0
+A 63 63|||M:PREP|||because|||REQUIRED|||-NONE-|||0
+A 63 64|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 66 67|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 68 68|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Many years ago , I shared a friend in a room . Two months ago , during a course outside my country where I worked during my life . He was sparking happily all the time and did not share the body of eating . Living alone will grant me the freedom to live by the way that I choose and still friendly with all the others without exceed the privacy of my friends this matter will be achieved when living in shared rooms
+A 6 6|||M:OTHER|||a room with|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 10 13|||R:OTHER|||few|||REQUIRED|||-NONE-|||0
+A 14 16|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 22 22|||M:OTHER|||. Those days|||REQUIRED|||-NONE-|||0
+A 22 23|||R:SPELL|||were|||REQUIRED|||-NONE-|||0
+A 23 24|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||worst|||REQUIRED|||-NONE-|||0
+A 25 26|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 28 30|||R:PUNCT|||; he|||REQUIRED|||-NONE-|||0
+A 31 32|||R:OTHER|||dirty , spoke|||REQUIRED|||-NONE-|||0
+A 32 33|||R:ADV|||loudly|||REQUIRED|||-NONE-|||0
+A 41 42|||R:NOUN|||budget|||REQUIRED|||-NONE-|||0
+A 42 43|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 43 44|||R:OTHER|||food|||REQUIRED|||-NONE-|||0
+A 54 55|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 62 62|||M:VERB|||be|||REQUIRED|||-NONE-|||0
+A 74 75|||M:PUNCT|||. This|||REQUIRED|||-NONE-|||0
+A 75 76|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 76 78|||R:VERB:TENSE|||is|||REQUIRED|||-NONE-|||0
+A 78 78|||M:ADV|||not|||REQUIRED|||-NONE-|||0
+A 84 84|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Secondly , Gacebook provides great opportunities to remain in touch with daily activities for friends , making observations of relationships , maintaining one' s own feelings within the network through wall posts pokiez messages erc Oldmeadow Wuinj Okwett 2013
+A 2 3|||R:SPELL|||Facebook|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN:NUM|||opportunity|||REQUIRED|||-NONE-|||0
+A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 13 14|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 18 19|||R:PREP|||about|||REQUIRED|||-NONE-|||0
+A 22 24|||R:ORTH|||one 's|||REQUIRED|||-NONE-|||0
+A 29 29|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 32 33|||R:OTHER|||, pokes ,|||REQUIRED|||-NONE-|||0
+A 34 34|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 34 35|||R:SPELL|||etc|||REQUIRED|||-NONE-|||0
+A 35 35|||M:PUNCT|||)|||REQUIRED|||-NONE-|||0
+A 35 35|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 36 36|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 36 37|||R:SPELL|||Quinn|||REQUIRED|||-NONE-|||0
+A 37 37|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 37 37|||M:CONJ|||&|||REQUIRED|||-NONE-|||0
+A 37 38|||R:NOUN|||Kowert|||REQUIRED|||-NONE-|||0
+A 38 38|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 39 39|||M:PUNCT|||) .|||REQUIRED|||-NONE-|||0
+
+S In some , some people make enough money to buy thrif old cars . Electric and hybrid cars are more expensive than traditional ones or ones which are gas or diesel , so people choose these ones and that is because pollution is a serious issue that we have to deal with
+A 0 1|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 1 2|||R:OTHER|||Although|||REQUIRED|||-NONE-|||0
+A 2 3|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||their|||REQUIRED|||-NONE-|||0
+A 11 12|||R:ADJ|||own|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOUN:NUM|||car|||REQUIRED|||-NONE-|||0
+A 13 15|||R:PUNCT|||, electric|||REQUIRED|||-NONE-|||0
+A 24 24|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 26 27|||R:DET|||that|||REQUIRED|||-NONE-|||0
+A 27 28|||R:VERB|||use|||REQUIRED|||-NONE-|||0
+A 31 31|||M:PUNCT|||)|||REQUIRED|||-NONE-|||0
+A 31 33|||R:WO|||so ,|||REQUIRED|||-NONE-|||0
+A 39 40|||R:CONTR|||'s|||REQUIRED|||-NONE-|||0
+A 40 41|||R:OTHER|||why|||REQUIRED|||-NONE-|||0
+A 43 43|||M:OTHER|||one|||REQUIRED|||-NONE-|||0
+A 43 44|||R:OTHER|||of|||REQUIRED|||-NONE-|||0
+A 44 45|||R:ADJ|||several|||REQUIRED|||-NONE-|||0
+A 45 46|||R:NOUN:NUM|||issues|||REQUIRED|||-NONE-|||0
+A 52 52|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S I'm sure that in the future , if I been looking for restaurants in Mexico on my computer or mobile at home on my way to work , the adds on the buses is still set which , of course , will be screened and not printed paper will show images of Mallirca or an add front trip visore with Mallocra in it
+A 0 1|||R:ORTH|||I 'm|||REQUIRED|||-NONE-|||0
+A 5 5|||M:OTHER|||very near|||REQUIRED|||-NONE-|||0
+A 9 9|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOUN|||Mallorca|||REQUIRED|||-NONE-|||0
+A 22 22|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 27 28|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 29 30|||R:MORPH|||ads|||REQUIRED|||-NONE-|||0
+A 33 35|||R:OTHER|||I|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||see -|||REQUIRED|||-NONE-|||0
+A 37 38|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 40 41|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 43 44|||R:MORPH|||screens|||REQUIRED|||-NONE-|||0
+A 48 48|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 52 53|||R:SPELL|||Mallorca|||REQUIRED|||-NONE-|||0
+A 53 53|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 55 56|||R:MORPH|||ad|||REQUIRED|||-NONE-|||0
+A 56 57|||R:OTHER|||from|||REQUIRED|||-NONE-|||0
+A 57 59|||R:OTHER|||tripadvisor|||REQUIRED|||-NONE-|||0
+A 60 61|||R:SPELL|||Mallorca|||REQUIRED|||-NONE-|||0
+A 63 63|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Actuology students eat a lot of food while they are studying at university because they do not have time to do food . For these reasons , I think that the best restaurant is somewhere one can do home make - up and a good idea is for a family to house pasta sandwiches and milkshakes in a fresh faster way
+A 0 1|||R:OTHER|||Actually ,|||REQUIRED|||-NONE-|||0
+A 6 6|||M:ADJ|||fast|||REQUIRED|||-NONE-|||0
+A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 20 21|||R:VERB|||cook|||REQUIRED|||-NONE-|||0
+A 35 37|||R:OTHER|||where they|||REQUIRED|||-NONE-|||0
+A 39 40|||U:VERB||||||REQUIRED|||-NONE-|||0
+A 41 42|||R:OTHER|||made food ,|||REQUIRED|||-NONE-|||0
+A 46 47|||U:VERB||||||REQUIRED|||-NONE-|||0
+A 48 49|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 49 54|||R:OTHER|||main course is : baked potatoes , steamed vegetables|||REQUIRED|||-NONE-|||0
+A 55 56|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 56 60|||R:OTHER|||for dessert , apple|||REQUIRED|||-NONE-|||0
+A 60 61|||R:OTHER|||cake .|||REQUIRED|||-NONE-|||0
+
+S On the other hand , we are studying architecture . Maybe we should choose a specific restaurant . I like a charming and comfortable restaurant with a lot of windows with a white chair table above . more or less a relaxing environment , but the atmosphere is very important , rather sinister and I think that we must avoid this because we will have a good night night or hot depending on the type of atmosphere we choose
+A 15 16|||R:MORPH|||special|||REQUIRED|||-NONE-|||0
+A 17 18|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 18 19|||U:PRON||||||REQUIRED|||-NONE-|||0
+A 30 30|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 34 34|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||and wall|||REQUIRED|||-NONE-|||0
+A 36 37|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 37 37|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 40 41|||U:DET||||||REQUIRED|||-NONE-|||0
+A 43 45|||R:PUNCT|||. But|||REQUIRED|||-NONE-|||0
+A 50 50|||M:OTHER|||for dinner|||REQUIRED|||-NONE-|||0
+A 51 53|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 58 59|||R:VERB:TENSE|||should|||REQUIRED|||-NONE-|||0
+A 59 60|||R:OTHER|||vote on|||REQUIRED|||-NONE-|||0
+A 61 61|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 67 68|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 70 71|||R:SPELL|||not|||REQUIRED|||-NONE-|||0
+A 79 79|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S In conclusion , I think that this type of food in the atmosphere is very good for us because , normally , we speak about books , work and studies , while with this type of environment we can speak about our family , our homes and all people get to know new things about their mothers
+A 10 11|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 11 12|||U:DET||||||REQUIRED|||-NONE-|||0
+A 18 20|||R:WO|||, because|||REQUIRED|||-NONE-|||0
+A 21 22|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 31 32|||R:PREP|||whereas|||REQUIRED|||-NONE-|||0
+A 37 37|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 41 41|||M:OTHER|||ourselves ,|||REQUIRED|||-NONE-|||0
+A 45 46|||R:OTHER|||hobbies ,|||REQUIRED|||-NONE-|||0
+A 47 49|||R:OTHER|||everyone will|||REQUIRED|||-NONE-|||0
+A 52 52|||M:NOUN|||something|||REQUIRED|||-NONE-|||0
+A 53 54|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 55 56|||R:SPELL|||other|||REQUIRED|||-NONE-|||0
+A 56 57|||R:OTHER|||classmates .|||REQUIRED|||-NONE-|||0
+
+S At first , when I started to play football , I did it with my classmates who were all boys , so I used to feel a little bit uncomfortable . However , some years ago , they started to interact with me when they play and nowadays I like playing football with them
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 40 42|||R:OTHER|||include|||REQUIRED|||-NONE-|||0
+A 45 46|||R:VERB:TENSE|||played|||REQUIRED|||-NONE-|||0
+A 46 46|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 48 48|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 49 50|||R:VERB|||love|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S In the first place , we need to pay attention to the fact that Caderes is located in a safer area where local farmers have been beding sheep , cows and pigs for centuries . In spite of the hard weather conditions , such as high temperatures and relatively dryter in summer
+A 14 15|||R:SPELL|||Caceres|||REQUIRED|||-NONE-|||0
+A 19 20|||R:ADJ|||pasture|||REQUIRED|||-NONE-|||0
+A 26 27|||R:SPELL|||breeding|||REQUIRED|||-NONE-|||0
+A 34 36|||U:PUNCT|||in|||REQUIRED|||-NONE-|||0
+A 42 43|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 48 49|||R:ADJ|||terrible|||REQUIRED|||-NONE-|||0
+A 49 50|||R:NOUN|||drought|||REQUIRED|||-NONE-|||0
+A 52 52|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S There are a lot of benefits that come in hand with doing exercise reducing or taking control of your weight . It hells you with joint diseases . Problems are bad and also , you can make a list of friends while doing any exercise .
+A 7 8|||R:OTHER|||go hand|||REQUIRED|||-NONE-|||0
+A 13 13|||M:OTHER|||, like|||REQUIRED|||-NONE-|||0
+A 20 22|||R:PUNCT|||, it|||REQUIRED|||-NONE-|||0
+A 22 23|||R:VERB|||helps|||REQUIRED|||-NONE-|||0
+A 25 26|||R:OTHER|||heart|||REQUIRED|||-NONE-|||0
+A 26 27|||R:NOUN:NUM|||disease|||REQUIRED|||-NONE-|||0
+A 27 29|||R:PUNCT|||, problems|||REQUIRED|||-NONE-|||0
+A 29 30|||R:OTHER|||with your|||REQUIRED|||-NONE-|||0
+A 30 31|||R:SPELL|||body|||REQUIRED|||-NONE-|||0
+A 31 34|||R:WO|||, and also|||REQUIRED|||-NONE-|||0
+A 38 39|||R:NOUN|||lot|||REQUIRED|||-NONE-|||0
+A 43 44|||U:DET||||||REQUIRED|||-NONE-|||0
+
+S We started our journey or goimf in . There was a guy dressed as Jesus on one side of the ring and another dressed as Scooby Doo (I swear I’m not making this up)
+A 4 5|||R:CONJ|||and|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB|||went|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||into the forest|||REQUIRED|||-NONE-|||0
+A 9 10|||R:VERB:SVA|||were|||REQUIRED|||-NONE-|||0
+A 11 15|||R:OTHER|||lot of # pests|||REQUIRED|||-NONE-|||0
+A 15 16|||M:PUNCT|||. On|||REQUIRED|||-NONE-|||0
+A 16 19|||R:OTHER|||our way , there were various guys that were sick but we could n't do anything except for keep going . I was seeing my|||REQUIRED|||-NONE-|||0
+A 19 20|||R:OTHER|||little|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOUN|||group diminish|||REQUIRED|||-NONE-|||0
+A 22 22|||M:OTHER|||some of us were # allergic to|||REQUIRED|||-NONE-|||0
+A 22 23|||R:DET|||some|||REQUIRED|||-NONE-|||0
+A 23 24|||R:OTHER|||plants I|||REQUIRED|||-NONE-|||0
+A 24 25|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 25 26|||R:OTHER|||the only|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||one|||REQUIRED|||-NONE-|||0
+A 27 28|||R:OTHER|||that|||REQUIRED|||-NONE-|||0
+A 28 30|||R:OTHER|||had|||REQUIRED|||-NONE-|||0
+A 30 31|||R:OTHER|||no|||REQUIRED|||-NONE-|||0
+A 31 33|||R:OTHER|||problems with all the other stuff people had problems with|||REQUIRED|||-NONE-|||0
+A 33 34|||R:OTHER|||.|||REQUIRED|||-NONE-|||0
+
+S I thought that maybe my 2000 glasses were actually immune to this infection . I could actually be the 1000 revolutionary guy that helps everyone , as in my 25 skeptick and I was really positive about it , but notwithstanding , I would not actually sacrifice myself . I have to think about is it help the entire sorls or just save a group The idea is simply to encourage people to follow the Christmas story in a different way through using smartphones
+A 5 6|||R:OTHER|||#|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||genes|||REQUIRED|||-NONE-|||0
+A 11 12|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 19 20|||R:OTHER|||#|||REQUIRED|||-NONE-|||0
+A 25 26|||R:OTHER|||that|||REQUIRED|||-NONE-|||0
+A 26 27|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 29 30|||R:OTHER|||#|||REQUIRED|||-NONE-|||0
+A 38 40|||R:WO|||but ,|||REQUIRED|||-NONE-|||0
+A 40 40|||M:NOUN|||#|||REQUIRED|||-NONE-|||0
+A 44 45|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PREP|||whether|||REQUIRED|||-NONE-|||0
+A 54 56|||R:WO|||it is|||REQUIRED|||-NONE-|||0
+A 56 56|||M:OTHER|||better to|||REQUIRED|||-NONE-|||0
+A 59 60|||R:SPELL|||world|||REQUIRED|||-NONE-|||0
+A 65 65|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 66 68|||R:OTHER|||decision was in my hands . It was|||REQUIRED|||-NONE-|||0
+A 68 69|||R:OTHER|||# conventional|||REQUIRED|||-NONE-|||0
+A 70 71|||R:OTHER|||help the entire|||REQUIRED|||-NONE-|||0
+A 71 72|||R:OTHER|||world , but I do n't want|||REQUIRED|||-NONE-|||0
+A 73 74|||R:OTHER|||die . While I was thinking about that , we found a body . It was|||REQUIRED|||-NONE-|||0
+A 75 76|||R:ADJ|||familiar|||REQUIRED|||-NONE-|||0
+A 76 77|||R:OTHER|||body of someone that was|||REQUIRED|||-NONE-|||0
+A 78 84|||R:OTHER|||the group . One of those guys we wanted to find , and alive not dead . His face was all rotten and eaten away by the walkers .|||REQUIRED|||-NONE-|||0
+
+S We needed to respond to the ones that were still alive or at least tell us what happened to everyone . The 2020 battle against hunger started . Everyone was hungry and we haven't tried anything in a few days and that could lead us to things dead or eaten away by a walker so we needed to find something that was a nutritional based food where we could eat with no problem It's been amazing
+A 3 5|||R:OTHER|||find|||REQUIRED|||-NONE-|||0
+A 11 12|||R:OTHER|||to|||REQUIRED|||-NONE-|||0
+A 22 23|||R:OTHER|||#|||REQUIRED|||-NONE-|||0
+A 27 29|||R:PUNCT|||, everyone|||REQUIRED|||-NONE-|||0
+A 31 31|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 34 35|||R:VERB|||eaten|||REQUIRED|||-NONE-|||0
+A 46 46|||M:OTHER|||two|||REQUIRED|||-NONE-|||0
+A 47 47|||M:PUNCT|||:|||REQUIRED|||-NONE-|||0
+A 54 55|||M:PUNCT|||. So|||REQUIRED|||-NONE-|||0
+A 63 63|||M:NOUN|||#|||REQUIRED|||-NONE-|||0
+A 64 65|||U:VERB||||||REQUIRED|||-NONE-|||0
+A 66 67|||R:OTHER|||which|||REQUIRED|||-NONE-|||0
+A 72 73|||R:NOUN:NUM|||problems|||REQUIRED|||-NONE-|||0
+A 73 74|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 74 75|||R:VERB:TENSE|||be|||REQUIRED|||-NONE-|||0
+A 75 76|||R:OTHER|||OK .|||REQUIRED|||-NONE-|||0
+
+S I love the speed of volleyball . Most of the time . It is quick and if you blink you probably miss something . Each contact happens in a second and every player directs the location of the ball in that amount of time and then there is the intensity if you haven't seen a game go until 32 30 and see the energy on the floor and hear the noise from the crowd you are missing out
+A 11 13|||U:PUNCT|||it|||REQUIRED|||-NONE-|||0
+A 13 14|||R:CONTR|||'s|||REQUIRED|||-NONE-|||0
+A 20 20|||M:VERB:TENSE|||will|||REQUIRED|||-NONE-|||0
+A 28 28|||M:OTHER|||less than|||REQUIRED|||-NONE-|||0
+A 30 30|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 31 31|||M:ADV|||still|||REQUIRED|||-NONE-|||0
+A 33 34|||R:VERB|||detects|||REQUIRED|||-NONE-|||0
+A 44 45|||M:PUNCT|||. And|||REQUIRED|||-NONE-|||0
+A 47 48|||R:CONTR|||'s|||REQUIRED|||-NONE-|||0
+A 50 51|||M:PUNCT|||. If|||REQUIRED|||-NONE-|||0
+A 56 56|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 59 59|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 60 60|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 74 75|||M:PUNCT|||. You|||REQUIRED|||-NONE-|||0
+A 75 76|||R:CONTR|||'re|||REQUIRED|||-NONE-|||0
+A 78 78|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Mje was not really way shy . They ended up having Swaz . Perhaps at the time he was pissers at himself not having bid to hit the girl he loved because of all these religious issues Klaika 's family would so on , but this is what happened
+A 0 1|||R:SPELL|||Mike|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:TENSE|||ca|||REQUIRED|||-NONE-|||0
+A 2 3|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||say|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||why|||REQUIRED|||-NONE-|||0
+A 6 8|||U:PUNCT|||they|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN|||sex|||REQUIRED|||-NONE-|||0
+A 12 14|||R:PUNCT|||- perhaps|||REQUIRED|||-NONE-|||0
+A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 19 20|||R:MORPH|||pissed|||REQUIRED|||-NONE-|||0
+A 22 22|||M:PREP|||for|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||the balls|||REQUIRED|||-NONE-|||0
+A 26 27|||R:VERB|||get|||REQUIRED|||-NONE-|||0
+A 37 37|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 37 38|||R:NOUN|||Malika|||REQUIRED|||-NONE-|||0
+A 40 41|||R:OTHER|||, and|||REQUIRED|||-NONE-|||0
+A 45 46|||R:DET|||that|||REQUIRED|||-NONE-|||0
+A 49 49|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S I hope to be at a good English level because next year I am young enough to take the intermediate certificate of disapproval and then I am going to the neter at this school , if I know that it is very difficult . The political leader of London is one of the most important universities in the whole world
+A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 14 16|||R:OTHER|||going|||REQUIRED|||-NONE-|||0
+A 22 23|||R:NOUN|||English|||REQUIRED|||-NONE-|||0
+A 29 29|||M:VERB|||try|||REQUIRED|||-NONE-|||0
+A 29 30|||R:OTHER|||to|||REQUIRED|||-NONE-|||0
+A 30 31|||R:VERB|||get|||REQUIRED|||-NONE-|||0
+A 31 32|||R:PREP|||into|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||even though|||REQUIRED|||-NONE-|||0
+A 40 41|||R:CONTR|||'s|||REQUIRED|||-NONE-|||0
+A 43 45|||R:PUNCT|||; the|||REQUIRED|||-NONE-|||0
+A 45 46|||R:NOUN|||Imperial|||REQUIRED|||-NONE-|||0
+A 46 47|||R:NOUN|||college|||REQUIRED|||-NONE-|||0
+A 60 60|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S This exception can be read at the end of the first chapter where the narrator answers it in writing - When I participated in the election observation mission in Nigeria last April , I came across the shocking fact that Nigeria , once an exporter of agricultural products , had become an importer of food
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 17 18|||R:OTHER|||thief ,|||REQUIRED|||-NONE-|||0
+A 19 20|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 20 21|||R:OTHER|||that|||REQUIRED|||-NONE-|||0
+A 21 22|||R:PRON|||he|||REQUIRED|||-NONE-|||0
+A 22 24|||R:OTHER|||said that he would get him|||REQUIRED|||-NONE-|||0
+A 25 28|||R:NOUN|||file|||REQUIRED|||-NONE-|||0
+A 28 32|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 33 35|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 35 36|||R:PREP|||that|||REQUIRED|||-NONE-|||0
+A 36 37|||R:PRON|||he|||REQUIRED|||-NONE-|||0
+A 37 38|||R:OTHER|||would|||REQUIRED|||-NONE-|||0
+A 38 45|||R:OTHER|||get him what broken bits|||REQUIRED|||-NONE-|||0
+A 46 48|||R:OTHER|||food he could|||REQUIRED|||-NONE-|||0
+A 49 50|||R:OTHER|||and he would|||REQUIRED|||-NONE-|||0
+A 50 51|||R:VERB|||come|||REQUIRED|||-NONE-|||0
+A 51 51|||M:PREP|||to|||REQUIRED|||-NONE-|||0
+A 51 52|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 52 53|||R:NOUN|||thief|||REQUIRED|||-NONE-|||0
+A 53 55|||R:OTHER|||at the Battery .|||REQUIRED|||-NONE-|||0
+
+S These twisted and creative thoughts are spread all over the text accompanied by even more tisted reflections , like at the end of the first chapter when he describes the man who stlloe him as afraid of the dead bodies in the graveyard just because he is hugging himself
+A 7 9|||R:OTHER|||throughout|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||twisted|||REQUIRED|||-NONE-|||0
+A 25 26|||R:NOUN:NUM|||chapters|||REQUIRED|||-NONE-|||0
+A 26 26|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 32 33|||R:VERB|||robbed|||REQUIRED|||-NONE-|||0
+A 35 35|||M:OTHER|||a man|||REQUIRED|||-NONE-|||0
+A 46 47|||R:OTHER|||saw him|||REQUIRED|||-NONE-|||0
+A 49 49|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Having at that time to find for myself what tried expression meant and knowing her to be a child and he had and to be much in the habit of loving it upon her husband as well as upon me , I supposed that one Gargery and I were both brought up by hand
+A 6 6|||M:PART|||out|||REQUIRED|||-NONE-|||0
+A 9 10|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 16 17|||R:VERB|||have|||REQUIRED|||-NONE-|||0
+A 18 19|||R:OTHER|||hard|||REQUIRED|||-NONE-|||0
+A 20 21|||R:OTHER|||heavy|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||hand|||REQUIRED|||-NONE-|||0
+A 22 22|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 30 31|||R:VERB|||laying|||REQUIRED|||-NONE-|||0
+A 44 45|||R:OTHER|||Joe|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PUNCT|||. "|||REQUIRED|||-NONE-|||0
+
+S Their realism is different . In fact , Dikcens ' style is that of sentimental realism in which he mixes pathos or comedy like characters that seem to be caricatures of the voices and vittues he wishes to portray , while the Bronte sisters use realistic types aligned with domestic and Gothic elements like Gyrobiic male heroes and female protagonists to act psychologically complex
+A 4 6|||R:PUNCT|||: in|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||Dickens|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 21 22|||R:CONJ|||and|||REQUIRED|||-NONE-|||0
+A 23 23|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 26 27|||R:VERB|||tend|||REQUIRED|||-NONE-|||0
+A 32 33|||R:NOUN|||vices|||REQUIRED|||-NONE-|||0
+A 34 35|||R:SPELL|||virtues|||REQUIRED|||-NONE-|||0
+A 45 45|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 46 47|||R:NOUN|||style|||REQUIRED|||-NONE-|||0
+A 47 48|||R:VERB|||laced|||REQUIRED|||-NONE-|||0
+A 49 50|||R:ADJ|||Romantic|||REQUIRED|||-NONE-|||0
+A 53 53|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 54 55|||R:SPELL|||Byronic|||REQUIRED|||-NONE-|||0
+A 60 61|||R:OTHER|||that|||REQUIRED|||-NONE-|||0
+A 61 62|||R:VERB|||are|||REQUIRED|||-NONE-|||0
+A 64 64|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S meat consumption and the category labelled beef had a declining trend between 1979 and 2004 , although there maintained a decrease overall , with lamb consumption falling from a peak of 150000 grams a week per week in 1979 to just over 50 grams or person per week . In 2004 , Health Canada issued an order prohibiting the sale of any product containing kava citation While the restrictions on kava were lifted in 2012 citation Health Canada has not licensed any kava products for sale in Canada
+A 0 1|||R:OTHER|||Both lamb|||REQUIRED|||-NONE-|||0
+A 17 18|||R:PRON|||they|||REQUIRED|||-NONE-|||0
+A 31 32|||R:OTHER|||150|||REQUIRED|||-NONE-|||0
+A 33 34|||R:OTHER|||per|||REQUIRED|||-NONE-|||0
+A 34 35|||R:NOUN|||person|||REQUIRED|||-NONE-|||0
+A 44 45|||R:OTHER|||per|||REQUIRED|||-NONE-|||0
+A 48 50|||U:PUNCT|||in|||REQUIRED|||-NONE-|||0
+A 52 55|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 55 56|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
+A 56 57|||R:NOUN|||beef|||REQUIRED|||-NONE-|||0
+A 57 60|||R:OTHER|||consumption falling|||REQUIRED|||-NONE-|||0
+A 60 61|||R:PREP|||from|||REQUIRED|||-NONE-|||0
+A 61 65|||R:OTHER|||around 230 grams per|||REQUIRED|||-NONE-|||0
+A 65 67|||R:OTHER|||person|||REQUIRED|||-NONE-|||0
+A 67 68|||R:OTHER|||per|||REQUIRED|||-NONE-|||0
+A 68 69|||R:NOUN|||week|||REQUIRED|||-NONE-|||0
+A 69 73|||R:OTHER|||to just|||REQUIRED|||-NONE-|||0
+A 73 74|||R:PREP|||over|||REQUIRED|||-NONE-|||0
+A 74 75|||R:OTHER|||120|||REQUIRED|||-NONE-|||0
+A 75 76|||R:NOUN|||grams|||REQUIRED|||-NONE-|||0
+A 76 84|||R:OTHER|||per person|||REQUIRED|||-NONE-|||0
+A 84 85|||R:PREP|||per|||REQUIRED|||-NONE-|||0
+A 85 88|||R:OTHER|||week .|||REQUIRED|||-NONE-|||0
+
+S Yet often being overt and respectful may play against him and , although he has gained the respect of all the people he has worked with , some of them suggested he should build up his self confidence rather than end up attempting to cover everyone' s back and taking ownership or other people' s mistakes
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 3 5|||R:OTHER|||overly|||REQUIRED|||-NONE-|||0
+A 37 37|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 38 38|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 45 47|||R:ORTH|||everyone 's|||REQUIRED|||-NONE-|||0
+A 51 52|||R:SPELL|||of|||REQUIRED|||-NONE-|||0
+A 53 55|||R:ORTH|||people 's|||REQUIRED|||-NONE-|||0
+A 56 56|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S It is a cry that keeps us story through amazing architecture like bookconies Bucharest Marvel at the Stravopoleos monastery or the historic Bellu cemetery gorge at the Vilacrosse passage cafes and lose yourself at Carturesti Verona (book and music store and visit the old town , especially for Gioelia ice-cream
+A 3 4|||R:NOUN|||city|||REQUIRED|||-NONE-|||0
+A 6 7|||R:DET|||its|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||history|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||:|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||balconies , churches like|||REQUIRED|||-NONE-|||0
+A 13 15|||R:NOUN|||San Francisco Church|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||which has|||REQUIRED|||-NONE-|||0
+A 16 17|||R:OTHER|||mysterious|||REQUIRED|||-NONE-|||0
+A 17 18|||R:ADJ|||subterranean|||REQUIRED|||-NONE-|||0
+A 18 20|||R:OTHER|||catacombs ; el Real Felipe , which is|||REQUIRED|||-NONE-|||0
+A 21 22|||R:ADJ|||last|||REQUIRED|||-NONE-|||0
+A 22 26|||R:OTHER|||incredible Spanish fortress ; through their costumes as well as|||REQUIRED|||-NONE-|||0
+A 27 30|||R:OTHER|||Carnival . On this day you can enjoy this particular , interesting|||REQUIRED|||-NONE-|||0
+A 31 35|||R:OTHER|||colorful festival because you use water , paint|||REQUIRED|||-NONE-|||0
+A 35 37|||R:OTHER|||or talc to wet your family|||REQUIRED|||-NONE-|||0
+A 38 42|||R:OTHER|||neighbors . Through their traditional dance , called " La Marinera " . They also keep their history through religion , where you discover|||REQUIRED|||-NONE-|||0
+A 43 45|||R:OTHER|||religious enthusiasm which is represented by la Procesión del Señor de los Milagros . Their gastronomy is another extraordinary and wonderful example of their symbols , like Mazamorra Morada|||REQUIRED|||-NONE-|||0
+A 46 48|||R:OTHER|||el Pisco Sour ( wine ) ,|||REQUIRED|||-NONE-|||0
+A 48 49|||R:NOUN|||el Ceviche|||REQUIRED|||-NONE-|||0
+A 49 50|||R:OTHER|||, los Picarones , etc .|||REQUIRED|||-NONE-|||0
+
+S Undertaking a scholarship as a mission to one of the universities I have selected above will provide me with the opportunity to apply the knowledge gained at high school to a business setting as well as develop our communication organisation and numeracy skills I have acquired at high schools
+A 3 4|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||admission|||REQUIRED|||-NONE-|||0
+A 29 30|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 33 33|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 37 38|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 39 39|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 44 45|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A 48 49|||R:NOUN:NUM|||school|||REQUIRED|||-NONE-|||0
+A 49 49|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Right now I am gratefully looking forward to the challenges of university life academically , in society and mentally , and I believe that my ability to learn new Chinese concepts coupled with my passion for extra curricular activities and community service would make me a competent addition to the many of my proposed university and the Czech Republic Scholarship text
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ADV|||greatly|||REQUIRED|||-NONE-|||0
+A 15 17|||R:OTHER|||socially|||REQUIRED|||-NONE-|||0
+A 25 26|||R:NOUN|||ambition|||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOUN|||business|||REQUIRED|||-NONE-|||0
+A 37 37|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 42 42|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 49 50|||U:DET||||||REQUIRED|||-NONE-|||0
+A 50 51|||R:SPELL|||any|||REQUIRED|||-NONE-|||0
+A 53 54|||R:VERB|||chosen|||REQUIRED|||-NONE-|||0
+A 54 55|||R:NOUN:NUM|||universities|||REQUIRED|||-NONE-|||0
+A 60 61|||R:OTHER|||team .|||REQUIRED|||-NONE-|||0
+
+S In conclusion , I can assure you that I will be a capable and dedicated student who has the commitment and dedication to work in order to be a gaduxte whilst at the same time contributing greatly to my proposed university in more than one
+A 24 24|||M:ADV|||hard|||REQUIRED|||-NONE-|||0
+A 29 30|||R:SPELL|||graduate|||REQUIRED|||-NONE-|||0
+A 30 30|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 35 35|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 39 40|||R:VERB|||chosen|||REQUIRED|||-NONE-|||0
+A 43 43|||M:NOUN|||ways|||REQUIRED|||-NONE-|||0
+A 45 45|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S This can help you to understand that not everyone has access to maxnu , you do have accea too and to realise that perhaps you should appreciate these things such as smartphones , computers , cars or even fresh water , which is a basic resource and we should to take not granted that everyone can make some water to drink and though this is not true
+A 12 13|||R:SPELL|||many|||REQUIRED|||-NONE-|||0
+A 13 14|||R:OTHER|||things|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||access|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||to|||REQUIRED|||-NONE-|||0
+A 19 19|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 29 29|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 31 32|||R:ORTH|||smart phones|||REQUIRED|||-NONE-|||0
+A 48 49|||R:VERB|||tend|||REQUIRED|||-NONE-|||0
+A 51 52|||R:OTHER|||for|||REQUIRED|||-NONE-|||0
+A 56 57|||R:VERB|||have|||REQUIRED|||-NONE-|||0
+A 61 62|||R:OTHER|||even|||REQUIRED|||-NONE-|||0
+A 67 67|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S We faced continuous problems with thefer such as disnes for another table serges for us . By mistake , the drinks were served with a considerable delay after the bipp was sold even without asking , just because we had finished dinner and our dribd were stuck on the table
+A 5 6|||R:OTHER|||the order ,|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||:|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||dishes|||REQUIRED|||-NONE-|||0
+A 9 10|||R:PREP|||from|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||served|||REQUIRED|||-NONE-|||0
+A 13 14|||R:PREP|||to|||REQUIRED|||-NONE-|||0
+A 15 17|||U:PUNCT|||by|||REQUIRED|||-NONE-|||0
+A 27 28|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 29 30|||R:SPELL|||bill|||REQUIRED|||-NONE-|||0
+A 31 32|||R:VERB|||shown|||REQUIRED|||-NONE-|||0
+A 35 36|||R:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 39 40|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A 41 41|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 42 43|||R:CONJ|||but|||REQUIRED|||-NONE-|||0
+A 44 45|||R:NOUN|||drinks|||REQUIRED|||-NONE-|||0
+A 46 47|||R:OTHER|||still|||REQUIRED|||-NONE-|||0
+A 50 50|||M:PUNCT|||) .|||REQUIRED|||-NONE-|||0
+
+S He decided to find her second half without my help , so that was a bit disappointing , both for the feeling of not meeting his expectations and for the I am guessing as I do not know anything , as less money earns that will mean
+A 3 4|||R:VERB|||finish|||REQUIRED|||-NONE-|||0
+A 4 5|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 27 27|||M:PUNCT|||*|||REQUIRED|||-NONE-|||0
+A 30 30|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 31 32|||R:CONTR|||'m|||REQUIRED|||-NONE-|||0
+A 33 33|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 36 37|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 39 40|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 41 41|||M:OTHER|||yet :/ )|||REQUIRED|||-NONE-|||0
+A 43 44|||R:VERB:FORM|||earned|||REQUIRED|||-NONE-|||0
+A 45 45|||M:PRON|||it|||REQUIRED|||-NONE-|||0
+A 47 47|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S I decided to go back home . I had seen the whole knee at my friend' s place as he walked in Madrid and quite close to the writer' s house where I had been going every day last week and I started getting things done , plus I gave a rest to my knee which was very much needed too
+A 6 7|||R:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 9 10|||R:VERB|||been|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOUN|||week|||REQUIRED|||-NONE-|||0
+A 15 17|||R:ORTH|||friend 's|||REQUIRED|||-NONE-|||0
+A 18 18|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 20 21|||R:VERB|||lives|||REQUIRED|||-NONE-|||0
+A 28 30|||R:ORTH|||writer 's|||REQUIRED|||-NONE-|||0
+A 31 31|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 40 40|||M:PUNCT|||) ,|||REQUIRED|||-NONE-|||0
+A 46 48|||R:PUNCT|||. Plus|||REQUIRED|||-NONE-|||0
+A 50 50|||M:OTHER|||my ankle|||REQUIRED|||-NONE-|||0
+A 52 55|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 61 61|||M:PUNCT|||!|||REQUIRED|||-NONE-|||0
+
+S Stephen Beclher , director of the Met Police 's Harry Centre , claims that humanity is to blame for climate changes as the rise of temperatures or the catastrophe expected by scientists whom global warming rises beyond 2C . This opinion is also represented by the British Secretary of Energy , Dr Obinna Russell who considers the climate change to be one of the greatest problems in nowadays politics die to its consequences on economy global security and the fight against poverty
+A 1 2|||R:SPELL|||Belcher|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||Office|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||Hadley|||REQUIRED|||-NONE-|||0
+A 21 22|||R:PREP|||like|||REQUIRED|||-NONE-|||0
+A 24 25|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 25 26|||R:NOUN:NUM|||temperature|||REQUIRED|||-NONE-|||0
+A 32 33|||R:SPELL|||when|||REQUIRED|||-NONE-|||0
+A 37 39|||R:ORTH|||2C.|||REQUIRED|||-NONE-|||0
+A 49 50|||R:ORTH|||energy|||REQUIRED|||-NONE-|||0
+A 50 50|||M:OTHER|||and climate change|||REQUIRED|||-NONE-|||0
+A 51 54|||R:NOUN|||Amber Rudd|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 56 57|||U:DET||||||REQUIRED|||-NONE-|||0
+A 67 69|||R:WO|||politics nowadays|||REQUIRED|||-NONE-|||0
+A 69 70|||R:OTHER|||, due|||REQUIRED|||-NONE-|||0
+A 73 74|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 74 74|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 75 75|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 82 82|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Despite the result of a NASA study pointing out that three would have been an or mass few in the Antarctic between 2003 and 2008 , there is only a small chance of 5 in 10 that this oversight will be true , according to Prof Anew Shepherd , 27 , University of Leeds 2008 as the study has already been proven wrong by 57 other studies
+A 10 11|||R:SPELL|||there|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||ice|||REQUIRED|||-NONE-|||0
+A 17 18|||R:OTHER|||growth|||REQUIRED|||-NONE-|||0
+A 19 20|||U:DET||||||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOUN|||Antarctica|||REQUIRED|||-NONE-|||0
+A 21 22|||R:PREP|||from|||REQUIRED|||-NONE-|||0
+A 23 24|||R:OTHER|||-|||REQUIRED|||-NONE-|||0
+A 34 35|||R:OTHER|||-|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||10%|||REQUIRED|||-NONE-|||0
+A 38 39|||R:NOUN|||prognosis|||REQUIRED|||-NONE-|||0
+A 40 41|||R:VERB|||come|||REQUIRED|||-NONE-|||0
+A 42 43|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 46 47|||R:NOUN|||Andrew|||REQUIRED|||-NONE-|||0
+A 48 50|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 54 55|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 67 67|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S One day in the future another Franz Ferdinand could be killed and the symbolic event could be used again as an escuse to Pompeo's four-decade war with another , but the true elderly in the cause that actually led the countries to wage war against each other would have its roots in much older times
+A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:DET|||that|||REQUIRED|||-NONE-|||0
+A 16 18|||R:VERB|||serve|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||excuse|||REQUIRED|||-NONE-|||0
+A 22 22|||M:OTHER|||for some country|||REQUIRED|||-NONE-|||0
+A 23 25|||R:OTHER|||declare|||REQUIRED|||-NONE-|||0
+A 26 27|||R:PREP|||on|||REQUIRED|||-NONE-|||0
+A 32 35|||R:OTHER|||underlying|||REQUIRED|||-NONE-|||0
+A 35 36|||R:NOUN:NUM|||causes|||REQUIRED|||-NONE-|||0
+A 49 50|||R:DET|||their|||REQUIRED|||-NONE-|||0
+A 55 55|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S The van is well konw and opens from Nya to October and it would be good to book within a few weeks . It always gets overcrowded at the time my parents can take a day off . What do you think ? coming with us from the 1st August to the 15th
+A 1 2|||R:NOUN|||Camp|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||- known|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||May|||REQUIRED|||-NONE-|||0
+A 19 21|||R:OTHER|||two|||REQUIRED|||-NONE-|||0
+A 25 26|||R:VERB:SVA|||get|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||overbooked|||REQUIRED|||-NONE-|||0
+A 27 28|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOUN|||period|||REQUIRED|||-NONE-|||0
+A 34 35|||U:DET||||||REQUIRED|||-NONE-|||0
+A 35 36|||R:NOUN:NUM|||days|||REQUIRED|||-NONE-|||0
+A 42 43|||R:OTHER|||about|||REQUIRED|||-NONE-|||0
+A 53 53|||M:PUNCT|||?|||REQUIRED|||-NONE-|||0
+
+S Once bozing is banned and no one one grows up knowing it is acceptable , there will be no interest in boxing and hopefully less all sounds unterest in violence making rooms . He cites many of these cases to live in . There will be less fighting outside pugging about clubs and sports violent attacks with little or no reason
+A 1 2|||R:SPELL|||boxing|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||-|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||as|||REQUIRED|||-NONE-|||0
+A 23 23|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 24 24|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||round|||REQUIRED|||-NONE-|||0
+A 27 28|||R:SPELL|||interest|||REQUIRED|||-NONE-|||0
+A 30 30|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 31 34|||R:OTHER|||towns and|||REQUIRED|||-NONE-|||0
+A 34 35|||R:NOUN|||cities|||REQUIRED|||-NONE-|||0
+A 35 37|||R:OTHER|||much|||REQUIRED|||-NONE-|||0
+A 37 38|||R:OTHER|||safer|||REQUIRED|||-NONE-|||0
+A 38 39|||R:NOUN|||places|||REQUIRED|||-NONE-|||0
+A 49 50|||R:OTHER|||pubs|||REQUIRED|||-NONE-|||0
+A 50 51|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 53 54|||R:OTHER|||less|||REQUIRED|||-NONE-|||0
+A 56 57|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 61 61|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S There are all sorts of proposals , Liddell Henry George Scott Robert A GreekEnglish Lexicon at the Perseus Project , which means unpronounceable voiceless or silent because stops could not be pronounced without a vowel
+A 6 7|||R:PUNCT|||;|||REQUIRED|||-NONE-|||0
+A 7 8|||R:ADJ|||lighter|||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 9 11|||R:OTHER|||more cushioning gloves could|||REQUIRED|||-NONE-|||0
+A 11 16|||R:OTHER|||be worn , ban punches to|||REQUIRED|||-NONE-|||0
+A 17 19|||R:NOUN|||head|||REQUIRED|||-NONE-|||0
+A 20 22|||R:OTHER|||headguards|||REQUIRED|||-NONE-|||0
+A 22 23|||R:OTHER|||worn|||REQUIRED|||-NONE-|||0
+A 23 24|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 25 28|||R:OTHER|||make fights shorter , as most of the serious injuries occur in the later rounds . These|||REQUIRED|||-NONE-|||0
+A 28 29|||R:VERB:TENSE|||would|||REQUIRED|||-NONE-|||0
+A 29 29|||M:OTHER|||all show off the|||REQUIRED|||-NONE-|||0
+A 29 30|||R:OTHER|||boxers '|||REQUIRED|||-NONE-|||0
+A 30 30|||M:OTHER|||skill and talent and still|||REQUIRED|||-NONE-|||0
+A 31 32|||R:ADJ|||entertaining|||REQUIRED|||-NONE-|||0
+A 32 35|||R:OTHER|||to watch .|||REQUIRED|||-NONE-|||0
+
+S Even if a beef is a success and manages not to be seriously hit , he still faces serious consequences . In later life , diseases that attack the brain have been known to set in as a direct result of bringing seven Muhamd Zli , who was infamous like I never had any boyfriends or anything And this is the moment to do so
+A 3 4|||R:NOUN|||boxer|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB|||hurt|||REQUIRED|||-NONE-|||0
+A 20 22|||U:PUNCT|||in|||REQUIRED|||-NONE-|||0
+A 24 26|||R:PUNCT|||. Diseases|||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOUN:NUM|||brains|||REQUIRED|||-NONE-|||0
+A 41 43|||R:OTHER|||boxing . Even|||REQUIRED|||-NONE-|||0
+A 43 44|||R:SPELL|||Muhamed|||REQUIRED|||-NONE-|||0
+A 44 45|||R:SPELL|||Ali|||REQUIRED|||-NONE-|||0
+A 49 52|||R:OTHER|||( ? ) both for his boxing and his quick - witted intelligence , now|||REQUIRED|||-NONE-|||0
+A 52 53|||R:VERB:TENSE|||has|||REQUIRED|||-NONE-|||0
+A 53 54|||R:OTHER|||Alzheimer 's|||REQUIRED|||-NONE-|||0
+A 54 62|||R:OTHER|||disease and can no|||REQUIRED|||-NONE-|||0
+A 62 63|||R:OTHER|||longer|||REQUIRED|||-NONE-|||0
+A 64 65|||R:OTHER|||many everyday acts .|||REQUIRED|||-NONE-|||0
+
+S In the minority works , the conflict and rebellion presented accurately deflects society as a whole and although the mother 's in The JGL Club febep against official forces such as arranged marriages , Tita in Pike Water for Phocopate fights to overcome old family traditions and one Islamic tribe in Love Madam President I am sure that this was an oversight but the Commissioner neglected to express his condolences to the victims of a disaster in another Spanish and European city Melilla Nor he did refer to the recent floods there
+A 11 12|||R:VERB|||reflects|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 20 21|||R:CONTR|||s|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOUN|||Joy Luck|||REQUIRED|||-NONE-|||0
+A 25 26|||R:SPELL|||rebel|||REQUIRED|||-NONE-|||0
+A 27 28|||U:ADJ||||||REQUIRED|||-NONE-|||0
+A 28 30|||R:WO|||such forces|||REQUIRED|||-NONE-|||0
+A 36 37|||R:SPELL|||Like|||REQUIRED|||-NONE-|||0
+A 39 40|||R:SPELL|||Chocolate|||REQUIRED|||-NONE-|||0
+A 46 46|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 47 48|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 48 49|||R:ADJ|||Indian|||REQUIRED|||-NONE-|||0
+A 49 50|||R:NOUN:NUM|||tribes|||REQUIRED|||-NONE-|||0
+A 52 65|||R:OTHER|||Medicine|||REQUIRED|||-NONE-|||0
+A 65 66|||R:VERB|||struggle|||REQUIRED|||-NONE-|||0
+A 67 68|||R:VERB|||secure|||REQUIRED|||-NONE-|||0
+A 68 70|||R:OTHER|||their inherent rights|||REQUIRED|||-NONE-|||0
+A 70 71|||R:PREP|||from|||REQUIRED|||-NONE-|||0
+A 72 77|||R:OTHER|||US government ,|||REQUIRED|||-NONE-|||0
+A 77 78|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 78 79|||R:NOUN|||characters|||REQUIRED|||-NONE-|||0
+A 79 81|||R:OTHER|||'|||REQUIRED|||-NONE-|||0
+A 81 85|||R:OTHER|||conflicts|||REQUIRED|||-NONE-|||0
+A 85 87|||R:VERB|||reflect|||REQUIRED|||-NONE-|||0
+A 87 90|||R:OTHER|||similar|||REQUIRED|||-NONE-|||0
+A 90 91|||R:OTHER|||conflicts of|||REQUIRED|||-NONE-|||0
+A 91 92|||R:SPELL|||other|||REQUIRED|||-NONE-|||0
+A 92 92|||M:OTHER|||cultures .|||REQUIRED|||-NONE-|||0
+
+S Debellion is seen not as a distinct force in minority cultures but but as a binding force between all cultures or divine . All resistors were arranged marriages in the color Purple and the nurderos' powers in jazz reflect Titita and Pedro 's destructive possession in Likkd Water for Chocolat
+A 0 1|||R:SPELL|||Rebellion|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||rather|||REQUIRED|||-NONE-|||0
+A 20 20|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOUN|||Celie|||REQUIRED|||-NONE-|||0
+A 22 23|||R:OTHER|||, too|||REQUIRED|||-NONE-|||0
+A 23 24|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 24 25|||R:MORPH|||resists|||REQUIRED|||-NONE-|||0
+A 25 26|||R:OTHER|||her|||REQUIRED|||-NONE-|||0
+A 27 28|||R:NOUN:NUM|||marriage|||REQUIRED|||-NONE-|||0
+A 29 31|||R:ORTH|||The Color|||REQUIRED|||-NONE-|||0
+A 32 32|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 34 35|||R:OTHER|||murderous|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||loves|||REQUIRED|||-NONE-|||0
+A 37 38|||R:ORTH|||Jazz|||REQUIRED|||-NONE-|||0
+A 39 40|||R:SPELL|||Tita|||REQUIRED|||-NONE-|||0
+A 44 45|||R:NOUN|||passion|||REQUIRED|||-NONE-|||0
+A 46 47|||R:SPELL|||Like|||REQUIRED|||-NONE-|||0
+A 49 50|||R:SPELL|||Chocolate|||REQUIRED|||-NONE-|||0
+A 50 50|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Emphasis changes each week and , although figures of authority are particularly oppressive in works such as Like Wstdr for Calcolte of Tud Cooo Purple , her minoeify works includign Love Medicine and Jazz do not reflect the clearly dedicated authoritarian figures nor the obvious rebellion of the characters responsive after which the previously mentioned works show
+A 2 2|||M:PREP|||with|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||work|||REQUIRED|||-NONE-|||0
+A 4 6|||R:WO|||, and|||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||Water|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||Chocolate|||REQUIRED|||-NONE-|||0
+A 21 22|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 22 23|||R:SPELL|||The|||REQUIRED|||-NONE-|||0
+A 23 24|||R:SPELL|||Color|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||other|||REQUIRED|||-NONE-|||0
+A 27 28|||R:SPELL|||minority|||REQUIRED|||-NONE-|||0
+A 29 30|||R:SPELL|||including|||REQUIRED|||-NONE-|||0
+A 39 40|||R:ADJ|||defined|||REQUIRED|||-NONE-|||0
+A 49 49|||M:NOUN:POSS|||'|||REQUIRED|||-NONE-|||0
+A 50 51|||R:NOUN|||action|||REQUIRED|||-NONE-|||0
+A 57 57|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S He is thrown out of Torunder eb Troj before he embraces Fujigonde . He is duped into the army . He is caught in an earthquake and is almost killed as part of an auto da fq . He kidnolls three churchmen . He is almost eaten , He finds Eldorsdo but leaves one lost continues
+A 5 6|||R:SPELL|||Thunder|||REQUIRED|||-NONE-|||0
+A 6 8|||R:OTHER|||- den - Tronck|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PREP|||because|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||Cunégonde|||REQUIRED|||-NONE-|||0
+A 12 14|||R:PUNCT|||, he|||REQUIRED|||-NONE-|||0
+A 19 21|||R:PUNCT|||, he|||REQUIRED|||-NONE-|||0
+A 26 26|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||he|||REQUIRED|||-NONE-|||0
+A 35 35|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 36 37|||R:OTHER|||- fé|||REQUIRED|||-NONE-|||0
+A 37 39|||R:PUNCT|||, he|||REQUIRED|||-NONE-|||0
+A 39 40|||R:SPELL|||kills|||REQUIRED|||-NONE-|||0
+A 42 44|||R:PUNCT|||, he|||REQUIRED|||-NONE-|||0
+A 48 49|||R:ORTH|||he|||REQUIRED|||-NONE-|||0
+A 50 51|||R:SPELL|||Eldorado|||REQUIRED|||-NONE-|||0
+A 53 53|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 53 54|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 54 55|||R:SPELL|||list|||REQUIRED|||-NONE-|||0
+A 56 56|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S It is true that today one still hears the loud dispyre over state sovereignty and attempts to return some power to the individual states , but no one would challenge the fact that on matters external to the United States , the government in Washington represents the elite policy body
+A 9 10|||R:ADJ|||old|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||dispute|||REQUIRED|||-NONE-|||0
+A 27 27|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 33 33|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 47 48|||R:ADJ|||sole|||REQUIRED|||-NONE-|||0
+A 49 49|||M:OTHER|||- making|||REQUIRED|||-NONE-|||0
+A 50 50|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S However , it is equally clear that while there might be some justified political action flowing from the European Communities such as we have seen over Europe' s response to the British involvement in the Falkland Islands dispute , the Communities were intended as purely economic entities in the first place
+A 12 13|||R:ADJ|||unified|||REQUIRED|||-NONE-|||0
+A 20 20|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 22 24|||R:OTHER|||was|||REQUIRED|||-NONE-|||0
+A 26 28|||R:ORTH|||Europe 's|||REQUIRED|||-NONE-|||0
+A 38 38|||M:PUNCT|||)|||REQUIRED|||-NONE-|||0
+A 51 51|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Secondly was the conviction that military conflict could in the future be avoided . After all , the two great wars had both begun as Euratom 's Cold War and thirdly as the common desire for a better world in which international relations could be constructed in a more orderly way
+A 0 1|||R:MORPH|||Second|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB:TENSE|||should|||REQUIRED|||-NONE-|||0
+A 9 10|||U:DET||||||REQUIRED|||-NONE-|||0
+A 13 15|||R:PUNCT|||; after|||REQUIRED|||-NONE-|||0
+A 25 27|||R:OTHER|||European "|||REQUIRED|||-NONE-|||0
+A 27 28|||R:OTHER|||civil|||REQUIRED|||-NONE-|||0
+A 28 30|||R:OTHER|||wars " .|||REQUIRED|||-NONE-|||0
+A 30 31|||R:MORPH|||Third|||REQUIRED|||-NONE-|||0
+A 31 32|||R:SPELL|||was|||REQUIRED|||-NONE-|||0
+A 38 38|||M:OTHER|||, freer|||REQUIRED|||-NONE-|||0
+A 43 44|||R:VERB:TENSE|||would|||REQUIRED|||-NONE-|||0
+A 45 46|||R:VERB|||conducted|||REQUIRED|||-NONE-|||0
+A 51 51|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S One of the most innovative features of the European Community compared with other international bodies is that the Member States have ceded to it a part of their national sovereignty and endowed it with its own sovereign powers which it can had to adopt data having the force of national law
+A 18 20|||R:ORTH|||member states|||REQUIRED|||-NONE-|||0
+A 38 38|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 41 42|||R:VERB|||use|||REQUIRED|||-NONE-|||0
+A 44 45|||R:OTHER|||acts ,|||REQUIRED|||-NONE-|||0
+A 51 51|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S The only way to still the cake will be to break it . The only people to do this is the government or purveyors . If we make the effort to use public transport , it will expand into a good service . Unfortunately , the public is to be appreciate to this idea
+A 4 5|||R:OTHER|||stop|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||circle|||REQUIRED|||-NONE-|||0
+A 12 13|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 13 14|||M:CONJ|||and the|||REQUIRED|||-NONE-|||0
+A 23 24|||R:PRON|||ourselves|||REQUIRED|||-NONE-|||0
+A 47 48|||R:VERB|||seem|||REQUIRED|||-NONE-|||0
+A 50 51|||R:ADJ|||apathetic|||REQUIRED|||-NONE-|||0
+A 51 52|||R:PREP|||towards|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S The opposite to what you lost is actually a bloop sport . Two simple reasons being that the idea of the sport is to knock your opposition out , Although this is argued by Chris Eubank . He believes he is a sportman and the idea of boxing is an art for he says that he does not specifically go into a parking ring to knock his opponent out but to win on points differences and to give Chria Eubanks his just secret most of his fights have been won on points
+A 1 2|||R:OTHER|||sport ,|||REQUIRED|||-NONE-|||0
+A 3 6|||R:OTHER|||say the least ,|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||blood|||REQUIRED|||-NONE-|||0
+A 12 13|||R:DET|||The|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOUN:NUM|||reason|||REQUIRED|||-NONE-|||0
+A 24 24|||M:PUNCT|||'|||REQUIRED|||-NONE-|||0
+A 28 28|||M:PUNCT|||'|||REQUIRED|||-NONE-|||0
+A 29 30|||R:ORTH|||although|||REQUIRED|||-NONE-|||0
+A 36 37|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 37 38|||R:PRON|||who|||REQUIRED|||-NONE-|||0
+A 42 43|||R:SPELL|||sportsman|||REQUIRED|||-NONE-|||0
+A 51 52|||R:SPELL|||form|||REQUIRED|||-NONE-|||0
+A 52 53|||M:PUNCT|||. He|||REQUIRED|||-NONE-|||0
+A 62 63|||R:NOUN|||boxing|||REQUIRED|||-NONE-|||0
+A 69 69|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 76 76|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 78 79|||R:SPELL|||Chris|||REQUIRED|||-NONE-|||0
+A 79 80|||R:SPELL|||Eubank|||REQUIRED|||-NONE-|||0
+A 80 81|||R:DET|||all|||REQUIRED|||-NONE-|||0
+A 81 82|||R:OTHER|||due|||REQUIRED|||-NONE-|||0
+A 82 83|||R:OTHER|||respect ,|||REQUIRED|||-NONE-|||0
+A 92 92|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S But there is an exception . The original example . The first reference gym boxing should be banned , the tragic accident where Nichale Watson was phg into a room by Chris Eubank , a man who does not specifically go into fights to knock his opposition out
+A 3 4|||R:DET|||one|||REQUIRED|||-NONE-|||0
+A 5 7|||R:PUNCT|||- the|||REQUIRED|||-NONE-|||0
+A 9 11|||R:PUNCT|||, the|||REQUIRED|||-NONE-|||0
+A 13 14|||R:OTHER|||to why|||REQUIRED|||-NONE-|||0
+A 18 20|||R:PUNCT|||. The|||REQUIRED|||-NONE-|||0
+A 23 24|||R:SPELL|||Michael|||REQUIRED|||-NONE-|||0
+A 26 27|||R:SPELL|||put|||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOUN|||coma|||REQUIRED|||-NONE-|||0
+A 33 34|||R:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 34 35|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 38 39|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 48 48|||M:PUNCT|||) .|||REQUIRED|||-NONE-|||0
+
+S If money that is here to the yakin for the cheapest best of the best is ridiculous and with some top boxers earning sums of money , such as just 20 million or in Mike Tyson's comeback across 50 000 60 million , it is hard to surprise how important the sport can be to zero
+A 0 1|||R:OTHER|||The|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ADV|||there|||REQUIRED|||-NONE-|||0
+A 5 6|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||taking|||REQUIRED|||-NONE-|||0
+A 10 11|||R:OTHER|||very|||REQUIRED|||-NONE-|||0
+A 17 17|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 26 27|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 29 30|||R:OTHER|||£|||REQUIRED|||-NONE-|||0
+A 32 32|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 35 36|||R:ORTH|||Tyson 's|||REQUIRED|||-NONE-|||0
+A 37 38|||R:OTHER|||case|||REQUIRED|||-NONE-|||0
+A 38 39|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 39 40|||R:OTHER|||$|||REQUIRED|||-NONE-|||0
+A 42 42|||M:PUNCT|||! )|||REQUIRED|||-NONE-|||0
+A 45 46|||R:MORPH|||hardly|||REQUIRED|||-NONE-|||0
+A 46 47|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
+A 47 48|||R:MORPH|||surprising|||REQUIRED|||-NONE-|||0
+A 55 56|||R:DET|||some|||REQUIRED|||-NONE-|||0
+A 56 56|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Rue zecond and kainj injection came from hypotheses which predicted that charitable donations would go down with the introduction of the llttsry as people would be less likely to give money to charity after buying a lootery ticket with the excuse that some of the money spent huygens the ticket would go to circulation
+A 0 1|||R:OTHER|||The|||REQUIRED|||-NONE-|||0
+A 1 2|||R:SPELL|||second|||REQUIRED|||-NONE-|||0
+A 3 4|||R:SPELL|||main|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||objection|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||charities|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PRON|||who|||REQUIRED|||-NONE-|||0
+A 21 22|||R:OTHER|||lottery ,|||REQUIRED|||-NONE-|||0
+A 33 34|||R:OTHER|||, instead|||REQUIRED|||-NONE-|||0
+A 36 37|||R:SPELL|||lottery|||REQUIRED|||-NONE-|||0
+A 38 38|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 47 48|||R:VERB|||buying|||REQUIRED|||-NONE-|||0
+A 53 54|||R:OTHER|||charity .|||REQUIRED|||-NONE-|||0
+
+S In conclusion , I think that the lottery should be retained but not in its present form . I think that jackpots should be capped at 25 million pounds and the prize fund whared between zero levels . It is better to go for a fortune than to give foreign fortune to some person
+A 11 11|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||2|||REQUIRED|||-NONE-|||0
+A 29 29|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 33 34|||R:SPELL|||shared|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||more|||REQUIRED|||-NONE-|||0
+A 36 37|||R:NOUN|||people|||REQUIRED|||-NONE-|||0
+A 37 39|||R:PUNCT|||: it|||REQUIRED|||-NONE-|||0
+A 42 43|||R:VERB|||give|||REQUIRED|||-NONE-|||0
+A 43 44|||R:OTHER|||fourteen people|||REQUIRED|||-NONE-|||0
+A 49 50|||R:OTHER|||fourteen|||REQUIRED|||-NONE-|||0
+A 50 51|||R:NOUN:NUM|||fortunes|||REQUIRED|||-NONE-|||0
+A 52 53|||R:DET|||one|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Comphters have been used as a means of keeping records . They have all but superseded handwritten text in a few decades . People may also be added with a computer screen and keyboards in the General Studise Exaq . They are used to transfer money across the globe , even to create artwork and to retain
+A 0 1|||R:SPELL|||Computers|||REQUIRED|||-NONE-|||0
+A 10 12|||R:PUNCT|||, they|||REQUIRED|||-NONE-|||0
+A 18 18|||M:PUNCT|||, (|||REQUIRED|||-NONE-|||0
+A 22 24|||U:PUNCT|||people|||REQUIRED|||-NONE-|||0
+A 25 26|||R:ADV|||well|||REQUIRED|||-NONE-|||0
+A 27 28|||R:VERB|||faced|||REQUIRED|||-NONE-|||0
+A 33 34|||R:NOUN:NUM|||keyboard|||REQUIRED|||-NONE-|||0
+A 35 36|||R:DET|||their|||REQUIRED|||-NONE-|||0
+A 37 38|||R:SPELL|||Studies|||REQUIRED|||-NONE-|||0
+A 38 39|||R:OTHER|||exam )|||REQUIRED|||-NONE-|||0
+A 39 41|||R:PUNCT|||, they|||REQUIRED|||-NONE-|||0
+A 56 57|||R:OTHER|||entertain .|||REQUIRED|||-NONE-|||0
+
+S Computer generated pictures , including fracyal pictures run for equations , seem to be more popular than hand printed images from an artist' s imagination and computer games seem to provide more entertainment rather than a game or activity that takes place in the real physical world
+A 5 5|||M:PUNCT|||'|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||fractal|||REQUIRED|||-NONE-|||0
+A 6 6|||M:PUNCT|||'|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||, drawn|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PREP|||from|||REQUIRED|||-NONE-|||0
+A 22 24|||R:ORTH|||artist 's|||REQUIRED|||-NONE-|||0
+A 25 25|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 33 34|||U:ADV||||||REQUIRED|||-NONE-|||0
+A 35 36|||R:DET|||any|||REQUIRED|||-NONE-|||0
+A 45 45|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 47 47|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S The world watched in anticipation . We were mesmerized by the glamour of the TV , expecting something new at every moment and not wanting to hear it . I remember that day . It was the phase of conversation at school . You had I can't believe it . After all the time has gone on filmmakers have become more daring in how they choose to go for laughs in this darker and slightly more contentious way
+A 11 12|||R:NOUN|||images|||REQUIRED|||-NONE-|||0
+A 26 27|||R:VERB|||miss|||REQUIRED|||-NONE-|||0
+A 33 35|||U:PUNCT|||it|||REQUIRED|||-NONE-|||0
+A 37 38|||R:OTHER|||only topic|||REQUIRED|||-NONE-|||0
+A 42 43|||R:PUNCT|||: "|||REQUIRED|||-NONE-|||0
+A 43 44|||M:VERB:TENSE|||Have you|||REQUIRED|||-NONE-|||0
+A 44 45|||R:OTHER|||heard ? " , "|||REQUIRED|||-NONE-|||0
+A 46 47|||R:ORTH|||ca n't|||REQUIRED|||-NONE-|||0
+A 49 50|||R:PUNCT|||! " , "|||REQUIRED|||-NONE-|||0
+A 52 53|||R:DET|||this|||REQUIRED|||-NONE-|||0
+A 54 55|||R:OTHER|||! " , " I|||REQUIRED|||-NONE-|||0
+A 55 58|||R:OTHER|||never|||REQUIRED|||-NONE-|||0
+A 58 60|||R:VERB|||thought|||REQUIRED|||-NONE-|||0
+A 60 65|||R:OTHER|||it|||REQUIRED|||-NONE-|||0
+A 65 68|||R:VERB|||would|||REQUIRED|||-NONE-|||0
+A 68 78|||R:OTHER|||happen .|||REQUIRED|||-NONE-|||0
+
+S It was the event that gave the people of the Eastern Bloc countries the hope that their efforts were not in vain . For 40 years the people had suffered under a communist regime that had not allowed them to express themselves freely or to leave their homelands in search of a new life Many people had tried to escape
+A 26 26|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 60 60|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S However , history can be retained , such as thought and the fall of the Berlin Wall actively contributed to the resurgence of people and struggle in the rest of the Eastern Blpc As such , it is the catalyst race that led to the end of the Cold War and therefore though we may not always remember and other significant events we will always remember the day before fall
+A 4 4|||M:ADV|||not|||REQUIRED|||-NONE-|||0
+A 5 8|||R:OTHER|||rewritten and|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||things|||REQUIRED|||-NONE-|||0
+A 10 11|||R:OTHER|||stand|||REQUIRED|||-NONE-|||0
+A 12 13|||R:ORTH|||Fall|||REQUIRED|||-NONE-|||0
+A 23 24|||R:NOUN|||hope|||REQUIRED|||-NONE-|||0
+A 32 33|||R:SPELL|||Bloc|||REQUIRED|||-NONE-|||0
+A 33 33|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+A 37 38|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
+A 40 41|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 51 51|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 52 52|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 58 59|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 62 62|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 68 70|||R:OTHER|||the wall fell .|||REQUIRED|||-NONE-|||0
+
+S Since technology has allowed me to travel to this part of the world , they provided a living god for my family . They have cured my grandmother of cancer and they provide horizons of hope . Anne 's knowledge of her friends of medicine , science , engineering and even the less overt corners of our lives
+A 0 1|||R:NOUN|||Science|||REQUIRED|||-NONE-|||0
+A 1 1|||M:CONJ|||and|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
+A 15 15|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
+A 18 19|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 22 24|||R:PUNCT|||, they|||REQUIRED|||-NONE-|||0
+A 30 30|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 36 37|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 37 39|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 40 41|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 41 42|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 42 43|||R:NOUN|||fields|||REQUIRED|||-NONE-|||0
+A 49 49|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 58 58|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S The fundamental flaw in such scientists must bear the major burden of moral responsibility for their work is that if this had been applied universally for centuries , scientific research would never have taken place if mankind could be without electricity Fadios ie simplification anything above the mud hut existence
+A 4 5|||R:OTHER|||saying|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||or|||REQUIRED|||-NONE-|||0
+A 17 17|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 35 35|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 37 38|||R:VERB:TENSE|||would|||REQUIRED|||-NONE-|||0
+A 41 41|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 41 42|||R:SPELL|||radios|||REQUIRED|||-NONE-|||0
+A 42 43|||R:OTHER|||, quite|||REQUIRED|||-NONE-|||0
+A 43 44|||R:OTHER|||simply ,|||REQUIRED|||-NONE-|||0
+A 50 50|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S I do not think this is far or correct for the child , since her mother would be claiming her affection when she was at primary school and her mother wouldn't probably die while her child was in her teens . There should be a text that was given before Ovid is carried over to the mother is not ready the menopause
+A 2 3|||R:CONTR|||n't|||REQUIRED|||-NONE-|||0
+A 6 7|||R:ADJ|||fair|||REQUIRED|||-NONE-|||0
+A 8 8|||M:ADV|||morally|||REQUIRED|||-NONE-|||0
+A 9 10|||R:PREP|||to|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOUN|||pension|||REQUIRED|||-NONE-|||0
+A 30 31|||R:OTHER|||would|||REQUIRED|||-NONE-|||0
+A 34 35|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 40 41|||R:PUNCT|||....|||REQUIRED|||-NONE-|||0
+A 45 46|||R:NOUN|||test|||REQUIRED|||-NONE-|||0
+A 47 48|||R:VERB:TENSE|||is|||REQUIRED|||-NONE-|||0
+A 50 50|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 50 51|||R:NOUN|||IVF|||REQUIRED|||-NONE-|||0
+A 51 51|||M:PUNCT|||)|||REQUIRED|||-NONE-|||0
+A 53 54|||R:PART|||out|||REQUIRED|||-NONE-|||0
+A 55 55|||M:VERB|||check|||REQUIRED|||-NONE-|||0
+A 59 60|||R:OTHER|||past|||REQUIRED|||-NONE-|||0
+A 62 62|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S The disease affects the cow ax is then present in the spinal fluid and the vrani and , as the pinao fpuid is usually spilt in the slaughter of cattle for meat , the risk of contamination of the meat we saw the industry was not willing to take
+A 2 3|||R:VERB|||infects|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||, and|||REQUIRED|||-NONE-|||0
+A 13 13|||M:OTHER|||within the spine|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOUN|||brain|||REQUIRED|||-NONE-|||0
+A 16 18|||R:WO|||, and|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||spinal|||REQUIRED|||-NONE-|||0
+A 21 22|||R:SPELL|||fluid|||REQUIRED|||-NONE-|||0
+A 40 41|||R:OTHER|||was|||REQUIRED|||-NONE-|||0
+A 41 42|||R:OTHER|||one|||REQUIRED|||-NONE-|||0
+A 49 49|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S Granted , it is a person who reads the computer who does that trust made the error . However , if that person knew what he should do or what else was able to do with a computer , he would not have erroneous answers
+A 4 5|||R:DET|||the|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||" told "|||REQUIRED|||-NONE-|||0
+A 10 11|||R:PRON|||what|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB:FORM|||to do|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||truly|||REQUIRED|||-NONE-|||0
+A 28 28|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 29 31|||R:OTHER|||better stated "|||REQUIRED|||-NONE-|||0
+A 38 38|||M:PUNCT|||"|||REQUIRED|||-NONE-|||0
+A 45 45|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S I am able to store almost all the information I need for school and for other things on my computer , whereas before I had a computer , my disk was cluttered with paper and records of all kinds . I no longer need to keep these records but only to transfer them to my computer
+A 1 2|||R:CONTR|||'m|||REQUIRED|||-NONE-|||0
+A 17 18|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A 21 21|||M:PREP|||so that|||REQUIRED|||-NONE-|||0
+A 27 28|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOUN|||desk|||REQUIRED|||-NONE-|||0
+A 38 39|||R:NOUN|||sorts|||REQUIRED|||-NONE-|||0
+A 39 40|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 56 56|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S While previously people had to wait days or even weeks for news which consisted of second or third hand accounts which always involved such interpretation and distortion , now they can see it happening in the movie as it is happening . This allows time to make their own informed judgment about the event and if a reaction is necessary as the gathering of opposition to a certain path it can be made immediately while the emotions as still strong one before the action is finalized
+A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 2 2|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 12 12|||M:PUNCT|||(|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 18 18|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
+A 20 20|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 23 24|||R:ADJ|||much|||REQUIRED|||-NONE-|||0
+A 27 27|||M:PUNCT|||)|||REQUIRED|||-NONE-|||0
+A 34 34|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 34 35|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 35 36|||R:PRON|||themselves|||REQUIRED|||-NONE-|||0
+A 36 37|||R:OTHER|||,|||REQUIRED|||-NONE-|||0
+A 44 45|||R:OTHER|||them|||REQUIRED|||-NONE-|||0
+A 49 49|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 60 60|||M:OTHER|||- such|||REQUIRED|||-NONE-|||0
+A 68 69|||R:OTHER|||law -|||REQUIRED|||-NONE-|||0
+A 72 73|||R:VERB|||done|||REQUIRED|||-NONE-|||0
+A 74 74|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 77 78|||R:OTHER|||are|||REQUIRED|||-NONE-|||0
+A 80 80|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 80 81|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 86 86|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
+S People are more likely to work job bug more things . The resume for eelaxation a family word , often replaced with TV . In America in 1882 , this growing individualistic society no longer sees the negative humanness between people . Instead , one sees the differences . The unlucky unsuccessful and attempt through diplomacy to achieve to a lax of error
+A 3 5|||R:OTHER|||mobile , can|||REQUIRED|||-NONE-|||0
+A 6 8|||R:OTHER|||more , and buy|||REQUIRED|||-NONE-|||0
+A 10 11|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 11 12|||R:OTHER|||but|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOUN|||time|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||relaxation|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A 17 19|||R:OTHER|||are|||REQUIRED|||-NONE-|||0
+A 20 21|||R:VERB|||substituted|||REQUIRED|||-NONE-|||0
+A 26 28|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 33 33|||M:OTHER|||, one|||REQUIRED|||-NONE-|||0
+A 37 38|||R:ADJ|||relative|||REQUIRED|||-NONE-|||0
+A 41 42|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 42 44|||R:WO|||, instead|||REQUIRED|||-NONE-|||0
+A 48 50|||R:PUNCT|||, the|||REQUIRED|||-NONE-|||0
+A 51 51|||M:OTHER|||, the|||REQUIRED|||-NONE-|||0
+A 52 52|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 53 54|||R:VERB|||attribute|||REQUIRED|||-NONE-|||0
+A 54 55|||R:OTHER|||their|||REQUIRED|||-NONE-|||0
+A 55 56|||R:NOUN|||inability|||REQUIRED|||-NONE-|||0
+A 60 61|||R:NOUN|||lack|||REQUIRED|||-NONE-|||0
+A 62 63|||R:OTHER|||effort .|||REQUIRED|||-NONE-|||0
+
+S Ironically , although Vootzire mentions among others violence when cag is treated lightly , Cunegonde and the old woman both tell their tales of being defilped lime and entaining skry in their conversations about their travels . Baron also continues his tale with style fayer , telling of his beating and after Covid-19 kills and Baeon he leaves to search for Cuneogonde either no second thought unit The encounter was abrupt later in his travels
+A 3 4|||R:SPELL|||Voltaire|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||many|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||acts of|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||each|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||act|||REQUIRED|||-NONE-|||0
+A 13 14|||R:PUNCT|||:|||REQUIRED|||-NONE-|||0
+A 25 26|||R:SPELL|||defiled|||REQUIRED|||-NONE-|||0
+A 26 27|||R:SPELL|||like|||REQUIRED|||-NONE-|||0
+A 27 28|||R:SPELL|||an|||REQUIRED|||-NONE-|||0
+A 28 29|||R:SPELL|||entertaining|||REQUIRED|||-NONE-|||0
+A 29 30|||R:SPELL|||story|||REQUIRED|||-NONE-|||0
+A 36 37|||R:PUNCT|||;|||REQUIRED|||-NONE-|||0
+A 37 37|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 44 46|||R:OTHER|||after|||REQUIRED|||-NONE-|||0
+A 50 50|||M:PUNCT|||;|||REQUIRED|||-NONE-|||0
+A 52 53|||R:NOUN|||Candide|||REQUIRED|||-NONE-|||0
+A 53 53|||M:PUNCT|||"|||REQUIRED|||-NONE-|||0
+A 54 54|||M:PUNCT|||"|||REQUIRED|||-NONE-|||0
+A 54 55|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 55 56|||R:SPELL|||Baron|||REQUIRED|||-NONE-|||0
+A 56 56|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 61 62|||R:SPELL|||Cunegonde|||REQUIRED|||-NONE-|||0
+A 62 63|||R:OTHER|||with|||REQUIRED|||-NONE-|||0
+A 66 67|||R:OTHER|||until|||REQUIRED|||-NONE-|||0
+A 67 68|||R:PRON|||he|||REQUIRED|||-NONE-|||0
+A 68 68|||M:OTHER|||re -|||REQUIRED|||-NONE-|||0
+A 68 69|||R:VERB:SVA|||encounters|||REQUIRED|||-NONE-|||0
+A 69 70|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 70 71|||R:OTHER|||Baron|||REQUIRED|||-NONE-|||0
+A 75 75|||M:PUNCT|||.|||REQUIRED|||-NONE-|||0
+
