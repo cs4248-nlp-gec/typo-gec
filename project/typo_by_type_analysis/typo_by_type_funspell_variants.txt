@@ -37,13 +37,13 @@ INTER: 0.00%
 # Funspell+Gector, Long
 
 ACCURACY RATE
-VERB: 26.74%
-PREP: 27.24%
-NOUN: 28.21%
-ADJ: 29.57%
-ADV: 28.57%
-PRON: 24.39%
-CONJ: 30.61%
+VERB: 39.34%
+PREP: 40.29%
+NOUN: 39.58%
+ADJ: 41.34%
+ADV: 41.38%
+PRON: 42.18%
+CONJ: 39.86%
 INTER: 100.00%
 
 # Funspell+Gector, Short

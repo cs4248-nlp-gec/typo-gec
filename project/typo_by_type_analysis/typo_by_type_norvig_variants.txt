@@ -37,18 +37,6 @@ INTER: 0.00%
 # Norvig+Gector, Long
 
 ACCURACY RATE
-VERB: 33.33%
-PREP: 29.66%
-NOUN: 39.32%
-ADJ: 35.22%
-ADV: 34.29%
-PRON: 25.00%
-CONJ: 31.97%
-INTER: 100.00%
-
-# Norvig+Gector, Short
-
-ACCURACY RATE
 VERB: 54.50%
 PREP: 60.34%
 NOUN: 49.44%
@@ -57,6 +45,18 @@ ADV: 54.13%
 PRON: 48.24%
 CONJ: 62.50%
 INTER: 0.00%
+
+# Norvig+Gector, Short
+
+ACCURACY RATE
+VERB: 49.22%
+PREP: 44.69%
+NOUN: 51.45%
+ADJ: 47.24%
+ADV: 46.90%
+PRON: 41.50%
+CONJ: 45.27%
+INTER: 100.00%
 
 
 
