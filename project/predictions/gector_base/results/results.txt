@@ -1,0 +1,107 @@
+light 
+
+Precision   : 0.7867
+Recall      : 0.3994
+F_0.5       : 0.6589
+
+
+medium
+
+Precision   : 0.7543
+Recall      : 0.2618
+F_0.5       : 0.5481
+
+heavy 
+
+Precision   : 0.6999
+Recall      : 0.1165
+F_0.5       : 0.3497
+
+short sentence 
+
+Precision   : 0.6802
+Recall      : 0.2061
+F_0.5       : 0.4659
+
+
+long sentence
+
+Precision   : 0.7717
+Recall      : 0.1907
+F_0.5       : 0.4795
+
+light
+
+SPELL: 7527
+VERB: 1407
+OTHER: 1282
+NOUN: 1062
+PUNCT: 999
+DET: 668
+PREP: 648
+TENSE: 401
+ADV: 240
+ADJ: 237
+MORPH: 236
+NUM: 211
+PRON: 189
+ORTH: 177
+FORM: 171
+SVA: 88
+CONJ: 58
+PART: 53
+WO: 43
+POSS: 36
+CONTR: 30
+INFL: 11
+
+medium
+
+SPELL: 16482
+OTHER: 2349
+VERB: 1642
+NOUN: 1386
+PUNCT: 931
+DET: 744
+PREP: 685
+TENSE: 389
+ADJ: 350
+ADV: 282
+PRON: 223
+MORPH: 201
+NUM: 189
+FORM: 155
+ORTH: 145
+SVA: 94
+CONJ: 82
+PART: 61
+WO: 39
+CONTR: 30
+POSS: 28
+INFL: 7
+
+heavy
+
+SPELL: 21999
+OTHER: 3762
+NOUN: 3338
+VERB: 3104
+DET: 1705
+PREP: 1178
+ADJ: 978
+PUNCT: 853
+ADV: 804
+PRON: 482
+CONJ: 472
+TENSE: 274
+MORPH: 188
+FORM: 122
+ORTH: 117
+NUM: 115
+SVA: 94
+PART: 86
+CONTR: 35
+WO: 23
+POSS: 16
+INFL: 3
+
