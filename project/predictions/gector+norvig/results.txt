@@ -1,0 +1,54 @@
+== Light ==
+Norvig:
+Precision   : 0.5756
+Recall      : 0.4648
+F_0.5       : 0.5494
+
+Norvig + Gector:
+Precision   : 0.7710
+Recall      : 0.7059
+F_0.5       : 0.7570
+
+== Medium ==
+Norvig:
+Precision   : 0.5352
+Recall      : 0.3908
+F_0.5       : 0.4984
+
+Norvig + Gector:
+Precision   : 0.7106
+Recall      : 0.6073
+F_0.5       : 0.6872
+
+== Heavy ==
+Norvig:
+Precision   : 0.4715
+Recall      : 0.2828
+F_0.5       : 0.4160
+
+Norvig + Gector:
+Precision   : 0.6138
+Recall      : 0.4317
+F_0.5       : 0.5661
+
+== Short Sentence ==
+Norvig:
+Precision   : 0.3575
+Recall      : 0.3112
+F_0.5       : 0.3472
+
+Norvig + Gector:
+Precision   : 0.5681
+Recall      : 0.5033
+F_0.5       : 0.5538
+
+== Long Sentence ==
+Norvig:
+Precision   : 0.5701
+Recall      : 0.3704
+F_0.5       : 0.5146
+
+Norvig + Gector:
+Precision   : 0.6873
+Recall      : 0.5372
+F_0.5       : 0.6510
