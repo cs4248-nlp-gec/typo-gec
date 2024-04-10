@@ -1,3 +1,3 @@
-Precision   : 0.7943
-Recall      : 0.5837
-F_0.5       : 0.7409
+Precision   : 0.7593
+Recall      : 0.5457
+F_0.5       : 0.7042
