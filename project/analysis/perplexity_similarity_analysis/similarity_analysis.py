@@ -1,4 +1,5 @@
 import spacy
+
 nlp = spacy.load("en_core_web_sm")
 
 
@@ -18,9 +19,6 @@ def get_similarity_score(correct_file, output_file):
 # similarity_score = get_similarity_score(correct_file, output_file)
 # print(similarity_score)
 
-
-
-
 # similarity score analysis (using spacy similarity)
 # short:  0.8703058618889775
 # long:   0.8417217784384142
@@ -33,7 +31,7 @@ def get_similarity_score(correct_file, output_file):
 
 # Analysis result
 # We can see that from light to medium to heavy, there is a fall in similarity score. This suggests that the closeness of predictions
-# to gold standard falls off as the number of typo increases (which fits our hypothesis and shows that gector is not good at correcting 
+# to gold standard falls off as the number of typo increases (which fits our hypothesis and shows that gector is not good at correcting
 # erros with typo)
 # Short's similarity score does slightly better, but not that much difference. Not too conclusive. (But perplexity between short and long
 # are very huge. So Perplexity is better analysis)
