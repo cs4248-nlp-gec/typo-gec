@@ -3,7 +3,6 @@ import os
 import spacy
 from collections import defaultdict
 import matplotlib.pyplot as plt
-
 """
 We want to:
 1. Find the GLEU score of 
@@ -28,6 +27,7 @@ abcn_short_path = "../data/corrected/corrected_short_sentence/ABCN.dev.gold.bea1
 
 nlp = spacy.load("en_core_web_md")
 
+
 def process_file(src_file_path, dest_file_path, reference_file_path):
     similarity_scores = []
     with open(src_file_path, 'r',
@@ -49,14 +49,12 @@ def process_file(src_file_path, dest_file_path, reference_file_path):
 
     with open("./similarity_scores/total_results.txt",
               "a") as file:  # store total results
-        file.write(
-            f"{src_file_path}: Avg: {avg_score}\n"
-        )
+        file.write(f"{src_file_path}: Avg: {avg_score}\n")
     return avg_score
 
 
 def similarity_copy_structure_and_process_files(src_directory, dest_directory,
-                                          keywords):
+                                                keywords):
     os.makedirs(dest_directory, exist_ok=True)
     try:
         os.remove("./similarity_scores/total_results.txt")
@@ -99,7 +97,8 @@ def similarity_copy_structure_and_process_files(src_directory, dest_directory,
                 src_file_path = os.path.join(second_level_dir, file)
                 dest_file_path = os.path.join(
                     dest_subdir, file.replace('.txt', '_similarity_score.txt'))
-                avg_score = process_file(src_file_path, dest_file_path, reference_file_path)
+                avg_score = process_file(src_file_path, dest_file_path,
+                                         reference_file_path)
                 name = file[:-4]
                 scores.append((name, avg_score))
                 print(
@@ -111,9 +110,7 @@ def similarity_copy_structure_and_process_files(src_directory, dest_directory,
         summary_path = os.path.join(dest_subdir, "summary_results.txt")
         with open(summary_path, 'w', encoding='utf-8') as summary_file:
             for file, avg_score in scores:
-                summary_file.write(
-                    f"{file}: Avg: {avg_score}\n"
-                )
+                summary_file.write(f"{file}: Avg: {avg_score}\n")
 
         directory_scores[dest_subdir] = scores
 
@@ -204,20 +201,23 @@ def plot_topic_scores(topic_scores):
         plt.close()
         print(f"Plot saved for topic: {topic}")
 
+
 scores_filename = "./dir_topic_scores.json"
 
-if os.path.exists(scores_filename): # use the cached value
+if os.path.exists(scores_filename):  # use the cached value
     with open(scores_filename, 'r') as file:
         data = json.load(file)
         dir_scores = data['dir_scores']
         topic_scores = data['topic_scores']
-else: # we need to get the vals and store them
+else:  # we need to get the vals and store them
     dir_scores, topic_scores = similarity_copy_structure_and_process_files(
         src_directory, dest_directory, keywords)
 
     with open(scores_filename, 'w') as file:
-        json.dump({'dir_scores': dir_scores, 'topic_scores': topic_scores}, file)
-
+        json.dump({
+            'dir_scores': dir_scores,
+            'topic_scores': topic_scores
+        }, file)
 
 plot_directory_scores(dir_scores)
 plot_topic_scores(topic_scores)
