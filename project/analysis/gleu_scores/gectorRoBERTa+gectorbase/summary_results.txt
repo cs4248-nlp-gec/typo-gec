@@ -1,0 +1,5 @@
+medium_gectorRoBERTa+gectorbase: Avg: 0.7225598100258276, Corpus Score: 0.7113266554865613
+heavy_gectorRoBERTa+gectorbase: Avg: 0.6333967028150923, Corpus Score: 0.6226380907226831
+light_gectorRoBERTa+gectorbase: Avg: 0.7851529386020003, Corpus Score: 0.7735445994494753
+shortsentence_gectorRoBERTa+gectorbase: Avg: 0.7161745040939667, Corpus Score: 0.7292117465224112
+longsentence_gectorRoBERTa+gectorbase: Avg: 0.6187677437261069, Corpus Score: 0.5910666570376255
