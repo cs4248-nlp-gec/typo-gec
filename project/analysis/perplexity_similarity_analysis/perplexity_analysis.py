@@ -1,19 +1,21 @@
 import torch
 import numpy as np
- 
+
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 # Load pre-trained model (weights)
 with torch.no_grad():
-        model = GPT2LMHeadModel.from_pretrained('gpt2')
-        model.eval()
+    model = GPT2LMHeadModel.from_pretrained('gpt2')
+    model.eval()
 # Load pre-trained model tokenizer (vocabulary)
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
- 
+
+
 def score(model, tokenizer, sentence):
     tokenize_input = tokenizer.encode(sentence)
     tensor_input = torch.tensor([tokenize_input])
-    loss=model(tensor_input, labels=tensor_input)[0]
+    loss = model(tensor_input, labels=tensor_input)[0]
     return np.exp(loss.detach().numpy())
+
 
 def total_score(model, tokenizer, filename):
     total_score = 0
@@ -30,7 +32,9 @@ def total_score(model, tokenizer, filename):
                     nan_count += 1
                 else:
                     total_score += to_add
-    return total_score/(total_lines - nan_count), 100 * nan_count / (total_lines)
+    return total_score / (total_lines -
+                          nan_count), 100 * nan_count / (total_lines)
+
 
 # add the files seperately
 #f_long, f_short, f_light, f_medium, f_heavy = "long_typo.txt", "short_typo.txt", "light_typo.txt", "medium_typo.txt", "heavy_typo.txt"
@@ -46,9 +50,6 @@ print("Score for short: ", short, short_nan)
 print("Score for light: ", light, light_nan)
 print("Score for medium: ", medium, medium_nan)
 print("Score for heavy: ", heavy, heavy_nan)
-
-
-
 '''
 perplexity score analysis
 
