@@ -1,0 +1,31 @@
+Norvig+Gector:
+
+Score for long:  98.1072926015713
+Score for short:  525.3821902450286
+Score for light:  4225.579278190445
+Score for medium:  4112.0738749533575
+Score for heavy:  3886.5179696329374
+
+Funspell+Gector:
+
+Score for long:  97.58953824819142
+Score for short:  537.0468801069735
+Score for light:  4246.024435391048
+Score for medium:  4087.188476341709
+Score for heavy:  3870.9704743515003
+
+Bart+Gector:
+
+Score for long:  96.19227976604462
+Score for short:  505.22809650426836
+Score for light:  4169.994702458516
+Score for medium:  4055.7959764754182
+Score for heavy:  3849.6404311462334
+
+gectorBERT:
+
+Score for long:  98.1686962491158
+Score for short:  559.2512872263252
+Score for light:  4241.12622237334
+Score for medium:  4196.432768379235
+Score for heavy:  4125.799249452544
