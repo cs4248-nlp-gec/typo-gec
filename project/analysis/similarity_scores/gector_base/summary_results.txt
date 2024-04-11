@@ -1,0 +1,5 @@
+longsentence_gectorbase: Avg: 0.9794364750511629
+light_gectorbase: Avg: 0.9716696209959692
+heavy_gectorbase: Avg: 0.8960100867340521
+medium_gectorbase: Avg: 0.9459437702650502
+shortsentence_gectorbase: Avg: 0.8761751448074238

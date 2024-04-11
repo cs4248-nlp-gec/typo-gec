@@ -1,0 +1,10 @@
+medium_bart+gector: Avg: 0.9415675146759405
+medium_bart: Avg: 0.9289675930015994
+light_bart+gector: Avg: 0.96211165626729
+heavy_bart+gector: Avg: 0.9039481829877506
+shortsentence_bart+gector: Avg: 0.7991839656622117
+longsentence_bart: Avg: 0.965908659297472
+light_bart: Avg: 0.9499752482043528
+heavy_bart: Avg: 0.8889795622384765
+longsentence_bart+gector: Avg: 0.9752389242830706
+shortsentence_bart: Avg: 0.7875899973529147

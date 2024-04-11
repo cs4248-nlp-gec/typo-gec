@@ -1,0 +1,10 @@
+longsentence_norvig: Avg: 0.9751451675863619
+shortsentence_norvig+gector: Avg: 0.8416485536965347
+heavy_norvig+gector: Avg: 0.92115366614522
+heavy_norvig: Avg: 0.8870122794944277
+light_norvig: Avg: 0.946119607036173
+medium_norvig: Avg: 0.9233554627574717
+shortsentence_norvig: Avg: 0.7932008743443918
+longsentence_norvig+gector: Avg: 0.9884035007854948
+medium_norvig+gector: Avg: 0.9530670795751622
+light_norvig+gector: Avg: 0.970723043565537

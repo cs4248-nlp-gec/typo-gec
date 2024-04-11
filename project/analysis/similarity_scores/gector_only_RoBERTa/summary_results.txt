@@ -1,0 +1,5 @@
+shortsentence_gectorRoBERTa: Avg: 0.9252036804233474
+heavy_gectorRoBERTa: Avg: 0.9613260971672469
+medium_gectorRoBERTa: Avg: 0.9713316020246766
+longsentence_gectorRoBERTa: Avg: 0.988430947082759
+light_gectorRoBERTa: Avg: 0.9788801588423381

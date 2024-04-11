@@ -1,0 +1,5 @@
+medium_gectorRoBERTa+gectorbase: Avg: 0.976055639884661
+heavy_gectorRoBERTa+gectorbase: Avg: 0.9671592048608632
+light_gectorRoBERTa+gectorbase: Avg: 0.9831176137983831
+shortsentence_gectorRoBERTa+gectorbase: Avg: 0.9319773420925509
+longsentence_gectorRoBERTa+gectorbase: Avg: 0.9917673808525096

@@ -1,0 +1,10 @@
+longsentence_norvig: Avg: 0.9751451675863619, Corpus Score: 0.9924033871248326
+shortsentence_norvig+gector: Avg: 0.8416485536965347, Corpus Score: 0.9983577782259244
+heavy_norvig+gector: Avg: 0.92115366614522, Corpus Score: 0.9986221680364331
+heavy_norvig: Avg: 0.8870122794944277, Corpus Score: 0.9845962773302374
+light_norvig: Avg: 0.946119607036173, Corpus Score: 0.9957645220471323
+medium_norvig: Avg: 0.9233554627574717, Corpus Score: 0.9926613133155393
+shortsentence_norvig: Avg: 0.7932008743443918, Corpus Score: 0.9804821113891995
+longsentence_norvig+gector: Avg: 0.9884035007854948, Corpus Score: 0.9990301877616442
+medium_norvig+gector: Avg: 0.9530670795751622, Corpus Score: 0.9998116942436609
+light_norvig+gector: Avg: 0.970723043565537, Corpus Score: 0.9999575322469023
