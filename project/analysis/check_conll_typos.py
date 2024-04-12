@@ -10,8 +10,7 @@ from tabulate import tabulate  # might need to `pip install tabulate``
 # Note: prediction file must be found at exactly {PREDS_DIR}/{model_name}/conll_{model_name}.txt
 # ==> might need to temporarily change directory/file names for this (e.g. gector_base folder --> gectorbase)
 MODELS = [
-    "gectorbase", "gectorBERT", "gectorRoBERTa", "gectorRoBERTa+gectorbase",
-    "gectorBERT+gectorbase"
+    "gectorbase", "gectorRoBERTa+gectorbase", "gectorBERT+gectorbase", 
 ]
 RESULTS_DIR = "./conll_performance"
 PREDS_DIR = "../predictions"
@@ -156,7 +155,7 @@ if __name__ == "__main__":
     x_coords = np.arange(len(MODELS))
     width = 0.35
 
-    fig, ax = plt.subplots(figsize=(12, 12))
+    fig, ax = plt.subplots(figsize=(8, 6))
     correct_fix_bars = ax.bar(x_coords - width / 2,
                               correct_fixes,
                               width,
