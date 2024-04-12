@@ -29,3 +29,29 @@ Score for short:  559.2512872263252
 Score for light:  4241.12622237334
 Score for medium:  4196.432768379235
 Score for heavy:  4125.799249452544
+
+
+
+
+
+similarity score analysis (using spacy similarity)
+short:  0.8703058618889775
+long:   0.8417217784384142
+light:  0.9328222384665961
+medium: 0.8466437749029351
+heavy:  0.7056760309225083
+
+This similarity score is averaged by the number of lines
+Similarity score for spacy calculated by converting word to vec and compare the vector's similarity
+
+Analysis result
+We can see that from light to medium to heavy, there is a fall in similarity score. This suggests that the closeness of predictions
+to gold standard falls off as the number of typo increases (which fits our hypothesis and shows that gector is not good at correcting 
+erros with typo)
+Short's similarity score does slightly better, but not that much difference. Not too conclusive. (But perplexity between short and long
+are very huge. So Perplexity is better analysis)
+
+
+similarity analysis shows that norvig, funspell and bart all predicts long better than short, and light better than medium better than heavy
+Only exception is base model, where short is slightly better than long
+

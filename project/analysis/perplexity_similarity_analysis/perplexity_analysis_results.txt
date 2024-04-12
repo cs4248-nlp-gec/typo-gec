@@ -27,3 +27,58 @@ Score for short:  6710.471126372624 1.174496644295302
 Score for light:  888.6481386559498 0.11405109489051095
 Score for medium:  2023.0149312607095 0.06843065693430657
 Score for heavy:  1359.91821536872 0.04562043795620438
+
+gectorBase
+Score for long:   461.787511013522,          0,           101,              0%
+Score for short:  7736.254397026347,         7,           596,              1.17%
+Score for light:  1930.290759843189,         5,           4384,             0.114%
+Score for medium: 3419.8989599032425,        3,           4384,             0.0684%
+Score for heavy:  2795.5261774032642,        2,           4384,             0.0456%
+
+
+
+
+
+
+perplexity score analysis for base gector
+
+score format: average perplexity score, number of nan, number of lines, percentage of nan
+Score for long:   461.787511013522,          0,           101,              0%
+Score for short:  7736.254397026347,         7,           596,              1.17%
+Score for light:  1930.290759843189,         5,           4384,             0.114%
+Score for medium: 3419.8989599032425,        3,           4384,             0.0684%
+Score for heavy:  2795.5261774032642,        2,           4384,             0.0456%
+
+
+long sentences is corrected better than short sentences (probably because there is more words available to guess the correction.
+Failure to correct in short sentence also affects how readble the sentence is much more than long sentence since there is lesser context)
+
+Light PP score is better than medium and heavy PP score as expected.
+But heavy PP score is somehow slightly better than medium. (Maybe is that the difference is about the same, equally 
+bad since the difference is not as high between the long and short)
+
+
+perplexity score analysis for gold standard
+average perplexity score, number of nan, number of lines, percentage of nan
+standard 590.6320165155248      7             4384              0.16%
+short    3367.500427032367      7             596               1.17%
+long     87.24830721864606      0             101               0%
+
+All the nan is from short, seems like gpt-2 model does not like short sentences. Likely that normal sentence generation,
+short sentence is uncommon. 
+
+perplexity score analysis for different models
+
+So base always performs the worst.
+In general, norvig > funspell > bart. This is true for all categories of comparion, except for short and heavy where bart 
+seems to perform better than funspell.
+
+
+perplexity score analysis for different models
+
+So base always performs the worst.
+In general, norvig > funspell > bart. This is true for all categories of comparion, except for short and heavy where bart 
+seems to perform better than funspell. But overall, norvig > funspell > bart
+
+For each model, we also see the general trend that long is better corrected than short (but GPT-2 likes long sentence better, so not conclusive),
+and light better than medium better than heavy (except for gector base and bart)
