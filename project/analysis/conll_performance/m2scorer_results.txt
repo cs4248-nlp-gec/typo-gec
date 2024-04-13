@@ -1,0 +1,49 @@
+>>>gectorbase<<<
+Precision   : 0.7516
+Recall      : 0.4018
+F_0.5       : 0.6401
+
+>>>gectorRoBERTa+gectorbase<<<
+Precision   : 0.7353
+Recall      : 0.4067
+F_0.5       : 0.6330
+
+>>>funspell+gector<<<
+Precision   : 0.6724
+Recall      : 0.4686
+F_0.5       : 0.6186
+
+>>>BART+gector<<<
+Precision   : 0.4727
+Recall      : 0.4893
+F_0.5       : 0.4759
+
+>>>norvig+gector<<<
+Precision   : 0.6204
+Recall      : 0.4737
+F_0.5       : 0.5842
+
+>>>funspell<<<
+Precision   : 0.3790
+Recall      : 0.0404
+F_0.5       : 0.1416
+
+>>>BART<<<
+Precision   : 0.1007
+Recall      : 0.1315
+F_0.5       : 0.1057
+
+>>>norvig<<<
+Precision   : 0.0770
+Recall      : 0.0608
+F_0.5       : 0.0731
+
+>>>gectorRoBERTa<<<
+Precision   : 0.6238
+Recall      : 0.0628
+F_0.5       : 0.2239
+
+>>>gectorBERT<<<
+Precision   : 0.5288
+Recall      : 0.0532
+F_0.5       : 0.1897

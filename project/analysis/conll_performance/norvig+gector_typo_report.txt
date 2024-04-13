@@ -1,0 +1,250 @@
+>>> norvig+gector <<<
+
+Summary: 
++-------------------------------------+--------+
+| Typos fixed correctly               | 153    |
++-------------------------------------+--------+
+| Typos fixed wrongly                 | 36     |
++-------------------------------------+--------+
+| Total typo fix attempts             | 189    |
++-------------------------------------+--------+
+| % of fix attempts that were correct | 80.95% |
++-------------------------------------+--------+
+| Total number of typos               | 226    |
++-------------------------------------+--------+
+| % of typos attempted to fix         | 83.63% |
++-------------------------------------+--------+
+
+Typos fixed correctly: 
+Line 10: 	identified diagonosed       : rectified to diagnosed        : annotator 0
+Line 12: 	identified firghtenning     : rectified to frightening      : annotator 0
+Line 12: 	identified firghtenning     : rectified to frightening      : annotator 1
+Line 17: 	identified thses            : rectified to this             : annotator 1
+Line 30: 	identified indivdial        : rectified to individual       : annotator 0
+Line 30: 	identified indivdial        : rectified to individual       : annotator 1
+Line 32: 	identified concurently      : rectified to concurrently     : annotator 0
+Line 32: 	identified concurently      : rectified to concurrently     : annotator 1
+Line 33: 	identified relavant         : rectified to relevant         : annotator 0
+Line 33: 	identified relavant         : rectified to relevant         : annotator 1
+Line 36: 	identified infrom           : rectified to inform           : annotator 0
+Line 36: 	identified of               : rectified to or               : annotator 1
+Line 36: 	identified infrom           : rectified to inform           : annotator 1
+Line 49: 	identified correspongding   : rectified to corresponding    : annotator 0
+Line 49: 	identified familay          : rectified to family           : annotator 1
+Line 49: 	identified correspongding   : rectified to corresponding    : annotator 1
+Line 55: 	identified spouce           : rectified to spouse           : annotator 0
+Line 55: 	identified spouce           : rectified to spouse           : annotator 1
+Line 58: 	identified extend           : rectified to extent           : annotator 1
+Line 59: 	identified marrige          : rectified to marriage         : annotator 0
+Line 59: 	identified spouce           : rectified to spouse           : annotator 0
+Line 59: 	identified marrige          : rectified to marriage         : annotator 1
+Line 59: 	identified spouce           : rectified to spouse           : annotator 1
+Line 64: 	identified becouse          : rectified to because          : annotator 0
+Line 64: 	identified to               : rectified to too              : annotator 1
+Line 64: 	identified becouse          : rectified to because          : annotator 1
+Line 65: 	identified diabete          : rectified to diabetes         : annotator 0
+Line 65: 	identified diabete          : rectified to diabetes         : annotator 1
+Line 75: 	identified Privicy          : rectified to Privacy          : annotator 1
+Line 83: 	identified ralatives        : rectified to relatives        : annotator 0
+Line 83: 	identified ralatives        : rectified to relatives        : annotator 1
+Line 88: 	identified potetial         : rectified to potential        : annotator 0
+Line 88: 	identified potetial         : rectified to potential        : annotator 1
+Line 90: 	identified resposiblity     : rectified to responsibility   : annotator 0
+Line 90: 	identified resposiblity     : rectified to responsibility   : annotator 1
+Line 95: 	identified hypertesion      : rectified to hypertension     : annotator 1
+Line 96: 	identified hypertention     : rectified to hypertension     : annotator 1
+Line 124: 	identified kowledge         : rectified to knowledge        : annotator 1
+Line 128: 	identified obligied         : rectified to obliged          : annotator 0
+Line 139: 	identified emotinal         : rectified to emotional        : annotator 1
+Line 143: 	identified backgroung       : rectified to background       : annotator 0
+Line 143: 	identified backgroung       : rectified to background       : annotator 1
+Line 159: 	identified dilenma          : rectified to dilemma          : annotator 1
+Line 171: 	identified stong            : rectified to strong           : annotator 1
+Line 188: 	identified acutual          : rectified to actual           : annotator 0
+Line 188: 	identified techonology      : rectified to technology       : annotator 1
+Line 188: 	identified acutual          : rectified to actual           : annotator 1
+Line 188: 	identified techonology      : rectified to technology       : annotator 1
+Line 191: 	identified belive           : rectified to believe          : annotator 1
+Line 194: 	identified gentic           : rectified to genetic          : annotator 0
+Line 194: 	identified gentic           : rectified to genetic          : annotator 1
+Line 197: 	identified ist              : rectified to is               : annotator 0
+Line 197: 	identified he               : rectified to the              : annotator 0
+Line 198: 	identified belive           : rectified to believe          : annotator 0
+Line 198: 	identified belive           : rectified to believe          : annotator 1
+Line 200: 	identified belive           : rectified to believe          : annotator 1
+Line 202: 	identified int              : rectified to in               : annotator 0
+Line 202: 	identified int              : rectified to in               : annotator 1
+Line 203: 	identified belive           : rectified to believe          : annotator 0
+Line 203: 	identified belive           : rectified to believe          : annotator 1
+Line 204: 	identified tak              : rectified to take             : annotator 0
+Line 204: 	identified tak              : rectified to take             : annotator 1
+Line 207: 	identified emtional         : rectified to emotional        : annotator 0
+Line 207: 	identified healty           : rectified to healthy          : annotator 1
+Line 207: 	identified emtional         : rectified to emotional        : annotator 1
+Line 271: 	identified Seconly          : rectified to Secondly         : annotator 0
+Line 271: 	identified Seconly          : rectified to Secondly         : annotator 1
+Line 271: 	identified dignosis         : rectified to diagnosis        : annotator 1
+Line 274: 	identified dignosed         : rectified to diagnosed        : annotator 1
+Line 282: 	identified restric          : rectified to restrict         : annotator 0
+Line 297: 	identified outdoor          : rectified to outdoors         : annotator 1
+Line 418: 	identified runing           : rectified to running          : annotator 0
+Line 418: 	identified runing           : rectified to running          : annotator 1
+Line 427: 	identified adviced          : rectified to advised          : annotator 0
+Line 428: 	identified seriou           : rectified to serious          : annotator 0
+Line 428: 	identified seriou           : rectified to serious          : annotator 1
+Line 430: 	identified subconsiously    : rectified to subconsciously   : annotator 1
+Line 434: 	identified cousine          : rectified to cousin           : annotator 0
+Line 541: 	identified accompany        : rectified to company          : annotator 1
+Line 550: 	identified know             : rectified to known            : annotator 1
+Line 551: 	identified know             : rectified to known            : annotator 1
+Line 602: 	identified imposible        : rectified to impossible       : annotator 1
+Line 604: 	identified hundrends        : rectified to hundreds         : annotator 0
+Line 610: 	identified convinient       : rectified to convenient       : annotator 0
+Line 610: 	identified convinient       : rectified to convenient       : annotator 1
+Line 614: 	identified Socia            : rectified to Social           : annotator 1
+Line 616: 	identified convinient       : rectified to convenient       : annotator 0
+Line 616: 	identified convinient       : rectified to convenient       : annotator 1
+Line 618: 	identified socia            : rectified to social           : annotator 1
+Line 620: 	identified convinient       : rectified to convenient       : annotator 0
+Line 620: 	identified convinient       : rectified to convenient       : annotator 1
+Line 624: 	identified shwing           : rectified to showing          : annotator 1
+Line 625: 	identified luxry            : rectified to luxurious        : annotator 0
+Line 626: 	identified beatiful         : rectified to beautiful        : annotator 0
+Line 626: 	identified beatiful         : rectified to beautiful        : annotator 1
+Line 626: 	identified firneds          : rectified to friends          : annotator 1
+Line 638: 	identified covenience       : rectified to convenience      : annotator 0
+Line 638: 	identified covenience       : rectified to convenience      : annotator 1
+Line 638: 	identified percieved        : rectified to perceived        : annotator 1
+Line 644: 	identified intesively       : rectified to intensively      : annotator 1
+Line 646: 	identified recepient        : rectified to recipient        : annotator 1
+Line 647: 	identified utlises          : rectified to utilises         : annotator 1
+Line 658: 	identified communcation     : rectified to communication    : annotator 1
+Line 659: 	identified betwwen          : rectified to between          : annotator 1
+Line 662: 	identified websides         : rectified to websites         : annotator 1
+Line 676: 	identified to               : rectified to too              : annotator 1
+Line 682: 	identified wolrd            : rectified to world            : annotator 0
+Line 682: 	identified incresingly      : rectified to increasingly     : annotator 0
+Line 682: 	identified wolrd            : rectified to world            : annotator 1
+Line 682: 	identified incresingly      : rectified to increasingly     : annotator 1
+Line 685: 	identified ingnored         : rectified to ignored          : annotator 0
+Line 685: 	identified cosider          : rectified to consider         : annotator 0
+Line 685: 	identified ingnored         : rectified to ignored          : annotator 1
+Line 685: 	identified cosider          : rectified to consider         : annotator 1
+Line 687: 	identified scaning          : rectified to scanning         : annotator 0
+Line 687: 	identified scaning          : rectified to scanning         : annotator 1
+Line 691: 	identified surelly          : rectified to surely           : annotator 1
+Line 707: 	identified oversea          : rectified to overseas         : annotator 1
+Line 709: 	identified covenient        : rectified to convenient       : annotator 1
+Line 719: 	identified newpapers        : rectified to newspapers       : annotator 1
+Line 726: 	identified realtively       : rectified to relatively       : annotator 0
+Line 726: 	identified realtively       : rectified to relatively       : annotator 1
+Line 727: 	identified polices          : rectified to police           : annotator 0
+Line 732: 	identified wth              : rectified to with             : annotator 0
+Line 733: 	identified simliar          : rectified to similar          : annotator 1
+Line 756: 	identified acccount         : rectified to account          : annotator 1
+Line 771: 	identified electical        : rectified to electrical       : annotator 1
+Line 779: 	identified socia            : rectified to social           : annotator 1
+Line 780: 	identified socia            : rectified to social           : annotator 0
+Line 780: 	identified socia            : rectified to social           : annotator 1
+Line 786: 	identified socia            : rectified to social           : annotator 0
+Line 786: 	identified socia            : rectified to social           : annotator 1
+Line 790: 	identified whereabout       : rectified to whereabouts      : annotator 0
+Line 792: 	identified socia            : rectified to social           : annotator 1
+Line 793: 	identified socia            : rectified to social           : annotator 0
+Line 815: 	identified concetrating     : rectified to concentrating    : annotator 1
+Line 820: 	identified sociall          : rectified to social           : annotator 0
+Line 820: 	identified sociall          : rectified to social           : annotator 1
+Line 821: 	identified indivduals       : rectified to individuals      : annotator 1
+Line 824: 	identified decresed         : rectified to decreased        : annotator 0
+Line 829: 	identified relfected        : rectified to reflected        : annotator 0
+Line 829: 	identified relfected        : rectified to reflected        : annotator 1
+Line 860: 	identified promts           : rectified to prompts          : annotator 0
+Line 860: 	identified promts           : rectified to prompts          : annotator 1
+Line 914: 	identified ot               : rectified to to               : annotator 0
+Line 914: 	identified ot               : rectified to to               : annotator 1
+Line 935: 	identified peope            : rectified to people           : annotator 1
+Line 1010: 	identified others           : rectified to other            : annotator 1
+Line 1030: 	identified is               : rectified to in               : annotator 1
+Line 1041: 	identified Thank            : rectified to Thanks           : annotator 0
+Line 1100: 	identified lifes            : rectified to lives            : annotator 1
+Line 1125: 	identified medias           : rectified to media            : annotator 1
+Line 1259: 	identified Pepope           : rectified to People           : annotator 0
+
+
+Typos fixed wrongly: 
+Line 17: 	identified thses            : didn't correct to these            : annotator 0
+Line 29: 	identified Afterall         : didn't correct to After all        : annotator 1
+Line 33: 	identified maybe            : didn't correct to may be           : annotator 1
+Line 56: 	identified annouance        : didn't correct to disclosing       : annotator 1
+Line 56: 	identified creats           : didn't correct to creates          : annotator 1
+Line 57: 	identified annouance        : didn't correct to disclosure       : annotator 1
+Line 90: 	identified To               : didn't correct to too              : annotator 0
+Line 120: 	identified inherented       : didn't correct to inherited        : annotator 0
+Line 120: 	identified inherented       : didn't correct to inherited        : annotator 1
+Line 138: 	identified tosimilarly      : didn't correct to to similarly     : annotator 0
+Line 138: 	identified testingto        : didn't correct to testing to       : annotator 0
+Line 138: 	identified tosimilarly      : didn't correct to to similarly     : annotator 1
+Line 138: 	identified testingto        : didn't correct to testing to       : annotator 1
+Line 179: 	identified thefamily        : didn't correct to the family       : annotator 0
+Line 201: 	identified tshe             : didn't correct to the              : annotator 1
+Line 206: 	identified diability        : didn't correct to disability       : annotator 1
+Line 276: 	identified many             : didn't correct to may              : annotator 1
+Line 410: 	identified wifes            : didn't correct to wives            : annotator 1
+Line 576: 	identified inhered          : didn't correct to inherited        : annotator 1
+Line 616: 	identified humanian         : didn't correct to humane           : annotator 0
+Line 622: 	identified infront          : didn't correct to in front         : annotator 1
+Line 624: 	identified shwing           : didn't correct to sharing          : annotator 0
+Line 627: 	identified canoot           : didn't correct to can not          : annotator 0
+Line 627: 	identified canoot           : didn't correct to can not          : annotator 1
+Line 644: 	identified intesively       : didn't correct to intensely        : annotator 0
+Line 673: 	identified creat            : didn't correct to create           : annotator 0
+Line 680: 	identified chating          : didn't correct to chatting         : annotator 0
+Line 755: 	identified Inetrnet         : didn't correct to Internet         : annotator 1
+Line 759: 	identified emocons          : didn't correct to emoticons        : annotator 1
+Line 763: 	identified with             : didn't correct to will             : annotator 0
+Line 797: 	identified withthe          : didn't correct to with the         : annotator 1
+Line 837: 	identified hugh             : didn't correct to huge             : annotator 0
+Line 837: 	identified hugh             : didn't correct to huge             : annotator 1
+Line 1037: 	identified lifes            : didn't correct to lives            : annotator 0
+Line 1253: 	identified exits            : didn't correct to exist            : annotator 1
+Line 1271: 	identified everyday         : didn't correct to every day        : annotator 1
+
+
+Typos not fixed/identified: 
+Line 12: 	didn't fix affects          : expected effects          : annotator 1
+Line 13: 	didn't fix altitudes        : expected attitude         : annotator 0
+Line 13: 	didn't fix altitudes        : expected attitudes        : annotator 1
+Line 37: 	didn't fix healthchecks     : expected health checks    : annotator 1
+Line 149: 	didn't fix Afterward        : expected Afterwards       : annotator 1
+Line 161: 	didn't fix generic          : expected genetic          : annotator 0
+Line 161: 	didn't fix generic          : expected genetic          : annotator 1
+Line 162: 	didn't fix generic          : expected genetic          : annotator 1
+Line 164: 	didn't fix generic          : expected genetic          : annotator 1
+Line 197: 	didn't fix ist he           : expected is the           : annotator 1
+Line 202: 	didn't fix due to the fact  : expected because of this  : annotator 0
+Line 371: 	didn't fix May be           : expected Maybe            : annotator 1
+Line 403: 	didn't fix everyday         : expected every day        : annotator 1
+Line 408: 	didn't fix some one         : expected someone          : annotator 1
+Line 611: 	didn't fix every thing      : expected everything       : annotator 1
+Line 638: 	didn't fix realtime         : expected real time        : annotator 1
+Line 640: 	didn't fix a                : expected as               : annotator 1
+Line 659: 	didn't fix practises        : expected practices        : annotator 1
+Line 683: 	didn't fix though           : expected through          : annotator 0
+Line 716: 	didn't fix down sides       : expected downsides        : annotator 1
+Line 747: 	didn't fix of               : expected or               : annotator 1
+Line 839: 	didn't fix pron             : expected prone            : annotator 0
+Line 891: 	didn't fix auto correction  : expected autocorrection   : annotator 1
+Line 904: 	didn't fix wide spread      : expected widespread       : annotator 1
+Line 925: 	didn't fix addition         : expected addiction        : annotator 1
+Line 1015: 	didn't fix smart phone      : expected smartphone       : annotator 1
+Line 1019: 	didn't fix like             : expected lie              : annotator 1
+Line 1053: 	didn't fix many             : expected may              : annotator 0
+Line 1053: 	didn't fix many             : expected may              : annotator 1
+Line 1084: 	didn't fix it               : expected They             : annotator 0
+Line 1143: 	didn't fix post cards       : expected postcards        : annotator 1
+Line 1155: 	didn't fix business men     : expected businessmen      : annotator 1
+Line 1157: 	didn't fix smart phones     : expected smartphones      : annotator 1
+Line 1170: 	didn't fix log              : expected lot              : annotator 1
+Line 1196: 	didn't fix smart phones     : expected smartphones      : annotator 1
+Line 1206: 	didn't fix on line          : expected online           : annotator 1
+Line 1271: 	didn't fix on line          : expected online           : annotator 1
