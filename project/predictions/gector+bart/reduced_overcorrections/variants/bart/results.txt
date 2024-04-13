@@ -29,4 +29,10 @@ Precision   : 0.4489
 Recall      : 0.4655
 F_0.5       : 0.4522
 
+conll bart 
+
+Precision   : 0.1007
+Recall      : 0.1315
+F_0.5       : 0.1057
+
 

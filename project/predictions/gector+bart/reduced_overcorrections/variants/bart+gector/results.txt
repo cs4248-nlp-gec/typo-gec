@@ -27,3 +27,9 @@ long sentence
 Precision   : 0.6655
 Recall      : 0.5192
 F_0.5       : 0.6300
+
+conll results 
+
+Precision   : 0.4727
+Recall      : 0.4893
+F_0.5       : 0.4759
