@@ -594,7 +594,3 @@ GLEU: 1.0
 GLEU: 0.5384615384615384
 GLEU: 1.0
 GLEU: 1.0
-Min Sentence GLEU Score: 0.0
-Max Sentence GLEU Score: 1.0
-Average Sentence GLEU Score: 0.5235225290711176
-Corpus Sentence GLEU Score: 0.5768643809136229

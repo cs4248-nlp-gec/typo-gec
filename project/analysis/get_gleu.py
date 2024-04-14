@@ -42,33 +42,13 @@ def process_file(src_file_path, dest_file_path, reference_file_path):
             candidates.append(src_line.strip().split())
             dest.write(f"GLEU: {score}\n")
 
-        # Calculate min, max, and average GLEU scores
-        min_score = min(gleu_scores)
-        max_score = max(gleu_scores)
         avg_score = sum(gleu_scores) / len(gleu_scores)
-        corpus_score = corpus_gleu(references, candidates)
-
-        # Write these statistics to the destination file
-        dest.write(f"Min Sentence GLEU Score: {min_score}\n")
-        dest.write(f"Max Sentence GLEU Score: {max_score}\n")
-        dest.write(f"Average Sentence GLEU Score: {avg_score}\n")
-        dest.write(f"Corpus Sentence GLEU Score: {corpus_score}\n")
-
-    with open("./gleu_scores/total_results.txt",
-              "a") as file:  # store total results
-        file.write(
-            f"{src_file_path}: Min: {min_score}, Max: {max_score}, Avg: {avg_score}, Corpus score: {corpus_score}\n"
-        )
-    return avg_score, corpus_score
+    return avg_score
 
 
 def gleu_copy_structure_and_process_files(src_directory, dest_directory,
                                           keywords):
     os.makedirs(dest_directory, exist_ok=True)
-    try:
-        os.remove("./gleu_scores/total_results.txt")
-    except:
-        pass
     directory_scores = {}
     topic_scores = defaultdict(list)
 
@@ -106,23 +86,16 @@ def gleu_copy_structure_and_process_files(src_directory, dest_directory,
                 src_file_path = os.path.join(second_level_dir, file)
                 dest_file_path = os.path.join(
                     dest_subdir, file.replace('.txt', '_gleu_score.txt'))
-                avg_score, corpus_score = process_file(src_file_path,
+                avg_score = process_file(src_file_path,
                                                        dest_file_path,
                                                        reference_file_path)
                 name = file[:-4]
-                scores.append((name, avg_score, corpus_score))
+                scores.append((name, avg_score))
                 print(
                     f"Processed {src_file_path}, results in {dest_file_path}, ref {reference_file_path}"
                 )
                 topic_scores[topic].append(
-                    ("".join(name.split("_")[1:]), avg_score, corpus_score))
-
-        summary_path = os.path.join(dest_subdir, "summary_results.txt")
-        with open(summary_path, 'w', encoding='utf-8') as summary_file:
-            for file, avg_score, corpus_score in scores:
-                summary_file.write(
-                    f"{file}: Avg: {avg_score}, Corpus Score: {corpus_score}\n"
-                )
+                    ("".join(name.split("_")[1:]), avg_score))
 
         directory_scores[dest_subdir] = scores
 
@@ -140,96 +113,70 @@ def sorting_key(filename):
     return len(order)
 
 
-def plot_directory_scores(directory_scores):
-    for directory, scores in directory_scores.items():
-        sorted_scores = sorted(scores, key=lambda x: sorting_key(x[0]))
-        files = [score[0] for score in sorted_scores]
-        avg_sentence_scores = [score[1] for score in sorted_scores]
-        corpus_scores = [score[2] for score in sorted_scores]
-
-        plt.figure(figsize=(10, 6))
-        plt.plot(files,
-                 avg_sentence_scores,
-                 label='Avg Sentence GLEU',
-                 marker='o')
-        plt.plot(files, corpus_scores, label='Corpus GLEU', marker='x')
-
-        plt.title(f"GLEU Scores in {os.path.basename(directory)}")
-        plt.xticks(rotation=45, ha="right")
-        plt.xlabel("Files")
-        plt.ylabel("Scores")
-        plt.legend()
-        plt.tight_layout()
-        plot_path = os.path.join(directory, "gleu_scores_plot.png")
-        plt.savefig(plot_path)
-        plt.close()
-
 
 src_directory = '../predictions'
 dest_directory = './gleu_scores'
 keywords = ["light", "medium", "heavy", "long", "short"]
 
 
-def plot_topic_scores(topic_scores):
+def plot_combined_gleu_scores(topic_scores):
+    # Aggregate scores for each model across all topics
+    model_scores = {}
     for topic, scores in topic_scores.items():
-        # Sort scores by model name for consistent plotting
-        scores.sort(key=lambda x: x[0])
-        models = [score[0] for score in scores]
-        avg_sentence_scores = [score[1] for score in scores]
-        corpus_scores = [score[2] for score in scores]
+        for model, score in scores:
+            if model not in model_scores:
+                model_scores[model] = {}
+            model_scores[model][topic] = score
 
-        # Compute the averages for the avg_sentence_scores and corpus_scores
-        avg_of_avg_sentence_scores = sum(avg_sentence_scores) / len(
-            avg_sentence_scores)
-        avg_of_corpus_scores = sum(corpus_scores) / len(corpus_scores)
+    # Prepare data for plotting
+    models = sorted(model_scores.keys())
+    data_for_plotting = {model: [] for model in models}
+    all_scores = []
 
-        # Set up the plotting area
-        plt.figure(figsize=(10, 6))
-        plt.ylim(0, 1)
+    for model, scores_by_topic in model_scores.items():
+        for topic in ["light", "medium", "heavy", "short", "long"]:
+            score = scores_by_topic.get(topic, 0)  # Use 0 if no score for topic
+            data_for_plotting[model].append(score)
+            all_scores.append(score)
 
-        # Create the bar chart
-        x_indices = range(len(models))
-        plt.bar(x_indices,
-                avg_sentence_scores,
-                width=0.4,
-                label='Avg Sentence GLEU',
-                align='center')
-        plt.bar(x_indices,
-                corpus_scores,
-                width=0.4,
-                label='Corpus GLEU',
-                align='edge',
-                alpha=0.5)
+    # Compute the overall average score
+    overall_avg_score = sum(all_scores) / len(all_scores)
 
-        # Add model names to x-axis
-        plt.xticks(x_indices, models, rotation=45, ha="right")
+    # Set up the plotting area
+    plt.figure(figsize=(14, 8))
+    color_map = {"light": "mediumseagreen", "medium": "orange", "heavy": "red", "short": "mediumturquoise", "long": "rebeccapurple"}
+    topics = ["light", "medium", "heavy", "short", "long"]
+    n = len(models)
+    bar_width = 0.15
 
-        # Draw horizontal lines for the average values
-        plt.axhline(y=avg_of_avg_sentence_scores,
-                    color='blue',
-                    linestyle='--',
-                    label='Avg of Avg Sentence GLEU')
-        plt.axhline(y=avg_of_corpus_scores,
-                    color='orange',
-                    linestyle='--',
-                    label='Avg of Corpus GLEU')
+    plt.ylim(0.2, 1)
 
-        # Add title and labels
-        plt.title(f"{topic.capitalize()} GLEU Scores")
-        plt.xlabel("Models")
-        plt.ylabel("Scores")
+    # Create the bar chart
+    for i, topic in enumerate(topics):
+        scores = [data_for_plotting[model][i] for model in models]
+        plt.bar([x + i * bar_width for x in range(n)], scores, width=bar_width, label=f'{topic.capitalize()} GLEU', color=color_map[topic])
 
-        # Show legend
-        plt.legend()
+    # Add model names to x-axis
+    plt.xticks([x + 2 * bar_width for x in range(n)], models, rotation=45, ha="right")
 
-        # Layout adjustment and plot saving
-        plt.tight_layout()
-        plt.savefig(f"./gleu_scores/{topic}_scores_plot.png")
-        plt.close()
-        print(f"Plot saved for topic: {topic}")
+    # Draw horizontal line for the overall average
+    plt.axhline(y=overall_avg_score, color='blue', linestyle='--', label='Overall Avg GLEU')
+
+    # Add title and labels
+    plt.title("GLEU Scores by Model and Topic")
+    plt.xlabel("Models")
+    plt.ylabel("Average Sentence GLEU Scores")
+
+    # Show legend
+    plt.legend()
+
+    # Layout adjustment and display plot
+    plt.tight_layout()
+    plt.savefig(f"./gleu_scores/total_scores_plot.png")
+    plt.savefig(f"./gleu_scores/total_scores_plot.svg", format="svg")
+    plt.close()
 
 
 dir_scores, topic_scores = gleu_copy_structure_and_process_files(
     src_directory, dest_directory, keywords)
-plot_directory_scores(dir_scores)
-plot_topic_scores(topic_scores)
+plot_combined_gleu_scores(topic_scores)
