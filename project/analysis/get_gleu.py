@@ -87,9 +87,8 @@ def gleu_copy_structure_and_process_files(src_directory, dest_directory,
                 src_file_path = os.path.join(second_level_dir, file)
                 dest_file_path = os.path.join(
                     dest_subdir, file.replace('.txt', '_gleu_score.txt'))
-                avg_score = process_file(src_file_path,
-                                                       dest_file_path,
-                                                       reference_file_path)
+                avg_score = process_file(src_file_path, dest_file_path,
+                                         reference_file_path)
                 name = file[:-4]
                 model_name = "".join(name.split("_")[1:])
                 if model_name in models_ignored:
@@ -117,7 +116,6 @@ def sorting_key(filename):
     return len(order)
 
 
-
 src_directory = '../predictions'
 dest_directory = './gleu_scores'
 keywords = ["light", "medium", "heavy", "long", "short"]
@@ -139,7 +137,8 @@ def plot_combined_gleu_scores(topic_scores):
 
     for model, scores_by_topic in model_scores.items():
         for topic in ["light", "medium", "heavy", "short", "long"]:
-            score = scores_by_topic.get(topic, 0)  # Use 0 if no score for topic
+            score = scores_by_topic.get(topic,
+                                        0)  # Use 0 if no score for topic
             data_for_plotting[model].append(score)
             all_scores.append(score)
 
@@ -148,7 +147,13 @@ def plot_combined_gleu_scores(topic_scores):
 
     # Set up the plotting area
     plt.figure(figsize=(14, 8))
-    color_map = {"light": "mediumseagreen", "medium": "orange", "heavy": "red", "short": "mediumturquoise", "long": "rebeccapurple"}
+    color_map = {
+        "light": "mediumseagreen",
+        "medium": "orange",
+        "heavy": "red",
+        "short": "mediumturquoise",
+        "long": "rebeccapurple"
+    }
     topics = ["light", "medium", "heavy", "short", "long"]
     n = len(models)
     bar_width = 0.15
@@ -158,7 +163,11 @@ def plot_combined_gleu_scores(topic_scores):
     # Create the bar chart
     for i, topic in enumerate(topics):
         scores = [data_for_plotting[model][i] for model in models]
-        plt.bar([x + i * bar_width for x in range(n)], scores, width=bar_width, label=f'{topic.capitalize()} GLEU', color=color_map[topic])
+        plt.bar([x + i * bar_width for x in range(n)],
+                scores,
+                width=bar_width,
+                label=f'{topic.capitalize()} GLEU',
+                color=color_map[topic])
 
     # Add model names to x-axis
     model_labels = []
@@ -170,7 +179,10 @@ def plot_combined_gleu_scores(topic_scores):
     plt.xticks([x + 2 * bar_width for x in range(n)], model_labels)
 
     # Draw horizontal line for the overall average
-    plt.axhline(y=overall_avg_score, color='blue', linestyle='--', label='Overall Avg GLEU')
+    plt.axhline(y=overall_avg_score,
+                color='blue',
+                linestyle='--',
+                label='Overall Avg GLEU')
 
     # Add title and labels
     plt.title("GLEU Scores by Model and Topic")
