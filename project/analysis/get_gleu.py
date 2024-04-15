@@ -2,6 +2,7 @@ import os
 from collections import defaultdict
 import matplotlib
 import matplotlib.pyplot as plt
+import seaborn as sns
 from nltk.translate.gleu_score import *
 """
 We want to:
@@ -126,6 +127,8 @@ keywords = ["light", "medium", "heavy", "long", "short"]
 
 def plot_combined_gleu_scores(topic_scores):
     # Aggregate scores for each model across all topics
+    sns.set(style='whitegrid', context='poster', palette='muted')
+
     model_scores = {}
     for topic, scores in topic_scores.items():
         for model, score in scores:
@@ -135,6 +138,8 @@ def plot_combined_gleu_scores(topic_scores):
 
     # Prepare data for plotting
     models = sorted(model_scores.keys())
+    m = models.pop(3)
+    models = [m] + models # put gectorbase at the start
     data_for_plotting = {model: [] for model in models}
     all_scores = []
 
@@ -149,7 +154,7 @@ def plot_combined_gleu_scores(topic_scores):
     overall_avg_score = sum(all_scores) / len(all_scores)
 
     # Set up the plotting area
-    plt.figure(figsize=(14, 8))
+    plt.figure(figsize=(16, 9))
     color_map = {
         "light": "mediumseagreen",
         "medium": "orange",
@@ -162,6 +167,7 @@ def plot_combined_gleu_scores(topic_scores):
     bar_width = 0.15
 
     plt.ylim(0.2, 1)
+    plt.subplots_adjust(top=0.85)
 
     # Create the bar chart
     for i, topic in enumerate(topics):
@@ -193,7 +199,7 @@ def plot_combined_gleu_scores(topic_scores):
     plt.ylabel("Average Sentence GLEU Scores")
 
     # Show legend
-    plt.legend()
+    plt.legend(ncols=2)
 
     # Layout adjustment and display plot
     plt.tight_layout()
