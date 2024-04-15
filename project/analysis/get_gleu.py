@@ -22,7 +22,11 @@ but it will capture the meanings better compared to GLEU which does an ngram kin
 abcn_baseline_path = "../data/corrected/baseline/ABCN.dev.gold.bea19_corrected.txt"
 abcn_long_path = "../data/corrected/corrected_long_sentence/ABCN.dev.gold.bea19_corrected_long_sentence.txt"
 abcn_short_path = "../data/corrected/corrected_short_sentence/ABCN.dev.gold.bea19_corrected_short_sentence.txt"
-models_ignored=["norvig", "bart", "funspell", "gectorBERT", "gectorBERT+gectorbase", "gectorRoBERTa"]
+models_ignored = [
+    "norvig", "bart", "funspell", "gectorBERT", "gectorBERT+gectorbase",
+    "gectorRoBERTa"
+]
+
 
 def process_file(src_file_path, dest_file_path, reference_file_path):
     gleu_scores = []
@@ -97,8 +101,7 @@ def gleu_copy_structure_and_process_files(src_directory, dest_directory,
                 print(
                     f"Processed {src_file_path}, results in {dest_file_path}, ref {reference_file_path}"
                 )
-                topic_scores[topic].append(
-                    (model_name, avg_score))
+                topic_scores[topic].append((model_name, avg_score))
 
         directory_scores[dest_subdir] = scores
 
@@ -198,6 +201,7 @@ def plot_combined_gleu_scores(topic_scores):
     plt.savefig(f"./gleu_scores/total_scores_plot.png")
     plt.savefig(f"./gleu_scores/total_scores_plot.svg", format="svg")
     plt.close()
+
 
 matplotlib.rcParams.update({'font.size': 20})
 dir_scores, topic_scores = gleu_copy_structure_and_process_files(
