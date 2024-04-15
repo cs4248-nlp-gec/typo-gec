@@ -46,7 +46,7 @@ sns.barplot(x='Categories',
             palette='muted')
 
 plt.title('Comparison of perplexity', fontsize=20)
-plt.legend(fontsize=18, bbox_to_anchor=(1.05, 1), loc='upper right', ncol=3)
+plt.legend(fontsize=17, bbox_to_anchor=(1.05, 1), loc='upper right', ncol=3)
 
 plt.xticks(fontsize=20)
 
