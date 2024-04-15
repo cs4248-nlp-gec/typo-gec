@@ -16,25 +16,34 @@ light = [1930.290759843189, 1844.8247629513533, 810.1938913104251, 945.842110721
 medium = [3419.8989599032425, 2221.9799026163505, 1134.709664951503, 2106.3258280108657]
 heavy = [2795.5261774032642, 2172.987126327613, 2189.6917773352366, 3132.8650179408774]
 
-
 # Create a dataframe for the data
 import pandas as pd
-df = pd.DataFrame({'Categories': categories,
-                   'long': long,
-                   'short': short,
-                   'light': light,
-                   'medium': medium,
-                   'heavy': heavy})
+
+df = pd.DataFrame({
+    'Categories': categories,
+    'long': long,
+    'short': short,
+    'light': light,
+    'medium': medium,
+    'heavy': heavy
+})
 
 # Melt the dataframe to plot
-df_melted = pd.melt(df, id_vars=['Categories'], var_name='Intensity', value_name='Scores')
+df_melted = pd.melt(df,
+                    id_vars=['Categories'],
+                    var_name='Intensity',
+                    value_name='Scores')
 
 # Set the style
 sns.set(style="whitegrid")
 
 # Plot using Seaborn
 plt.figure(figsize=(10, 6))
-sns.barplot(x='Categories', y='Scores', hue='Intensity', data=df_melted, palette='muted')
+sns.barplot(x='Categories',
+            y='Scores',
+            hue='Intensity',
+            data=df_melted,
+            palette='muted')
 
 plt.title('Comparison of perplexity', fontsize=20)
 plt.legend(fontsize=18, bbox_to_anchor=(1.05, 1), loc='upper right', ncol=3)
