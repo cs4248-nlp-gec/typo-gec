@@ -139,7 +139,7 @@ def plot_combined_gleu_scores(topic_scores):
     # Prepare data for plotting
     models = sorted(model_scores.keys())
     m = models.pop(3)
-    models = [m] + models # put gectorbase at the start
+    models = [m] + models  # put gectorbase at the start
     data_for_plotting = {model: [] for model in models}
     all_scores = []
 
